@@ -105,7 +105,6 @@ const cov = [
   '## Events per source (before merge)',
   '',
   ...sources.map((s) => `- ${s.id}: ${perSource[s.id] ?? 'no file'}`),
-  `- web-search: ${perSource['web-search'] ?? 'no file'}`,
 ].join('\n');
 writeFileSync('notes/coverage.md', cov + '\n');
 console.log(`Merged ${events.length} events; ${flagged.length} flagged for spot-check.`);

@@ -60,7 +60,7 @@ events.forEach((e, i) => {
 const sourceId = file.match(/^events\/([a-z0-9-]+)\.json$/)?.[1];
 const rawDir = `raw/${sourceId}`;
 const groundDir = `ground/${sourceId}`;
-if (sourceId && sourceId !== 'web-search' && existsSync(groundDir)) {
+if (sourceId && existsSync(groundDir)) {
   const rawText = [groundDir, rawDir].filter(existsSync).flatMap((d) => readdirSync(d).map((f) => readFileSync(`${d}/${f}`, 'utf8'))).join('\n');
   const feed = existsSync(`${groundDir}/events.json`) ? JSON.parse(readFileSync(`${groundDir}/events.json`, 'utf8')) : null;
   const norm = (s = '') => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -89,7 +89,7 @@ if (sourceId && sourceId !== 'web-search' && existsSync(groundDir)) {
 }
 
 // A registry source's note must start with its status line; scout reads it.
-if (sourceId && sourceId !== 'web-search') {
+if (sourceId) {
   const note = `notes/sources/${sourceId}.md`;
   const first = existsSync(note) ? readFileSync(note, 'utf8').split('\n')[0].trim() : null;
   if (first === null) problems.push(`${note} is missing; write it (first line: status: ok, status: thin or status: broken)`);

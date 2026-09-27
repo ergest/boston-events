@@ -1,10 +1,10 @@
 // Generates hank.json from data/sources.json: one codon per source, then the fixed tail
-// (web search → merge + spot-check → scout + export). Run from the hank directory:
+// (merge + spot-check → discover new sites → scout + export). Run from the hank directory:
 //   node scripts/build-hank.mjs                                 # full hank → hank.json
 //   node scripts/build-hank.mjs --only mit,ica --no-tail --out trial.json
 //   node scripts/build-hank.mjs --source-model haiku            # run source codons on cloud Haiku
-//   node scripts/build-hank.mjs --tail-model pi/unsloth-hank/<model>  # run web-search/spot-check/scout locally too
-//   node scripts/build-hank.mjs --only boston-calendar --reuse <old agentRoot> --no-web-search
+//   node scripts/build-hank.mjs --tail-model pi/unsloth-hank/<model>  # run spot-check/discover/scout locally too
+//   node scripts/build-hank.mjs --only boston-calendar --reuse <old agentRoot> --no-discover
 //       # finish from an earlier run's per-source events, refetching only the listed sources
 // hank.json is generated; edit this script or sources.json instead.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -24,7 +24,7 @@ const { values: args } = parseArgs({
     'source-model': { type: 'string', default: DEFAULT_SOURCE_MODEL },
     'tail-model': { type: 'string', default: 'sonnet' },
     'no-tail': { type: 'boolean', default: false },
-    'no-web-search': { type: 'boolean', default: false },
+    'no-discover': { type: 'boolean', default: false },
     reuse: { type: 'string' },
     out: { type: 'string', default: 'hank.json' },
   },
@@ -40,7 +40,6 @@ const problems = [];
 const ids = new Set();
 for (const s of registry) {
   if (!/^[a-z0-9-]+$/.test(s.id ?? '')) problems.push(`bad id "${s.id}" (use lowercase, digits, dashes)`);
-  if (s.id === 'web-search') problems.push('"web-search" is reserved');
   if (ids.has(s.id)) problems.push(`duplicate id "${s.id}"`);
   ids.add(s.id);
   if (!TYPE_ORDER.includes(s.type)) problems.push(`${s.id}: type must be one of ${TYPE_ORDER.join(', ')}`);
@@ -58,7 +57,7 @@ const sources = only ? registry.filter((s) => only.includes(s.id)) : registry;
 
 // Every source codon carries the idempotent setup, so the run works even if an early source codon fails.
 const setup = [
-  ...['window', 'pagetrim', 'page', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'known', 'search', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
+  ...['window', 'pagetrim', 'page', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'discover', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
   { type: 'copy', copy: { from: 'data/config.json', to: 'config.json' } },
   { type: 'copy', copy: { from: 'data/sources.json', to: 'sources.json' } },
   { type: 'command', command: { run: 'test -f window.json || node window.mjs' } },
@@ -124,24 +123,23 @@ const sourceCodons = ordered.map((s) => ({
   budget: { ...(piMatch ? { maxTimeSeconds: 1500 } : { maxDollars: 0.3, maxTimeSeconds: 600 }), onExceeded: 'complete' },
 }));
 
-const webSearch = [
+const discover = [
   {
-    id: 'web-search',
-    name: 'Search the web for events the registry missed',
+    id: 'discover',
+    name: 'Find new event sites for the registry',
     model: tailModel,
     ...compaction(tailModel),
     continuationMode: 'fresh',
-    promptFile: './prompts/search.md',
-    // search.mjs serves a fixed list of queries one at a time and caps Firecrawl use.
-    rigSetup: [...setup, { type: 'command', command: { run: 'mkdir -p events notes/sources && rm -rf search events/parts/web-search-*.json && node known.mjs' } }],
-    checkpointedFiles: ['events/web-search.json', 'events/parts/web-search-*.json', 'search/*', 'notes/web-search.md'],
+    promptFile: './prompts/discover.md',
+    // discover.mjs serves a fixed list of searches one at a time; only it uses Firecrawl (search only).
+    rigSetup: [...setup, { type: 'command', command: { run: 'rm -rf discover' } }],
+    checkpointedFiles: ['discover/*', 'notes/candidate-sources.md'],
     onFailure: 'ignore',
-    budget: { maxDollars: 1.5, maxTimeSeconds: 1200, onExceeded: 'complete' },
+    budget: { maxDollars: 1, maxTimeSeconds: 900, onExceeded: 'complete' },
   },
 ];
 
 const tail = [
-  ...(args['no-web-search'] ? [] : webSearch),
   {
     id: 'spot-check',
     name: 'Merge, then spot-check flagged events',
@@ -151,8 +149,7 @@ const tail = [
     promptFile: './prompts/spot-check.md',
     rigSetup: [
       { type: 'copy', copy: { from: 'scripts/flag.mjs', to: 'flag.mjs' } },
-      // Joins web-search parts first, in case web-search ran out of time before joining them.
-      { type: 'command', command: { run: 'if ls events/parts/web-search-*.json > /dev/null 2>&1; then node join.mjs web-search; fi; rm -rf spot && node merge.mjs && node check.mjs' } },
+      { type: 'command', command: { run: 'rm -rf spot && node merge.mjs && node check.mjs' } },
     ],
     checkpointedFiles: ['events.json', 'flagged.json', 'spot/*.json', 'notes/*.md'],
     // flag.mjs applies each decision as it goes; if this codon fails, scout and export use what is done.
@@ -160,6 +157,7 @@ const tail = [
     // Over budget, the run goes on with the events fixed so far; unresolved flags stay as they are.
     budget: { maxDollars: 1.5, maxTimeSeconds: tailModel.startsWith('pi/') ? 2400 : 1200, onExceeded: 'complete' },
   },
+  ...(args['no-discover'] ? [] : discover),
   {
     id: 'scout',
     name: 'Propose registry changes',
@@ -187,7 +185,7 @@ const hank = {
   meta: {
     name: 'Greater Boston Events',
     version: '0.3.0',
-    description: `Collects upcoming events in Greater Boston from ${sources.length} registered sources (source codons on ${sourceModel}) plus open web search, spot-checks them, proposes registry changes, and exports data for the local events app. GENERATED by scripts/build-hank.mjs; do not edit by hand.`,
+    description: `Collects upcoming events in Greater Boston from ${sources.length} registered sources (source codons on ${sourceModel}), spot-checks them, searches for new event sites, proposes registry changes, and exports data for the local events app. GENERATED by scripts/build-hank.mjs; do not edit by hand.`,
   },
   globalSystemPromptFile: './prompts/system.md',
   overrides: {
@@ -197,4 +195,4 @@ const hank = {
 };
 
 writeFileSync(args.out, JSON.stringify(hank, null, 2) + '\n');
-console.log(`${args.out}: ${preflight.length ? 'preflight + ' : ''}${sourceCodons.length} source codons on ${sourceModel}${args['no-tail'] ? '' : ` + ${args['no-web-search'] ? '' : 'web-search, '}spot-check, scout on ${tailModel}`}.`);
+console.log(`${args.out}: ${preflight.length ? 'preflight + ' : ''}${sourceCodons.length} source codons on ${sourceModel}${args['no-tail'] ? '' : ` + spot-check, ${args['no-discover'] ? '' : 'discover, '}scout on ${tailModel}`}.`);

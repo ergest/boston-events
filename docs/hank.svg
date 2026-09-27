@@ -43,7 +43,7 @@
 
   <rect class="bg" x="0" y="0" width="1040" height="960" rx="14"/>
   <text class="t h" x="40" y="40" font-size="20">How a run works</text>
-  <text class="m" x="40" y="60" font-size="13">One Hankweave run: every registered site, then web search, spot-check, scout and export. Scripts do the fetching; agents work in small, checked steps.</text>
+  <text class="m" x="40" y="60" font-size="13">One Hankweave run: every registered site, then spot-check, site discovery, scout and export. Scripts do the fetching; agents work in small, checked steps.</text>
 
   <!-- Build band -->
   <rect class="file" x="40" y="84" width="200" height="48" rx="8"/>
@@ -86,27 +86,27 @@
   <text class="m" x="64" y="466" font-size="11">a broken site fails alone (onFailure: ignore)</text>
   <path class="arrow" d="M300 490 V516"/>
 
-  <!-- 3 web-search -->
+  <!-- 3 spot-check -->
   <rect class="tail" x="40" y="518" width="520" height="70" rx="10"/>
-  <text class="t h" x="56" y="543" font-size="14">web-search</text>
-  <text class="m" x="150" y="543" font-size="12.5">events no registered site listed → events/web-search.json</text>
-  <text class="t" x="56" y="566" font-size="12">search.mjs serves 10 fixed queries, one at a time, thinnest cities first;</text>
-  <text class="t" x="56" y="582" font-size="12">known.mjs "&lt;title&gt;" checks for duplicates · ≤3 pages opened per query</text>
+  <text class="t h" x="56" y="543" font-size="14">spot-check</text>
+  <text class="m" x="150" y="543" font-size="12.5">merge.mjs: merge, dedupe, check every URL → flagged.json</text>
+  <text class="t" x="56" y="566" font-size="12">flag.mjs serves one flagged event with its page already fetched; the agent</text>
+  <text class="t" x="56" y="582" font-size="12">answers keep / fix / remove, applied at once</text>
   <path class="arrow" d="M300 588 V614"/>
 
-  <!-- 4 spot-check -->
+  <!-- 4 discover -->
   <rect class="tail" x="40" y="616" width="520" height="70" rx="10"/>
-  <text class="t h" x="56" y="641" font-size="14">spot-check</text>
-  <text class="m" x="150" y="641" font-size="12.5">merge.mjs: merge, dedupe, check every URL → flagged.json</text>
-  <text class="t" x="56" y="664" font-size="12">flag.mjs serves one flagged event with its page already fetched; the agent</text>
-  <text class="t" x="56" y="680" font-size="12">answers keep / fix / remove, applied at once</text>
+  <text class="t h" x="56" y="641" font-size="14">discover</text>
+  <text class="m" x="130" y="641" font-size="12.5">new sites for thin cities and categories → candidate-sources.md</text>
+  <text class="t" x="56" y="664" font-size="12">discover.mjs serves 8 searches (the only Firecrawl use), skips registry sites,</text>
+  <text class="t" x="56" y="680" font-size="12">and checks each pick: days of the window listed, calendar feed or not</text>
   <path class="arrow" d="M300 686 V712"/>
 
   <!-- 5 scout -->
   <rect class="tail" x="40" y="714" width="520" height="54" rx="10"/>
   <text class="t h" x="56" y="739" font-size="14">scout</text>
   <text class="m" x="110" y="739" font-size="12.5">coverage gaps and broken sites → proposed-sources.md</text>
-  <text class="m" x="56" y="757" font-size="12">never edits the registry itself · ≤5 web searches</text>
+  <text class="m" x="56" y="757" font-size="12">turns candidates into registry entries · never edits the registry</text>
   <path class="arrow" d="M300 768 V794"/>
 
   <!-- 6 export -->
@@ -168,7 +168,7 @@
   </g>
   <text class="m" x="600" y="832" font-size="12">Budgets: a codon over its time limit finishes with what it</text>
   <text class="m" x="600" y="848" font-size="12">has saved instead of stopping the run. Pages are fetched</text>
-  <text class="m" x="600" y="864" font-size="12">free; Firecrawl is only for search (~15 credits a run).</text>
+  <text class="m" x="600" y="864" font-size="12">free; Firecrawl only runs discover's 8 searches (~16 credits).</text>
 
   <text class="m" x="40" y="944" font-size="11.5">boston-events-hank · Hankweave 0.12 · diagram: docs/hank.svg</text>
 </svg>

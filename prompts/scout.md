@@ -8,18 +8,16 @@ These all exist in your working directory:
 
 - `notes/coverage.md`: events per city × category, and per source.
 - `notes/sources/*.md`: each source's status (`ok`, `thin`, `broken`) and notes.
-- `notes/web-search.md`: sites the web-search step found productive.
+- `notes/candidate-sources.md`, if present: new sites the discover step found and checked, with how many days of the window each lists and any calendar feed.
 - `notes/spot-check.md`: what was fixed or removed, which can point to a bad source.
 - `sources.json` and `window.json`.
 
 ## Steps
 
 1. **Broken or thin sources.** For each `broken` or `thin` source, work out why. Check whether the site moved, has a better events URL, or offers an ICS or RSS feed: look for "subscribe", "iCal" or "export" links, or try `<url>/calendar.ics`. Also check whether it only renders events with JavaScript, or has simply stopped listing events. Propose a fix, or propose removing the source.
-2. **Coverage gaps.** Take every city below `minEventsPerCity`, and any category that's nearly empty across all cities. Search the web for event sites that would fill the gap: city or town calendars, public libraries, arts councils, local venues, neighborhood associations. Prefer sources with an ICS feed.
-3. **Web-search finds.** Consider adding sites named in `notes/web-search.md` as registry sources.
-4. For each proposed new source, open its events page with `node page.mjs <url>` (free: curl, then a local browser). Confirm that it lists upcoming dated events before you propose it. A site whose page has a calendar feed link (`.ics`, webcal, Trumba, LibCal, Localist) should be proposed as `fetch: "ics"` with the feed URL.
+2. **New sites.** Turn the candidates in `notes/candidate-sources.md` into registry entries, most valuable first (the ones that fill a city below `minEventsPerCity` or a nearly empty category). If a candidate links a calendar feed (`.ics`, webcal, Trumba, LibCal, Localist), propose it as `fetch: "ics"` with the feed URL; otherwise as `fetch: "page"` with its events page. You may open a candidate or a broken source's page with `node page.mjs <url>` (free) to confirm details or find its feed.
 
-**Search budget: at most 5 `firecrawl search "<query>"` commands in total, one query per command; never use `firecrawl` for anything else, and never write scripts or loops that call it.** Credits are limited; when the budget is spent, propose what you have.
+Do not search the web and never run `firecrawl`: finding sites is the discover step's job. If there are no candidates, propose only fixes and removals.
 
 ## Output
 

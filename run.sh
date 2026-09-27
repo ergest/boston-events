@@ -3,7 +3,7 @@
 # check that the app data was written. Run logs go to ~/hank-runs/boston-events-<date>/.
 #
 #   ./run.sh              everything on the local model (no API key needed)
-#   ./run.sh --sonnet     web-search, spot-check and scout on Claude Sonnet (needs ANTHROPIC_API_KEY)
+#   ./run.sh --sonnet     spot-check, discover and scout on Claude Sonnet (needs ANTHROPIC_API_KEY)
 #   ./run.sh --push       also commit and push app/data when the run succeeds
 #   ./run.sh --dry-run    only the checks and the build
 set -euo pipefail
