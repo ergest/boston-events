@@ -15,6 +15,10 @@
       "type": "string",
       "description": "Date in YYYY-MM-DD"
      },
+     "endDate": {
+      "type": "string",
+      "description": "Last day in YYYY-MM-DD, only for exhibitions and other runs shown as a date range or \"Through <date>\""
+     },
      "startTime": {
       "type": "string",
       "description": "Start time, 24h HH:MM, only if shown"

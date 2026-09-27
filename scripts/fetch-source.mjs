@@ -47,10 +47,11 @@ if (source.fetch === 'ics') {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const inWindow = parseIcs(await res.text()).filter((e) => e.date >= window.start && e.date <= window.end);
       const { kept, excluded } = applyExclude(inWindow, source.exclude);
-      events.push(...kept);
+      const runs = collapseRuns(kept);
+      events.push(...runs);
       // Excluded items go next to raw/<id>/, not inside it, so the agent never sees them as source data.
       if (excluded.length) writeFileSync(`raw/${id}.excluded.json`, JSON.stringify(excluded, null, 2) + '\n');
-      console.log(`${id}: ${inWindow.length} feed events in window from ${url}; ${excluded.length} pre-filtered out, ${kept.length} kept`);
+      console.log(`${id}: ${inWindow.length} feed events in window from ${url}; ${excluded.length} pre-filtered out, ${kept.length} kept${runs.length < kept.length ? `, ${runs.length} after collapsing multi-day runs` : ''}`);
     } catch (err) {
       errors.push(`${url}: ${err.message}`);
     }
@@ -177,8 +178,38 @@ function parseIcs(text) {
   return events.filter((e) => e.date);
 }
 
+// An exhibition or daily program appears in a feed once per day. The same title, link and start
+// time on 3+ dates becomes one record on its first date, with endDate set to its last date.
+function collapseRuns(list) {
+  const groups = new Map();
+  for (const e of list) {
+    const key = [e.title, e.url ?? '', e.startTime ?? ''].join('|');
+    groups.set(key, [...(groups.get(key) ?? []), e]);
+  }
+  const out = [];
+  for (const g of groups.values()) {
+    if (g.length < 3) out.push(...g);
+    else {
+      const dates = g.map((e) => e.date).sort();
+      out.push({ ...g.find((e) => e.date === dates[0]), endDate: dates.at(-1) });
+    }
+  }
+  return out.sort((a, b) => (a.date + (a.startTime ?? '')).localeCompare(b.date + (b.startTime ?? '')));
+}
+
+// Also decodes HTML that some feeds (e.g. Trumba) put in text fields: entities and <br> line breaks.
 function unescape(s = '') {
-  return s.replace(/\\n/gi, '\n').replace(/\\([,;\\])/g, '$1').trim();
+  return s
+    .replace(/\\n/gi, '\n')
+    .replace(/\\([,;\\])/g, '$1')
+    .replace(/<br\s*\/?>/gi, ', ')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+    .replace(/&(quot|amp|lt|gt|nbsp|apos);/g, (_, e) => ({ quot: '"', amp: '&', lt: '<', gt: '>', nbsp: ' ', apos: "'" })[e])
+    .replace(/(, )+/g, ', ')
+    .replace(/^, |, $/g, '')
+    .trim();
 }
 
 // Returns { date: 'YYYY-MM-DD', time?: 'HH:MM' } in Boston local time.

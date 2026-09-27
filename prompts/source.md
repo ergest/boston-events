@@ -15,7 +15,8 @@ First read `window.json` and `current-source.json`. Then repeat until `chunk.mjs
 
 1. Run `node chunk.mjs <id>` to get the next chunk.
 2. Build records from it. `source` is the source's `name`. `city` must be one of the source's `cities` that matches where the event actually is (for `"all"`, any `window.json` city). Skip events outside the listed cities or the window. Use `defaultCategory` unless another category clearly fits better.
-   Copy values exactly: `url` and `registerUrl` character for character (never build a link from a title), and for events from `events-N.json` chunks the `title`, `date`, `startTime` and `endTime` unchanged.
+   Copy values exactly: `url` and `registerUrl` character for character (never build a link from a title), and for events from `events-N.json` chunks the `title`, `date`, `endDate`, `startTime` and `endTime` unchanged.
+   A run that is on over a range of days (an exhibition, a festival, anything shown as "Through <date>" or a date range) is one record: `date` is its first day inside the window and `endDate` its last day (which may be after the window). Don't write one record per day.
 3. Save them with one write to the part file `chunk.mjs` names (`events/parts/<id>-1.json`, then `-2`, …), at most **10 events per part**; if a chunk has more, write two parts. If it has no usable events, run `node chunk.mjs <id> --none` instead.
 
 Keep your reasoning short: this is mechanical copying, not analysis. Never try to collect events from several chunks and write them together.

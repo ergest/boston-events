@@ -134,7 +134,7 @@
   const CAT_VAR = { music: 'music', 'arts & theater': 'arts', 'food & drink': 'food', 'festivals & markets': 'fest', family: 'family', 'tech & talks': 'tech', 'sports & outdoors': 'sports', community: 'community' };
   const catColor = (c) => `var(--c-${CAT_VAR[c] || 'community'})`;
 
-  const events = data.events.filter((e) => e.date >= today).sort((a, b) => (a.date + (a.startTime || '99')).localeCompare(b.date + (b.startTime || '99')));
+  const events = data.events.filter((e) => (e.endDate || e.date) >= today).sort((a, b) => (a.date + (a.startTime || '99')).localeCompare(b.date + (b.startTime || '99')));
   events.forEach((e, i) => (e._i = i));
 
   // Repeats: the same title at the same place on 3+ dates is shown once, under "Ongoing & recurring".
@@ -142,6 +142,10 @@
   const groups = new Map();
   for (const e of events) groups.set(seriesKey(e), [...(groups.get(seriesKey(e)) || []), e]);
   const isSeries = (e) => groups.get(seriesKey(e)).length >= 3;
+  // A run (exhibition, festival) has an endDate: it is on every day from date through endDate.
+  const isRun = (e) => e.endDate && e.endDate > e.date;
+  const onDay = (e, d) => (isRun(e) ? e.date <= d && d <= e.endDate : e.date === d);
+  const overlaps = (e, from, to) => e.date <= to && (e.endDate || e.date) >= from;
 
   $('sub').textContent = `${events.length} upcoming events · ${fmtShort(data.window.start)}–${fmtShort(data.window.end)} · updated ${new Date(data.generatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}`;
 
@@ -160,9 +164,9 @@
     return { start: d === 0 || d === 6 ? today : addDays(sunday, -2), end: sunday };
   }
   const dayMatch = (e) => {
-    if (state.day) return e.date === state.day;
-    if (state.quick === 'tonight') return e.date === today && (e.startTime || '') >= '17:00';
-    if (state.quick === 'weekend') { const w = weekend(); return e.date >= w.start && e.date <= w.end; }
+    if (state.day) return onDay(e, state.day);
+    if (state.quick === 'tonight') return onDay(e, today) && (e.startTime || '') >= '17:00';
+    if (state.quick === 'weekend') { const w = weekend(); return overlaps(e, w.start, w.end); }
     return true;
   };
 
@@ -248,13 +252,14 @@
 
   // Rendering
   function row(e, series) {
-    const time = e.startTime ? `<div class="time">${esc(fmtTime(e.startTime))}</div>` : '<div class="time tba">All day</div>';
+    const time = isRun(e) ? '<div class="time tba">On view</div>' : e.startTime ? `<div class="time">${esc(fmtTime(e.startTime))}</div>` : '<div class="time tba">All day</div>';
     const sub = [
       `<span>${e.venue && e.venue !== e.city ? esc(e.venue) + ', ' : ''}${esc(e.city)}</span>`,
       `<span class="tag" style="--c:${catColor(e.category)}">${esc(e.category)}</span>`,
       isFree(e) ? '<span class="free">FREE</span>' : e.price ? `<span>${esc(e.price)}</span>` : '',
     ].join('');
-    const when = series ? `<div class="dates">${esc(seriesDates(series))}${e.startTime ? ' · ' + esc(fmtTime(e.startTime)) : ''}</div>` : '';
+    const when = series ? `<div class="dates">${esc(seriesDates(series))}${e.startTime ? ' · ' + esc(fmtTime(e.startTime)) : ''}</div>`
+      : isRun(e) ? `<div class="dates">${e.date > today ? `${esc(fmtShort(e.date))}–${esc(fmtShort(e.endDate))}` : `Through ${esc(fmtShort(e.endDate))}`}${e.startTime ? ' · from ' + esc(fmtTime(e.startTime)) : ''}</div>` : '';
     const endTime = !series && e.startTime && e.endTime ? `<div class="dates">${esc(fmtTime(e.startTime))}–${esc(fmtTime(e.endTime))}</div>` : '';
     return `<article class="ev">
       ${series ? `<div class="time tba">${series.length}×</div>` : time}
@@ -291,7 +296,7 @@
     const base = events.filter(baseMatch);
     // Day strip with counts under the current non-day filters.
     const perDay = {};
-    for (const e of base) perDay[e.date] = (perDay[e.date] || 0) + 1;
+    for (const e of base) if (!isRun(e)) perDay[e.date] = (perDay[e.date] || 0) + 1;
     $('days').innerHTML = days.map((d) => {
       const n = perDay[d] || 0;
       const label = d === today ? 'Today' : new Date(d + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' });
@@ -305,12 +310,13 @@
     $('clear').hidden = !(state.q || state.day || state.quick || state.free || state.cats.size || state.cities.size);
 
     const shown = base.filter(dayMatch);
-    const single = shown.filter((e) => !isSeries(e));
+    const single = shown.filter((e) => !isSeries(e) && !isRun(e));
     // One row per series that has any date in view.
     const seriesShown = new Map();
-    for (const e of shown.filter(isSeries)) if (!seriesShown.has(seriesKey(e))) seriesShown.set(seriesKey(e), e);
-    $('count').textContent = `${single.length + seriesShown.size} shown`;
-    if (!single.length && !seriesShown.size) { $('list').innerHTML = '<p class="empty">No events match these filters.</p>'; return; }
+    for (const e of shown.filter((e) => isSeries(e) && !isRun(e))) if (!seriesShown.has(seriesKey(e))) seriesShown.set(seriesKey(e), e);
+    const runs = shown.filter(isRun).sort((a, b) => a.endDate.localeCompare(b.endDate));
+    $('count').textContent = `${single.length + seriesShown.size + runs.length} shown`;
+    if (!single.length && !seriesShown.size && !runs.length) { $('list').innerHTML = '<p class="empty">No events match these filters.</p>'; return; }
 
     let html = '';
     let day = '';
@@ -322,8 +328,9 @@
       }
       html += row(e);
     });
-    if (seriesShown.size) {
-      html += `<section class="ongoing"><h2>Ongoing &amp; recurring<small>${seriesShown.size}</small></h2>` +
+    if (seriesShown.size || runs.length) {
+      html += `<section class="ongoing"><h2>On view &amp; recurring<small>${seriesShown.size + runs.length}</small></h2>` +
+        runs.map((e) => row(e)).join('') +
         [...seriesShown].map(([k, e]) => row(e, groups.get(k))).join('') + '</section>';
     }
     $('list').innerHTML = html;

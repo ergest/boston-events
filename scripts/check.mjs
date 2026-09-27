@@ -22,7 +22,7 @@ if (!Array.isArray(events) || (!allowEmpty && events.length === 0)) {
 }
 
 const required = ['title', 'city', 'venue', 'date', 'category', 'url', 'source'];
-const optionalStrings = ['id', 'address', 'startTime', 'endTime', 'price', 'registerUrl', 'description', 'sourceId'];
+const optionalStrings = ['id', 'endDate', 'address', 'startTime', 'endTime', 'price', 'registerUrl', 'description', 'sourceId'];
 const time = /^([01]\d|2[0-3]):[0-5]\d$/;
 const seen = new Set();
 const problems = [];
@@ -40,6 +40,8 @@ events.forEach((e, i) => {
   if (!window.categories.includes(e.category)) problems.push(`${at}: category "${e.category}" is not one of: ${window.categories.join(', ')}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date ?? '')) problems.push(`${at}: date must be YYYY-MM-DD`);
   else if (e.date < window.start || e.date > window.end) problems.push(`${at}: date ${e.date} is outside ${window.start}..${window.end}`);
+  // endDate marks a run (an exhibition, a daily program): on from date through endDate, which may be past the window.
+  if (e.endDate !== undefined && (!/^\d{4}-\d{2}-\d{2}$/.test(e.endDate) || e.endDate <= e.date)) problems.push(`${at}: endDate must be YYYY-MM-DD and after date`);
   for (const f of ['startTime', 'endTime']) {
     if (e[f] !== undefined && !time.test(e[f])) problems.push(`${at}: ${f} must be 24h HH:MM`);
   }
@@ -80,6 +82,7 @@ if (sourceId && sourceId !== 'web-search' && existsSync(groundDir)) {
         if (norm(match.title) !== norm(e.title)) problems.push(`${at}: title must match the feed exactly: "${match.title}"`);
         if ((match.startTime ?? '') !== (e.startTime ?? '')) problems.push(`${at}: startTime must match the feed: ${match.startTime ?? '(none; omit it)'}`);
         if ((match.endTime ?? '') !== (e.endTime ?? '') && e.endTime !== undefined) problems.push(`${at}: endTime must match the feed: ${match.endTime ?? '(none; omit it)'}`);
+        if ((match.endDate ?? '') !== (e.endDate ?? '')) problems.push(`${at}: endDate must match the feed: ${match.endDate ?? '(none; omit it)'}`);
       }
     }
   });
