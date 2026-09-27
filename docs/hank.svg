@@ -48,7 +48,7 @@
   <!-- Build band -->
   <rect class="file" x="40" y="84" width="200" height="48" rx="8"/>
   <text class="t h" x="56" y="104" font-size="13.5">data/sources.json</text>
-  <text class="m" x="56" y="122" font-size="12">26 sites · config.json</text>
+  <text class="m" x="56" y="122" font-size="12">25 sites · config.json</text>
   <path class="arrow" d="M240 108 H290"/>
   <rect class="script" x="292" y="84" width="200" height="48" rx="8"/>
   <text class="t h" x="308" y="104" font-size="13.5">build-hank.mjs</text>
@@ -56,7 +56,7 @@
   <path class="arrow" d="M492 108 H542"/>
   <rect class="file" x="544" y="84" width="200" height="48" rx="8"/>
   <text class="t h" x="560" y="104" font-size="13.5">hank.json</text>
-  <text class="m" x="560" y="122" font-size="12">30 codons, generated</text>
+  <text class="m" x="560" y="122" font-size="12">29 codons, generated</text>
   <path class="arrow" d="M140 132 V166"/>
 
   <!-- 1 preflight -->
@@ -67,7 +67,7 @@
 
   <!-- 2 source codons -->
   <rect class="local" x="40" y="238" width="520" height="252" rx="10"/>
-  <text class="t h" x="56" y="264" font-size="14">26 source codons</text>
+  <text class="t h" x="56" y="264" font-size="14">25 source codons</text>
   <text class="m" x="190" y="264" font-size="12.5">one per site · local Tiel-Coder 35B via Pi · 2–5 min each</text>
   <g font-size="11.5">
     <rect class="col" x="54" y="278" width="118" height="198" rx="7"/>
@@ -80,8 +80,8 @@
     <text class="blue h" x="316" y="298" font-size="12">universities · 5</text>
     <text class="t" x="316" y="318">mit</text><text class="t" x="316" y="336">northeastern</text><text class="t" x="316" y="354">harvard</text><text class="t" x="316" y="372">bu-spark</text><text class="t" x="316" y="390">tufts</text>
     <rect class="col" x="432" y="278" width="118" height="198" rx="7"/>
-    <text class="blue h" x="442" y="298" font-size="12">venues · 8</text>
-    <text class="t" x="442" y="318">mfa</text><text class="t" x="442" y="336">ica</text><text class="t" x="442" y="354">gardner</text><text class="t" x="442" y="372">mos</text><text class="t" x="442" y="390">arnold-arboretum</text><text class="t" x="442" y="408">bso</text><text class="t" x="442" y="426">boch-center</text><text class="t" x="442" y="444" font-size="10.8">brighton-music-hall</text>
+    <text class="blue h" x="442" y="298" font-size="12">venues · 7</text>
+    <text class="t" x="442" y="318">mfa</text><text class="t" x="442" y="336">ica</text><text class="t" x="442" y="354">mos</text><text class="t" x="442" y="372">arnold-arboretum</text><text class="t" x="442" y="390">bso</text><text class="t" x="442" y="408">boch-center</text><text class="t" x="442" y="426" font-size="10.8">brighton-music-hall</text>
   </g>
   <text class="m" x="64" y="466" font-size="11">a broken site fails alone (onFailure: ignore)</text>
   <path class="arrow" d="M300 490 V516"/>

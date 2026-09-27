@@ -12,7 +12,7 @@ The app is a single HTML file with no build step. Open `app/index.html` locally,
 
 ## How it works
 
-![How a run works: registry, build, preflight, 26 source codons, web-search, spot-check, scout, export, app](docs/hank.svg)
+![How a run works: registry, build, preflight, 25 source codons, web-search, spot-check, scout, export, app](docs/hank.svg)
 
 The same flow as text:
 
