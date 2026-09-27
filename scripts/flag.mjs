@@ -6,10 +6,12 @@
 // Pages are fetched by page.mjs: curl, then a headless local browser if needed.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fetchPage } from './page.mjs';
+import { recordKey, recordProblems } from './record.mjs';
 
 const PAGE_CHARS = 4000;
 const FIELDS = ['title', 'date', 'endDate', 'startTime', 'endTime', 'venue', 'address', 'city', 'price', 'url', 'registerUrl', 'description', 'category'];
 
+const window = JSON.parse(readFileSync('window.json', 'utf8'));
 const flagged = JSON.parse(readFileSync('flagged.json', 'utf8'));
 // Dead or blocked links first, where removals happen; missing times last.
 const rank = (f) => (f.reasons.some((r) => r.startsWith('url ')) ? 0 : f.reasons.some((r) => r.startsWith('possible duplicate')) ? 1 : 2);
@@ -44,7 +46,16 @@ if (state.served > 0) {
       console.error(`${answerFile}: "fix" needs a "set" object with only these fields: ${FIELDS.join(', ')}${bad.length ? ` (not ${bad.join(', ')})` : ''}. Rewrite it, then run node flag.mjs again.`);
       process.exit(1);
     }
-    if (i >= 0) Object.assign(events[i], answer.set);
+    if (i >= 0) {
+      const fixed = { ...events[i], ...answer.set };
+      const problems = recordProblems(fixed, window);
+      if (events.some((e, j) => j !== i && recordKey(e) === recordKey(fixed))) problems.push('it would duplicate another event (same title, date and city); remove this one instead');
+      if (problems.length) {
+        console.error(`${answerFile}: that fix would make the record invalid: ${problems.join('; ')}. Rewrite it, then run node flag.mjs again.`);
+        process.exit(1);
+      }
+      events[i] = fixed;
+    }
     state.fixed++;
   } else if (answer.action === 'keep') {
     state.kept++;

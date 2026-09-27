@@ -57,7 +57,7 @@ const sources = only ? registry.filter((s) => only.includes(s.id)) : registry;
 
 // Every source codon carries the idempotent setup, so the run works even if an early source codon fails.
 const setup = [
-  ...['window', 'pagetrim', 'page', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'discover', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
+  ...['window', 'pagetrim', 'page', 'record', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'discover', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
   { type: 'copy', copy: { from: 'data/config.json', to: 'config.json' } },
   { type: 'copy', copy: { from: 'data/sources.json', to: 'sources.json' } },
   { type: 'command', command: { run: 'test -f window.json || node window.mjs' } },

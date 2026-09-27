@@ -4,6 +4,7 @@
 // It verifies structure and dates and, for a source's file, that values are grounded in raw/<id>/.
 // It does not verify that an event is real.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { recordKey, recordProblems } from './record.mjs';
 
 const file = process.argv[2] ?? 'events.json';
 const allowEmpty = file !== 'events.json';
@@ -21,37 +22,15 @@ if (!Array.isArray(events) || (!allowEmpty && events.length === 0)) {
   process.exit(1);
 }
 
-const required = ['title', 'city', 'venue', 'date', 'category', 'url', 'source'];
-const optionalStrings = ['id', 'endDate', 'address', 'startTime', 'endTime', 'price', 'registerUrl', 'description', 'sourceId'];
-const time = /^([01]\d|2[0-3]):[0-5]\d$/;
 const seen = new Set();
 const problems = [];
 
 events.forEach((e, i) => {
   const at = `[${i}] ${e?.title ?? 'untitled'}`;
-  if (!e || typeof e !== 'object' || Array.isArray(e)) return problems.push(`${at}: not an object`);
-  for (const f of required) {
-    if (typeof e[f] !== 'string' || !e[f].trim()) problems.push(`${at}: ${f} must be a nonempty string`);
-  }
-  for (const f of optionalStrings) {
-    if (e[f] !== undefined && typeof e[f] !== 'string') problems.push(`${at}: ${f} must be a string if present`);
-  }
-  if (!window.cities.includes(e.city)) problems.push(`${at}: city "${e.city}" is not one of: ${window.cities.join(', ')}`);
-  if (!window.categories.includes(e.category)) problems.push(`${at}: category "${e.category}" is not one of: ${window.categories.join(', ')}`);
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date ?? '')) problems.push(`${at}: date must be YYYY-MM-DD`);
-  else if (e.date < window.start || e.date > window.end) problems.push(`${at}: date ${e.date} is outside ${window.start}..${window.end}`);
-  // endDate marks a run (an exhibition, a daily program): on from date through endDate, which may be past the window.
-  if (e.endDate !== undefined && (!/^\d{4}-\d{2}-\d{2}$/.test(e.endDate) || e.endDate <= e.date)) problems.push(`${at}: endDate must be YYYY-MM-DD and after date`);
-  for (const f of ['startTime', 'endTime']) {
-    if (e[f] !== undefined && !time.test(e[f])) problems.push(`${at}: ${f} must be 24h HH:MM`);
-  }
-  if (e.endTime && !e.startTime) problems.push(`${at}: endTime needs a startTime`);
-  for (const f of ['url', 'registerUrl']) {
-    if (e[f] !== undefined && !/^https?:\/\//.test(e[f])) problems.push(`${at}: ${f} must start with http(s)://`);
-  }
-  const key = `${(e.title ?? '').toLowerCase().trim()}|${e.date}|${e.city}`;
-  if (seen.has(key)) problems.push(`${at}: duplicate (same title, date and city as an earlier event)`);
-  seen.add(key);
+  for (const p of recordProblems(e, window)) problems.push(`${at}: ${p}`);
+  if (!e || typeof e !== 'object') return;
+  if (seen.has(recordKey(e))) problems.push(`${at}: duplicate (same title, date and city as an earlier event)`);
+  seen.add(recordKey(e));
 });
 
 // Grounding: for a registry source's file, every value must come from what the rig fetched

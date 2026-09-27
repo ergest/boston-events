@@ -6,6 +6,7 @@
 import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { expandUrl } from './page.mjs';
+import { recordProblems } from './record.mjs';
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const window = JSON.parse(readFileSync('window.json', 'utf8'));
@@ -42,16 +43,14 @@ for (const f of existsSync('events') ? readdirSync('events').filter((f) => f.end
   }
 }
 
-// 2. Validate + window filter
+// 2. Validate + window filter. A run already on when the window opens starts on its first day;
+// an endDate no later than date means a one-day event.
 const valid = all.filter((e) => {
-  const ok =
-    ['title', 'city', 'venue', 'date', 'category', 'url', 'source'].every((f) => typeof e[f] === 'string' && e[f].trim()) &&
-    window.cities.includes(e.city) &&
-    window.categories.includes(e.category) &&
-    /^\d{4}-\d{2}-\d{2}$/.test(e.date) && e.date >= window.start && e.date <= window.end &&
-    /^https?:\/\//.test(e.url);
-  if (!ok) log.push(`Dropped invalid record from ${e.sourceId}: ${e.title ?? 'untitled'} (${e.date ?? 'no date'})`);
-  return ok;
+  if (e.endDate && e.date < window.start && e.endDate >= window.start) e.date = window.start;
+  if (e.endDate && e.endDate <= e.date) delete e.endDate;
+  const problems = recordProblems(e, window);
+  if (problems.length) log.push(`Dropped invalid record from ${e.sourceId}: ${e.title ?? 'untitled'} (${e.date ?? 'no date'}): ${problems.join('; ')}`);
+  return !problems.length;
 });
 
 // 3. Exact dedupe
