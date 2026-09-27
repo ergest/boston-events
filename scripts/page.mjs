@@ -109,7 +109,7 @@ function decode(s) {
   return s
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
-    .replace(/&(quot|amp|lt|gt|nbsp|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/g, (_, e) => ({ quot: '"', amp: '&', lt: '<', gt: '>', nbsp: ' ', apos: "'", rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', ndash: '–', mdash: '—', hellip: '…' })[e]);
+    .replace(/&(quot|amp|lt|gt|nbsp|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip|rarr|larr|middot|bull|times|eacute|copy);/g, (_, e) => ({ quot: '"', amp: '&', lt: '<', gt: '>', nbsp: ' ', apos: "'", rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', ndash: '–', mdash: '—', hellip: '…', rarr: '→', larr: '←', middot: '·', bull: '•', times: '×', eacute: 'é', copy: '©' })[e]);
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {

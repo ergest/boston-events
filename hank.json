@@ -2489,14 +2489,14 @@
       }
     },
     {
-      "id": "src-bu",
-      "name": "university: Boston University calendar",
-      "description": "Extract events from Boston University calendar (page).",
+      "id": "src-bu-spark",
+      "name": "university: BU Spark! events",
+      "description": "Extract events from BU Spark! events (page).",
       "model": "pi/unsloth-hank/peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ4e-MTP",
       "autoCompact": true,
       "continuationMode": "fresh",
       "promptFile": "./prompts/source.md",
-      "appendSystemPromptText": "This codon handles source \"bu\" (Boston University calendar).",
+      "appendSystemPromptText": "This codon handles source \"bu-spark\" (BU Spark! events).",
       "rigSetup": [
         {
           "type": "copy",
@@ -2619,14 +2619,14 @@
         {
           "type": "command",
           "command": {
-            "run": "node fetch-source.mjs bu"
+            "run": "node fetch-source.mjs bu-spark"
           }
         }
       ],
       "checkpointedFiles": [
-        "events/bu.json",
-        "events/parts/bu-*.json",
-        "notes/sources/bu.md"
+        "events/bu-spark.json",
+        "events/parts/bu-spark-*.json",
+        "notes/sources/bu-spark.md"
       ],
       "onFailure": "ignore",
       "budget": {
