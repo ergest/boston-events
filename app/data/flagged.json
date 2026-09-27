@@ -1,10 +1,10 @@
 [
   {
-    "id": "29ec580e9e",
-    "title": "Patriots Watch Party at Time Out Market Boston",
+    "id": "e1dd101f3f",
+    "title": "Walking Tour of Sumner Hill",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://allevents.in/boston/patriots-watch-party-at-time-out-market-boston-tickets/80003388799166",
+    "url": "https://bostix.org/event/walking-tour-of-sumner-hill-5/",
     "reasons": [
       "no start time"
     ]
@@ -30,16 +30,6 @@
     ]
   },
   {
-    "id": "e1dd101f3f",
-    "title": "Walking Tour of Sumner Hill",
-    "date": "2026-09-27",
-    "city": "Boston",
-    "url": "https://bostix.org/event/walking-tour-of-sumner-hill-5/",
-    "reasons": [
-      "no start time"
-    ]
-  },
-  {
     "id": "c0d93a7cda",
     "title": "Giya Kancheli: The Genius of Silence",
     "date": "2026-09-27",
@@ -55,16 +45,6 @@
     "date": "2026-09-27",
     "city": "Boston",
     "url": "https://bostix.org/event/chamber-music-celebration/",
-    "reasons": [
-      "no start time"
-    ]
-  },
-  {
-    "id": "49d8e6d1db",
-    "title": "Drop-in Improv Workshop with True Story Theater",
-    "date": "2026-09-27",
-    "city": "Arlington",
-    "url": "https://bostix.org/event/drop-in-improv-workshop-with-true-story-theater/",
     "reasons": [
       "no start time"
     ]
@@ -100,6 +80,26 @@
     ]
   },
   {
+    "id": "c70f6154ba",
+    "title": "Brian Henson's Puppet Up!",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.bochcenter.org/events/detail/puppetup",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "64ad632287",
+    "title": "Boston Red Sox vs. Chicago Cubs",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/boston-red-sox-vs-chicago-cubs",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
     "id": "6060832787",
     "title": "Harvard Plaza Farmers Market",
     "date": "2026-09-27",
@@ -110,11 +110,41 @@
     ]
   },
   {
-    "id": "13b827fe85",
-    "title": "Sunflower Maze at Ward's Berry Farm",
+    "id": "27d36b7809",
+    "title": "Boston Harbor Sunset Sail on a Tall Ship",
     "date": "2026-09-27",
-    "city": "Waltham",
-    "url": "https://www.thebostoncalendar.com/events/sunflower-maze-at-ward-s-berry-farm--3",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/boston-harbor-sunset-sail-on-a-tall-ship",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "10023c7185",
+    "title": "Free & Cheap Water Taxis & Ferries Around Boston Harbor: Summer 2026",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/free-water-taxis-ferries-around-boston-harbor-summer-2023",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "ef34b7f31f",
+    "title": "Aeronaut Brewing | Brewery, Taproom, & Beer Garden in Somerville",
+    "date": "2026-09-27",
+    "city": "Somerville",
+    "url": "https://www.thebostoncalendar.com/events/aeronaut-brewing-pop-up-beer-garden-2021",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "dc1e062c6b",
+    "title": "The Tall Ship Boston: Floating Oyster Bar & Waterfront Experience",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/the-tall-ship-boston-2022-season-floating-oyster-bar-waterfront-experience-live-music-food-trucks-popups-more",
     "reasons": [
       "no start time"
     ]
@@ -125,6 +155,56 @@
     "date": "2026-09-27",
     "city": "Boston",
     "url": "https://www.thebostoncalendar.com/events/boston-harbor-distillery-beverage-garden-at-the-greenway",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "dc37467d9c",
+    "title": "Beethoven's Tango",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/beethoven-s-tango",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "e248b96b1b",
+    "title": "King Tut Tasting Experience at Davio's Back Bay",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/king-tut-tasting-experience-at-davio-s-back-bay--2",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "257abcb2ea",
+    "title": "Fitness on The Greenway",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/2022-fitness-on-the-greenway",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "8ce8721132",
+    "title": "Saguaro Garden Bar | Kendall Square",
+    "date": "2026-09-27",
+    "city": "Cambridge",
+    "url": "https://www.thebostoncalendar.com/events/saguaro-garden-bar-kendall-square",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "31c9eee828",
+    "title": "Tree House Brewing Outdoor Beer Garden at Faneuil Hall",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/tree-house-brewing-outdoor-beer-garden-at-faneuil-hall",
     "reasons": [
       "no start time"
     ]
@@ -160,11 +240,21 @@
     ]
   },
   {
-    "id": "5ba4d58dbd",
+    "id": "30a29341a2",
     "title": "William Tell",
     "date": "2026-09-27",
-    "city": "Boston",
+    "city": "Cambridge",
     "url": "https://www.thebostoncalendar.com/events/william-tell",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "2f3be7b9df",
+    "title": "Traditional Kintsugi Foundation Course (4 Sessions)",
+    "date": "2026-09-27",
+    "city": "Cambridge",
+    "url": "https://www.thebostoncalendar.com/events/traditional-kintsugi-foundation-course-4-sessions--5",
     "reasons": [
       "no start time"
     ]
@@ -180,6 +270,16 @@
     ]
   },
   {
+    "id": "85825a46bd",
+    "title": "Prospect Hill Tower: History Unlocked Drop-In Chats",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/prospect-hill-tower-history-unlocked-drop-in-chats",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
     "id": "f1aa2ffa16",
     "title": "Open Newbury Street 2026",
     "date": "2026-09-27",
@@ -190,31 +290,11 @@
     ]
   },
   {
-    "id": "309e5f2286",
-    "title": "Il Patio di Eataly @ Eataly Boston",
+    "id": "df12c4851d",
+    "title": "Griffin Museum of Photography Exhibit: The Persistence of Memories",
     "date": "2026-09-27",
-    "city": "Boston",
-    "url": "https://www.thebostoncalendar.com/events/il-patio-di-eataly-eataly-boston--2",
-    "reasons": [
-      "no start time"
-    ]
-  },
-  {
-    "id": "8db544e213",
-    "title": "USS Constitution Underway and 21-Gun Salute",
-    "date": "2026-09-27",
-    "city": "Boston",
-    "url": "https://www.thebostoncalendar.com/events/uss-constitution-underway-and-21-gun-salute--2",
-    "reasons": [
-      "no start time"
-    ]
-  },
-  {
-    "id": "fc8aab8430",
-    "title": "Elliot Farm Sunflower Bloom",
-    "date": "2026-09-27",
-    "city": "Medford",
-    "url": "https://www.thebostoncalendar.com/events/elliot-farm-sunflower-bloom",
+    "city": "Cambridge",
+    "url": "https://www.thebostoncalendar.com/events/griffin-museum-of-photography-exhibit-the-persistence-of-memories",
     "reasons": [
       "no start time"
     ]
@@ -250,11 +330,11 @@
     ]
   },
   {
-    "id": "cd76d99773",
-    "title": "Prospect Hill Tower: History Unlocked Drop-In Chats",
+    "id": "80096fd16c",
+    "title": "Night Shift Pop-up Beer Garden on The Greenway 2026",
     "date": "2026-09-27",
-    "city": "Somerville",
-    "url": "https://www.thebostoncalendar.com/events/prospect-hill-tower-history-unlocked-drop-in-chats",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/night-shift-pop-up-beer-garden-on-the-greenway",
     "reasons": [
       "no start time"
     ]
@@ -280,41 +360,61 @@
     ]
   },
   {
-    "id": "9315a0c0e0",
-    "title": "Harpoon Beer Garden x Emerson's UnCommon Stage on Boston Common",
+    "id": "70324ae6df",
+    "title": "Dockside Beer Garden 2026",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://www.thebostoncalendar.com/events/harpoon-beer-garden-x-emerson-s-uncommon-stage-on-boston-common-outdoor-drinks-live-performances",
+    "url": "https://www.thebostoncalendar.com/events/dockside-beer-garden-2024",
     "reasons": [
       "no start time"
     ]
   },
   {
-    "id": "800f28fdf4",
-    "title": "Boating on Jamaica Pond",
+    "id": "f016322cb7",
+    "title": "Outdoors @ The Harpoon Beer Hall 2026",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://www.thebostoncalendar.com/events/boating-on-jamaica-pond--2",
+    "url": "https://www.thebostoncalendar.com/events/outdoors-the-harpoon-beer-hall-2021",
     "reasons": [
       "no start time"
     ]
   },
   {
-    "id": "44bac3c4b1",
-    "title": "Out of the Box: Unpacking the World of Archives",
+    "id": "0f1ef8b73e",
+    "title": "Greenway Artisan Market",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://bpl.bibliocommons.com/events/69e24e1edefec6489cbe6b51",
+    "url": "https://www.bostoncentral.com/events/greenway-open-market-boston/p48043.php",
     "reasons": [
       "no start time"
     ]
   },
   {
-    "id": "0d40392502",
-    "title": "Women of Boston: Photography by Robert Richmond",
+    "id": "9281a5b79b",
+    "title": "Boston Family Days at ICA",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://bpl.bibliocommons.com/events/6a569c9188e9bf280030df58",
+    "url": "https://www.bostoncentral.com/events/artsculture/p86624.php",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "b30d4afce7",
+    "title": "SoWa Sundays",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.bostoncentral.com/events/artsculture/p89489.php",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "116384ec24",
+    "title": "Recreation Sundays on Memorial Drive",
+    "date": "2026-09-27",
+    "city": "Cambridge",
+    "url": "https://www.bostoncentral.com/events/recreation-sunday-memorial-drive-cambridge/p2296.php",
     "reasons": [
       "no start time"
     ]
@@ -340,41 +440,261 @@
     ]
   },
   {
-    "id": "df3c9a5378",
-    "title": "Art Exhibition — Dan Wasserman: Face to Face",
+    "id": "b207aef6e8",
+    "title": "Exhibition \"The Space of Appearance: A Shared Tongue\"",
     "date": "2026-09-27",
-    "city": "Boston",
-    "url": "https://bpl.bibliocommons.com/events/6a8ef647be148200298a2902",
+    "city": "Cambridge",
+    "url": "https://daviscenter.fas.harvard.edu/events/exhibition-space-appearance-shared-tongue",
     "reasons": [
       "no start time"
     ]
   },
   {
-    "id": "877148cea4",
-    "title": "Newport Cliff Walk and Gilded Age Mansion Tour",
+    "id": "e78082d211",
+    "title": "Pınar Öğrenci: Glück auf in Deutschland",
+    "date": "2026-09-27",
+    "city": "Cambridge",
+    "url": "https://bit.ly/4dj9IcN",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "ac7637f51b",
+    "title": "To My Best Friend",
     "date": "2026-09-27",
     "city": "Boston",
-    "url": "https://www.bu.edu/calendar/?uid=319879@17.calendar.bu.edu",
+    "url": "https://www.icaboston.org/exhibitions/to-my-best-friend/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "cd91f630a8",
+    "title": "Cynthia Daignault: Valley",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.icaboston.org/exhibitions/cynthia-daignault/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "6929bae3e7",
+    "title": "Leilah Babirye: Embaga ya Naki ne Naki (Wedding of Naki and Naki)",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.icaboston.org/exhibitions/leilah-babirye/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "8ca505757a",
+    "title": "Spotlight: Joan Logue",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.icaboston.org/exhibitions/spotlight-joan-logue/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "87aee061fa",
+    "title": "Caroline Monnet: Man-made Land",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.icaboston.org/exhibitions/caroline-monnet-man-made-land/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "079fc78bc2",
+    "title": "Maverick Kings Three Visionary Pharaohs of Egypt’s Golden Age",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/maverick-kings",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "60bddc16cf",
+    "title": "Picasso, Miró, Dalí: Unbound",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/picasso-miro-dali-unbound",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "da5180058c",
+    "title": "Suzanne Jackson: What Is Love",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/suzanne-jackson-what-is-love",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "a295c9386f",
+    "title": "Öyvind Fahlström: Are You Happy?",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/oyvind-fahlstrom-are-you-happy",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "dd1b2bbb54",
+    "title": "Naoko Matsubara's Woodblock Worlds",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/naoko-matsubaras-woodblock-worlds",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "6ee6e91908",
+    "title": "The Banner Project: Joiri Minaya",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/the-banner-project-joiri-minaya",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "d7192742dc",
+    "title": "Donna Ferrato: 'Living with the Enemy' and the Power of Women",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/donna-ferrato-living-with-the-enemy-and-the-power-of-women",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "92d9b61354",
+    "title": "Reality and Imagination: Rembrandt and the Jews in the Dutch Republic",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/reality-and-imagination-rembrandt-and-the-jews-in-the-dutch-republic",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "aba733ca4f",
+    "title": "Community Arts Initiative: Can You Hear the City?",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.mfa.org/exhibition/community-arts-initiative-can-you-hear-the-city",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "fb9b71170a",
+    "title": "SoWa Open Market",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://do617.com/events/weekly/sun/sowa-open-market-1777728578",
+    "reasons": [
+      "possible duplicate of 9663832d96 \"Farmers Market at SoWa Open Market\""
+    ]
+  },
+  {
+    "id": "cd9faf78fd",
+    "title": "Patriots Watch Party",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://do617.com/events/2026/9/27/cisco-patriots-watch-party-tickets",
+    "reasons": [
+      "possible duplicate of 29ec580e9e \"Patriots Watch Party at Time Out Market Boston\""
+    ]
+  },
+  {
+    "id": "da20b9dc07",
+    "title": "Isabella Stewart Gardner Museum: Chamber Music Celebration",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://www.thebostoncalendar.com/events/isabella-stewart-gardner-museum-chamber-music-celebration--2",
+    "reasons": [
+      "possible duplicate of 168b9787c1 \"Chamber Music Celebration\""
+    ]
+  },
+  {
+    "id": "94dbcf626a",
+    "title": "Boston Chamber Music Society / Beethoven, Canal, Brahms",
+    "date": "2026-09-27",
+    "city": "Cambridge",
+    "url": "https://www.boxoffice.harvard.edu/Online/default.asp?BOparam::WScontent::loadArticle::permalink=bcms1,",
+    "reasons": [
+      "possible duplicate of d1f46fe3b0 \"Beethoven, Canal, Brahms\""
+    ]
+  },
+  {
+    "id": "fa8c19f6f2",
+    "title": "Wicked - Boston",
+    "date": "2026-09-27",
+    "city": "Boston",
+    "url": "https://allevents.in/boston/wicked-boston/3200029600845522",
+    "reasons": [
+      "possible duplicate of f35d74db37 \"Wicked\""
+    ]
+  },
+  {
+    "id": "9521cc8479",
+    "title": "Louder with Crowder presents: Change My Mind - The Professor Debates",
+    "date": "2026-09-28",
+    "city": "Boston",
+    "url": "https://www.bochcenter.org/events/detail/changemymind",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "a8915c273e",
+    "title": "Bruce Armitage - A Maker's Journey",
+    "date": "2026-09-28",
+    "city": "Cambridge",
+    "url": "https://ofa.fas.harvard.edu/ceramics/Gallery_224",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "16765ee32b",
+    "title": "Climate Policy Lab Symposium",
+    "date": "2026-09-28",
+    "city": "Medford",
+    "url": "https://www.climatepolicylab.org/symposium",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "68b6713c6a",
+    "title": "Preschool Singalong",
+    "date": "2026-09-28",
+    "city": "Boston",
+    "url": "https://bpl.bibliocommons.com/v2/events?series=6a5e4d82e9de6536001cfa37",
     "reasons": [
       "url is a source listing page, not the event page"
     ]
   },
   {
-    "id": "6b8c18aaa2",
-    "title": "Interdenominational Protestant Worship Service",
-    "date": "2026-09-27",
+    "id": "352191f894",
+    "title": "All-Ages Story Time (Hyde Park)",
+    "date": "2026-09-28",
     "city": "Boston",
-    "url": "https://www.bu.edu/calendar/?uid=320389@17.calendar.bu.edu",
-    "reasons": [
-      "url is a source listing page, not the event page"
-    ]
-  },
-  {
-    "id": "154962c0e2",
-    "title": "Learn to Belay",
-    "date": "2026-09-27",
-    "city": "Boston",
-    "url": "https://www.bu.edu/calendar/?uid=319926@17.calendar.bu.edu",
+    "url": "https://bpl.bibliocommons.com/v2/events?series=6a71f850f4e5db3d00c65bca",
     "reasons": [
       "url is a source listing page, not the event page"
     ]
@@ -384,29 +704,41 @@
     "title": "Drop-In Notary Services",
     "date": "2026-09-28",
     "city": "Boston",
-    "url": "https://bpl.bibliocommons.com/events/6a84787160ccaf01c01f0c43",
+    "url": "https://bpl.bibliocommons.com/v2/events?series=6a846ff457c264087ad1eb3e",
     "reasons": [
+      "url is a source listing page, not the event page",
       "possible duplicate of 172a3805cf \"Drop-In Notary Service Hours\""
     ]
   },
   {
-    "id": "8305d6a175",
-    "title": "All-Ages Story Time — Grove Hall",
+    "id": "27f6027bef",
+    "title": "All-Ages Story Time",
     "date": "2026-09-28",
     "city": "Boston",
-    "url": "https://bpl.bibliocommons.com/events/6a9840223b6c71003e5d2b74",
+    "url": "https://bpl.bibliocommons.com/v2/events?series=6a983a95b88596143287b542",
     "reasons": [
-      "possible duplicate of 352191f894 \"All-Ages Story Time — Hyde Park\""
+      "url is a source listing page, not the event page",
+      "possible duplicate of 352191f894 \"All-Ages Story Time (Hyde Park)\""
     ]
   },
   {
-    "id": "7277d316a7",
-    "title": "The First Jew In Canada: A Trans Tale performed by S Bear Bergman",
+    "id": "0021220ec5",
+    "title": "Explore and Play (Ages 0-5)",
     "date": "2026-09-28",
     "city": "Boston",
-    "url": "https://www.bu.edu/calendar/?uid=321391@17.calendar.bu.edu",
+    "url": "https://bpl.bibliocommons.com/v2/events?series=69d7b52a213814b1b52368e9",
     "reasons": [
       "url is a source listing page, not the event page"
+    ]
+  },
+  {
+    "id": "f6ea2ab90c",
+    "title": "General Exercise - Holland Street (Council on Aging) 11:00am",
+    "date": "2026-09-28",
+    "city": "Somerville",
+    "url": "https://www.somervillema.gov/events/2026/09/28/general-exercise-holland-street-council-aging-0",
+    "reasons": [
+      "possible duplicate of 1d17f47bc3 \"General Exercise - Holland Street (Council on Aging) 9:00am\""
     ]
   },
   {
@@ -420,16 +752,6 @@
     ]
   },
   {
-    "id": "9fd5caa066",
-    "title": "Old Worlds, New Voices - BU Chamber Orchestra",
-    "date": "2026-09-28",
-    "city": "Boston",
-    "url": "https://www.bu.edu/calendar/?uid=320398@17.calendar.bu.edu",
-    "reasons": [
-      "url is a source listing page, not the event page"
-    ]
-  },
-  {
     "id": "50dac9214b",
     "title": "Overdose Prevention Training",
     "date": "2026-09-28",
@@ -437,16 +759,6 @@
     "url": "https://www.somervillema.gov/events/2026/09/28/overdose-prevention-training",
     "reasons": [
       "possible duplicate of c43f7b2d5e \"Somerville Public Overdose Prevention Training\""
-    ]
-  },
-  {
-    "id": "90efd6f9da",
-    "title": "Where is AI in 2026 and Where is it Going? 9/29/2026",
-    "date": "2026-09-29",
-    "city": "Boston",
-    "url": "https://allevents.in/boston/where-is-ai-in-2026-and-where-is-it-going-9-29-2026-tickets/80005321495143",
-    "reasons": [
-      "no start time"
     ]
   },
   {
@@ -460,16 +772,6 @@
     ]
   },
   {
-    "id": "371d5b46f2",
-    "title": "Christopher Columbus Park and Long Wharf Community Meeting 1 (Civic Pavilion)",
-    "date": "2026-09-29",
-    "city": "Boston",
-    "url": "https://www.boston.gov/node/16607736",
-    "reasons": [
-      "possible duplicate of df780d1f13 \"Christopher Columbus Park and Long Wharf Community Meeting 1\""
-    ]
-  },
-  {
     "id": "c1837a2fd4",
     "title": "Gnash",
     "date": "2026-09-29",
@@ -477,6 +779,26 @@
     "url": "https://www.ticketmaster.com/gnash-boston-massachusetts-09-29-2026/event/01006452BF27DC84",
     "reasons": [
       "url returned HTTP 401"
+    ]
+  },
+  {
+    "id": "c086556fac",
+    "title": "All Rachmaninoff: Andris Nelsons with Seong-Jin Cho",
+    "date": "2026-09-30",
+    "city": "Boston",
+    "url": "https://www.bso.org/events/sep-30-oct-3-rachmaninoff",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "4f30e9aebb",
+    "title": "Make Your Own Stamp! Intro to Laser Engraving",
+    "date": "2026-09-30",
+    "city": "Medford",
+    "url": "https://tufts.libcal.com/event/17477537,",
+    "reasons": [
+      "url returned HTTP 404"
     ]
   },
   {
@@ -510,6 +832,86 @@
     ]
   },
   {
+    "id": "03f2185d43",
+    "title": "An Evening With Theo Katzman (18+)",
+    "date": "2026-10-01",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/an-evening-with-theo-katzman-18-boston-massachusetts-10-01-2026/event/010064A59B7CD4CC",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
+    "id": "cad2929398",
+    "title": "Handel and Haydn Society present The Art of Living",
+    "date": "2026-10-02",
+    "city": "Boston",
+    "url": "https://www.bso.org/events/h-h-the-art-of-living",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "88a58a0c41",
+    "title": "Innovating Civil Discourse: An Instructional Design Hackathon",
+    "date": "2026-10-02",
+    "city": "Cambridge",
+    "url": "https://www.ethics.harvard.edu/event/innovating-civil-discourse-instructional-design-hackathon-0",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "2f2cb77716",
+    "title": "VthePeople",
+    "date": "2026-10-02",
+    "city": "Cambridge",
+    "url": "https://www.vthepeople.org/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "7b6e13eea4",
+    "title": "CineFest Latino Boston",
+    "date": "2026-10-02",
+    "city": "Boston",
+    "url": "https://www.mfa.org/series/cinefest-latino-boston?event=127526",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "e264eb7f88",
+    "title": "Frontiers of Democracy 2026: \"The United States at 250: Meeting the Moment for Democracy, in the U.S. and Around the World.\"",
+    "date": "2026-10-02",
+    "city": "Medford",
+    "url": "https://tischcollege.tufts.edu/news-events/conferences/frontiers-democracy",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "2882f83f2d",
+    "title": "First Fridays",
+    "date": "2026-10-02",
+    "city": "Boston",
+    "url": "https://www.mfa.org/event/special-event/mfa-first-fridays?event=178656",
+    "reasons": [
+      "possible duplicate of 3cbb4741b5 \"First Fridays: Pumpkin Patch\""
+    ]
+  },
+  {
+    "id": "5c53cec6c9",
+    "title": "Bebe Stockwell - As Part of the Fenway Recordings Sessions",
+    "date": "2026-10-02",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/bebe-stockwell-as-part-of-the-boston-massachusetts-10-02-2026/event/010064ACDF9FBAE7",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
     "id": "991cb4b716",
     "title": "Home By 3",
     "date": "2026-10-03",
@@ -520,13 +922,84 @@
     ]
   },
   {
+    "id": "ea2ca3a462",
+    "title": "RAINDATE: Porchfest with the Strummerville Ukulele Club",
+    "date": "2026-10-03",
+    "city": "Brookline",
+    "url": "https://brooklinelibrary.libcal.com/event/17147319",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "f5cd48c051",
+    "title": "Roslindale Dumpling Festival",
+    "date": "2026-10-03",
+    "city": "Boston",
+    "url": "https://www.meetboston.com/event/rescheduled%3a-roslindale-dumpling-festival/92877/",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "b7c6ddf615",
+    "title": "SpicetoberFest",
+    "date": "2026-10-03",
+    "city": "Boston",
+    "url": "https://www.boston.gov/event-type/festivals-and-fairs",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "d6d5989712",
+    "title": "SpicetoberFest: Spice. Culture. Food.",
+    "date": "2026-10-03",
+    "city": "Boston",
+    "url": "https://allevents.in/boston/spicetoberfest-spice-culture-food-tickets/80001309503039",
+    "reasons": [
+      "possible duplicate of b7c6ddf615 \"SpicetoberFest\""
+    ]
+  },
+  {
     "id": "91e8ba813a",
     "title": "Spicetoberfest: Spice. Culture. Food. FREE EVENT",
     "date": "2026-10-03",
     "city": "Boston",
     "url": "https://www.eventbrite.com/e/spicetoberfest-spice-culture-food-free-event-tickets-1995731004157?aff=ebdssbcitybrowse",
     "reasons": [
+      "possible duplicate of b7c6ddf615 \"SpicetoberFest\"",
       "possible duplicate of d6d5989712 \"SpicetoberFest: Spice. Culture. Food.\""
+    ]
+  },
+  {
+    "id": "42b7c05dfa",
+    "title": "Emo Night Brooklyn: Halloween Edition (18+)",
+    "date": "2026-10-03",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/emo-night-brooklyn-halloween-edition-18-boston-massachusetts-10-03-2026/event/010065139373AAE8",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
+    "id": "32b88dbce8",
+    "title": "Open Streets Boston Series",
+    "date": "2026-10-04",
+    "city": "Boston",
+    "url": "https://www.bostoncentral.com/events/fair/p88921.php",
+    "reasons": [
+      "no start time"
+    ]
+  },
+  {
+    "id": "6ea50aaeb7",
+    "title": "Kelsey Lu: So Help Me God Tour (18+)",
+    "date": "2026-10-04",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/kelsey-lu-so-help-me-god-boston-massachusetts-10-04-2026/event/010064C4D011418C",
+    "reasons": [
+      "url returned HTTP 401"
     ]
   },
   {
@@ -540,6 +1013,56 @@
     ]
   },
   {
+    "id": "3ef4c655a9",
+    "title": "Family Storytime at Putterham",
+    "date": "2026-10-06",
+    "city": "Brookline",
+    "url": "https://brooklinelibrary.libcal.com/event/17260799",
+    "reasons": [
+      "possible duplicate of a80c107809 \"Family Storytime\""
+    ]
+  },
+  {
+    "id": "49146b96cc",
+    "title": "Elder Island: HELLO BABY OKAY (18+)",
+    "date": "2026-10-06",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/elder-island-hello-baby-okay-18-boston-massachusetts-10-06-2026/event/01006496B2595C7F",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
+    "id": "193cb40725",
+    "title": "Build a Spirograph!",
+    "date": "2026-10-07",
+    "city": "Medford",
+    "url": "https://tufts.libcal.com/event/17643288,",
+    "reasons": [
+      "url returned HTTP 404"
+    ]
+  },
+  {
+    "id": "9b5d7a3755",
+    "title": "Daniel E. Lieberman at the Harvard Science Center",
+    "date": "2026-10-07",
+    "city": "Cambridge",
+    "url": "https://www.harvard.com/event/lieberman26",
+    "reasons": [
+      "url returned HTTP 403"
+    ]
+  },
+  {
+    "id": "1497433df6",
+    "title": "Oso Oso",
+    "date": "2026-10-07",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/oso-oso-boston-massachusetts-10-07-2026/event/01006511C3E682A8",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
     "id": "b5a734d105",
     "title": "Monty Python's Spamalot",
     "date": "2026-10-08",
@@ -550,13 +1073,33 @@
     ]
   },
   {
+    "id": "d9bfe93365",
+    "title": "Isaiah Falls: LVRS Paradise Side B Tour",
+    "date": "2026-10-08",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/isaiah-falls-lvrs-paradise-side-b-boston-massachusetts-10-08-2026/event/010064CBDE9C1DC6",
+    "reasons": [
+      "url returned HTTP 401"
+    ]
+  },
+  {
     "id": "3ba5169c53",
     "title": "Andris Nelsons conducts Beethoven Symphony No. 7",
     "date": "2026-10-08",
     "city": "Boston",
-    "url": "https://www.bso.org/events/oct-8-10-coll-beethoven?performance=2026-10-08-19:30",
+    "url": "https://www.bso.org/events/oct-8-10-coll-beethoven",
     "reasons": [
       "possible duplicate of 23f97c576e \"High School Open Rehearsal: Andris Nelsons conducts Beethoven Symphony No. 7\""
+    ]
+  },
+  {
+    "id": "f21b230f9b",
+    "title": "Destination: Superdrag",
+    "date": "2026-10-09",
+    "city": "Boston",
+    "url": "https://www.ticketmaster.com/destination-superdrag-friday-october-9th-boston-massachusetts-10-09-2026/event/0100638FE391E3B2",
+    "reasons": [
+      "url returned HTTP 401"
     ]
   },
   {
@@ -570,13 +1113,13 @@
     ]
   },
   {
-    "id": "42a04f3839",
-    "title": "Discovering King Tut's Tomb",
+    "id": "62ce8ca0e3",
+    "title": "KELS - Dirty Blues Princess Tour",
     "date": "2026-10-11",
     "city": "Boston",
-    "url": "https://www.bochcenter.org/events/detail/discovering-king-tuts-tomb",
+    "url": "https://www.ticketmaster.com/kels-dirty-blues-princess-tour-boston-massachusetts-10-11-2026/event/0100650AABE4BE94",
     "reasons": [
-      "no start time"
+      "url returned HTTP 401"
     ]
   }
 ]

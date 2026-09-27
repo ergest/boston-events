@@ -1,4 +1,0 @@
-status: ok
-5 public events kept from BU calendar (Sept 27–28, 2026). Fetched the BU calendar listing page (one chunk). Evaluated each event's detail page and kept only those open to the public.
-Kept: Newport Cliff Walk (sports & outdoors, non-members welcome), Interdenominational Protestant Worship Service (Marsh Chapel, public), Learn to Belay (FitRec, non-members welcome), The First Jew In Canada performance by S Bear Bergman (free, public), and BU Chamber Orchestra concert (public).
-Skipped as not clearly public: World Mental Health Day Volunteer Training, Proactive Job & Internship Search Strategies, Pre-Health Mixer (campus/student-focused), and Chuseok Celebration (no public access confirmed). Only 5 detail fetches allowed per source, so some ambiguous events were not individually verified.

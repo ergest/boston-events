@@ -1,10 +1,14 @@
 # Merge
 
-313 raw → 313 valid → 307 after dedupe; 58 flagged.
+467 raw → 467 valid → 458 after dedupe; 112 flagged.
 
-- Merged duplicate "Patriots Watch Party at Time Out Market Boston" (2026-09-27, Boston) from allevents-boston and boston-calendar
-- Merged duplicate "Celebremos Puerto Rico" (2026-09-27, Cambridge) from artsboston and boston-calendar
+- Joined unjoined parts: events/boston-calendar.json: 70 events from 7 part(s).
+- Merged duplicate "¡Celebremos Puerto Rico!" (2026-09-27, Cambridge) from artsboston and boston-calendar
 - Merged duplicate "Rod Ferguson - Cult Classic" (2026-09-27, Boston) from artsboston and boston-calendar
-- Merged duplicate "Boston Red Sox vs. Chicago Cubs" (2026-09-27, Boston) from allevents-boston and boston-calendar
+- Merged duplicate "Prospect Hill Tower: History Unlocked Drop-In Chats" (2026-09-27, Boston) from boston-calendar and boston-calendar
+- Merged duplicate "SoWa Open Market" (2026-09-27, Boston) from boston-calendar and do617
+- Merged duplicate "Collecting Wonders: Tomorrow's Discoveries" (2026-09-27, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Pop Quiz: 1776" (2026-09-27, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Rubies" (2026-09-27, Cambridge) from boston-calendar and harvard
 - Merged duplicate "¡Celebremos Puerto Rico!" (2026-09-27, Cambridge) from artsboston and harvard
-- Merged duplicate "Boston Family Days" (2026-10-04, Boston) from gardner and ica
+- Merged duplicate "Drop-in Improv Workshop with True Story Theater" (2026-09-27, Arlington) from artsboston and web-search

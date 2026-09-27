@@ -1,2 +1,2 @@
 status: ok
-Fetched the events listing page (2 chunks, libcal calendar). Kept public, in-person, general-interest events within 2026-09-27 to 2026-10-11, all in Brookline. Skipped VIRTUAL Afternoon Book Group (online-only) and A Taste of Poetry (Zoom). Duplicated entry pages were de-duplicated. 14 events across 2 parts.
+31 usable public events across 8 chunks. Skipped recurring weekly programs (classes, clubs, playgroups), virtual-only events, staff-only meetings, and Non-Library Event listings. Banned Books Week and other one-off programs kept.

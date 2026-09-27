@@ -1,3 +1,7 @@
-status: thin
-
-The listing page (bostoncentral.com/events) shows hundreds of events across every category but displays NO dates or times in the listing itself. Only the per-event detail pages carry dates. I had 5 detail-fetch calls and used them all. Of the ones I checked, I kept 3 public, in-window, in-city (all Boston) events: Greenway Artisan Market (9/27), SoWa Open Market Boston (9/27), and Open Streets Boston Series (10/4). I skipped Boston Family Days at ICA (requires a City-of-Boston Boston Family Days pass, so restricted to Boston students). Many other Boston-area events on the listing (e.g. ICA Free Thursday Nights, Jeff Jam Kids Sing-Along, Hatch Shell, Black Heritage Trail, Memorial Drive Recreation Sundays, Celebremos Puerto Rico) were NOT verified because detail fetches were exhausted, so they are omitted rather than guessed. No events could be confirmed for Cambridge, Somerville, or other cities. Result: 3 events, all in Boston.
+status: ok
+Source: Boston Central (bostoncentral), fetch: page.
+Two listing chunks (daily calendar, dated Sunday 2026-09-27) filtered to allowed cities.
+Chunk 1: verified 5 Boston-area events via detail pages (Atlantic Wharf's Fall Fest, Greenway Artisan Market, Open Streets Boston Series, Boston Family Days at ICA, SoWa Sundays).
+Chunk 2: many in-city events listed but the listing shows no dates; detail fetches were exhausted on chunk 1, so only the recurring-Sunday Memorial Drive recreation was datable and included. All other chunk-2 events were omitted because their dates in the window could not be confirmed.
+Cities outside the window list (Danvers, Salem, Concord, Vermont, Western Mass, etc.) skipped.
+Assumption: recurring weekly events dated to known window days.

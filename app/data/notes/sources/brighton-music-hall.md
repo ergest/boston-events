@@ -1,3 +1,7 @@
-status: thin
-3 usable events (Zolita Sep 28, Gnash Sep 29, Asha Banks Sep 30), all from the events-1.json parsed chunk with grounded TicketMaster URLs.
-The crossroadspresents.com listing page (fetch: json/page) is a JS-rendered TicketMaster widget whose static HTML only exposes per-event "Buy Tickets"/"More Info" links for the first 4 upcoming events (Beoga Sep 27, which is CANCELLED, plus the 3 above). Every other in-window event (Oct 1–11: Theo Katzman, Bebe Stockwell, Emo Night Brooklyn, Kelsey Lu, Elder Island, Oso Oso, Isaiah Falls, Destination: Superdrag x2, KELS) appears in the listing with date/time but has no accessible, groundable event-page URL. TicketMaster event pages themselves return a reCAPTCHA page, so fetch-detail cannot retrieve them. Result: only 3 events could be recorded with valid URLs.
+status: ok
+Brighton Music Hall (Crossroads Presents) listing on crossroadspresents.com.
+Window 2026-09-27 to 2026-10-11 yielded 12 usable public music events.
+Beoga on 2026-09-27 was cancelled (marked "Cancelled" on the detail page) and excluded.
+Destination: Superdrag is a two-day show (Oct 9-10); recorded as one record with date 2026-10-09 and endDate 2026-10-10.
+Times copied as shown; endTime omitted where the listing gave only a start time.
+All events are in-person concerts at 158 Brighton Avenue, Boston.

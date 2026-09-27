@@ -1,2 +1,2 @@
 status: ok
-Fetched the library homepage page (2 chunks). Chunk 1 contained the libcal event calendar listing; kept public, general-interest in-window events (Sept 28-29, 2026). Skipped ELL classes marked "[CLASS FULL]" since they are not open to the public. Chunk 2 was footer/social links with no events. 7 events written.
+Fetched 5 ICS chunks, 46 events across Newton. Kept public, general-interest programs. Skipped two online-only events (eBook intro and 50+ Job Seekers networking group, both "Virtual"). Combined the two same-day "Make Way for Storytime" 10am/11am slots into one record per date to satisfy the dedup rule. Kept the Adult-only Mini Golf as a public adult event. Author Talk is listed "Off Site" (venue kept as given).

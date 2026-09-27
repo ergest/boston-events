@@ -1,2 +1,2 @@
 status: thin
-2 public, general-interest community events in the window (Sep 27). The listing page showed only 2 results total for the window. Board/commission meetings were skipped per the source notes; none appeared here. First event is a recurring weekly program (Sunday through Oct 4) recorded on its first in-window date. Fewer than 3 events, so overall status is thin.
+The City of Cambridge calendar (https://www.cambridgema.gov/citycalendar) rendered as a JS calendar shell: only the September 2026 month grid and footer links, with no event listings for any day. No usable events could be extracted. The page may require JavaScript to populate events, which the fetch rig did not execute.

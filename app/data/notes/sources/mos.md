@@ -1,2 +1,5 @@
-status: thin
-3 usable events from Museum of Science (Boston). "Member Night" (Oct 11) skipped as member-exclusive. "Hispanic Heritage Month Celebration" (Sep 26) skipped as outside the window. Remaining public events are family/tech-and-talks. Page's later events (Oct 16+) were all outside the window.
+status: ok
+3 usable public events kept from the mos.org/events listing, all in Boston, inside the 2026-09-27 to 2026-10-11 window.
+Skipped: Hispanic Heritage Month Celebration (Sept 26, before window) and Member Night (Oct 11, member-exclusive). All remaining listed events (BPSC launch programming) are Oct 14+.
+Adult Night at Science Park is a ticketed 18+ public event ($25; free for members) and counts as public.
+Pioneers of AI Live! and American Science @250 categorized as tech & talks.

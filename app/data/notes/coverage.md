@@ -4,46 +4,44 @@ Window 2026-09-27 → 2026-10-11. Target: at least 3 events per city.
 
 | City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors | community |
 |---|---|---|---|---|---|---|---|---|---|
-| Boston | 215 | 32 | 45 | 17 | 9 | 17 | 10 | 34 | 51 |
-| Cambridge | 41 | 7 | 11 | 3 | 2 | 2 | 10 | 1 | 5 |
-| Somerville | 16 | 0 | 1 | 1 | 1 | 0 | 1 | 1 | 11 |
-| Brookline | 17 | 2 | 3 | 0 | 2 | 7 | 2 | 0 | 1 |
-| Newton | 7 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 3 |
-| Watertown | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Waltham | 2 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| Arlington | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Medford | 3 | 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Malden | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| Quincy | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-| Dedham | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
+| Boston | 255 | 41 | 68 | 31 | 15 | 20 | 16 | 29 | 35 |
+| Cambridge | 92 | 11 | 27 | 4 | 3 | 6 | 31 | 2 | 8 |
+| Somerville | 15 | 0 | 1 | 2 | 1 | 0 | 1 | 0 | 10 |
+| Brookline | 33 | 2 | 3 | 0 | 1 | 20 | 0 | 0 | 7 |
+| Newton | 43 | 3 | 0 | 2 | 1 | 24 | 1 | 0 | 12 |
+| Watertown | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Waltham | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Arlington | 3 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Medford | 12 | 1 | 3 | 0 | 0 | 0 | 7 | 0 | 1 |
+| Malden | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| Quincy | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 2 |
+| Dedham | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Events per source (before merge)
 
-- do617: 11
-- boston-calendar: 61
-- allevents-boston: 24
+- do617: 23
+- boston-calendar: 70
+- allevents-boston: 19
 - eventbrite-boston: 9
-- bostoncentral: 3
-- luma-boston: 10
+- bostoncentral: 6
+- luma-boston: 11
 - artsboston: 10
-- boston-gov: 15
-- bpl: 17
-- cambridge-city: 2
+- boston-gov: 10
+- bpl: 14
+- cambridge-city: 0
 - somerville-city: 10
-- brookline-library: 14
-- newton-library: 7
-- mit: 21
-- northeastern: 44
-- harvard: 4
-- bu: 5
-- tufts: 0
-- brandeis: 0
-- mfa: 0
-- ica: 11
-- gardner: 7
+- brookline-library: 31
+- newton-library: 42
+- mit: 19
+- northeastern: 22
+- harvard: 60
+- bu-spark: 1
+- tufts: 13
+- mfa: 38
+- ica: 15
 - mos: 3
 - arnold-arboretum: 7
 - bso: 6
-- boch-center: 9
-- brighton-music-hall: 3
-- web-search: no file
+- boch-center: 8
+- brighton-music-hall: 12
+- web-search: 8

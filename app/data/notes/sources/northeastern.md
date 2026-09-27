@@ -1,8 +1,12 @@
 status: ok
-Processed all 5 chunks of the Northeastern University .ics calendar (44 events kept).
-Kept public, general-interest events: daily wellness offerings (meditation, yoga, capoeira), athletics
-(soccer, field hockey, volleyball), public lectures/speaker series, science carnivals, and community
-cultural events. Skipped excluded items: Seminar-category colloquia, Webinar, CommLab/Teams online
-drop-ins, and student-member-only events (Graduate Fellowship Writing Club). Applied exclude titles
-seminar/webinar/deadline/thesis/info session. Field hockey games at Dedham Field were city=Dedham;
-all other venues are Boston. Two duplicate Cambridge Science Carnival entries collapsed to one URL.
+22 usable events across 4 parts. Source is the Northeastern University ICS calendar (Boston campuses), default category "tech & talks".
+
+Kept public, general-interest events: public lectures/colloquia, symposia and summits, athletics (men's/women's soccer, field hockey, volleyball), and free public wellness/cultural drop-ins (meditation, yoga, capoeira).
+
+Skipped:
+- Online/Teams-only sessions (CommLab Data Visualization Drop-In hours run on Teams).
+- Student/members-only gatherings (Circle of Life talking circle, Graduate Fellowship Writing Club, Art&Soul, Global Topics for Global Learners).
+- A Cambridge-venue event (Physics For the People @ Cambridge Science Carnival, Kendall/MIT Open Space) because the source's allowed cities are ["Boston"] only and the venue is in Cambridge.
+- Duplicate feed entries for the same event were collapsed to one record.
+
+Exclude pattern titles (seminar, webinar, thesis, deadline, info session) and the "Webinar" feed category matched nothing usable in this window.

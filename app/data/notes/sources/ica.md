@@ -1,6 +1,9 @@
 status: ok
-11 public, in-window events from the ICA/Boston calendar (Sep 27–Oct 11, 2026).
-fetch: json — events-1.json and events-2.json held all 11 usable events; page-1.md and page-2.md were the listing page and contained no additional in-window events (everything below the captured events was Oct 13+).
-All events are at ICA Boston, 25 Harbor Shore Drive, Boston MA 02210.
-"Bank of America Museums on Us" and "Perfect Memory" repeat on additional in-window dates (Oct 4, Oct 11) but per the multi-day rule each event is recorded once on its first in-window date.
-Categories: most default to "arts & theater"; two family-focused events ("Boston Family Days", "Play Date: Free Family Art Day", "Family ART-trek") mapped to "family".
+Source: Institute of Contemporary Art (https://www.icaboston.org/events/).
+Two page chunks. Chunk 1 had public events within the window (Sep 27–Oct 11);
+kept talks, family days, workshops, First Fridays, Museums on Us, and the
+TCB film; skipped the ICA Members Opening Celebration (members-only) and events
+outside the window. Chunk 2 had no dated events in the window; the last event in
+window was Family ART-trek (Oct 11). Added the 5 current on-view exhibitions as
+single records dated 2026-09-27 with their run-end dates (exhibitions are public
+and run past the window). No date/time fields were missing for included events.

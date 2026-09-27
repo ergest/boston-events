@@ -1,9 +1,8 @@
 status: ok
-Fetched the BPL events listing (bpl.bibliocommons.com/v2/events) across 3 page chunks.
-Kept public, in-person events in-window (Sep 27–Oct 11, 2026). Multi-day exhibitions
-recorded on their first in-window date (Sep 27) with the run in the description.
-Skipped Lower Mills Community Read (Lower Mills is in Canton, not an allowed city) and
-"Becoming Boston" (its map gallery is closed until Oct 9, so attendance in-window is uncertain).
-Skipped Age Strong Memory Cafe (registration-required support program for those with memory
-loss and care partners). Two distinct All-Ages Story Time events (Hyde Park, Grove Hall)
-were given venue-suffixed titles so the checker's title+date+city dedup does not collapse them.
+Boston Public Library events page (bpl.bibliocommons.com/v2/events). Window 2026-09-27 to 2026-10-11.
+Chunk 1 (page-1): date range / exhibition events plus Sep 27 events; kept exhibitions (arts & theater) and two public Sep 27 events.
+Chunks 2-3 (page-2, page-3): mostly Sep 28 weekly story times, notary services, a memory cafe, and a yoga class across BPL branches (all in Boston).
+Branches (Central Library/Copley Square, Jamaica Plain, Faneuil, Egleston, Hyde Park, West End, Brighton, Grove Hall, North End, Charlestown) are all Boston branches, so city = Boston for all.
+Many events only had a `?series=` or location link rather than a dedicated event page; used the best available URL from the listing.
+Some exhibitions run past the window (e.g. through Nov/Dec 2026); recorded as one record dated to first day in window (2026-09-27) with endDate = last day.
+Chunk 3 contained only filter links, no events.

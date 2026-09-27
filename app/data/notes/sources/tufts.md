@@ -1,2 +1,6 @@
-status: broken
-The scraped listing page (events.tufts.edu) returned only navigation links and a "Featured Events" section (Admissions & Visits, Submit an Event) — no actual event listings in the window. The raw fetch directory was empty and there was no FETCH_ERROR.txt, so the page appears to be a JS-rendered shell whose event list did not come through in the markdown scrape. No events could be extracted.
+status: ok
+13 public, general-interest events kept across Medford and Boston (all within the 2026-09-27..2026-10-11 window).
+Dropped internal/staff/student/course events (Open to Public: No), online-only webinars/zoom events, and info sessions.
+Categories mostly tech & talks (lectures/conferences); Goethe Quartet music event dropped because the feed listing gave it no URL and it could not be grounded.
+Notes: the raw chunk and the ground-feed sometimes disagree on Goethe Quartet's date; the ground feed (ground/tufts/events.json) is authoritative for the check.
+Trumba feed behind events.tufts.edu.
