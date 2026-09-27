@@ -1,0 +1,6 @@
+app/data/
+node_modules/
+.firecrawl/
+bakeoff-*.json
+hank-full-local.json
+hank-finish.json

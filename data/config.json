@@ -1,0 +1,28 @@
+{
+  "daysAhead": 14,
+  "cities": [
+    "Boston",
+    "Cambridge",
+    "Somerville",
+    "Brookline",
+    "Newton",
+    "Watertown",
+    "Waltham",
+    "Arlington",
+    "Medford",
+    "Malden",
+    "Quincy",
+    "Dedham"
+  ],
+  "categories": [
+    "music",
+    "arts & theater",
+    "food & drink",
+    "festivals & markets",
+    "family",
+    "tech & talks",
+    "sports & outdoors",
+    "community"
+  ],
+  "minEventsPerCity": 3
+}

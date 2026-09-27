@@ -1,0 +1,35 @@
+{
+  "_readme": "Source registry. Each source becomes one codon via `node scripts/build-hank.mjs`. fetch: 'ics' = calendar feed parsed by script; 'json' = Firecrawl structured extraction (5 credits/page) plus the page markdown; 'page' = listing page(s) scraped as markdown (1 credit) for the agent to extract. Review proposed-sources.md after each run and add approved sources here.",
+  "sources": [
+    { "id": "do617", "name": "Do617", "type": "aggregator", "fetch": "page", "urls": ["https://do617.com/events"], "cities": "all" },
+    { "id": "boston-calendar", "name": "The Boston Calendar", "type": "aggregator", "fetch": "page", "urls": ["https://www.thebostoncalendar.com/"], "cities": "all" },
+    { "id": "allevents-boston", "name": "Allevents Boston", "type": "aggregator", "fetch": "page", "urls": ["https://allevents.in/boston"], "cities": "all" },
+    { "id": "eventbrite-boston", "name": "Eventbrite Boston", "type": "aggregator", "fetch": "page", "urls": ["https://www.eventbrite.com/d/ma--boston/events/"], "cities": "all", "notes": "Skip online events, webinars and recurring promos." },
+    { "id": "bostoncentral", "name": "Boston Central", "type": "aggregator", "fetch": "page", "urls": ["https://www.bostoncentral.com/events/"], "cities": "all", "defaultCategory": "family" },
+    { "id": "luma-boston", "name": "Luma Boston", "type": "aggregator", "fetch": "ics", "urls": ["https://api.lu.ma/ics/get?entity=discover&id=discplace-VWeZ1zUvnawYHMj"], "cities": "all", "defaultCategory": "tech & talks", "notes": "Feed of luma.com/boston. Many events are tech/startup meetups; set city from LOCATION, and skip online-only events and events whose location is hidden until registration unless the city is clear." },
+    { "id": "artsboston", "name": "ArtsBoston Calendar", "type": "aggregator", "fetch": "page", "urls": ["https://calendar.artsboston.org/"], "cities": "all", "defaultCategory": "arts & theater" },
+
+    { "id": "boston-gov", "name": "City of Boston events", "type": "civic", "fetch": "page", "urls": ["https://www.boston.gov/events"], "cities": ["Boston"], "defaultCategory": "community" },
+    { "id": "bpl", "name": "Boston Public Library", "type": "civic", "fetch": "page", "urls": ["https://bpl.bibliocommons.com/v2/events"], "cities": ["Boston"], "defaultCategory": "community" },
+    { "id": "cambridge-city", "name": "City of Cambridge calendar", "type": "civic", "fetch": "page", "urls": ["https://www.cambridgema.gov/citycalendar"], "cities": ["Cambridge"], "defaultCategory": "community", "notes": "Skip board/commission meetings and hearings." },
+    { "id": "somerville-city", "name": "City of Somerville events", "type": "civic", "fetch": "page", "urls": ["https://www.somervillema.gov/events"], "cities": ["Somerville"], "defaultCategory": "community", "notes": "Skip board/commission meetings and hearings." },
+    { "id": "brookline-library", "name": "Public Library of Brookline", "type": "civic", "fetch": "page", "urls": ["https://www.brooklinelibrary.org/events/"], "cities": ["Brookline"], "defaultCategory": "community" },
+    { "id": "newton-library", "name": "Newton Free Library", "type": "civic", "fetch": "page", "urls": ["https://newtonfreelibrary.net/"], "cities": ["Newton"], "defaultCategory": "community" },
+
+    { "id": "mit", "name": "MIT Events", "type": "university", "fetch": "ics", "urls": ["https://calendar.mit.edu/calendar.ics"], "cities": ["Cambridge"], "defaultCategory": "tech & talks", "notes": "Very high volume. Keep only events open to the public and of general interest; drop seminars for specialists, office hours, deadlines, club meetings and internal events.", "exclude": { "requireLocation": true, "categories": ["Career Development", "Meetings/Gatherings"], "titles": ["seminar", "colloquium", "thesis defense", "office hours", "info(rmation)? session", "\\bclass\\b", "training", "deadline"] } },
+    { "id": "northeastern", "name": "Northeastern University Calendar", "type": "university", "fetch": "ics", "urls": ["https://calendar.northeastern.edu/calendar.ics"], "cities": ["Boston"], "defaultCategory": "tech & talks", "notes": "Keep only events open to the public and of general interest.", "exclude": { "categories": ["Webinar"], "titles": ["seminar", "thesis", "info(rmation)? session", "webinar", "deadline"] } },
+    { "id": "harvard", "name": "Harvard Gazette events", "type": "university", "fetch": "page", "urls": ["https://news.harvard.edu/gazette/harvard-events/"], "cities": ["Cambridge", "Boston"], "defaultCategory": "tech & talks" },
+    { "id": "bu", "name": "Boston University calendar", "type": "university", "fetch": "page", "urls": ["https://www.bu.edu/calendar/"], "cities": ["Boston"], "defaultCategory": "tech & talks", "notes": "Keep only events open to the public." },
+    { "id": "tufts", "name": "Tufts events", "type": "university", "fetch": "page", "urls": ["https://events.tufts.edu/"], "cities": ["Medford", "Somerville", "Boston"], "defaultCategory": "tech & talks", "notes": "Keep only events open to the public." },
+    { "id": "brandeis", "name": "Brandeis events", "type": "university", "fetch": "page", "urls": ["https://www.brandeis.edu/events/"], "cities": ["Waltham"], "defaultCategory": "tech & talks", "notes": "Keep only events open to the public." },
+
+    { "id": "mfa", "name": "Museum of Fine Arts", "type": "venue", "fetch": "json", "urls": ["https://www.mfa.org/events"], "cities": ["Boston"], "defaultCategory": "arts & theater" },
+    { "id": "ica", "name": "Institute of Contemporary Art", "type": "venue", "fetch": "json", "urls": ["https://www.icaboston.org/events/"], "cities": ["Boston"], "defaultCategory": "arts & theater" },
+    { "id": "gardner", "name": "Isabella Stewart Gardner Museum", "type": "venue", "fetch": "json", "urls": ["https://www.gardnermuseum.org/calendar"], "cities": ["Boston"], "defaultCategory": "arts & theater" },
+    { "id": "mos", "name": "Museum of Science", "type": "venue", "fetch": "json", "urls": ["https://www.mos.org/events"], "cities": ["Boston"], "defaultCategory": "family" },
+    { "id": "arnold-arboretum", "name": "Arnold Arboretum", "type": "venue", "fetch": "json", "urls": ["https://arboretum.harvard.edu/events/"], "cities": ["Boston"], "defaultCategory": "sports & outdoors" },
+    { "id": "bso", "name": "Boston Symphony Orchestra", "type": "venue", "fetch": "json", "urls": ["https://www.bso.org/events"], "cities": ["Boston"], "defaultCategory": "music", "notes": "Tanglewood events are in western MA; skip them." },
+    { "id": "boch-center", "name": "Boch Center", "type": "venue", "fetch": "json", "urls": ["https://www.bochcenter.org/events"], "cities": ["Boston"], "defaultCategory": "arts & theater" },
+    { "id": "brighton-music-hall", "name": "Brighton Music Hall", "type": "venue", "fetch": "json", "urls": ["https://www.crossroadspresents.com/pages/brighton-music-hall"], "cities": ["Boston"], "defaultCategory": "music" }
+  ]
+}

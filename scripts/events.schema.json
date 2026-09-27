@@ -1,0 +1,60 @@
+{
+ "type": "object",
+ "properties": {
+  "events": {
+   "type": "array",
+   "description": "ALL events listed on the page, from the first to the last listing. Do not stop early or summarize; include every date/showing, including ones further down the page.",
+   "items": {
+    "type": "object",
+    "properties": {
+     "title": {
+      "type": "string",
+      "description": "Event name exactly as shown"
+     },
+     "date": {
+      "type": "string",
+      "description": "Date in YYYY-MM-DD"
+     },
+     "startTime": {
+      "type": "string",
+      "description": "Start time, 24h HH:MM, only if shown"
+     },
+     "endTime": {
+      "type": "string",
+      "description": "End time, 24h HH:MM, only if shown"
+     },
+     "venue": {
+      "type": "string"
+     },
+     "address": {
+      "type": "string"
+     },
+     "price": {
+      "type": "string",
+      "description": "e.g. Free, $15, $20-$45"
+     },
+     "url": {
+      "type": "string",
+      "description": "Link to the event's own page, copied exactly"
+     },
+     "registerUrl": {
+      "type": "string",
+      "description": "Ticket/RSVP link if different from url"
+     },
+     "description": {
+      "type": "string",
+      "description": "One or two sentences"
+     }
+    },
+    "required": [
+     "title",
+     "date",
+     "url"
+    ]
+   }
+  }
+ },
+ "required": [
+  "events"
+ ]
+}
