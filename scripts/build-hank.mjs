@@ -44,7 +44,7 @@ for (const s of registry) {
   if (ids.has(s.id)) problems.push(`duplicate id "${s.id}"`);
   ids.add(s.id);
   if (!TYPE_ORDER.includes(s.type)) problems.push(`${s.id}: type must be one of ${TYPE_ORDER.join(', ')}`);
-  if (!['ics', 'json', 'page'].includes(s.fetch)) problems.push(`${s.id}: fetch must be "ics", "json" or "page"`);
+  if (!['ics', 'page'].includes(s.fetch)) problems.push(`${s.id}: fetch must be "ics" or "page"`);
   if (!Array.isArray(s.urls) || !s.urls.length) problems.push(`${s.id}: urls must be a nonempty array`);
   if (s.cities !== 'all' && !Array.isArray(s.cities)) problems.push(`${s.id}: cities must be "all" or an array`);
 }
@@ -58,8 +58,7 @@ const sources = only ? registry.filter((s) => only.includes(s.id)) : registry;
 
 // Every source codon carries the idempotent setup, so the run works even if an early source codon fails.
 const setup = [
-  ...['window', 'pagetrim', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'known', 'search', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
-  { type: 'copy', copy: { from: 'scripts/events.schema.json', to: 'events.schema.json' } },
+  ...['window', 'pagetrim', 'page', 'firecrawl', 'fetch-source', 'fetch-detail', 'chunk', 'check', 'join', 'known', 'search', 'merge', 'flag', 'export'].map((f) => ({ type: 'copy', copy: { from: `scripts/${f}.mjs`, to: `${f}.mjs` } })),
   { type: 'copy', copy: { from: 'data/config.json', to: 'config.json' } },
   { type: 'copy', copy: { from: 'data/sources.json', to: 'sources.json' } },
   { type: 'command', command: { run: 'test -f window.json || node window.mjs' } },

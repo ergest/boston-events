@@ -1,18 +1,16 @@
 // Hands the web-search agent one query at a time, runs the search itself, and caps what it costs:
 //   node search.mjs               prints the next query's results (after the current one is answered)
 //   node search.mjs --none        the current query found nothing new; prints the next one
-//   node search.mjs --open <url>  prints a page from the current results (curl first, Firecrawl fallback)
+//   node search.mjs --open <url>  prints a page from the current results (page.mjs: curl, then a local browser)
 // It refuses to move on until a new events/parts/web-search-N.json exists (or --none is given),
 // and writes notes/web-search.md as it goes.
-import { spawnSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { firecrawl } from './firecrawl.mjs';
-import { trimPage } from './pagetrim.mjs';
+import { fetchPage } from './page.mjs';
 
 const MAX_QUERIES = 10;
 const RESULTS_PER_QUERY = 6;
 const OPENS_PER_QUERY = 3;
-const FIRECRAWL_OPENS = Number(process.env.FIRECRAWL_OPENS ?? 8);
 const PAGE_CHARS = 4000;
 
 const [flag, arg] = process.argv.slice(2);
@@ -24,7 +22,7 @@ mkdirSync('search', { recursive: true });
 const stateFile = 'search/.state.json';
 const state = existsSync(stateFile)
   ? JSON.parse(readFileSync(stateFile, 'utf8'))
-  : { queries: buildQueries(), served: 0, parts: 0, opens: 0, firecrawlOpens: 0, log: [] };
+  : { queries: buildQueries(), served: 0, parts: 0, opens: 0, log: [] };
 const save = () => writeFileSync(stateFile, JSON.stringify(state, null, 2) + '\n');
 const parts = existsSync('events/parts') ? readdirSync('events/parts').filter((f) => /^web-search-\d+\.json$/.test(f)).length : 0;
 
@@ -88,33 +86,9 @@ function buildQueries() {
 }
 
 function page(url) {
-  const c = spawnSync('curl', ['-sL', '--max-time', '20', '-A', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/126 Safari/537.36', '-w', '\n%{http_code}', url], { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
-  const body = c.stdout ?? '';
-  const code = body.slice(body.lastIndexOf('\n') + 1);
-  let text = code === '200' ? htmlToText(body.slice(0, body.lastIndexOf('\n'))) : '';
-  let how = `curl (HTTP ${code || 'error'})`;
-  if (text.length < 300) {
-    if (state.firecrawlOpens >= FIRECRAWL_OPENS) return `--- ${url} (${how}; Firecrawl cap reached) ---\n(no page text; skip this page)`;
-    state.firecrawlOpens++;
-    save();
-    const r = firecrawl(['scrape', url, '--only-main-content', '--max-age', '86400000'], 90000);
-    text = r.status === 0 ? trimPage(r.stdout) : '';
-    how = r.status === 0 ? 'Firecrawl' : 'curl and Firecrawl both failed';
-  }
-  if (!text) return `--- ${url} (${how}) ---\n(no page text; skip this page)`;
-  return `--- ${url} (${how}), ${Math.min(PAGE_CHARS, text.length)} of ${text.length} chars ---\n${text.slice(0, PAGE_CHARS)}`;
-}
-
-function htmlToText(html) {
-  return html
-    .replace(/<(script|style|noscript|svg|head)[\s\S]*?<\/\1>/gi, ' ')
-    .replace(/<a [^>]*href="([^"#][^"]*)"[^>]*>/gi, ' [link: $1] ')
-    .replace(/<(br|\/p|\/div|\/li|\/h\d|\/tr)[^>]*>/gi, '\n')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/&quot;/g, '"')
-    .replace(/[ \t]+/g, ' ')
-    .replace(/\n\s*\n+/g, '\n')
-    .trim();
+  const r = fetchPage(url);
+  if (!r.markdown) return `--- ${url} (${r.error || 'no text'}) ---\n(no page text; skip this page)`;
+  return `--- ${url} (${r.how}), ${Math.min(PAGE_CHARS, r.markdown.length)} of ${r.markdown.length} chars ---\n${r.markdown.slice(0, PAGE_CHARS)}`;
 }
 
 function count(file) {
@@ -142,7 +116,7 @@ function writeNotes() {
   const lines = [
     '# Web search',
     '',
-    `Queries run: ${state.served} of ${state.queries.length}. Pages opened with Firecrawl: ${state.firecrawlOpens}.`,
+    `Queries run: ${state.served} of ${state.queries.length} (Firecrawl search, about 1 credit each).`,
     '',
     ...state.log.map((l) => `- ${l.query}: ${l.events} new event(s)`),
     '',

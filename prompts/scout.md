@@ -17,9 +17,9 @@ These all exist in your working directory:
 1. **Broken or thin sources.** For each `broken` or `thin` source, work out why. Check whether the site moved, has a better events URL, or offers an ICS or RSS feed: look for "subscribe", "iCal" or "export" links, or try `<url>/calendar.ics`. Also check whether it only renders events with JavaScript, or has simply stopped listing events. Propose a fix, or propose removing the source.
 2. **Coverage gaps.** Take every city below `minEventsPerCity`, and any category that's nearly empty across all cities. Search the web for event sites that would fill the gap: city or town calendars, public libraries, arts councils, local venues, neighborhood associations. Prefer sources with an ICS feed.
 3. **Web-search finds.** Consider adding sites named in `notes/web-search.md` as registry sources.
-4. For each proposed new source, open its events page with `firecrawl scrape <url> --only-main-content --max-age 86400000`. Confirm that it lists upcoming dated events before you propose it.
+4. For each proposed new source, open its events page with `node page.mjs <url>` (free: curl, then a local browser). Confirm that it lists upcoming dated events before you propose it. A site whose page has a calendar feed link (`.ics`, webcal, Trumba, LibCal, Localist) should be proposed as `fetch: "ics"` with the feed URL.
 
-**Firecrawl budget: at most 5 `firecrawl` commands in total (searches and scrapes together), one URL or query per command. Never write scripts or loops that call it.** Credits are limited; when the budget is spent, propose what you have.
+**Search budget: at most 5 `firecrawl search "<query>"` commands in total, one query per command; never use `firecrawl` for anything else, and never write scripts or loops that call it.** Credits are limited; when the budget is spent, propose what you have.
 
 ## Output
 

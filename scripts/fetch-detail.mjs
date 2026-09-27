@@ -4,8 +4,7 @@
 // - at most MAX_DETAILS detail pages per source
 // - the page is trimmed like listing pages and saved as raw/<id>/detail-N.md
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { firecrawl } from './firecrawl.mjs';
-import { trimPage } from './pagetrim.mjs';
+import { fetchPage } from './page.mjs';
 
 const MAX_DETAILS = 5;
 const [id, url] = process.argv.slice(2);
@@ -30,11 +29,11 @@ if (done >= MAX_DETAILS) {
   console.error(`Refused: already fetched ${MAX_DETAILS} detail pages for ${id}. Work with what you have; omit fields you can't confirm.`);
   process.exit(1);
 }
-const r = firecrawl(['scrape', url, '--only-main-content'], 120000);
-if (r.status !== 0) {
-  console.error(`firecrawl failed (${r.status ?? r.signal}): ${(r.stderr || '').trim().slice(0, 300)}`);
+const r = fetchPage(url);
+if (!r.markdown) {
+  console.error(`Could not read ${url}: ${r.error || 'no text'}`);
   process.exit(1);
 }
 const out = `${dir}/detail-${done + 1}.md`;
-writeFileSync(out, `<!-- ${url} -->\n` + trimPage(r.stdout));
+writeFileSync(out, `<!-- ${url} -->\n` + r.markdown);
 console.log(`Saved ${out} (${MAX_DETAILS - done - 1} detail fetches left for ${id}).`);

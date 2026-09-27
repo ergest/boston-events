@@ -3,13 +3,10 @@
 //   node flag.mjs          applies spot/<n>.json for the current event, then prints the next one
 // The agent answers each event by writing spot/<n>.json:
 //   { "action": "keep" }  |  { "action": "fix", "set": { "startTime": "19:00", ... } }  |  { "action": "remove", "why": "..." }
-// Pages are fetched with curl; Firecrawl is only a fallback for blocked pages, capped per run.
-import { spawnSync } from 'node:child_process';
+// Pages are fetched by page.mjs: curl, then a headless local browser if needed.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { firecrawl } from './firecrawl.mjs';
-import { trimPage } from './pagetrim.mjs';
+import { fetchPage } from './page.mjs';
 
-const FIRECRAWL_CAP = Number(process.env.FIRECRAWL_CAP ?? 12);
 const PAGE_CHARS = 4000;
 const FIELDS = ['title', 'date', 'endDate', 'startTime', 'endTime', 'venue', 'address', 'city', 'price', 'url', 'registerUrl', 'description', 'category'];
 
@@ -19,7 +16,7 @@ const rank = (f) => (f.reasons.some((r) => r.startsWith('url ')) ? 0 : f.reasons
 const queue = [...flagged].sort((a, b) => rank(a) - rank(b));
 mkdirSync('spot', { recursive: true });
 const stateFile = 'spot/.state.json';
-const state = existsSync(stateFile) ? JSON.parse(readFileSync(stateFile, 'utf8')) : { served: 0, firecrawl: 0, kept: 0, fixed: 0, removed: [] };
+const state = existsSync(stateFile) ? JSON.parse(readFileSync(stateFile, 'utf8')) : { served: 0, kept: 0, fixed: 0, removed: [] };
 
 // 1. Apply the answer for the event served last.
 if (state.served > 0) {
@@ -81,42 +78,19 @@ if (f.reasons.some((r) => r.startsWith('url ') || r === 'no start time' || r.inc
 console.log(`=== Write your decision to spot/${state.served}.json, then run node flag.mjs ===`);
 
 function page(url, title) {
-  const c = spawnSync('curl', ['-sL', '--max-time', '20', '-A', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 Chrome/126 Safari/537.36', '-w', '\n%{http_code}', url], { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
-  const body = c.stdout ?? '';
-  const code = body.slice(body.lastIndexOf('\n') + 1);
-  let text = code === '200' ? htmlToText(body.slice(0, body.lastIndexOf('\n'))) : '';
-  let how = `curl (HTTP ${code || 'error'})`;
-  if (text.length < 300) {
-    if (state.firecrawl >= FIRECRAWL_CAP) return `--- page (${how}; Firecrawl cap of ${FIRECRAWL_CAP} reached) ---\n(no page text; decide from the record, and keep the event unless you know it is wrong)`;
-    state.firecrawl++;
-    writeFileSync(stateFile, JSON.stringify(state) + '\n');
-    const r = firecrawl(['scrape', url, '--only-main-content', '--max-age', '86400000'], 90000);
-    text = r.status === 0 ? trimPage(r.stdout) : '';
-    how = r.status === 0 ? 'Firecrawl' : `curl and Firecrawl both failed`;
-  }
-  if (!text) return `--- page (${how}) ---\n(no page text; if the link looks dead, remove the event, otherwise keep it)`;
+  const r = fetchPage(url);
+  if (!r.markdown) return `--- page (${r.error || 'no text'}) ---\n(no page text; if the link looks dead, remove the event, otherwise keep it)`;
+  const text = r.markdown;
   const at = text.toLowerCase().indexOf(title.toLowerCase().slice(0, 25));
   const start = at > 500 ? at - 500 : 0;
-  return `--- page (${how}), ${Math.min(PAGE_CHARS, text.length - start)} of ${text.length} chars ---\n${text.slice(start, start + PAGE_CHARS)}`;
-}
-
-function htmlToText(html) {
-  return html
-    .replace(/<(script|style|noscript|svg|head)[\s\S]*?<\/\1>/gi, ' ')
-    .replace(/<a [^>]*href="([^"#][^"]*)"[^>]*>/gi, ' [link: $1] ')
-    .replace(/<(br|\/p|\/div|\/li|\/h\d|\/tr)[^>]*>/gi, '\n')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/&quot;/g, '"')
-    .replace(/[ \t]+/g, ' ')
-    .replace(/\n\s*\n+/g, '\n')
-    .trim();
+  return `--- page (${r.how}), ${Math.min(PAGE_CHARS, text.length - start)} of ${text.length} chars ---\n${text.slice(start, start + PAGE_CHARS)}`;
 }
 
 function writeNotes() {
   const lines = [
     '# Spot-check',
     '',
-    `Flagged: ${queue.length}. Reviewed: ${state.served}. Kept: ${state.kept}. Fixed: ${state.fixed}. Removed: ${state.removed.length}. Firecrawl fallbacks: ${state.firecrawl}.`,
+    `Flagged: ${queue.length}. Reviewed: ${state.served}. Kept: ${state.kept}. Fixed: ${state.fixed}. Removed: ${state.removed.length}.`,
     '',
     ...state.removed.map((r) => `- Removed ${r}`),
   ];

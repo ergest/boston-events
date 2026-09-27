@@ -44,7 +44,8 @@ Requires:
   - `compat: { thinkingFormat: "chat-template", chatTemplateKwargs: { enable_thinking: false } }`, which turns thinking off. Extraction is copying, and thinking was most of each call's output. Unsloth ignored `reasoning_effort: "low"`.
 - Only one large model loaded in Unsloth during a run; two at once pushes a 64 GB Mac into swap.
 - `ANTHROPIC_API_KEY` for the Sonnet steps (web-search, spot-check, scout).
-- A logged-in Firecrawl CLI (`firecrawl --status`).
+- A logged-in Firecrawl CLI (`firecrawl --status`), used only for web searches.
+- Brave, Chrome or Chromium installed (or `BROWSER=/path/to/binary`), for pages that need JavaScript. `scripts/page.mjs` fetches with `curl` first and renders the page headlessly only when `curl` is blocked or gets a JavaScript shell.
 
 Source codons default to `pi/unsloth-hank/peculiar-ragdoll/Tiel-Coder-35B-A3B-MLX-oQ4e-MTP`. Tiel-Coder invented URLs in an early bake-off, so `check.mjs` grounds every link, date, time and feed title in `ground/<id>/`, and `fetch-detail.mjs` only opens links from the listing. The 4-bit build is used over the 6-bit because it's about 1.5× faster and 8 GB smaller. To use a different model:
 
@@ -80,11 +81,11 @@ open app/index.html
     "defaultCategory": "arts & theater", "notes": "optional instructions for this source's agent" }
   ```
 
-  `type` is one of aggregator, civic, university or venue; it sets the codon order. `fetch` is one of: `ics`, a calendar feed parsed by script (free); `json`, where Firecrawl extracts structured events and the agent only sorts them and adds any the extraction missed (5 credits per page); or `page`, markdown the agent extracts events from itself (1 credit per page). Big feeds can add an `exclude` rule (`requireLocation`, `categories`, `titles`) that drops noise before the agent sees it.
+  `type` is one of aggregator, civic, university or venue; it sets the codon order. `fetch` is one of: `ics`, a calendar feed parsed by script; or `page`, listing page(s) fetched as markdown by `page.mjs` that the agent extracts events from. Both are free. Prefer a feed when a site has one: many calendars that look JavaScript-only (Trumba, LibCal, Localist) publish an ICS link. Big feeds can add an `exclude` rule (`requireLocation`, `categories`, `titles`) that drops noise before the agent sees it. A feed event repeated on 3+ days (an exhibition) becomes one record with an `endDate`.
 
 ## Cost
 
-- **Firecrawl:** one credit per `page` source and five per `json` source per run (about 56), plus capped extras: detail pages (5 per source), web search (10 searches and at most 8 Firecrawl page opens), spot-check (at most 12 Firecrawl fallbacks; `curl` first) and scout (at most 5 commands). Expect about 80–110 credits a run. Listing pages are fetched with `--max-age` of one hour so a run never gets yesterday's cached copy. To finish a run whose tail failed without refetching sources, build with `--only '' --reuse <old agentRoot> --no-web-search`. The free plan allows 2 jobs at once; `firecrawl.mjs` waits and retries when both are busy.
+- **Firecrawl:** search only: web-search runs 10 searches and scout at most 5, about 15 credits a run. Every page (listings, detail pages, spot-check, search results) is fetched for free by `page.mjs`. To finish a run whose tail failed without refetching sources, build with `--only '' --reuse <old agentRoot> --no-web-search`. The free plan allows 2 jobs at once; `firecrawl.mjs` waits and retries when both are busy.
 - **Models:** the local source codons cost $0 and take about 2–5 minutes each, so 30 sources is roughly 1.5–2 hours. The Sonnet steps are capped at $4 in total, and with `--source-model haiku` each source codon adds up to $0.30.
 
 ## Scheduling later

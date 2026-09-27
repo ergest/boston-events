@@ -4,8 +4,8 @@
 
 The rig has already fetched it. You get the data **one chunk at a time** from `node chunk.mjs <id>`; it refuses to give the next chunk until you've saved the current one's events. There are two kinds of chunks:
 
-- `events-N.json`: events already parsed from a calendar feed (`fetch: "ics"`) or extracted from the page (`fetch: "json"`), at most 10 per chunk and all inside the window, with `title`, `date`, `startTime`, `endTime`, `location` or `venue`, `url`, `description` (shortened). Your job is triage: keep the public, general-interest events and map each one to the record format.
-- `page-N.md`: a piece of the listing page as markdown. For `fetch: "page"` this is all you get: find each event inside the window and map it. For `fetch: "json"`, the extraction sometimes stops partway down a page, so use page chunks only to add in-window events that no `events-N.json` chunk had.
+- `events-N.json`: events already parsed from a calendar feed (`fetch: "ics"`), at most 10 per chunk and all inside the window, with `title`, `date`, `endDate` (for runs), `startTime`, `endTime`, `location`, `url`, `description` (shortened). Your job is triage: keep the public, general-interest events and map each one to the record format.
+- `page-N.md`: a piece of the listing page as markdown (`fetch: "page"`): find each event inside the window and map it.
 
 `raw/<id>/FETCH_ERROR.txt`, if present, means part or all of the fetch failed.
 

@@ -2,13 +2,11 @@
 // check.mjs and fetch-detail.mjs for grounding); the agent gets small chunks from chunks/<id>/,
 // one at a time through chunk.mjs, so its context stays small on a local model:
 //   ics  → chunks/<id>/events-N.json (at most CHUNK_EVENTS parsed VEVENTs inside the window)
-//   page → chunks/<id>/page-N.md     (Firecrawl markdown, split into ~CHUNK_CHARS pieces)
-//   json → both: Firecrawl-extracted events-N.json plus the page as page-N.md
+//   page → chunks/<id>/page-N.md     (page markdown from page.mjs, split into ~CHUNK_CHARS pieces)
 // Also writes current-source.json. Never exits nonzero: a failed fetch is recorded in
 // raw/<id>/FETCH_ERROR.txt so the agent can report the source as broken.
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
-import { firecrawl } from './firecrawl.mjs';
-import { trimPage } from './pagetrim.mjs';
+import { fetchPage } from './page.mjs';
 
 const CHUNK_CHARS = 12000;
 const CHUNK_EVENTS = 10;
@@ -57,47 +55,17 @@ if (source.fetch === 'ics') {
     }
   }
 } else if (source.fetch === 'page') {
+  // curl first, then a headless local browser for pages that need JavaScript (page.mjs); no paid service.
   for (const url of source.urls) {
-    const r = firecrawl(['scrape', url, '--only-main-content', '--max-age', '3600000'], 180000);
-    if (r.status !== 0) errors.push(`${url}: firecrawl exited ${r.status ?? r.signal}: ${(r.stderr || r.error?.message || '').trim().slice(0, 500)}`);
+    const r = fetchPage(url);
+    if (!r.markdown) errors.push(`${url}: ${r.error || 'no text'}`);
     else {
-      const page = trimPage(r.stdout);
-      pages.push(`<!-- ${url} -->\n` + page);
-      console.log(`${id}: scraped ${url} (${r.stdout.length} → ${page.length} chars)`);
+      pages.push(`<!-- ${url} -->\n` + r.markdown);
+      console.log(`${id}: fetched ${url} with ${r.how} (${r.markdown.length} chars)${r.error ? `; ${r.error}` : ''}`);
     }
-  }
-} else if (source.fetch === 'json') {
-  // Firecrawl extracts records with events.schema.json (5 credits/page, markdown included free).
-  // Records whose url isn't on the page are dropped, so extraction can't invent links; the
-  // trimmed markdown is kept so the agent can add listings the extraction missed.
-  let dropped = 0;
-  for (const url of source.urls) {
-    const r = firecrawl(['scrape', url, '--format', 'json,markdown', '--schema-file', 'events.schema.json', '--max-age', '3600000'], 240000);
-    let data;
-    try {
-      if (r.status !== 0) throw new Error(`firecrawl exited ${r.status ?? r.signal}: ${(r.stderr || '').trim().slice(0, 300)}`);
-      data = JSON.parse(r.stdout);
-    } catch (err) {
-      errors.push(`${url}: ${err.message}`);
-      continue;
-    }
-    const md = data.markdown ?? '';
-    pages.push(`<!-- ${url} -->\n` + trimPage(md));
-    const hhmm = (t) => (/^([01]\d|2[0-3]):[0-5]\d$/.test(t ?? '') ? t : undefined);
-    for (const e of data.json?.events ?? []) {
-      if (!e.url || !md.includes(e.url.replace(/\/+$/, ''))) { dropped++; continue; }
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(e.date ?? '') || e.date < window.start || e.date > window.end) continue;
-      const clean = Object.fromEntries(Object.entries({
-        title: e.title, date: e.date, startTime: hhmm(e.startTime), endTime: hhmm(e.startTime) && hhmm(e.endTime),
-        venue: e.venue, address: e.address, price: e.price, url: e.url, registerUrl: e.registerUrl, description: e.description,
-      }).filter(([, v]) => typeof v === 'string' && v.trim()));
-      if (clean.registerUrl && !md.includes(clean.registerUrl.replace(/\/+$/, ''))) delete clean.registerUrl;
-      events.push(clean);
-    }
-    console.log(`${id}: extracted ${url} (${data.json?.events?.length ?? 0} records, ${dropped} dropped for links not on the page)`);
   }
 } else {
-  errors.push(`unknown fetch method "${source.fetch}"`);
+  errors.push(`unknown fetch method "${source.fetch}" (use "ics" or "page")`);
 }
 
 // Full copies for grounding, then the agent's chunks.
