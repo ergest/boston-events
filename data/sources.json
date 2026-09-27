@@ -29,6 +29,7 @@
     { "id": "arnold-arboretum", "name": "Arnold Arboretum", "type": "venue", "fetch": "page", "urls": ["https://arboretum.harvard.edu/events/"], "cities": ["Boston"], "defaultCategory": "sports & outdoors" },
     { "id": "bso", "name": "Boston Symphony Orchestra", "type": "venue", "fetch": "page", "urls": ["https://www.bso.org/events"], "cities": ["Boston"], "defaultCategory": "music", "notes": "Tanglewood events are in western MA; skip them." },
     { "id": "boch-center", "name": "Boch Center", "type": "venue", "fetch": "page", "urls": ["https://www.bochcenter.org/events"], "cities": ["Boston"], "defaultCategory": "arts & theater" },
-    { "id": "brighton-music-hall", "name": "Brighton Music Hall", "type": "venue", "fetch": "page", "urls": ["https://www.crossroadspresents.com/pages/brighton-music-hall"], "cities": ["Boston"], "defaultCategory": "music" }
+    { "id": "brighton-music-hall", "name": "Brighton Music Hall", "type": "venue", "fetch": "page", "urls": ["https://www.crossroadspresents.com/pages/brighton-music-hall"], "cities": ["Boston"], "defaultCategory": "music" },
+    { "id": "assembly-row", "name": "Assembly Row", "type": "venue", "fetch": "ics", "urls": ["https://assemblyrow.com/events/?ical=1"], "cities": ["Somerville"], "defaultCategory": "festivals & markets", "notes": "Events Calendar feed for Assembly Row (Orange Line): markets, live music on The Lawn, yoga and seasonal events." }
   ]
 }
