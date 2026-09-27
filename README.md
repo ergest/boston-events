@@ -36,6 +36,16 @@ Each run replaces the previous data. Per-source codons use `onFailure: ignore`, 
 
 ## Run it
 
+```sh
+./run.sh              # everything on the local model; about 1.5–2 hours
+./run.sh --push       # same, then commit and push app/data (updates the live demo)
+./run.sh --sonnet     # web-search, spot-check and scout on Claude Sonnet instead
+./run.sh --dry-run    # checks and build only
+open app/index.html
+```
+
+`run.sh` checks the model server and Firecrawl, rebuilds the hank from the registry, keeps the Mac awake (`caffeinate`), prints one line per finished codon with its event count and status, and confirms that `app/data/events.js` was written. Logs and each codon's working files go to `~/hank-runs/boston-events-<date>/`. Set `MODEL=pi/unsloth-hank/<model>` to use another local model.
+
 Requires:
 
 - Unsloth Studio serving the source model on `127.0.0.1:8888`, registered in Pi's `~/.pi/agent/models.json` under the `unsloth-hank` provider. That provider is the same server with hank-only settings, so your interactive Pi setup (`unsloth`) is untouched:
@@ -43,7 +53,7 @@ Requires:
   - `maxTokens: 8000`;
   - `compat: { thinkingFormat: "chat-template", chatTemplateKwargs: { enable_thinking: false } }`, which turns thinking off. Extraction is copying, and thinking was most of each call's output. Unsloth ignored `reasoning_effort: "low"`.
 - Only one large model loaded in Unsloth during a run; two at once pushes a 64 GB Mac into swap.
-- `ANTHROPIC_API_KEY` for the Sonnet steps (web-search, spot-check, scout).
+- `ANTHROPIC_API_KEY`, only with `--sonnet`.
 - A logged-in Firecrawl CLI (`firecrawl --status`), used only for web searches.
 - Brave, Chrome or Chromium installed (or `BROWSER=/path/to/binary`), for pages that need JavaScript. `scripts/page.mjs` fetches with `curl` first and renders the page headlessly only when `curl` is blocked or gets a JavaScript shell.
 
@@ -55,11 +65,12 @@ node scripts/build-hank.mjs --source-model haiku                # cloud Haiku, n
 node scripts/build-hank.mjs --only mit,ica --no-tail --out trial.json   # quick trial on a few sources
 ```
 
+To run Hankweave directly instead of through `run.sh`:
+
 ```sh
-node scripts/build-hank.mjs                     # regenerate hank.json after editing sources.json
-hankweave hank.json data/ --validate
-hankweave hank.json data/ --headless --start-new -e ~/hank-runs/boston-events -o app/data --overwrite-output
-open app/index.html
+node scripts/build-hank.mjs --tail-model pi/unsloth-hank/<model> --out hank-full-local.json
+hankweave hank-full-local.json data/ --validate
+hankweave hank-full-local.json data/ --headless --start-new -e ~/hank-runs/boston-events -o app/data --overwrite-output
 ```
 
 `-o app/data` is where the app reads `events.js`. The same folder also gets `proposed-sources.md`, `flagged.json` and `notes/`.
@@ -90,7 +101,7 @@ open app/index.html
 
 ## Scheduling later
 
-The run command is non-interactive, so it can go into cron or launchd, or a Claude Code `/schedule` routine, unchanged.
+`./run.sh --push` is non-interactive, so it can go into cron or launchd unchanged (the Mac must be awake and Unsloth Studio running at the scheduled time).
 
 ## License
 
