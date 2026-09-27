@@ -3,16 +3,28 @@
 //   - dedupes exact matches (same title, date, city), keeping the most complete record
 //   - checks every url, and flags dead links, listing-page urls, missing times and near-duplicates
 // Writes events.json, flagged.json, notes/merge.md and notes/coverage.md.
+import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
+import { expandUrl } from './page.mjs';
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const window = JSON.parse(readFileSync('window.json', 'utf8'));
 const { sources } = JSON.parse(readFileSync('sources.json', 'utf8'));
-const listingUrls = new Set(sources.flatMap((s) => s.urls).map(normUrl));
+const listingUrls = new Set(sources.flatMap((s) => s.urls).map((u) => normUrl(expandUrl(u, window))));
 // Registry sites were already read through Firecrawl, so a bot-blocking status from them is not a dead link.
 const sourceHosts = new Set(sources.flatMap((s) => s.urls).map((u) => new URL(u).hostname));
 const BOT_BLOCK = /^returned HTTP (401|403|406|429)$/;
 const log = [];
+
+// 0. Join any source whose agent saved part files but never ran join.mjs.
+if (existsSync('events/parts')) {
+  const withParts = new Set(readdirSync('events/parts').map((f) => f.match(/^([a-z0-9-]+)-\d+\.json$/)?.[1]).filter(Boolean));
+  for (const id of withParts) {
+    if (existsSync(`events/${id}.json`)) continue;
+    const r = spawnSync('node', ['join.mjs', id], { encoding: 'utf8' });
+    log.push(r.status === 0 ? `Joined unjoined parts: ${r.stdout.trim()}` : `Could not join ${id}'s parts: ${(r.stderr || '').trim().slice(0, 300)}`);
+  }
+}
 
 // 1. Load
 const all = [];

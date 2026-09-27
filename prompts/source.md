@@ -26,8 +26,8 @@ If a listing lacks the date or time for an otherwise good event, you may open th
 ## Finish
 
 1. If no part was written, write `[]` to `events/parts/<id>-1.json`.
-2. Run `node join.mjs <id>`. It combines the parts into `events/<id>.json`.
+2. `chunk.mjs` joins the parts into `events/<id>.json` after the last chunk. If you wrote `[]` yourself or changed a part since, run `node join.mjs <id>`.
 3. Write `notes/sources/<id>.md`. The first line is exactly one of `status: ok`, `status: thin` (fewer than 3 usable events) or `status: broken` (fetch failed, blocked, or the page no longer lists events). Follow it with a few lines on what you saw and why, e.g. "page is a JS shell with no events", "moved to https://…".
-4. Run `node check.mjs events/<id>.json` and fix every problem it reports. Fix problems in the part files, never in `events/<id>.json` directly, then rerun `node join.mjs <id>` and the check. Do not finish while it fails.
+4. Run `node check.mjs events/<id>.json` and fix every problem it reports. Fix problems in the part files, never in `events/<id>.json` directly, then rerun `node join.mjs <id>` and the check. Do not finish while it fails. Checking part files one by one is not enough: `events/<id>.json` must exist and pass.
 
 Handle only this source. Do not read or edit other sources' files.

@@ -101,3 +101,5 @@ if (problems.length) {
   process.exit(1);
 }
 console.log(`${file} OK: ${events.length} events.`);
+const part = file.match(/^events\/parts\/([a-z0-9-]+)-\d+\.json$/)?.[1];
+if (part) console.log(`That only checks one part's shape. The source is not done until node check.mjs events/${part}.json passes (after node join.mjs ${part}).`);

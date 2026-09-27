@@ -24,7 +24,8 @@ const MIN_TEXT = 3000;
 const MIN_DATES = 8;
 const CHALLENGE = /just a moment|attention required|access denied|verify you are human|enable javascript and cookies/i;
 
-export function fetchPage(url, { browser = 'auto' } = {}) {
+export function fetchPage(url, { browser = 'auto', trimParagraphs = 0 } = {}) {
+  const finish = (r) => ({ ...r, markdown: r.markdown ? trimPage(shorten(r.markdown, trimParagraphs)) : '' });
   let best = { markdown: '', how: '', error: '' };
   if (browser !== 'only') {
     const c = spawnSync('curl', ['-sL', '--compressed', '--max-time', '25', '-A', UA, '-H', 'Accept-Language: en-US,en;q=0.9', '-w', '\n%{http_code}', url], { encoding: 'utf8', maxBuffer: 64 << 20 });
@@ -46,8 +47,23 @@ export function fetchPage(url, { browser = 'auto' } = {}) {
   return finish(score(markdown) > score(best.markdown) ? rendered : best);
 }
 
-function finish(r) {
-  return { ...r, markdown: r.markdown ? trimPage(r.markdown) : '' };
+// Caps the plain text that follows each heading or list item at n characters (0 = keep all), so a
+// listing with long descriptions stays small. Headings, list markers, links and times stay whole.
+function shorten(markdown, n) {
+  if (!n) return markdown;
+  let budget = n;
+  const out = [];
+  for (const line of markdown.split('\n')) {
+    const t = line.trim();
+    if (!t || /^(#|-|\||\[)/.test(t) || t.includes('](') || /^\d{1,2}(:\d\d)?\s*[ap]\.?m/i.test(t)) {
+      if (/^(#|-)/.test(t)) budget = n;
+      out.push(line);
+    } else if (budget > 0) {
+      out.push(t.length > budget ? t.slice(0, budget).replace(/\s+\S*$/, '') + ' …' : t);
+      budget -= t.length;
+    }
+  }
+  return out.join('\n');
 }
 
 function usable(markdown, html) {
@@ -65,8 +81,19 @@ function text(html) {
   return html.replace(/<(script|style|noscript|svg|head|template)[^>]*>[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+// Registry URLs may carry window dates, e.g. ?start={start:YYYYMMDD} or {start+7:YYYY-MM-DD},
+// so a listing can be asked for exactly the run's dates.
+export function expandUrl(url, window) {
+  return url.replace(/\{(start|end)(?:([+-]\d+))?:(YYYYMMDD|YYYY-MM-DD)\}/g, (_, which, offset, format) => {
+    const d = new Date(`${window[which]}T12:00:00Z`);
+    d.setUTCDate(d.getUTCDate() + Number(offset ?? 0));
+    const iso = d.toISOString().slice(0, 10);
+    return format === 'YYYYMMDD' ? iso.replace(/-/g, '') : iso;
+  });
+}
+
 export function htmlToMarkdown(html, baseUrl) {
-  let h = html.replace(/<(script|style|noscript|svg|head|template|iframe|form|select)[^>]*>[\s\S]*?<\/\1>/gi, ' ').replace(/<!--[\s\S]*?-->/g, ' ');
+  let h = html.replace(/\r/g, '').replace(/<(script|style|noscript|svg|head|template|iframe|select)[^>]*>[\s\S]*?<\/\1>/gi, ' ').replace(/<!--[\s\S]*?-->/g, ' ');
   // Prefer the main content, as a scraper's "main content only" would; fall back to the body.
   const main = h.match(/<main[\s>][\s\S]*<\/main>/i)?.[0];
   if (main && text(main).length > 1500) h = main;
@@ -82,12 +109,13 @@ export function htmlToMarkdown(html, baseUrl) {
   };
   return decode(
     h
-      .replace(/<h([1-6])[^>]*>([\s\S]*?)<\/h\1>/gi, (_, n, t) => `\n\n${'#'.repeat(Number(n))} ${inline(t)}\n\n`)
       .replace(/<a\s[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi, (_, href, t) => {
         const link = /^(javascript:|mailto:|tel:|#)/i.test(href) ? '' : abs(href);
         const label = inline(t) || (t.match(/alt=["']([^"']+)/i)?.[1] ?? '');
         return link && label ? `[${label}](${link})` : label;
       })
+      // Headings after links, so a linked title keeps its link.
+      .replace(/<h([1-6])[^>]*>([\s\S]*?)<\/h\1>/gi, (_, n, t) => `\n\n${'#'.repeat(Number(n))} ${inline(t)}\n\n`)
       .replace(/<li[^>]*>/gi, '\n- ')
       .replace(/<(br|hr)\s*\/?>/gi, '\n')
       .replace(/<\/?(p|div|section|article|tr|ul|ol|table|header|aside|dl|dt|dd|time|figure|figcaption)[^>]*>/gi, '\n')

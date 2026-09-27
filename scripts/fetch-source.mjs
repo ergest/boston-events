@@ -6,7 +6,7 @@
 // Also writes current-source.json. Never exits nonzero: a failed fetch is recorded in
 // raw/<id>/FETCH_ERROR.txt so the agent can report the source as broken.
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
-import { fetchPage } from './page.mjs';
+import { expandUrl, fetchPage } from './page.mjs';
 
 const CHUNK_CHARS = 12000;
 const CHUNK_EVENTS = 10;
@@ -39,7 +39,7 @@ const pages = [];
 const shorten = (s) => (s && s.length > DESCRIPTION_CHARS ? s.slice(0, DESCRIPTION_CHARS) + '…' : s);
 
 if (source.fetch === 'ics') {
-  for (const url of source.urls) {
+  for (const url of source.urls.map((u) => expandUrl(u, window))) {
     try {
       const res = await fetch(url, { signal: AbortSignal.timeout(60000) });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -56,8 +56,8 @@ if (source.fetch === 'ics') {
   }
 } else if (source.fetch === 'page') {
   // curl first, then a headless local browser for pages that need JavaScript (page.mjs); no paid service.
-  for (const url of source.urls) {
-    const r = fetchPage(url);
+  for (const url of source.urls.map((u) => expandUrl(u, window))) {
+    const r = fetchPage(url, { trimParagraphs: source.trimParagraphs });
     if (!r.markdown) errors.push(`${url}: ${r.error || 'no text'}`);
     else {
       pages.push(`<!-- ${url} -->\n` + r.markdown);
