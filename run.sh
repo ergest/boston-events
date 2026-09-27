@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Runs the whole hank from a terminal: checks, build, run (Mac kept awake), live progress, and a
-# check that the app data was written. Run logs go to ~/hank-runs/boston-events-<date>/.
+# check that the app data was written. Run logs go to ~/hank-runs/boston-events-<date>/ (the newest
+# KEEP_RUNS, default 5, are kept).
 #
 #   ./run.sh              everything on the local model (no API key needed)
 #   ./run.sh --sonnet     spot-check, discover and scout on Claude Sonnet (needs ANTHROPIC_API_KEY)
@@ -98,6 +99,11 @@ while kill -0 $hw 2> /dev/null; do
 done
 wait $hw 2> /dev/null || true
 kill $progress 2> /dev/null || true
+
+# Keep only the newest KEEP_RUNS run folders (and their logs) in ~/hank-runs.
+KEEP_RUNS=${KEEP_RUNS:-5}
+old_runs=$(ls -1d "$HOME"/hank-runs/boston-events-*/ 2> /dev/null | sed 's#/$##' | sort -r | tail -n +$((KEEP_RUNS + 1)))
+for dir in $old_runs; do rm -rf "$dir" "$dir.log"; done
 
 # 6. Result
 if [ -f app/data/events.js ] && [ "$(stat -f %m app/data/events.js 2> /dev/null || stat -c %Y app/data/events.js)" -ge "$started" ]; then
