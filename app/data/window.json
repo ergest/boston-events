@@ -1,0 +1,29 @@
+{
+  "start": "2026-09-27",
+  "end": "2026-10-11",
+  "cities": [
+    "Boston",
+    "Cambridge",
+    "Somerville",
+    "Brookline",
+    "Newton",
+    "Watertown",
+    "Waltham",
+    "Arlington",
+    "Medford",
+    "Malden",
+    "Quincy",
+    "Dedham"
+  ],
+  "categories": [
+    "music",
+    "arts & theater",
+    "food & drink",
+    "festivals & markets",
+    "family",
+    "tech & talks",
+    "sports & outdoors",
+    "community"
+  ],
+  "minEventsPerCity": 3
+}

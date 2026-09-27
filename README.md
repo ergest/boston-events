@@ -1,6 +1,14 @@
 # Greater Boston Events
 
-A hank that collects upcoming events in Boston and nearby cities, and a local app to browse them, register, and add them to your calendar.
+A [Hankweave](https://hankweave.southbridge.ai) hank that collects the next two weeks of events in Boston and nearby cities, and a small static app to browse them, register, and add them to your calendar.
+
+**Live demo:** https://ergest.github.io/boston-events-hank/ (a snapshot from one run; it is not updated automatically)
+
+![The events app: a day strip, filter chips and an agenda list](docs/screenshot.png)
+
+A hank is a sequence of AI agent steps ("codons") with scripts around them. This one runs one codon per event site in a registry, mostly on a local model, then web-searches for what the registry missed, spot-checks suspicious events, and proposes new sources. Scripts do the fetching and hold every agent to small, checkable steps: data is handed out one chunk at a time, and every URL, date and time has to appear in the fetched page.
+
+The app is a single HTML file with no build step. Open `app/index.html` locally, or serve the repository with GitHub Pages.
 
 ## How it works
 
@@ -78,3 +86,7 @@ open app/index.html
 ## Scheduling later
 
 The run command is non-interactive, so it can go into cron or launchd, or a Claude Code `/schedule` routine, unchanged.
+
+## License
+
+MIT; see [LICENSE](LICENSE). Event listings in `app/data/` belong to their original publishers; each event links back to its source.

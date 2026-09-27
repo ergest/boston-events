@@ -1,0 +1,2 @@
+status: broken
+The Brandeis events page (https://www.brandeis.edu/events/) is a JavaScript-rendered shell. The fetcher only gets the static HTML shell containing the heading "Brandeis Campus Calendar" and "Find Events", with no actual event listings. Events are loaded dynamically via JS, which the fetch tool cannot execute. Tried both /events/ and /events/index.html; same result. No events could be extracted, so no records were written.

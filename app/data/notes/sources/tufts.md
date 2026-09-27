@@ -1,0 +1,2 @@
+status: broken
+The scraped listing page (events.tufts.edu) returned only navigation links and a "Featured Events" section (Admissions & Visits, Submit an Event) — no actual event listings in the window. The raw fetch directory was empty and there was no FETCH_ERROR.txt, so the page appears to be a JS-rendered shell whose event list did not come through in the markdown scrape. No events could be extracted.

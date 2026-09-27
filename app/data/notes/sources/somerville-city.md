@@ -1,0 +1,2 @@
+status: ok
+Fetched the /events page (single chunk). Kept public, in-person general-interest events in the window (2026-09-28 to 2026-09-29). Skipped board/commission meetings, hearings, School Committee meetings, and the virtual/online General Exercise class per the source note. Dropped two same-title same-day duplicates (a second 11:00 Holland Street General Exercise and a second 10:00 Yoga with Louise) — same venue class repeated at a different slot. 10 events kept, split across 2 parts.
