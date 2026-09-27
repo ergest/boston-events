@@ -1,18 +1,5 @@
 [
   {
-    "id": "e1dd101f3f",
-    "title": "Walking Tour of Sumner Hill",
-    "city": "Boston",
-    "venue": "The Loring Greenough House",
-    "date": "2026-09-27",
-    "category": "arts & theater",
-    "url": "https://bostix.org/event/walking-tour-of-sumner-hill-5/",
-    "source": "ArtsBoston Calendar",
-    "description": "A walking tour of the Sumner Hill neighborhood, presented by the Jamaica Plain Historical Society.",
-    "sourceId": "artsboston",
-    "startTime": "14:00"
-  },
-  {
     "id": "ae42867f08",
     "title": "Ying Quartet",
     "city": "Boston",
@@ -24,34 +11,6 @@
     "source": "ArtsBoston Calendar",
     "description": "Chamber music presented by Ashmont Hill Chamber Music.",
     "sourceId": "artsboston"
-  },
-  {
-    "id": "c7f497f867",
-    "title": "Rod Ferguson - Cult Classic",
-    "city": "Boston",
-    "venue": "Club Cafe",
-    "date": "2026-09-27",
-    "category": "music",
-    "url": "https://bostix.org/event/rod-ferguson-cult-classic/",
-    "registerUrl": "https://www.clubcafe.com/club-events/rod-ferguson-092726/?occurrence=2026-09-27",
-    "source": "ArtsBoston Calendar",
-    "description": "Performance presented by Josephine's Cabaret and Club Cafe.",
-    "sourceId": "artsboston",
-    "startTime": "18:00"
-  },
-  {
-    "id": "c0d93a7cda",
-    "title": "Giya Kancheli: The Genius of Silence",
-    "city": "Boston",
-    "venue": "First Church in Boston",
-    "date": "2026-09-27",
-    "category": "music",
-    "url": "https://bostix.org/event/giya-kancheli-the-genius-of-silence/",
-    "registerUrl": "https://www.tixtree.com/e/giya-kancheli-the-genius-of-silence-918a8dd463cc",
-    "source": "ArtsBoston Calendar",
-    "description": "Concert presented by the Amelia Classical Music Series.",
-    "sourceId": "artsboston",
-    "startTime": "18:00"
   },
   {
     "id": "168b9787c1",
@@ -80,21 +39,6 @@
     "sourceId": "artsboston"
   },
   {
-    "id": "c2eb03482f",
-    "title": "Pat Metheny: Side-Eye III+",
-    "city": "Medford",
-    "venue": "Chevalier Theatre",
-    "date": "2026-09-27",
-    "category": "music",
-    "url": "https://bostix.org/event/pat-metheny-side-eye-iii/",
-    "registerUrl": "https://www.ticketmaster.com/pat-metheny-sideeye-iii-medford-massachusetts-09-27-2026/event/0100643893938C35",
-    "source": "ArtsBoston Calendar",
-    "description": "Performance presented by Bill Blumenreich Presents.",
-    "sourceId": "artsboston",
-    "startTime": "19:00",
-    "price": "$63\u2013$261.95"
-  },
-  {
     "id": "6393b6a34f",
     "title": "Puppet Showplace Theater Presents: Sleeping Beauty by Tanglewood Marionettes",
     "city": "Brookline",
@@ -106,62 +50,6 @@
     "source": "ArtsBoston Calendar",
     "description": "A Marionettes production of Sleeping Beauty, presented by Puppet Showplace Theater.",
     "sourceId": "artsboston"
-  },
-  {
-    "id": "c70f6154ba",
-    "title": "Brian Henson's Puppet Up!",
-    "city": "Boston",
-    "venue": "Shubert Theatre",
-    "date": "2026-09-27",
-    "category": "arts & theater",
-    "price": "$59",
-    "url": "https://www.bochcenter.org/events/detail/puppetup",
-    "registerUrl": "https://www.ticketmaster.com/event/0100650BA8ECCB33",
-    "description": "Brian Henson's improvisational comedy puppet show.",
-    "source": "Boch Center",
-    "sourceId": "boch-center",
-    "startTime": "19:00"
-  },
-  {
-    "id": "64ad632287",
-    "title": "Boston Red Sox vs. Chicago Cubs",
-    "city": "Boston",
-    "venue": "Fenway Park",
-    "date": "2026-09-27",
-    "category": "sports & outdoors",
-    "url": "https://www.thebostoncalendar.com/events/boston-red-sox-vs-chicago-cubs",
-    "source": "The Boston Calendar",
-    "description": "Red Sox vs. Cubs, running through 09/27.",
-    "sourceId": "boston-calendar",
-    "startTime": "17:30"
-  },
-  {
-    "id": "6060832787",
-    "title": "Harvard Plaza Farmers Market",
-    "city": "Cambridge",
-    "venue": "Harvard Science Center Plaza",
-    "date": "2026-09-29",
-    "category": "festivals & markets",
-    "url": "https://www.thebostoncalendar.com/events/harvard-plaza-farmers-market",
-    "source": "The Boston Calendar",
-    "description": "Farmers market at Harvard Science Center Plaza, running through 09/29.",
-    "sourceId": "boston-calendar",
-    "startTime": "11:30",
-    "endTime": "17:30"
-  },
-  {
-    "id": "27d36b7809",
-    "title": "Boston Harbor Sunset Sail on a Tall Ship",
-    "city": "Boston",
-    "venue": "Liberty Fleet of Tall Ships",
-    "date": "2026-09-27",
-    "endDate": "2026-09-28",
-    "category": "festivals & markets",
-    "url": "https://www.thebostoncalendar.com/events/boston-harbor-sunset-sail-on-a-tall-ship",
-    "source": "The Boston Calendar",
-    "description": "Sunset sail on a tall ship, running through 09/28.",
-    "sourceId": "boston-calendar",
-    "startTime": "17:00"
   },
   {
     "id": "10023c7185",
@@ -190,49 +78,6 @@
     "sourceId": "boston-calendar"
   },
   {
-    "id": "dc1e062c6b",
-    "title": "The Tall Ship Boston: Floating Oyster Bar & Waterfront Experience",
-    "city": "Boston",
-    "venue": "The Tall Ship",
-    "date": "2026-09-27",
-    "endDate": "2026-09-30",
-    "category": "festivals & markets",
-    "url": "https://www.thebostoncalendar.com/events/the-tall-ship-boston-2022-season-floating-oyster-bar-waterfront-experience-live-music-food-trucks-popups-more",
-    "source": "The Boston Calendar",
-    "description": "Floating oyster bar and waterfront experience with live music and food trucks, running through 09/30.",
-    "sourceId": "boston-calendar",
-    "startTime": "11:00",
-    "endTime": "23:00"
-  },
-  {
-    "id": "7265b36cea",
-    "title": "Boston Harbor Distillery Beverage Garden at The Greenway",
-    "city": "Boston",
-    "venue": "Boston Harbor Distillery At The Greenway",
-    "date": "2026-09-27",
-    "endDate": "2026-10-01",
-    "category": "food & drink",
-    "url": "https://www.thebostoncalendar.com/events/boston-harbor-distillery-beverage-garden-at-the-greenway",
-    "source": "The Boston Calendar",
-    "description": "Beverage garden at Boston Harbor Distillery, running through 10/01.",
-    "sourceId": "boston-calendar",
-    "startTime": "12:00",
-    "endTime": "18:00"
-  },
-  {
-    "id": "dc37467d9c",
-    "title": "Beethoven's Tango",
-    "city": "Cambridge",
-    "venue": "Kresge Little Theater",
-    "date": "2026-09-27",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/beethoven-s-tango",
-    "source": "The Boston Calendar",
-    "description": "Tango performance, running through 09/27.",
-    "sourceId": "boston-calendar",
-    "startTime": "16:30"
-  },
-  {
     "id": "e248b96b1b",
     "title": "King Tut Tasting Experience at Davio's Back Bay",
     "city": "Boston",
@@ -259,125 +104,6 @@
     "sourceId": "boston-calendar"
   },
   {
-    "id": "8ce8721132",
-    "title": "Saguaro Garden Bar | Kendall Square",
-    "city": "Cambridge",
-    "venue": "Saguaro Garden Bar",
-    "date": "2026-09-27",
-    "endDate": "2026-10-01",
-    "category": "food & drink",
-    "url": "https://www.thebostoncalendar.com/events/saguaro-garden-bar-kendall-square",
-    "source": "The Boston Calendar",
-    "description": "Outdoor bar at Kendall Square, running through 10/01.",
-    "sourceId": "boston-calendar",
-    "startTime": "11:00",
-    "endTime": "17:00"
-  },
-  {
-    "id": "31c9eee828",
-    "title": "Tree House Brewing Outdoor Beer Garden at Faneuil Hall",
-    "city": "Boston",
-    "venue": "Faneuil Hall",
-    "date": "2026-09-27",
-    "endDate": "2026-10-04",
-    "category": "food & drink",
-    "url": "https://www.thebostoncalendar.com/events/tree-house-brewing-outdoor-beer-garden-at-faneuil-hall",
-    "source": "The Boston Calendar",
-    "description": "Tree House Brewing outdoor beer garden at Faneuil Hall, running through 10/04.",
-    "sourceId": "boston-calendar",
-    "startTime": "11:00",
-    "endTime": "20:00"
-  },
-  {
-    "id": "c6cdb73839",
-    "title": "Save the Harbor Spectacle Sundays Cruises",
-    "city": "Boston",
-    "venue": "Rowes Wharf",
-    "date": "2026-09-27",
-    "endDate": "2026-10-04",
-    "category": "community",
-    "url": "https://www.thebostoncalendar.com/events/save-the-harbor-spectacle-sundays-cruises",
-    "source": "The Boston Calendar",
-    "description": "Sunday cruises on the Save the Harbor Spectacle, running through 10/04.",
-    "sourceId": "boston-calendar",
-    "startTime": "10:00",
-    "endTime": "14:00"
-  },
-  {
-    "id": "695ff5e30f",
-    "title": "They Say // 2026 Graduate Alumni Exhibition",
-    "city": "Boston",
-    "venue": "MassArt x SoWa",
-    "date": "2026-09-27",
-    "endDate": "2026-10-04",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/they-say-2026-graduate-alumni-exhibition",
-    "source": "The Boston Calendar",
-    "description": "MassArt graduate alumni exhibition, running through 10/04.",
-    "sourceId": "boston-calendar",
-    "startTime": "11:00",
-    "endTime": "17:00"
-  },
-  {
-    "id": "a337a4cd93",
-    "title": "Manhattan Short Film Festival",
-    "city": "Arlington",
-    "venue": "Regent Theatre",
-    "date": "2026-09-27",
-    "endDate": "2026-10-04",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/manhattan-short-film-festival--9",
-    "source": "The Boston Calendar",
-    "description": "Manhattan Short Film Festival, running through 10/04.",
-    "sourceId": "boston-calendar",
-    "startTime": "15:00",
-    "endTime": "17:00"
-  },
-  {
-    "id": "30a29341a2",
-    "title": "William Tell",
-    "city": "Boston",
-    "venue": "Emerson Colonial Theatre",
-    "date": "2026-09-27",
-    "endDate": "2026-10-04",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/william-tell",
-    "source": "The Boston Calendar",
-    "description": "Opera William Tell at Emerson Colonial Theatre, running through 10/04.",
-    "sourceId": "boston-calendar",
-    "startTime": "15:00"
-  },
-  {
-    "id": "2f3be7b9df",
-    "title": "Traditional Kintsugi Foundation Course (4 Sessions)",
-    "city": "Cambridge",
-    "venue": "Sayako Hiroi Studio",
-    "date": "2026-09-27",
-    "endDate": "2026-10-08",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/traditional-kintsugi-foundation-course-4-sessions--5",
-    "source": "The Boston Calendar",
-    "description": "Traditional Kintsugi foundation course over 4 sessions, running through 10/08.",
-    "sourceId": "boston-calendar",
-    "startTime": "13:00",
-    "endTime": "15:00"
-  },
-  {
-    "id": "35957763f5",
-    "title": "'If you can see me, hold me close' Exhibition",
-    "city": "Boston",
-    "venue": "Multicultural Arts Center",
-    "date": "2026-09-27",
-    "endDate": "2026-10-09",
-    "category": "arts & theater",
-    "url": "https://www.thebostoncalendar.com/events/if-you-can-see-me-hold-me-close-exhibition",
-    "source": "The Boston Calendar",
-    "description": "Exhibition at the Multicultural Arts Center, running through 10/09.",
-    "sourceId": "boston-calendar",
-    "startTime": "10:00",
-    "endTime": "18:00"
-  },
-  {
     "id": "85825a46bd",
     "title": "Prospect Hill Tower: History Unlocked Drop-In Chats",
     "city": "Boston",
@@ -389,21 +115,6 @@
     "source": "The Boston Calendar",
     "description": "Drop-in chats at Prospect Hill Monument, running through 10/29.",
     "sourceId": "boston-calendar"
-  },
-  {
-    "id": "f1aa2ffa16",
-    "title": "Open Newbury Street 2026",
-    "city": "Boston",
-    "venue": "Newbury Street",
-    "date": "2026-09-27",
-    "endDate": "2026-10-11",
-    "category": "community",
-    "url": "https://www.thebostoncalendar.com/events/open-newbury-street-2026",
-    "source": "The Boston Calendar",
-    "description": "Open Newbury Street pedestrian event, running through 10/11.",
-    "sourceId": "boston-calendar",
-    "startTime": "10:00",
-    "endTime": "18:00"
   },
   {
     "id": "4e53d08a81",
@@ -510,73 +221,6 @@
     "sourceId": "boston-calendar"
   },
   {
-    "id": "0f1ef8b73e",
-    "title": "Greenway Artisan Market",
-    "city": "Boston",
-    "venue": "Rose Kennedy Greenway",
-    "date": "2026-09-27",
-    "endDate": "2026-10-11",
-    "category": "arts & theater",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/greenway-open-market-boston/p48043.php",
-    "description": "Open-air artisan market in the Wharf District parks, open Saturdays and Sundays with local artists and food trucks.",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "11:00",
-    "endTime": "17:00"
-  },
-  {
-    "id": "9281a5b79b",
-    "title": "Boston Family Days at ICA",
-    "city": "Boston",
-    "venue": "Institute of Contemporary Art",
-    "address": "25 Harbor Shore Drive, Boston, MA, 02210",
-    "date": "2026-09-27",
-    "endDate": "2026-10-11",
-    "category": "family",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/artsculture/p86624.php",
-    "registerUrl": "https://www.bostoncentral.com/events/artsculture/p86624.php",
-    "description": "Free admission to the ICA on the first and second Sundays of the month for Boston families with a Boston Family Days pass.",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "10:00",
-    "endTime": "17:00"
-  },
-  {
-    "id": "b30d4afce7",
-    "title": "SoWa Sundays",
-    "city": "Boston",
-    "venue": "SoWa Art + Food, 450 Harrison Avenue",
-    "address": "450 Harrison Avenue, Boston, MA, 02118",
-    "date": "2026-09-27",
-    "endDate": "2026-10-11",
-    "category": "arts & theater",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/artsculture/p89489.php",
-    "description": "Weekly art market and galleries in the South End, open Sundays 11am to 4pm.",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "11:00",
-    "endTime": "16:00"
-  },
-  {
-    "id": "116384ec24",
-    "title": "Recreation Sundays on Memorial Drive",
-    "city": "Cambridge",
-    "venue": "Memorial Drive",
-    "date": "2026-09-27",
-    "endDate": "2026-10-11",
-    "category": "sports & outdoors",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/recreation-sunday-memorial-drive-cambridge/p2296.php",
-    "description": "Free recurring Sunday recreation on Memorial Drive in Cambridge; occurs Sundays Sept 27, Oct 4, and Oct 11.",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "11:00",
-    "endTime": "19:00"
-  },
-  {
     "id": "af875d9808",
     "title": "Lexicon",
     "city": "Boston",
@@ -586,7 +230,7 @@
     "category": "arts & theater",
     "price": "Free",
     "url": "https://bpl.bibliocommons.com/events/6a5fa79acca66c2f00a4f766",
-    "description": "A free-form structural shell built from individual origami-folded cells assembled into a two-sided lattice. July 2026. Aluminum, 18 \u00d7 18 \u00d7 2 ft. Alfonso Parra Rubio, Erik Strand, MIT Center for Bits and Atoms. Through Nov 1, 2026.",
+    "description": "A free-form structural shell built from individual origami-folded cells assembled into a two-sided lattice. July 2026. Aluminum, 18 × 18 × 2 ft. Alfonso Parra Rubio, Erik Strand, MIT Center for Bits and Atoms. Through Nov 1, 2026.",
     "source": "Boston Public Library",
     "sourceId": "bpl"
   },
@@ -621,7 +265,7 @@
   },
   {
     "id": "e78082d211",
-    "title": "P\u0131nar \u00d6\u011frenci: Gl\u00fcck auf in Deutschland",
+    "title": "Pınar Öğrenci: Glück auf in Deutschland",
     "city": "Cambridge",
     "venue": "Harvard Art Museums",
     "address": "32 Quincy St., Cambridge",
@@ -706,7 +350,7 @@
   },
   {
     "id": "079fc78bc2",
-    "title": "Maverick Kings Three Visionary Pharaohs of Egypt\u2019s Golden Age",
+    "title": "Maverick Kings Three Visionary Pharaohs of Egypt’s Golden Age",
     "city": "Boston",
     "venue": "Museum of Fine Arts",
     "date": "2026-09-27",
@@ -719,7 +363,7 @@
   },
   {
     "id": "60bddc16cf",
-    "title": "Picasso, Mir\u00f3, Dal\u00ed: Unbound",
+    "title": "Picasso, Miró, Dalí: Unbound",
     "city": "Boston",
     "venue": "Museum of Fine Arts",
     "date": "2026-09-27",
@@ -727,7 +371,7 @@
     "category": "arts & theater",
     "url": "https://www.mfa.org/exhibition/picasso-miro-dali-unbound",
     "source": "Museum of Fine Arts",
-    "description": "Modernist works by Picasso, Mir\u00f3, and Dal\u00ed.",
+    "description": "Modernist works by Picasso, Miró, and Dalí.",
     "sourceId": "mfa"
   },
   {
@@ -745,7 +389,7 @@
   },
   {
     "id": "a295c9386f",
-    "title": "\u00d6yvind Fahlstr\u00f6m: Are You Happy?",
+    "title": "Öyvind Fahlström: Are You Happy?",
     "city": "Boston",
     "venue": "Museum of Fine Arts",
     "date": "2026-09-27",
@@ -753,7 +397,7 @@
     "category": "arts & theater",
     "url": "https://www.mfa.org/exhibition/oyvind-fahlstrom-are-you-happy",
     "source": "Museum of Fine Arts",
-    "description": "Exhibition of \u00d6yvind Fahlstr\u00f6m's work.",
+    "description": "Exhibition of Öyvind Fahlström's work.",
     "sourceId": "mfa"
   },
   {
@@ -898,13 +542,13 @@
     "id": "cbe4ae0158",
     "title": "Where's Boston? 50 Years Later",
     "city": "Boston",
-    "venue": "Boston Athen\u00e6um",
+    "venue": "Boston Athenæum",
     "date": "2026-09-27",
     "endDate": "2026-11-08",
     "startTime": "09:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/6/15/wheres-boston-50-years-later-tickets",
-    "description": "Where's Boston? 50 Years Later at Boston Athen\u00e6um, running through Nov 08.",
+    "description": "Where's Boston? 50 Years Later at Boston Athenæum, running through Nov 08.",
     "source": "Do617",
     "sourceId": "do617"
   },
@@ -938,6 +582,69 @@
     "description": "A free group bike ride for families and new riders, hosted by Bike to the Sea Bike Kitchen in Malden.",
     "source": "Malden Events",
     "sourceId": "web-search"
+  },
+  {
+    "id": "c6cdb73839",
+    "title": "Save the Harbor Spectacle Sundays Cruises",
+    "city": "Boston",
+    "venue": "Rowes Wharf",
+    "date": "2026-09-27",
+    "endDate": "2026-10-04",
+    "category": "community",
+    "url": "https://www.thebostoncalendar.com/events/save-the-harbor-spectacle-sundays-cruises",
+    "source": "The Boston Calendar",
+    "description": "Sunday cruises on the Save the Harbor Spectacle, running through 10/04.",
+    "sourceId": "boston-calendar",
+    "startTime": "10:00",
+    "endTime": "14:00"
+  },
+  {
+    "id": "35957763f5",
+    "title": "'If you can see me, hold me close' Exhibition",
+    "city": "Boston",
+    "venue": "Multicultural Arts Center",
+    "date": "2026-09-27",
+    "endDate": "2026-10-09",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/if-you-can-see-me-hold-me-close-exhibition",
+    "source": "The Boston Calendar",
+    "description": "Exhibition at the Multicultural Arts Center, running through 10/09.",
+    "sourceId": "boston-calendar",
+    "startTime": "10:00",
+    "endTime": "18:00"
+  },
+  {
+    "id": "f1aa2ffa16",
+    "title": "Open Newbury Street 2026",
+    "city": "Boston",
+    "venue": "Newbury Street",
+    "date": "2026-09-27",
+    "endDate": "2026-10-11",
+    "category": "community",
+    "url": "https://www.thebostoncalendar.com/events/open-newbury-street-2026",
+    "source": "The Boston Calendar",
+    "description": "Open Newbury Street pedestrian event, running through 10/11.",
+    "sourceId": "boston-calendar",
+    "startTime": "10:00",
+    "endTime": "18:00"
+  },
+  {
+    "id": "9281a5b79b",
+    "title": "Boston Family Days at ICA",
+    "city": "Boston",
+    "venue": "Institute of Contemporary Art",
+    "address": "25 Harbor Shore Drive, Boston, MA, 02210",
+    "date": "2026-09-27",
+    "endDate": "2026-10-11",
+    "category": "family",
+    "price": "Free",
+    "url": "https://www.bostoncentral.com/events/artsculture/p86624.php",
+    "registerUrl": "https://www.bostoncentral.com/events/artsculture/p86624.php",
+    "description": "Free admission to the ICA on the first and second Sundays of the month for Boston families with a Boston Family Days pass.",
+    "source": "Boston Central",
+    "sourceId": "bostoncentral",
+    "startTime": "10:00",
+    "endTime": "17:00"
   },
   {
     "id": "cecac9f829",
@@ -1172,6 +879,115 @@
     "sourceId": "boston-calendar"
   },
   {
+    "id": "dc1e062c6b",
+    "title": "The Tall Ship Boston: Floating Oyster Bar & Waterfront Experience",
+    "city": "Boston",
+    "venue": "The Tall Ship",
+    "date": "2026-09-27",
+    "endDate": "2026-09-30",
+    "category": "festivals & markets",
+    "url": "https://www.thebostoncalendar.com/events/the-tall-ship-boston-2022-season-floating-oyster-bar-waterfront-experience-live-music-food-trucks-popups-more",
+    "source": "The Boston Calendar",
+    "description": "Floating oyster bar and waterfront experience with live music and food trucks, running through 09/30.",
+    "sourceId": "boston-calendar",
+    "startTime": "11:00",
+    "endTime": "23:00"
+  },
+  {
+    "id": "8ce8721132",
+    "title": "Saguaro Garden Bar | Kendall Square",
+    "city": "Cambridge",
+    "venue": "Saguaro Garden Bar",
+    "date": "2026-09-27",
+    "endDate": "2026-10-01",
+    "category": "food & drink",
+    "url": "https://www.thebostoncalendar.com/events/saguaro-garden-bar-kendall-square",
+    "source": "The Boston Calendar",
+    "description": "Outdoor bar at Kendall Square, running through 10/01.",
+    "sourceId": "boston-calendar",
+    "startTime": "11:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "31c9eee828",
+    "title": "Tree House Brewing Outdoor Beer Garden at Faneuil Hall",
+    "city": "Boston",
+    "venue": "Faneuil Hall",
+    "date": "2026-09-27",
+    "endDate": "2026-10-04",
+    "category": "food & drink",
+    "url": "https://www.thebostoncalendar.com/events/tree-house-brewing-outdoor-beer-garden-at-faneuil-hall",
+    "source": "The Boston Calendar",
+    "description": "Tree House Brewing outdoor beer garden at Faneuil Hall, running through 10/04.",
+    "sourceId": "boston-calendar",
+    "startTime": "11:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "695ff5e30f",
+    "title": "They Say // 2026 Graduate Alumni Exhibition",
+    "city": "Boston",
+    "venue": "MassArt x SoWa",
+    "date": "2026-09-27",
+    "endDate": "2026-10-04",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/they-say-2026-graduate-alumni-exhibition",
+    "source": "The Boston Calendar",
+    "description": "MassArt graduate alumni exhibition, running through 10/04.",
+    "sourceId": "boston-calendar",
+    "startTime": "11:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "0f1ef8b73e",
+    "title": "Greenway Artisan Market",
+    "city": "Boston",
+    "venue": "Rose Kennedy Greenway",
+    "date": "2026-09-27",
+    "endDate": "2026-10-11",
+    "category": "arts & theater",
+    "price": "Free",
+    "url": "https://www.bostoncentral.com/events/greenway-open-market-boston/p48043.php",
+    "description": "Open-air artisan market in the Wharf District parks, open Saturdays and Sundays with local artists and food trucks.",
+    "source": "Boston Central",
+    "sourceId": "bostoncentral",
+    "startTime": "11:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "b30d4afce7",
+    "title": "SoWa Sundays",
+    "city": "Boston",
+    "venue": "SoWa Art + Food, 450 Harrison Avenue",
+    "address": "450 Harrison Avenue, Boston, MA, 02118",
+    "date": "2026-09-27",
+    "endDate": "2026-10-11",
+    "category": "arts & theater",
+    "price": "Free",
+    "url": "https://www.bostoncentral.com/events/artsculture/p89489.php",
+    "description": "Weekly art market and galleries in the South End, open Sundays 11am to 4pm.",
+    "source": "Boston Central",
+    "sourceId": "bostoncentral",
+    "startTime": "11:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "116384ec24",
+    "title": "Recreation Sundays on Memorial Drive",
+    "city": "Cambridge",
+    "venue": "Memorial Drive",
+    "date": "2026-09-27",
+    "endDate": "2026-10-11",
+    "category": "sports & outdoors",
+    "price": "Free",
+    "url": "https://www.bostoncentral.com/events/recreation-sunday-memorial-drive-cambridge/p2296.php",
+    "description": "Free recurring Sunday recreation on Memorial Drive in Cambridge; occurs Sundays Sept 27, Oct 4, and Oct 11.",
+    "source": "Boston Central",
+    "sourceId": "bostoncentral",
+    "startTime": "11:00",
+    "endTime": "19:00"
+  },
+  {
     "id": "e7b440aff8",
     "title": "SoWa Vintage Market",
     "city": "Boston",
@@ -1305,6 +1121,21 @@
     "sourceId": "mfa"
   },
   {
+    "id": "7265b36cea",
+    "title": "Boston Harbor Distillery Beverage Garden at The Greenway",
+    "city": "Boston",
+    "venue": "Boston Harbor Distillery At The Greenway",
+    "date": "2026-09-27",
+    "endDate": "2026-10-01",
+    "category": "food & drink",
+    "url": "https://www.thebostoncalendar.com/events/boston-harbor-distillery-beverage-garden-at-the-greenway",
+    "source": "The Boston Calendar",
+    "description": "Beverage garden at Boston Harbor Distillery, running through 10/01.",
+    "sourceId": "boston-calendar",
+    "startTime": "12:00",
+    "endTime": "18:00"
+  },
+  {
     "id": "082e114610",
     "title": "Dolly Parton Drag Brunch at City Winery - Boston",
     "city": "Boston",
@@ -1401,6 +1232,21 @@
     "sourceId": "mfa"
   },
   {
+    "id": "2f3be7b9df",
+    "title": "Traditional Kintsugi Foundation Course (4 Sessions)",
+    "city": "Cambridge",
+    "venue": "Sayako Hiroi Studio",
+    "date": "2026-09-27",
+    "endDate": "2026-10-08",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/traditional-kintsugi-foundation-course-4-sessions--5",
+    "source": "The Boston Calendar",
+    "description": "Traditional Kintsugi foundation course over 4 sessions, running through 10/08.",
+    "sourceId": "boston-calendar",
+    "startTime": "13:00",
+    "endTime": "15:00"
+  },
+  {
     "id": "f35d74db37",
     "title": "Wicked",
     "city": "Boston",
@@ -1415,7 +1261,7 @@
   },
   {
     "id": "f704dac16d",
-    "title": "\u00a1Celebremos Puerto Rico!",
+    "title": "¡Celebremos Puerto Rico!",
     "city": "Cambridge",
     "venue": "Harvard Museum of Natural History",
     "address": "26 Oxford St., Cambridge",
@@ -1494,6 +1340,19 @@
     "sourceId": "mfa"
   },
   {
+    "id": "e1dd101f3f",
+    "title": "Walking Tour of Sumner Hill",
+    "city": "Boston",
+    "venue": "The Loring Greenough House",
+    "date": "2026-09-27",
+    "category": "arts & theater",
+    "url": "https://bostix.org/event/walking-tour-of-sumner-hill-5/",
+    "source": "ArtsBoston Calendar",
+    "description": "A walking tour of the Sumner Hill neighborhood, presented by the Jamaica Plain Historical Society.",
+    "sourceId": "artsboston",
+    "startTime": "14:00"
+  },
+  {
     "id": "a581b63ccf",
     "title": "Live Music Sundays",
     "city": "Boston",
@@ -1531,7 +1390,7 @@
   },
   {
     "id": "71382e39d3",
-    "title": "Chromatic Portals: A Celebration with Silvia L\u00f3pez Chavez and Danza Org\u00e1nica",
+    "title": "Chromatic Portals: A Celebration with Silvia López Chavez and Danza Orgánica",
     "city": "Somerville",
     "venue": "deCordova Sculpture Park and Museum",
     "date": "2026-09-27",
@@ -1613,6 +1472,35 @@
     "sourceId": "harvard"
   },
   {
+    "id": "a337a4cd93",
+    "title": "Manhattan Short Film Festival",
+    "city": "Arlington",
+    "venue": "Regent Theatre",
+    "date": "2026-09-27",
+    "endDate": "2026-10-04",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/manhattan-short-film-festival--9",
+    "source": "The Boston Calendar",
+    "description": "Manhattan Short Film Festival, running through 10/04.",
+    "sourceId": "boston-calendar",
+    "startTime": "15:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "30a29341a2",
+    "title": "William Tell",
+    "city": "Boston",
+    "venue": "Emerson Colonial Theatre",
+    "date": "2026-09-27",
+    "endDate": "2026-10-04",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/william-tell",
+    "source": "The Boston Calendar",
+    "description": "Opera William Tell at Emerson Colonial Theatre, running through 10/04.",
+    "sourceId": "boston-calendar",
+    "startTime": "15:00"
+  },
+  {
     "id": "9c2948f761",
     "title": "The Adventures of Prince Achmed with live accompaniment",
     "city": "Cambridge",
@@ -1685,6 +1573,33 @@
     "sourceId": "boston-calendar"
   },
   {
+    "id": "90b8609ac0",
+    "title": "Public Kitchen at Riverside Press Community Farm",
+    "city": "Cambridge",
+    "venue": "Riverside Press Park",
+    "date": "2026-09-27",
+    "startTime": "16:00",
+    "endTime": "19:00",
+    "category": "food & drink",
+    "url": "https://www.cambridgema.gov/Departments/publicworks/Calendar/2026/09/27/publickitchenatriversidepresscommunityfarm",
+    "source": "City of Cambridge calendar",
+    "description": "Public Kitchen at Riverside Press Community Farm every Sunday through October 4.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "dc37467d9c",
+    "title": "Beethoven's Tango",
+    "city": "Cambridge",
+    "venue": "Kresge Little Theater",
+    "date": "2026-09-27",
+    "category": "arts & theater",
+    "url": "https://www.thebostoncalendar.com/events/beethoven-s-tango",
+    "source": "The Boston Calendar",
+    "description": "Tango performance, running through 09/27.",
+    "sourceId": "boston-calendar",
+    "startTime": "16:30"
+  },
+  {
     "id": "8ffeac161f",
     "title": "Unlimited Steak Frites",
     "city": "Boston",
@@ -1698,6 +1613,33 @@
     "sourceId": "do617"
   },
   {
+    "id": "27d36b7809",
+    "title": "Boston Harbor Sunset Sail on a Tall Ship",
+    "city": "Boston",
+    "venue": "Liberty Fleet of Tall Ships",
+    "date": "2026-09-27",
+    "endDate": "2026-09-28",
+    "category": "festivals & markets",
+    "url": "https://www.thebostoncalendar.com/events/boston-harbor-sunset-sail-on-a-tall-ship",
+    "source": "The Boston Calendar",
+    "description": "Sunset sail on a tall ship, running through 09/28.",
+    "sourceId": "boston-calendar",
+    "startTime": "17:00"
+  },
+  {
+    "id": "64ad632287",
+    "title": "Boston Red Sox vs. Chicago Cubs",
+    "city": "Boston",
+    "venue": "Fenway Park",
+    "date": "2026-09-27",
+    "category": "sports & outdoors",
+    "url": "https://www.thebostoncalendar.com/events/boston-red-sox-vs-chicago-cubs",
+    "source": "The Boston Calendar",
+    "description": "Red Sox vs. Cubs, running through 09/27.",
+    "sourceId": "boston-calendar",
+    "startTime": "17:30"
+  },
+  {
     "id": "81a101bcc0",
     "title": "Sunday Supper Club: Harvest Spectacular with Laura Imhoff of Roots & Spoon",
     "city": "Boston",
@@ -1708,6 +1650,34 @@
     "url": "https://www.thebostoncalendar.com/events/sunday-supper-club-harvest-spectacular-with-laura-imhoff-of-roots-spoon",
     "source": "The Boston Calendar",
     "sourceId": "boston-calendar"
+  },
+  {
+    "id": "c7f497f867",
+    "title": "Rod Ferguson - Cult Classic",
+    "city": "Boston",
+    "venue": "Club Cafe",
+    "date": "2026-09-27",
+    "category": "music",
+    "url": "https://bostix.org/event/rod-ferguson-cult-classic/",
+    "registerUrl": "https://www.clubcafe.com/club-events/rod-ferguson-092726/?occurrence=2026-09-27",
+    "source": "ArtsBoston Calendar",
+    "description": "Performance presented by Josephine's Cabaret and Club Cafe.",
+    "sourceId": "artsboston",
+    "startTime": "18:00"
+  },
+  {
+    "id": "c0d93a7cda",
+    "title": "Giya Kancheli: The Genius of Silence",
+    "city": "Boston",
+    "venue": "First Church in Boston",
+    "date": "2026-09-27",
+    "category": "music",
+    "url": "https://bostix.org/event/giya-kancheli-the-genius-of-silence/",
+    "registerUrl": "https://www.tixtree.com/e/giya-kancheli-the-genius-of-silence-918a8dd463cc",
+    "source": "ArtsBoston Calendar",
+    "description": "Concert presented by the Amelia Classical Music Series.",
+    "sourceId": "artsboston",
+    "startTime": "18:00"
   },
   {
     "id": "9f89b5b4e1",
@@ -1818,6 +1788,36 @@
     "sourceId": "boston-calendar"
   },
   {
+    "id": "c2eb03482f",
+    "title": "Pat Metheny: Side-Eye III+",
+    "city": "Medford",
+    "venue": "Chevalier Theatre",
+    "date": "2026-09-27",
+    "category": "music",
+    "url": "https://bostix.org/event/pat-metheny-side-eye-iii/",
+    "registerUrl": "https://www.ticketmaster.com/pat-metheny-sideeye-iii-medford-massachusetts-09-27-2026/event/0100643893938C35",
+    "source": "ArtsBoston Calendar",
+    "description": "Performance presented by Bill Blumenreich Presents.",
+    "sourceId": "artsboston",
+    "startTime": "19:00",
+    "price": "$63–$261.95"
+  },
+  {
+    "id": "c70f6154ba",
+    "title": "Brian Henson's Puppet Up!",
+    "city": "Boston",
+    "venue": "Shubert Theatre",
+    "date": "2026-09-27",
+    "category": "arts & theater",
+    "price": "$59",
+    "url": "https://www.bochcenter.org/events/detail/puppetup",
+    "registerUrl": "https://www.ticketmaster.com/event/0100650BA8ECCB33",
+    "description": "Brian Henson's improvisational comedy puppet show.",
+    "source": "Boch Center",
+    "sourceId": "boch-center",
+    "startTime": "19:00"
+  },
+  {
     "id": "69bcb57160",
     "title": "McCarthys Irish Session",
     "city": "Cambridge",
@@ -1878,6 +1878,21 @@
     "description": "Weezer, The Shins, and Silversun Pickups live at TD Garden.",
     "source": "Do617",
     "sourceId": "do617"
+  },
+  {
+    "id": "9b6895ec1d",
+    "title": "Cambridge NITES: Lilypad's 20th Anniversary Party",
+    "city": "Cambridge",
+    "venue": "Lilypad",
+    "address": "1353 Cambridge Street, Cambridge, MA 02139",
+    "date": "2026-09-27",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "category": "food & drink",
+    "url": "https://www.cambridgema.gov/CDD/Calendar/2026/09/27/cambridgeniteslilypads20thanniversaryparty",
+    "source": "City of Cambridge calendar",
+    "description": "The Lilypad in Inman Square will host a three-day 20th anniversary party. This family-friendly event has something for everyone, including the launch of the Lilypad's new program.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "41c0822ab4",
@@ -2471,6 +2486,21 @@
     "sourceId": "somerville-city"
   },
   {
+    "id": "aec7609392",
+    "title": "Back-to-School Locker Magnets (O'Neill)",
+    "city": "Cambridge",
+    "venue": "O'Neill Branch",
+    "address": "70 Rindge Ave., Cambridge, MA 02140",
+    "date": "2026-09-28",
+    "startTime": "15:30",
+    "endTime": "17:00",
+    "category": "family",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/28/backtoschoollockermagnetsoneill",
+    "source": "City of Cambridge calendar",
+    "description": "Kids in 6th, 7th and 8th grade can come to the Library to make magnets to decorate their lockers! Snacks provided. No registration necessary.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "71d0c18979",
     "title": "Daily Yoga",
     "city": "Boston",
@@ -2552,7 +2582,7 @@
   },
   {
     "id": "3e20780a82",
-    "title": "Latin America in a Changing Global Landscape: Democracy, Political Cycles, and Geopolitical Challenges ft. Leonel Fern\u00e1ndez",
+    "title": "Latin America in a Changing Global Landscape: Democracy, Political Cycles, and Geopolitical Challenges ft. Leonel Fernández",
     "city": "Cambridge",
     "venue": "JFK Jr. Forum, Institute of Politics, Harvard Kennedy School",
     "address": "79 JFK St., Cambridge",
@@ -2562,7 +2592,7 @@
     "category": "tech & talks",
     "price": "Free",
     "url": "https://iop.harvard.edu/events/latin-america-changing-global-landscape-democracy-political-cycles-and-geopolitical",
-    "description": "Discussion with Leonel Fern\u00e1ndez, former President of the Dominican Republic, hosted by the Institute of Politics.",
+    "description": "Discussion with Leonel Fernández, former President of the Dominican Republic, hosted by the Institute of Politics.",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
   },
@@ -2582,6 +2612,21 @@
     "description": "As part of Year of the Neighbor initiative, neighbors can learn about overdose prevention with the Health and Human Services Department.",
     "source": "City of Somerville events",
     "sourceId": "somerville-city"
+  },
+  {
+    "id": "651d8002ec",
+    "title": "CPL International Briefing: The Situation in Sudan (Main)",
+    "city": "Cambridge",
+    "venue": "Main Library",
+    "address": "449 Broadway, Cambridge, MA 02138",
+    "date": "2026-09-28",
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/28/cplinternationalbriefingthesituationinsudanmain",
+    "source": "City of Cambridge calendar",
+    "description": "Sudan has been embroiled in a civil war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF). Learn about the conflict and its humanitarian impact.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "947f319f4f",
@@ -2817,6 +2862,20 @@
     "sourceId": "brookline-library"
   },
   {
+    "id": "6060832787",
+    "title": "Harvard Plaza Farmers Market",
+    "city": "Cambridge",
+    "venue": "Harvard Science Center Plaza",
+    "date": "2026-09-29",
+    "category": "festivals & markets",
+    "url": "https://www.thebostoncalendar.com/events/harvard-plaza-farmers-market",
+    "source": "The Boston Calendar",
+    "description": "Farmers market at Harvard Science Center Plaza, running through 09/29.",
+    "sourceId": "boston-calendar",
+    "startTime": "11:30",
+    "endTime": "17:30"
+  },
+  {
     "id": "86eff17cec",
     "title": "Carmen Winant: Double Jeopardy Exhibition",
     "city": "Cambridge",
@@ -2923,6 +2982,21 @@
     "sourceId": "boston-gov"
   },
   {
+    "id": "a48433676c",
+    "title": "Fresh Pond Wild Edibles Walk with Russ Cohen (Main)",
+    "city": "Cambridge",
+    "venue": "Main Library",
+    "address": "449 Broadway, Cambridge, MA 02138",
+    "date": "2026-09-29",
+    "startTime": "15:30",
+    "endTime": "18:00",
+    "category": "sports & outdoors",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/29/freshpondwildedibleswalkwithrusscohenmain",
+    "source": "City of Cambridge calendar",
+    "description": "Cambridge is home to over 80 species of edible wild plants, some of which are more nutritious and/or flavorful than their cultivated counterparts. Join Russ Cohen to identify them in the field.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "707bad5b55",
     "title": "Digital Scholarship Open House",
     "city": "Medford",
@@ -3017,7 +3091,7 @@
   },
   {
     "id": "7352d8e6ed",
-    "title": "Harvard Science Book Talk \u2014 Sherry Turkle in conversation with David Kaiser, \"Artificial Intimacy: Who We Become When We Talk to Machines\"",
+    "title": "Harvard Science Book Talk — Sherry Turkle in conversation with David Kaiser, \"Artificial Intimacy: Who We Become When We Talk to Machines\"",
     "city": "Cambridge",
     "venue": "Science Center Hall B",
     "address": "1 Oxford St., Cambridge",
@@ -3131,7 +3205,7 @@
     "price": "",
     "url": "https://www.bso.org/events/sep-30-oct-3-rachmaninoff",
     "registerUrl": "https://secure.bso.org/syos/performance/28480",
-    "description": "A full Rachmaninoff program conducted by Andris Nelsons with pianist Seong-Jin Cho, performed across Sep 30\u2013Oct 3.",
+    "description": "A full Rachmaninoff program conducted by Andris Nelsons with pianist Seong-Jin Cho, performed across Sep 30–Oct 3.",
     "source": "Boston Symphony Orchestra",
     "sourceId": "bso"
   },
@@ -3165,6 +3239,21 @@
     "description": "Join Mayor Michelle Wu and City Staff for coffee and conversation!",
     "source": "City of Boston events",
     "sourceId": "boston-gov"
+  },
+  {
+    "id": "8c659c686a",
+    "title": "CPL Nature Club: Morning Bird Watching Walk at Mt. Auburn Cemetery (Collins)",
+    "city": "Cambridge",
+    "venue": "Collins Branch",
+    "address": "64 Aberdeen Ave., Cambridge, MA 02138",
+    "date": "2026-09-30",
+    "startTime": "10:15",
+    "endTime": "11:30",
+    "category": "sports & outdoors",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/30/cplnatureclubmorningbirdwatchingwalkatmtauburncemeterycollins",
+    "source": "City of Cambridge calendar",
+    "description": "Join us for a morning walk at one of the most renowned bird watching spots in Cambridge, Mount Auburn Cemetery! Identify birds, learn birdwatching tips and tricks.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "8868e88f64",
@@ -3370,6 +3459,20 @@
     "sourceId": "mfa"
   },
   {
+    "id": "c7bef0facf",
+    "title": "Recurring: Malden Farmers Market",
+    "city": "Malden",
+    "venue": "Malden City Hall Plaza",
+    "date": "2026-09-30",
+    "startTime": "15:00",
+    "category": "food & drink",
+    "price": "Free",
+    "url": "https://www.maldenevents.com/09/30/2026/recurring-malden-farmers-market/",
+    "description": "Recurring weekly Malden Farmers Market at City Hall Plaza.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "216bab2a48",
     "title": "The Future Starts Here",
     "city": "Cambridge",
@@ -3396,6 +3499,36 @@
     "description": "Draw Along Creatures is a learn-to-draw program focusing on animals. After creating a drawing of popular creatures from simple shapes, the artist instructor will show kids how to create scenes.",
     "source": "Newton Free Library",
     "sourceId": "newton-library"
+  },
+  {
+    "id": "d47d304a97",
+    "title": "Olé Flamenco: Flamenco for Everybody (Main)",
+    "city": "Cambridge",
+    "venue": "Main Library",
+    "address": "449 Broadway, Cambridge, MA 02138",
+    "date": "2026-09-30",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/30/oleflamencoflamencoforeverybodymain",
+    "source": "City of Cambridge calendar",
+    "description": "Eve Costarelli, of Always Be Dancing, will lead this interactive, engaging program for families that will get everyone dancing: body-stretching, hand-clapping and foot-stomping.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "4ea3483339",
+    "title": "Read to a Dog (O'Connell)",
+    "city": "Cambridge",
+    "venue": "O'Connell Branch",
+    "address": "48 Sixth St., Cambridge, MA 02141",
+    "date": "2026-09-30",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "category": "family",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/30/readtoadogoconnell",
+    "source": "City of Cambridge calendar",
+    "description": "Read with Bowie the Therapy Dog from Pets & People! Therapy dogs provide warm and non-judgmental reading companions for new or experienced readers of all ages.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "4159724f21",
@@ -3508,7 +3641,7 @@
   },
   {
     "id": "a5aa984685",
-    "title": "The Environment Forum with Sonja D\u00fcmpelmann | Trees and the City: A History of Public Health",
+    "title": "The Environment Forum with Sonja Dümpelmann | Trees and the City: A History of Public Health",
     "city": "Cambridge",
     "venue": "Sever Hall (Room 113, Harvard Yard)",
     "address": "Harvard Yard, Cambridge",
@@ -3552,6 +3685,21 @@
     "description": "Lecture by Paola Antonelli co-presented by the Harvard Committee on the Arts (HUCA) and TDM.",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
+  },
+  {
+    "id": "7166a295ae",
+    "title": "\"An Aprann Pale Kreyól\": Haitian-Creole Conversational Group (Central Square)",
+    "city": "Cambridge",
+    "venue": "Central Square Branch",
+    "address": "45 Pearl St., Cambridge, MA 02139",
+    "date": "2026-09-30",
+    "startTime": "18:30",
+    "endTime": "19:30",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/09/30/anaprannpalekreyolhaitiancreoleconversationalgroupcentralsquare",
+    "source": "City of Cambridge calendar",
+    "description": "A Haitian-Creole conversational group. Learn to speak Creole in a friendly, low-pressure setting open to the public.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "a399ed5c2c",
@@ -3713,7 +3861,7 @@
   },
   {
     "id": "68e20adae2",
-    "title": "Warren Alpert Foundation Prize Symposium \u2014 From Discovery to Therapy: Gene-Based Treatments for Sickle Cell Disease and Beta-Thalassemia",
+    "title": "Warren Alpert Foundation Prize Symposium — From Discovery to Therapy: Gene-Based Treatments for Sickle Cell Disease and Beta-Thalassemia",
     "city": "Boston",
     "venue": "Joseph B. Martin Conference Center, Harvard Medical School",
     "address": "77 Avenue Louis Pasteur, Boston",
@@ -3770,6 +3918,21 @@
     "sourceId": "brookline-library"
   },
   {
+    "id": "6df045670a",
+    "title": "Read to a Dog (Valente)",
+    "city": "Cambridge",
+    "venue": "Valente Branch",
+    "address": "826 Cambridge St., Cambridge, MA 02141",
+    "date": "2026-10-01",
+    "startTime": "15:30",
+    "endTime": "17:00",
+    "category": "family",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/01/readtoadogvalente",
+    "source": "City of Cambridge calendar",
+    "description": "Read to Dante, our local cuddly therapy dog! Trained therapy dogs provide warm and non-judgmental reading companions for new or experienced readers up to age 14.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "b1372f6ec1",
     "title": "Immigrant Advancement Community Office Hours - East Boston",
     "city": "Boston",
@@ -3811,7 +3974,7 @@
     "category": "tech & talks",
     "price": "Free",
     "url": "https://daviscenter.fas.harvard.edu/events/un-and-hungarian-revolution-1956-70-year-retrospective",
-    "description": "Lecture by Andr\u00e1s Nagy on the UN and the Hungarian Revolution.",
+    "description": "Lecture by András Nagy on the UN and the Hungarian Revolution.",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
   },
@@ -3825,7 +3988,7 @@
     "endTime": "18:30",
     "category": "community",
     "url": "https://brooklinelibrary.libcal.com/event/17622546",
-    "description": "Join local author and educator Tanya Mont\u00e1s Paris for a special evening celebrating stories, memories, language, creativity, and family through storytelling, poetry, and hands-on activities.",
+    "description": "Join local author and educator Tanya Montás Paris for a special evening celebrating stories, memories, language, creativity, and family through storytelling, poetry, and hands-on activities.",
     "source": "Public Library of Brookline",
     "sourceId": "brookline-library"
   },
@@ -4094,6 +4257,20 @@
     "sourceId": "luma-boston"
   },
   {
+    "id": "8ed916cb6b",
+    "title": "Meet Your Neighbor Bingo at the North Cambridge Senior Center",
+    "city": "Cambridge",
+    "venue": "North Cambridge Senior Center",
+    "date": "2026-10-02",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/10/02/meetyourneighborbingoinnorthcambridge",
+    "source": "City of Cambridge calendar",
+    "description": "Join us for Bingo and get to know your neighbors! The Cambridge Peace Commission is hosting this special gathering for Meet Your Neighbor Month, a nationwide initiative.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "76120fb5cc",
     "title": "Maker Morning Storytime",
     "city": "Newton",
@@ -4108,8 +4285,23 @@
     "sourceId": "newton-library"
   },
   {
+    "id": "84694d5f57",
+    "title": "Picture Book Read-a-Thon (O'Neill)",
+    "city": "Cambridge",
+    "venue": "O'Neill Branch",
+    "address": "70 Rindge Ave., Cambridge, MA 02140",
+    "date": "2026-10-02",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "category": "family",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/02/picturebookreadathononeill",
+    "source": "City of Cambridge calendar",
+    "description": "Our 1,000 Books Before Kindergarten program is celebrating 10 years of early literacy! Join us for a read-a-thon of our favorite brand new picture books.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "00515f41ed",
-    "title": "COMSOL Multiphysics\u00ae, Surrogate Models, and Digital Twins Workshop",
+    "title": "COMSOL Multiphysics®, Surrogate Models, and Digital Twins Workshop",
     "city": "Boston",
     "venue": "Northeastern University",
     "date": "2026-10-02",
@@ -4136,6 +4328,53 @@
     "description": "Discussion on social security reform at the Mossavar-Rahmani Center for Business & Government.",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
+  },
+  {
+    "id": "d615f86b40",
+    "title": "Carl Barron Plaza Ribbon Cutting Celebration",
+    "city": "Cambridge",
+    "venue": "Carl Barron Plaza",
+    "address": "632 Massachusetts Ave, Cambridge MA, 02139",
+    "date": "2026-10-02",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/publicworks/Calendar/2026/10/02/carlbarronplazaribboncuttingcelebration",
+    "source": "City of Cambridge calendar",
+    "description": "Join us for the Ribbon Cutting Celebration of the newly reimagined Carl Barron Plaza.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "54e90adde2",
+    "title": "Farmers Market Fridays",
+    "city": "Somerville",
+    "venue": "Assembly Line Park",
+    "address": "375 Assembly Row, Somerville, MA 02145",
+    "date": "2026-10-02",
+    "startTime": "15:00",
+    "endTime": "19:00",
+    "category": "food & drink",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/farmers-market-fridays-102/",
+    "description": "Shop for fresh, locally sourced food and products every Friday from 3-7PM through October 9 on The Row. Goods from nearly 30 New England-based farmers each week.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
+  },
+  {
+    "id": "d89f95c061",
+    "title": "Fresh Finances Workshop",
+    "city": "Somerville",
+    "venue": "Capital One Café",
+    "address": "425 Revolution Drive, Somerville, MA 02145",
+    "date": "2026-10-02",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "category": "community",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/fresh-finances-workshop-2/",
+    "description": "Free 60-minute financial workshops hosted at the Assembly Row Capital One Café while you shop at the Farmers Market.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
   },
   {
     "id": "b180ff1eee",
@@ -4243,7 +4482,7 @@
   },
   {
     "id": "79317c8449",
-    "title": "It Would Be Night in Caracas (A\u00fan es de noche en Caracas)",
+    "title": "It Would Be Night in Caracas (Aún es de noche en Caracas)",
     "city": "Boston",
     "venue": "Museum of Fine Arts",
     "date": "2026-10-02",
@@ -4370,8 +4609,52 @@
     "sourceId": "mos"
   },
   {
+    "id": "068dad3cad",
+    "title": "Stop Scrolling and Start Sketching Outdoor Art Class",
+    "city": "Malden",
+    "venue": "Pine Banks Park",
+    "date": "2026-10-03",
+    "startTime": "09:00",
+    "category": "arts & theater",
+    "url": "https://www.maldenevents.com/10/03/2026/stop-scrolling-and-start-sketching-outdoor-art-class/",
+    "registerUrl": "https://www.thegreatmaldenoutdoors.com/events#seasonal",
+    "description": "An outdoor art sketching class.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
+    "id": "28a132fc3f",
+    "title": "Yoga in the Park",
+    "city": "Somerville",
+    "venue": "Baxter Park",
+    "address": "Baxter Park, Somerville, MA 02145",
+    "date": "2026-10-03",
+    "startTime": "09:30",
+    "endTime": "10:30",
+    "category": "sports & outdoors",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/yoga-in-the-park-15/",
+    "description": "Free riverfront yoga along the Mystic, sponsored by Mass General Brigham Health Plan and run by YogaSoul. Last yoga in the park of the year.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
+  },
+  {
+    "id": "df20caccdd",
+    "title": "2026 Bow Tie Bike Ride",
+    "city": "Cambridge",
+    "venue": "Sennott Park",
+    "date": "2026-10-03",
+    "startTime": "09:30",
+    "endTime": "12:00",
+    "category": "sports & outdoors",
+    "url": "https://www.cambridgema.gov/Departments/transportation/Calendar/2026/10/03/2026bowtiebikeride",
+    "source": "City of Cambridge calendar",
+    "description": "Trace the city's bow tie shape on the annual Bow Tie Bike Ride, hosted by the Cambridge Bicycle Committee and Department of Transportation! This relaxed, family-friendly ride will start and end at Sennott Park.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "feb0a98817",
-    "title": "Terapia de Bosque en Espa\u00f1ol: Caminando con Gratitud",
+    "title": "Terapia de Bosque en Español: Caminando con Gratitud",
     "city": "Boston",
     "venue": "Flora Way Gate (Formerly Bussey St Gate)",
     "date": "2026-10-03",
@@ -4428,7 +4711,7 @@
     "category": "family",
     "url": "https://www.mfa.org/event/gallery-activities-and-tours/drop-in-art-making?event=178771",
     "source": "Museum of Fine Arts",
-    "description": "Drop-in art-making inspired by the Picasso, Mir\u00f3, Dal\u00ed: Unbound exhibition and bookmaking.",
+    "description": "Drop-in art-making inspired by the Picasso, Miró, Dalí: Unbound exhibition and bookmaking.",
     "sourceId": "mfa"
   },
   {
@@ -4491,7 +4774,7 @@
   },
   {
     "id": "62c394a8d5",
-    "title": "Little Hands, Big Signs\u2122 with Signing Basics",
+    "title": "Little Hands, Big Signs™ with Signing Basics",
     "city": "Brookline",
     "venue": "Hunneman Hall - Brookline Village",
     "date": "2026-10-03",
@@ -4505,7 +4788,7 @@
   },
   {
     "id": "d6e60e6429",
-    "title": "Taiwanese Storytime - \u53f0\u8a9e\u8b1b\u53e4\u6642\u9593",
+    "title": "Taiwanese Storytime - 台語講古時間",
     "city": "Brookline",
     "venue": "Meeting Room - Coolidge Corner",
     "date": "2026-10-03",
@@ -4528,7 +4811,7 @@
     "endTime": "16:00",
     "category": "festivals & markets",
     "url": "https://luma.com/c1ybafc6",
-    "description": "A day of discovery, design, and community at Maum Market \u2014 a curated marketplace at Seaport Common in Boston.",
+    "description": "A day of discovery, design, and community at Maum Market — a curated marketplace at Seaport Common in Boston.",
     "source": "Luma Boston",
     "sourceId": "luma-boston"
   },
@@ -4545,6 +4828,20 @@
     "source": "Museum of Fine Arts",
     "description": "Discovery cart activity in the galleries, theme: Silver.",
     "sourceId": "mfa"
+  },
+  {
+    "id": "393e86c08c",
+    "title": "Celebrating Disability Pride",
+    "city": "Cambridge",
+    "venue": "Joan Lorentz Park",
+    "date": "2026-10-03",
+    "startTime": "11:00",
+    "endTime": "14:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/citycalendar/2026/10/03/celebratingdisabilitypride",
+    "source": "City of Cambridge calendar",
+    "description": "A community-wide event with the purpose of elevating the dignity, visibility and equitable inclusion of people who identify as having a disability in Cambridge.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "423d556f60",
@@ -4652,6 +4949,21 @@
     "sourceId": "harvard"
   },
   {
+    "id": "559ff73528",
+    "title": "Costume Swap! All Ages (O'Neill)",
+    "city": "Cambridge",
+    "venue": "O'Neill Branch",
+    "address": "70 Rindge Ave., Cambridge, MA 02140",
+    "date": "2026-10-03",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/03/costumeswapallagesoneill",
+    "source": "City of Cambridge calendar",
+    "description": "Shop our community swap for free spooky season costumes for all ages! Drop gently worn costumes off at the O'Neill Branch.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "03e3744ad6",
     "title": "The Human Condition II: Road to Eternity",
     "city": "Cambridge",
@@ -4668,6 +4980,20 @@
     "sourceId": "harvard"
   },
   {
+    "id": "3ab6c82bfc",
+    "title": "Discover Malden Center's New Works of Art",
+    "city": "Malden",
+    "venue": "Malden Center",
+    "date": "2026-10-03",
+    "startTime": "16:00",
+    "category": "arts & theater",
+    "url": "https://www.maldenevents.com/10/03/2026/discover-malden-center-s-new-works-of-art/",
+    "registerUrl": "https://www.eventbrite.com/e/public-art-tour-tickets-1998453400919?aff=ebdssbdestsearch",
+    "description": "A public art tour of new works of art in Malden Center.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "1c4b945758",
     "title": "Jordan Rudess + jam_bot: A Human-AI Musical Dialogue Performance",
     "city": "Cambridge",
@@ -4680,6 +5006,22 @@
     "source": "MIT Events",
     "description": "Jordan Rudess performs at MIT's Thomas Tull Concert Hall during MIT Future Fest alongside musical guests and jam_bot, an AI model. A second concert is held at 8pm the same evening.",
     "sourceId": "mit"
+  },
+  {
+    "id": "eed5d8c810",
+    "title": "Live Music on The Lawn",
+    "city": "Somerville",
+    "venue": "The Lawn",
+    "address": "301 Assembly Row, Somerville, MA 02145",
+    "date": "2026-10-03",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "category": "music",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/live-music-on-the-lawn-5/",
+    "description": "Kick off your Friday evening with live music on The Lawn. Ethan Robbins brings a mix of crowd favorites, classic hits, and sing-along tunes.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
   },
   {
     "id": "ce58f73ef0",
@@ -4959,6 +5301,20 @@
     "sourceId": "northeastern"
   },
   {
+    "id": "e33fb53e09",
+    "title": "Malden River Works Park Grand Opening",
+    "city": "Malden",
+    "venue": "Malden River Works Park",
+    "date": "2026-10-04",
+    "startTime": "13:00",
+    "category": "community",
+    "price": "Free",
+    "url": "https://www.maldenevents.com/10/04/2026/malden-river-works-park-grand-opening/",
+    "description": "Grand opening celebration of Malden River Works Park.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "1cabe24e7a",
     "title": "Beeches Up Close",
     "city": "Boston",
@@ -5019,6 +5375,21 @@
     "sourceId": "harvard"
   },
   {
+    "id": "ccf5035a4f",
+    "title": "FREE Leaf Peeping Hikes for All Ages",
+    "city": "Malden",
+    "venue": "Middlesex Fells Reservation",
+    "date": "2026-10-04",
+    "startTime": "15:30",
+    "category": "sports & outdoors",
+    "price": "Free",
+    "url": "https://www.maldenevents.com/10/04/2026/free-leaf-peeping-hikes-for-all-ages/",
+    "registerUrl": "https://www.eventbrite.com/e/hike-the-fells-from-malden-tickets-1998903794057?aff=oddtdtcreator",
+    "description": "Free leaf-epiking hikes open to all ages in the Middlesex Fells.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "6ea50aaeb7",
     "title": "Kelsey Lu: So Help Me God Tour (18+)",
     "city": "Boston",
@@ -5043,7 +5414,7 @@
     "price": "",
     "url": "https://www.bochcenter.org/events/detail/chelseawolfe",
     "registerUrl": "https://www.ticketmaster.com/event/010064D19EA3D45D",
-    "description": "With special guest Jonathan Hult\u00e9n.",
+    "description": "With special guest Jonathan Hultén.",
     "source": "Boch Center",
     "sourceId": "boch-center"
   },
@@ -5121,7 +5492,7 @@
   },
   {
     "id": "3d62814b2d",
-    "title": "Public Research Talk: Choosing Good or Evil\u2014Royce and Emerson on Knowing the Difference with Scott Pratt",
+    "title": "Public Research Talk: Choosing Good or Evil—Royce and Emerson on Knowing the Difference with Scott Pratt",
     "city": "Cambridge",
     "venue": "Center for the Study of World Religions (Common Room)",
     "address": "42 Francis Ave., Cambridge",
@@ -5208,6 +5579,20 @@
     "description": "Lecture by retired US Ambassador Richard E. Hoagland on U.S. diplomacy in Central Asia.",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
+  },
+  {
+    "id": "3293d5938a",
+    "title": "Reception: See How Playground Structures Are Hand-Crafted By Cambridge Artist Mitch Ryerson",
+    "city": "Cambridge",
+    "venue": "Mitch Ryerson playground exhibition",
+    "date": "2026-10-05",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "category": "arts & theater",
+    "url": "https://www.cambridgema.gov/arts/Calendar/2026/10/05/mitchryersongalleryreception",
+    "source": "City of Cambridge calendar",
+    "description": "See how play spaces take shape, from first sketch to finished structures, in a hands-on exhibition of playground design by Cambridge artist Mitch Ryerson.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "dcaa0f8872",
@@ -5309,6 +5694,36 @@
     "sourceId": "brookline-library"
   },
   {
+    "id": "c8585c5d09",
+    "title": "Paint Party at the Library (O'Connell)",
+    "city": "Cambridge",
+    "venue": "O'Connell Branch",
+    "address": "48 Sixth St., Cambridge, MA 02141",
+    "date": "2026-10-06",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "category": "arts & theater",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/06/paintpartyatthelibraryoconnell",
+    "source": "City of Cambridge calendar",
+    "description": "Treat yourself to an afternoon of fun, creativity, and community while a local artist guides us step-by-step through the process of creating a beautiful acrylic painting.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "04952551d2",
+    "title": "CPL Nature Club - Alewife Afternoon Nature Walk (O'Neill)",
+    "city": "Cambridge",
+    "venue": "O'Neill Branch",
+    "address": "70 Rindge Ave., Cambridge, MA 02140",
+    "date": "2026-10-06",
+    "startTime": "15:30",
+    "endTime": "16:30",
+    "category": "sports & outdoors",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/06/cplnatureclubalewifeafternoonnaturewalkoneill",
+    "source": "City of Cambridge calendar",
+    "description": "Come explore the nature in our urban backyard! We will take a leisurely walk as we observe and learn together about the animals and plants at Alewife Reservation. Binoculars welcome.",
+    "sourceId": "cambridge-city"
+  },
+  {
     "id": "f8273e2e8d",
     "title": "Back to the Library Night",
     "city": "Brookline",
@@ -5349,6 +5764,21 @@
     "description": "An evening of connection with culture workers preserving Boston community histories, bringing together community historians, artists, and storykeepers.",
     "source": "Northeastern University Calendar",
     "sourceId": "northeastern"
+  },
+  {
+    "id": "77c99c8979",
+    "title": "Theaster Gates and Henry Louis Gates Jr. present: Another View (Main)",
+    "city": "Cambridge",
+    "venue": "Main Library",
+    "address": "449 Broadway, Cambridge, MA 02138",
+    "date": "2026-10-06",
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "category": "arts & theater",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/06/theastergatesandhenrylouisgatesjrpresentanotherviewmain",
+    "source": "City of Cambridge calendar",
+    "description": "Harvard Book Store and the Cambridge Public Library welcome Theaster Gates—award-winning artist, professor at the University of Chicago, and Director of Artists Initiatives at the Lunder Institute—for Another View.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "62c86a87ed",
@@ -5545,7 +5975,7 @@
     "category": "music",
     "url": "https://calendar.mit.edu/event/henri-selmer-paris-showcase-and-demo",
     "source": "MIT Events",
-    "description": "Try amazing Selmer saxophones and clarinets and learn about the legendary brand. Hosted by Associate Professor and Selmer Artist Miguel Zen\u00f3n and Selmer Brand Ambassador Guillaume P\u00e9lissier.",
+    "description": "Try amazing Selmer saxophones and clarinets and learn about the legendary brand. Hosted by Associate Professor and Selmer Artist Miguel Zenón and Selmer Brand Ambassador Guillaume Pélissier.",
     "sourceId": "mit"
   },
   {
@@ -5592,6 +6022,20 @@
     "sourceId": "brookline-library"
   },
   {
+    "id": "8602adcc89",
+    "title": "Recurring: Malden Farmers Market",
+    "city": "Malden",
+    "venue": "Malden City Hall Plaza",
+    "date": "2026-10-07",
+    "startTime": "15:00",
+    "category": "food & drink",
+    "price": "Free",
+    "url": "https://www.maldenevents.com/10/07/2026/recurring-malden-farmers-market/",
+    "description": "Recurring weekly Malden Farmers Market at City Hall Plaza.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "884f0a89ba",
     "title": "CSSH Co-op Poster Expo & Employer Mixer 2026",
     "city": "Boston",
@@ -5633,6 +6077,36 @@
     "description": "If you are stuck in the chaos of life and are ready to take action and pursue your dreams, act now! Take this time to gain greater clarity in your life and move closer to your dreams.",
     "source": "Newton Free Library",
     "sourceId": "newton-library"
+  },
+  {
+    "id": "ed16db0707",
+    "title": "Pop-Up Recycling Event",
+    "city": "Cambridge",
+    "venue": "161 Garden Street",
+    "address": "161 Garden Street, Cambridge",
+    "date": "2026-10-07",
+    "startTime": "16:00",
+    "endTime": "19:30",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/publicworks/Calendar/2026/10/07/popuprecyclingevent",
+    "source": "City of Cambridge calendar",
+    "description": "Join City Staff for the ninth pop-up recycling event on Wednesday, October 7 from 4-7:30 p.m. at 161 Garden Street, in the parking lot next to St. Peters Softball Field.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "d274d6549f",
+    "title": "City of Cambridge Women's Business Month Kick-Off Event",
+    "city": "Cambridge",
+    "venue": "212 Kitchen",
+    "address": "212 Western Avenue",
+    "date": "2026-10-07",
+    "startTime": "17:00",
+    "endTime": "19:30",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/CDD/Calendar/2026/10/07/cityofcambridgewomensbusinessmonthkickoffevent",
+    "source": "City of Cambridge calendar",
+    "description": "Celebrate the start of Women's Business Month with the City of Cambridge Community Development Department.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "2726be188a",
@@ -5694,6 +6168,36 @@
     "source": "Harvard Gazette events",
     "sourceId": "harvard",
     "registerUrl": "https://www.eventbrite.com/e/daniel-e-lieberman-at-the-harvard-science-center-tickets-1997183434415?aff=oddtdtcreator"
+  },
+  {
+    "id": "6056aab2a8",
+    "title": "Café y Chisme (Valente)",
+    "city": "Cambridge",
+    "venue": "Valente Branch",
+    "address": "826 Cambridge St., Cambridge, MA 02141",
+    "date": "2026-10-07",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "category": "community",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/07/cafeychismevalente",
+    "source": "City of Cambridge calendar",
+    "description": "Join us for coffee and conversation! Meet your neighbors and converse in Spanish. Fluent speakers and learners alike are welcome. Coffee provided. Registration recommended.",
+    "sourceId": "cambridge-city"
+  },
+  {
+    "id": "39129a2f0a",
+    "title": "CPL Presents: Opera UnTapped Celebración! (Main)",
+    "city": "Cambridge",
+    "venue": "Main Library",
+    "address": "449 Broadway, Cambridge, MA 02138",
+    "date": "2026-10-07",
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "category": "arts & theater",
+    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/10/07/cplpresentsoperauntappedcelebracionmain",
+    "source": "City of Cambridge calendar",
+    "description": "In honor of Hispanic Heritage Month, join us for a fantastic evening celebrating Latin American voice and piano music, featuring sopranos Hannah Shannefield and Isis Bermudez Rivera and a countertenor.",
+    "sourceId": "cambridge-city"
   },
   {
     "id": "1497433df6",
@@ -5956,6 +6460,20 @@
     "sourceId": "northeastern"
   },
   {
+    "id": "40aec30ff0",
+    "title": "Trivia on Tap",
+    "city": "Malden",
+    "venue": "Idle Hands Craft Ales",
+    "date": "2026-10-08",
+    "startTime": "18:15",
+    "category": "community",
+    "url": "https://www.maldenevents.com/10/08/2026/trivia-on-tap/",
+    "registerUrl": "https://www.zeffy.com/en-US/ticketing/trivia-on-tap",
+    "description": "Trivia night at Idle Hands Craft Ales.",
+    "source": "Malden Events",
+    "sourceId": "malden-events"
+  },
+  {
     "id": "d9bfe93365",
     "title": "Isaiah Falls: LVRS Paradise Side B Tour",
     "city": "Boston",
@@ -6018,7 +6536,7 @@
   },
   {
     "id": "5c5179b84f",
-    "title": "Spanish Storytime! La Hora de Cuentos en Espa\u00f1ol!",
+    "title": "Spanish Storytime! La Hora de Cuentos en Español!",
     "city": "Brookline",
     "venue": "Meeting Room - Coolidge Corner",
     "date": "2026-10-09",
@@ -6057,6 +6575,22 @@
     "description": "Cheer on the Northeastern field hockey team at Dedham Field.",
     "source": "Northeastern University Calendar",
     "sourceId": "northeastern"
+  },
+  {
+    "id": "3c356bfbae",
+    "title": "Farmers Market Fridays",
+    "city": "Somerville",
+    "venue": "Assembly Line Park",
+    "address": "375 Assembly Row, Somerville, MA 02145",
+    "date": "2026-10-09",
+    "startTime": "15:00",
+    "endTime": "19:00",
+    "category": "food & drink",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/farmers-market-fridays-109/",
+    "description": "The FINAL Farmers Market Friday from 3-7PM right here on The Row. Goods from nearly 30 New England-based farmers.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
   },
   {
     "id": "bd9022e441",
@@ -6208,7 +6742,7 @@
     "category": "family",
     "url": "https://www.mfa.org/event/gallery-activities-and-tours/drop-in-art-making?event=178781",
     "source": "Museum of Fine Arts",
-    "description": "Drop-in art-making inspired by the Picasso, Mir\u00f3, Dal\u00ed: Unbound exhibition and bookmaking.",
+    "description": "Drop-in art-making inspired by the Picasso, Miró, Dalí: Unbound exhibition and bookmaking.",
     "sourceId": "mfa"
   },
   {
@@ -6240,6 +6774,22 @@
     "description": "Feeling creative this fall? We are going to paint some pumpkins to celebrate the fall season. You bring your ideas, we'll provide all of the supplies. We will be using acrylic paint.",
     "source": "Newton Free Library",
     "sourceId": "newton-library"
+  },
+  {
+    "id": "3f13925f06",
+    "title": "October Makers Market",
+    "city": "Somerville",
+    "venue": "Assembly Line Park",
+    "address": "375 Assembly Row, Somerville, MA 02145",
+    "date": "2026-10-10",
+    "startTime": "11:00",
+    "endTime": "17:00",
+    "category": "festivals & markets",
+    "price": "Free",
+    "url": "https://assemblyrow.com/event/october-makers-market/",
+    "description": "Shop over 30 women-founded small businesses on The Row between Shake Shack and Tatte, the last BWM Makers Market of the year.",
+    "source": "Assembly Row",
+    "sourceId": "assembly-row"
   },
   {
     "id": "2952c1424a",

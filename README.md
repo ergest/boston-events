@@ -81,6 +81,14 @@ hankweave hank-full-local.json data/ --headless --start-new -e ~/hank-runs/bosto
 2. Paste the approved **Add** and **Fix** entries into `data/sources.json`, and delete approved **Remove** entries.
 3. Run `node scripts/build-hank.mjs`.
 
+To add new or fixed sources to the current data without a full run, run just those sources and append their events (each replaces that source's old events; the rest, including spot-check fixes, stays as it is):
+
+```sh
+node scripts/build-hank.mjs --only assembly-row,malden-events --no-tail --out hank-finish.json
+hankweave hank-finish.json data/ --headless --start-new -y -e ~/hank-runs/boston-events-extra
+node scripts/add-sources.mjs ~/hank-runs/boston-events-extra/agentRoot
+```
+
 ## Configure
 
 - `data/config.json`: cities, `daysAhead` (default 14), categories, and `minEventsPerCity` (the threshold the scout uses to spot gaps).
