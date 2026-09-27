@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 960" width="1040" height="960" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>How the Greater Boston Events hank runs</title>
+  <style>
+    .bg { fill: #fbfaf7; }
+    .t { fill: #1c1c1a; }
+    .m { fill: #6a6a64; }
+    .h { font-weight: 700; }
+    .local { fill: #e8f0fe; stroke: #2463b8; }
+    .tail { fill: #f3e8fd; stroke: #7b3fb5; }
+    .script { fill: #efede6; stroke: #8a877d; }
+    .file { fill: #ffffff; stroke: #8a877d; stroke-dasharray: 4 3; }
+    .inset { fill: #ffffff; stroke: #d8d5cc; }
+    .loop { fill: #f6f9ff; stroke: #2463b8; stroke-dasharray: 5 3; }
+    .col { fill: #ffffff; stroke: #b9cdf0; }
+    .arrow { stroke: #55534d; stroke-width: 1.6; fill: none; marker-end: url(#a); }
+    .back { stroke: #b2361f; stroke-width: 1.6; fill: none; stroke-dasharray: 6 4; marker-end: url(#b); }
+    .link { stroke: #b9b6ad; stroke-width: 1.2; fill: none; stroke-dasharray: 3 3; }
+    .red { fill: #b2361f; }
+    .blue { fill: #2463b8; }
+    .purple { fill: #7b3fb5; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #161615; }
+      .t { fill: #ecebe6; }
+      .m { fill: #9b9a93; }
+      .local { fill: #17263d; stroke: #7eaef0; }
+      .tail { fill: #2a1d38; stroke: #b98ae6; }
+      .script { fill: #262624; stroke: #8f8c84; }
+      .file { fill: #1d1d1b; stroke: #8f8c84; }
+      .inset { fill: #1d1d1b; stroke: #3a3a36; }
+      .loop { fill: #1a2536; stroke: #7eaef0; }
+      .col { fill: #1d1d1b; stroke: #33507a; }
+      .arrow { stroke: #b4b2aa; }
+      .link { stroke: #55534d; }
+      .red { fill: #ee8a74; } .back { stroke: #ee8a74; }
+      .blue { fill: #7eaef0; }
+      .purple { fill: #b98ae6; }
+    }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#55534d"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b2361f"/></marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1040" height="960" rx="14"/>
+  <text class="t h" x="40" y="40" font-size="20">How a run works</text>
+  <text class="m" x="40" y="60" font-size="13">One Hankweave run: every registered site, then web search, spot-check, scout and export. Scripts do the fetching; agents work in small, checked steps.</text>
+
+  <!-- Build band -->
+  <rect class="file" x="40" y="84" width="200" height="48" rx="8"/>
+  <text class="t h" x="56" y="104" font-size="13.5">data/sources.json</text>
+  <text class="m" x="56" y="122" font-size="12">27 sites · config.json</text>
+  <path class="arrow" d="M240 108 H290"/>
+  <rect class="script" x="292" y="84" width="200" height="48" rx="8"/>
+  <text class="t h" x="308" y="104" font-size="13.5">build-hank.mjs</text>
+  <text class="m" x="308" y="122" font-size="12">one codon per site</text>
+  <path class="arrow" d="M492 108 H542"/>
+  <rect class="file" x="544" y="84" width="200" height="48" rx="8"/>
+  <text class="t h" x="560" y="104" font-size="13.5">hank.json</text>
+  <text class="m" x="560" y="122" font-size="12">31 codons, generated</text>
+  <path class="arrow" d="M140 132 V166"/>
+
+  <!-- 1 preflight -->
+  <rect class="script" x="40" y="168" width="520" height="44" rx="8"/>
+  <text class="t h" x="56" y="195" font-size="14">preflight</text>
+  <text class="m" x="140" y="195" font-size="12.5">is the local model server up and answering? if not, stop (~3 s)</text>
+  <path class="arrow" d="M300 212 V236"/>
+
+  <!-- 2 source codons -->
+  <rect class="local" x="40" y="238" width="520" height="252" rx="10"/>
+  <text class="t h" x="56" y="264" font-size="14">27 source codons</text>
+  <text class="m" x="190" y="264" font-size="12.5">one per site · local Tiel-Coder 35B via Pi · 2–5 min each</text>
+  <g font-size="11.5">
+    <rect class="col" x="54" y="278" width="118" height="198" rx="7"/>
+    <text class="blue h" x="64" y="298" font-size="12">aggregators · 7</text>
+    <text class="t" x="64" y="318">do617</text><text class="t" x="64" y="336">boston-calendar</text><text class="t" x="64" y="354">allevents-boston</text><text class="t" x="64" y="372">eventbrite-boston</text><text class="t" x="64" y="390">bostoncentral</text><text class="t" x="64" y="408">luma-boston</text><text class="t" x="64" y="426">artsboston</text>
+    <rect class="col" x="180" y="278" width="118" height="198" rx="7"/>
+    <text class="blue h" x="190" y="298" font-size="12">civic · 6</text>
+    <text class="t" x="190" y="318">boston-gov</text><text class="t" x="190" y="336">bpl</text><text class="t" x="190" y="354">cambridge-city</text><text class="t" x="190" y="372">somerville-city</text><text class="t" x="190" y="390">brookline-library</text><text class="t" x="190" y="408">newton-library</text>
+    <rect class="col" x="306" y="278" width="118" height="198" rx="7"/>
+    <text class="blue h" x="316" y="298" font-size="12">universities · 6</text>
+    <text class="t" x="316" y="318">mit</text><text class="t" x="316" y="336">northeastern</text><text class="t" x="316" y="354">harvard</text><text class="t" x="316" y="372">bu</text><text class="t" x="316" y="390">tufts</text><text class="t" x="316" y="408">brandeis</text>
+    <rect class="col" x="432" y="278" width="118" height="198" rx="7"/>
+    <text class="blue h" x="442" y="298" font-size="12">venues · 8</text>
+    <text class="t" x="442" y="318">mfa</text><text class="t" x="442" y="336">ica</text><text class="t" x="442" y="354">gardner</text><text class="t" x="442" y="372">mos</text><text class="t" x="442" y="390">arnold-arboretum</text><text class="t" x="442" y="408">bso</text><text class="t" x="442" y="426">boch-center</text><text class="t" x="442" y="444" font-size="10.8">brighton-music-hall</text>
+  </g>
+  <text class="m" x="64" y="466" font-size="11">a broken site fails alone (onFailure: ignore)</text>
+  <path class="arrow" d="M300 490 V516"/>
+
+  <!-- 3 web-search -->
+  <rect class="tail" x="40" y="518" width="520" height="70" rx="10"/>
+  <text class="t h" x="56" y="543" font-size="14">web-search</text>
+  <text class="m" x="150" y="543" font-size="12.5">events no registered site listed → events/web-search.json</text>
+  <text class="t" x="56" y="566" font-size="12">search.mjs serves 10 fixed queries, one at a time, thinnest cities first;</text>
+  <text class="t" x="56" y="582" font-size="12">known.mjs "&lt;title&gt;" checks for duplicates · ≤3 pages per query, ≤8 via Firecrawl</text>
+  <path class="arrow" d="M300 588 V614"/>
+
+  <!-- 4 spot-check -->
+  <rect class="tail" x="40" y="616" width="520" height="70" rx="10"/>
+  <text class="t h" x="56" y="641" font-size="14">spot-check</text>
+  <text class="m" x="150" y="641" font-size="12.5">merge.mjs: merge, dedupe, check every URL → flagged.json</text>
+  <text class="t" x="56" y="664" font-size="12">flag.mjs serves one flagged event with its page already fetched; the agent</text>
+  <text class="t" x="56" y="680" font-size="12">answers keep / fix / remove, applied at once · curl first, ≤12 via Firecrawl</text>
+  <path class="arrow" d="M300 686 V712"/>
+
+  <!-- 5 scout -->
+  <rect class="tail" x="40" y="714" width="520" height="54" rx="10"/>
+  <text class="t h" x="56" y="739" font-size="14">scout</text>
+  <text class="m" x="110" y="739" font-size="12.5">coverage gaps and broken sites → proposed-sources.md</text>
+  <text class="m" x="56" y="757" font-size="12">never edits the registry itself · ≤5 Firecrawl commands</text>
+  <path class="arrow" d="M300 768 V794"/>
+
+  <!-- 6 export -->
+  <rect class="script" x="40" y="796" width="520" height="44" rx="8"/>
+  <text class="t h" x="56" y="823" font-size="14">export</text>
+  <text class="m" x="120" y="823" font-size="12.5">check.mjs, then export.mjs → app/data/events.js</text>
+  <path class="arrow" d="M300 840 V866"/>
+  <rect class="file" x="40" y="868" width="520" height="48" rx="8"/>
+  <text class="t h" x="56" y="889" font-size="13.5">app/index.html</text>
+  <text class="m" x="56" y="906" font-size="12">day strip · filters · agenda · add to calendar · GitHub Pages</text>
+
+  <!-- review loop back to the registry -->
+  <path class="back" d="M40 741 H20 V108 H38"/>
+  <text class="red" x="0" y="0" font-size="12" transform="translate(14 520) rotate(-90)">you review proposals and paste approved entries</text>
+
+  <!-- Inset: inside one source codon -->
+  <path class="link" d="M560 300 H600"/>
+  <rect class="inset" x="600" y="168" width="400" height="520" rx="12"/>
+  <text class="t h" x="620" y="196" font-size="14">Inside one source codon</text>
+
+  <rect class="script" x="620" y="212" width="360" height="58" rx="8"/>
+  <text class="t h" x="636" y="234" font-size="13">rig: fetch-source.mjs &lt;id&gt;</text>
+  <text class="m" x="636" y="254" font-size="12">ICS feed (free) · page via Firecrawl · JSON extraction</text>
+  <path class="arrow" d="M720 270 V292"/><path class="arrow" d="M880 270 V292"/>
+
+  <rect class="file" x="620" y="294" width="172" height="52" rx="8"/>
+  <text class="t h" x="634" y="315" font-size="12.5">ground/&lt;id&gt;/</text>
+  <text class="m" x="634" y="333" font-size="11.5">full copy, for checking</text>
+  <rect class="file" x="808" y="294" width="172" height="52" rx="8"/>
+  <text class="t h" x="822" y="315" font-size="12.5">chunks/&lt;id&gt;/</text>
+  <text class="m" x="822" y="333" font-size="11.5">~12K-char pieces</text>
+  <path class="arrow" d="M894 346 V372"/>
+
+  <rect class="loop" x="620" y="374" width="360" height="118" rx="10"/>
+  <text class="t h" x="636" y="398" font-size="13">node chunk.mjs &lt;id&gt;</text>
+  <text class="t" x="636" y="418" font-size="12">prints one chunk; the agent turns it into</text>
+  <text class="t" x="636" y="436" font-size="12">events/parts/&lt;id&gt;-N.json (≤10 events)</text>
+  <text class="m" x="636" y="458" font-size="11.5">won't serve the next chunk until that part exists,</text>
+  <text class="m" x="636" y="475" font-size="11.5">so context stays small and nothing is lost</text>
+  <text class="blue h" x="948" y="400" font-size="20">↻</text>
+  <path class="arrow" d="M800 492 V516"/>
+
+  <rect class="script" x="620" y="518" width="360" height="58" rx="8"/>
+  <text class="t h" x="636" y="540" font-size="13">join.mjs → check.mjs</text>
+  <text class="m" x="636" y="560" font-size="12">every URL, date, time and title must appear in ground/</text>
+  <path class="arrow" d="M800 576 V600"/>
+
+  <rect class="file" x="620" y="602" width="360" height="66" rx="8"/>
+  <text class="t h" x="636" y="624" font-size="13">events/&lt;id&gt;.json</text>
+  <text class="t h" x="636" y="646" font-size="13">notes/sources/&lt;id&gt;.md</text>
+  <text class="m" x="800" y="646" font-size="12">status: ok | thin | broken</text>
+
+  <!-- Legend -->
+  <g font-size="12">
+    <rect class="local" x="600" y="714" width="18" height="14" rx="3"/><text class="t" x="626" y="726">agent codon on the local model</text>
+    <rect class="tail" x="600" y="738" width="18" height="14" rx="3"/><text class="t" x="626" y="750">agent codon (Sonnet by default, or local)</text>
+    <rect class="script" x="600" y="762" width="18" height="14" rx="3"/><text class="t" x="626" y="774">script step, no model</text>
+    <rect class="file" x="600" y="786" width="18" height="14" rx="3"/><text class="t" x="626" y="798">file</text>
+  </g>
+  <text class="m" x="600" y="832" font-size="12">Budgets: a codon over its time limit finishes with what it</text>
+  <text class="m" x="600" y="848" font-size="12">has saved instead of stopping the run. Firecrawl: about</text>
+  <text class="m" x="600" y="864" font-size="12">80–110 credits a run; listing pages are never over 1 hour old.</text>
+
+  <text class="m" x="40" y="944" font-size="11.5">boston-events-hank · Hankweave 0.12 · diagram: docs/hank.svg</text>
+</svg>
