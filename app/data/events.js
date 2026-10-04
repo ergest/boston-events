@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
-  "generatedAt": "2026-10-04T00:46:25.386Z",
+  "generatedAt": "2026-10-04T00:50:45.632Z",
   "window": {
     "start": "2026-10-03",
     "end": "2026-10-17",
@@ -1307,6 +1307,19 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "9614a7df91",
+      "title": "Oktoberfest",
+      "city": "Medford",
+      "venue": "Riverside Ave/Medford Square",
+      "date": "2026-10-03",
+      "startTime": "12:00",
+      "endTime": "16:00",
+      "category": "festivals & markets",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25727",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
+    },
+    {
       "id": "3db6a4ab96",
       "title": "Zumba at Urbanity Dance!",
       "city": "Boston",
@@ -2146,6 +2159,22 @@ window.EVENTS_DATA = {
       "url": "https://www.maldenevents.com/10/03/2026/malden-cosplay-celebration-after-party/",
       "source": "Malden Events",
       "sourceId": "malden-events"
+    },
+    {
+      "id": "1125519212",
+      "title": "Sera Cahoone / Mary Lambert",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA 02155",
+      "date": "2026-10-03",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "music",
+      "price": "$22 ADV / $25 DOS",
+      "url": "https://www.cacheinmedford.org/event/sera-cahoone-mary-lambert/",
+      "description": "Sera Cahoone (solo) and Mary Lambert live at Deep Cuts. Doors at 7 PM, food till 9 PM; 18+ (under 18 with parent or guardian).",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "991cb4b716",
@@ -3003,6 +3032,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "532439a977",
+      "title": "Stop Scrolling & Start Sketching (Family Edition)",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-04",
+      "startTime": "09:30",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/stop-scrolling-start-sketching-family-edition-3/2026-10-04/",
+      "description": "Learn the habit of keeping a sketchbook together with a child in your life, in a four-session workshop.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "3683926436",
       "title": "RESCHEDULED to 10/4 - 2026 Burkie's Walk & BHYC Pig Roast",
       "city": "Boston",
@@ -3138,6 +3182,19 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "8e53513327",
+      "title": "Citywide Yard Sale and Lemonade Stand",
+      "city": "Medford",
+      "venue": "All over Medford",
+      "date": "2026-10-04",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "category": "festivals & markets",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25726",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
+    },
+    {
       "id": "559594407c",
       "title": "Open Streets Allston Brighton",
       "city": "Boston",
@@ -3241,6 +3298,20 @@ window.EVENTS_DATA = {
       "description": "Community celebration on the Tufts Academic Quad, open to the public.",
       "source": "Tufts events",
       "sourceId": "tufts"
+    },
+    {
+      "id": "2ee0e1c042",
+      "title": "Brooks School PTO Fall Festival",
+      "city": "Medford",
+      "venue": "Brooks School",
+      "address": "388 High St, Medford, MA",
+      "date": "2026-10-04",
+      "startTime": "11:00",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27512",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
     },
     {
       "id": "1dcfc449e8",
@@ -3481,6 +3552,22 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
+      "id": "1498b7bbb6",
+      "title": "Mirah / Evan Greer",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA 02155",
+      "date": "2026-10-04",
+      "startTime": "16:00",
+      "endTime": "19:00",
+      "category": "music",
+      "price": "$15",
+      "url": "https://www.cacheinmedford.org/event/mirah-evan-greer/",
+      "description": "Mirah and Evan Greer live at Deep Cuts. Doors at 4 PM; 18+ (under 18 with parent or guardian).",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "b342ba9379",
       "title": "The Rest Is Politics - Podcast",
       "city": "Boston",
@@ -3645,6 +3732,21 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "d658b566d5",
+      "title": "Monday Morning Mysteries",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA 02155",
+      "date": "2026-10-05",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/monday-morning-mysteries/2026-10-05/",
+      "description": "Mystery book club meeting on the first Monday of each month at the Medford Public Library.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "0ffbf32b91",
       "title": "Preschool Singalong",
       "city": "Boston",
@@ -3777,6 +3879,21 @@ window.EVENTS_DATA = {
       "description": "Monday baby lapsit program with singing and play.",
       "source": "Public Library of Brookline",
       "sourceId": "brookline-library"
+    },
+    {
+      "id": "afd77c6c71",
+      "title": "Poetry for Seniors",
+      "city": "Medford",
+      "venue": "Medford Senior Center",
+      "address": "101 Riverside Ave., Medford, MA 02155",
+      "date": "2026-10-05",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/poetry-for-seniors-copy-2/2026-10-05/",
+      "description": "Robert Castagna leads a relaxed poetry reading and sharing session on the first and third Mondays.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "43cc0bf222",
@@ -3972,6 +4089,22 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
+      "id": "6806260f6a",
+      "title": "Exploring Materials Through Mixed Media Collage (Grades K-2)",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-05",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$220 ($200 members)",
+      "url": "https://www.cacheinmedford.org/event/exploring-materials-through-mixed-media-collage-grades-k-2/2026-10-05/",
+      "description": "Six-Monday class (9/14-10/26, no class 10/12) for grades K-2 exploring texture through collage, inspired by artist Mark Bradford.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "fdcaa6de75",
       "title": "An Honest Record: The Richard Hoagland Papers on U.S. Diplomacy in Central Asia",
       "city": "Cambridge",
@@ -4079,6 +4212,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "6bca9c73ed",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA 02155",
+      "date": "2026-10-05",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in/2026-10-05/",
+      "description": "Work on personal projects in the library MakerSpace or ask the in-house expert about the equipment; safety badging available.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "834943b5d7",
       "title": "The Last Dive",
       "city": "Cambridge",
@@ -4093,6 +4241,22 @@ window.EVENTS_DATA = {
       "description": "Film screening at the Harvard Film Archive. $8 for non-Harvard students, Harvard staff and seniors; free for Harvard students.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "939beb6601",
+      "title": "Horse Lords / Rong / Forbes Graham",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA 02155",
+      "date": "2026-10-05",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "category": "music",
+      "price": "$20 ADV / $25 DOS",
+      "url": "https://www.cacheinmedford.org/event/horse-lords-rong-forbes-graham/",
+      "description": "Horse Lords, Rong, and Forbes Graham live at Deep Cuts. Doors at 7 PM.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "92b46e5112",
@@ -4148,6 +4312,21 @@ window.EVENTS_DATA = {
       "description": "Guided neighborhood tour of the North End. Runs 6 Oct - 31 Mar.",
       "source": "Fever Boston",
       "sourceId": "fever-boston"
+    },
+    {
+      "id": "6338efda80",
+      "title": "Maternal Journaling Workshop",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-06",
+      "startTime": "09:30",
+      "endTime": "11:30",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/maternal-journaling-workshop-3-2/2026-10-06/",
+      "description": "Weekly creative art journaling group led by midwife, artist and mother Nerida Ackland.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "a80c107809",
@@ -4415,6 +4594,22 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "e759a8e9f8",
+      "title": "Kids Beginner Sewing Grades 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-06",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$221 members, $245 non-members",
+      "url": "https://www.cacheinmedford.org/event/kids-beginner-sewing-grades-3-5/2026-10-06/",
+      "description": "Six-Tuesday beginner sewing class for grades 3-5 (9/15-10/20).",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "39046c26a9",
       "title": "Crafternoon: Mystery Craft (Main)",
       "city": "Cambridge",
@@ -4611,6 +4806,20 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "32dd59d6b2",
+      "title": "Kiwanis Club of Medford's 16th Annual Taste of Italy & More",
+      "city": "Medford",
+      "venue": "Great American Beer Hall",
+      "address": "142 Mystic Ave, Medford, MA",
+      "date": "2026-10-06",
+      "startTime": "18:00",
+      "endTime": "21:00",
+      "category": "food & drink",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27279",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
+    },
+    {
       "id": "ae57b3134c",
       "title": "Perspectives on Performance with Peter Mills Weiss",
       "city": "Cambridge",
@@ -4679,6 +4888,37 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
+      "id": "2fc428e009",
+      "title": "French Conversation Salon",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-06",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "price": "$190",
+      "url": "https://www.cacheinmedford.org/event/french-conversation-salon/2026-10-06/",
+      "description": "Six-Tuesday French conversation program led by Dr. Carey Dardompré for learners of all levels (9/15-10/20).",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "4d58625d61",
+      "title": "World Poetry Salon",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-06",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/world-poetry-salon-9/",
+      "description": "Read and discuss short poems by celebrated twentieth-century writers.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "c2939516c1",
       "title": "Foster The People at MGM Music Hall at Fenway",
       "city": "Boston",
@@ -4704,6 +4944,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "98adbe42ee",
+      "title": "Music Together® Joyful Music",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "09:45",
+      "endTime": "10:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/music-together-joyful-music/2026-10-07/",
+      "description": "Weekly 45-minute mixed-age music class for babies, toddlers, preschoolers and their grownups.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "b60ffb5893",
       "title": "English Club ELL Conversation Group",
       "city": "Brookline",
@@ -4716,6 +4971,22 @@ window.EVENTS_DATA = {
       "description": "Informal weekly conversation group to practice English and meet other language learners.",
       "source": "Public Library of Brookline",
       "sourceId": "brookline-library"
+    },
+    {
+      "id": "1ccf981ffe",
+      "title": "Zumba Gold for Seniors",
+      "city": "Medford",
+      "venue": "Medford Senior Center",
+      "address": "101 Riverside Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "sports & outdoors",
+      "price": "$3",
+      "url": "https://www.cacheinmedford.org/event/zumba-gold-for-seniors/2026-10-07/",
+      "description": "Low-impact dance fitness class for older adults, led by Emily on Wednesdays.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "588c073f5a",
@@ -4937,6 +5208,21 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "2aaca7c253",
+      "title": "Senior Movie Viewing",
+      "city": "Medford",
+      "venue": "Medford Senior Center",
+      "address": "101 Riverside Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/senior-movie-viewing/2026-10-07/",
+      "description": "Weekly film in the Senior Center library.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "add78cce4f",
       "title": "Movie Matinee",
       "city": "Brookline",
@@ -5056,6 +5342,21 @@ window.EVENTS_DATA = {
       "sourceId": "malden-events"
     },
     {
+      "id": "1fcadd6f11",
+      "title": "Family Story Time at the Medford Public Library",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-at-the-medford-public-library-3/2026-10-07/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "8b3664e7fa",
       "title": "Crochet and Cross Stitch Club",
       "city": "Brookline",
@@ -5083,6 +5384,21 @@ window.EVENTS_DATA = {
       "description": "City staff host a pop-up recycling event in the parking lot next to St. Peters Softball Field.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "a14ac39bc4",
+      "title": "Photo Explorers Grades: 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/photo-explorers-grades-3-5/2026-10-07/",
+      "description": "Six-week hands-on photography class for grades 3-5, including cyanotype printing.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "d274d6549f",
@@ -5158,6 +5474,21 @@ window.EVENTS_DATA = {
       "source": "City of Boston events",
       "address": "1 Circuit Drive",
       "sourceId": "boston-gov"
+    },
+    {
+      "id": "ee2e24683e",
+      "title": "Intro to Water Colors Grades 6-8",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/intro-to-water-colors-grades-6-8/2026-10-07/",
+      "description": "Middle schoolers explore watercolor fundamentals: color mixing, composition and paint application.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "2726be188a",
@@ -5306,6 +5637,98 @@ window.EVENTS_DATA = {
       "url": "https://www.ticketmaster.com/oso-oso-boston-massachusetts-10-07-2026/event/01006511C3E682A8",
       "source": "Brighton Music Hall",
       "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "71f7cdc604",
+      "title": "Journey Along the Middlesex Canal Documentary Screening and Talkback",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "18:30",
+      "endTime": "20:30",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/journey-along-the-middlesex-canal-documentary-screening-and-talkback/",
+      "description": "Local filmmaker Roger Hagopian presents his film on the history and route of the Middlesex Canal, followed by a talkback.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "ed62dd4153",
+      "title": "Make + Mingle",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/make-mingle/2026-10-07/",
+      "description": "Free drop-in for anyone to create among other artists; bring your own sketchbook or projects.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "658aefff8f",
+      "title": "Live Figure Drawing",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/live-figure-drawing-2/",
+      "description": "Non-instructor-led in-person live drawing session with a nude or lightly clothed model.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "82046c9657",
+      "title": "Unseemlier / See You At Rogers / Botch Job / The Roland High Life",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/unseemlier-see-you-at-rogers-botch-job-the-roland-high-life/",
+      "description": "Four-band bill at Deep Cuts, including an EP release from See You At Rogers.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "6c33373d47",
+      "title": "Line Dancing",
+      "city": "Medford",
+      "venue": "Great American Beer Hall",
+      "address": "142 Mystic Ave., Medford, MA 02155",
+      "date": "2026-10-07",
+      "startTime": "19:30",
+      "endTime": "22:30",
+      "category": "food & drink",
+      "url": "https://www.cacheinmedford.org/event/line-dancing/2026-10-07/",
+      "description": "Line dancing night with professional lessons, held twice a month at the Great American Beer Hall.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "6afdad9d56",
+      "title": "Let's Move! Outdoor Dance Classroom",
+      "city": "Medford",
+      "venue": "Harris Park",
+      "address": "226-238 Middlesex Ave., Medford, MA 02155",
+      "date": "2026-10-08",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/lets-move-outdoor-dance-classroom/2026-10-08/",
+      "description": "Free six-week outdoor dance series for families hosted by The Click and the Medford Family Network.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "0d2aed17d7",
@@ -5516,6 +5939,21 @@ window.EVENTS_DATA = {
       "description": "Make your own buttons using two button makers.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "e3a8751845",
+      "title": "Medford Farmers Market",
+      "city": "Medford",
+      "venue": "Condon Band Shell",
+      "address": "2501 Mystic Valley Parkway, Medford, MA 02155",
+      "date": "2026-10-08",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "category": "festivals & markets",
+      "url": "https://www.cacheinmedford.org/event/medford-farmers-market/2026-10-08/",
+      "description": "Weekly farmers market at the Condon Shell with local farmers, artisans and food producers.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "a2e5a26342",
@@ -5734,6 +6172,21 @@ window.EVENTS_DATA = {
       "description": "Fundraiser trivia night.",
       "source": "Malden Events",
       "sourceId": "malden-events"
+    },
+    {
+      "id": "9177df5b0e",
+      "title": "Community Fiber Arts Project",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA 02155",
+      "date": "2026-10-08",
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/community-fiber-arts-project-2/",
+      "description": "Knit or crochet a square or circle to be joined into an outdoor public art display; materials provided.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "d9bfe93365",
@@ -6365,6 +6818,19 @@ window.EVENTS_DATA = {
       "source": "Museum of Fine Arts",
       "description": "Theme: Silver.",
       "sourceId": "mfa"
+    },
+    {
+      "id": "1d94dca415",
+      "title": "Fire Prevention Day",
+      "city": "Medford",
+      "venue": "Medford City Hall",
+      "date": "2026-10-10",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "category": "family",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26733",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
     },
     {
       "id": "efd8bb7fb8",
@@ -8578,6 +9044,32 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "880f57cfbb",
+      "title": "Junk in the Trunk",
+      "city": "Medford",
+      "venue": "Medford City Hall back parking lot",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "festivals & markets",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/24619",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
+    },
+    {
+      "id": "2f3a1a8bce",
+      "title": "Sarah Bradlee Fulton Day",
+      "city": "Medford",
+      "venue": "Salem Street Burying Ground",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "community",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26379",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
+    },
+    {
       "id": "3a2747aca0",
       "title": "Castle Island Oktoberfest",
       "city": "Boston",
@@ -8680,6 +9172,20 @@ window.EVENTS_DATA = {
       "source": "Museum of Fine Arts",
       "description": "Guided tour.",
       "sourceId": "mfa"
+    },
+    {
+      "id": "d91067625c",
+      "title": "Harvest Your Energy Festival",
+      "city": "Medford",
+      "venue": "Riverbend Park",
+      "address": "Behind the McGlynn School, 3000 Mystic Valley Pkwy",
+      "date": "2026-10-17",
+      "startTime": "12:00",
+      "endTime": "15:00",
+      "category": "festivals & markets",
+      "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/25261",
+      "source": "City of Medford events calendar",
+      "sourceId": "medford-city"
     },
     {
       "id": "c014ca89f3",
