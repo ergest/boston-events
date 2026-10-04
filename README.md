@@ -2,7 +2,7 @@
 
 A [Hankweave](https://hankweave.southbridge.ai) hank that collects the next two weeks of events in Boston and nearby cities, and a small static app to browse them, register, and add them to your calendar.
 
-**Live demo:** https://ergest.github.io/boston-events-hank/ (a snapshot from one run; it is not updated automatically)
+**Live demo:** https://ergest.github.io/boston-events/ (a snapshot from one run; it is not updated automatically)
 
 ![The events app: a day strip, filter chips and an agenda list](docs/screenshot.png)
 

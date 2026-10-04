@@ -240,8 +240,8 @@
     const when = e.startTime
       ? [`DTSTART;TZID=${TZ}:${compact(e.date, e.startTime)}`, `DTEND;TZID=${TZ}:${compact(e.date, endOf(e))}`]
       : [`DTSTART;VALUE=DATE:${compact(e.date)}`, `DTEND;VALUE=DATE:${compact(addDays(e.date, 1))}`];
-    const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//boston-events-hank//EN', 'BEGIN:VEVENT',
-      `UID:${e.id || compact(e.date) + Math.random().toString(36).slice(2)}@boston-events-hank`,
+    const ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//boston-events//EN', 'BEGIN:VEVENT',
+      `UID:${e.id || compact(e.date) + Math.random().toString(36).slice(2)}@boston-events`,
       `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '')}`, ...when,
       `SUMMARY:${icsText(e.title)}`, `LOCATION:${icsText(location(e))}`, `URL:${e.registerUrl || e.url}`,
       `DESCRIPTION:${icsText([e.description, e.url].filter(Boolean).join('\n\n'))}`, 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
