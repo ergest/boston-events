@@ -62,6 +62,7 @@ Source codons default to `pi/unsloth-hank/peculiar-ragdoll/Tiel-Coder-35B-A3B-ML
 ```sh
 node scripts/build-hank.mjs --source-model pi/unsloth-hank/<model>   # another local model (add it to unsloth-hank first)
 node scripts/build-hank.mjs --source-model haiku                # cloud Haiku, no local server needed
+node scripts/build-hank.mjs --source-model haiku --heavy-model sonnet   # Haiku, but sources marked "heavy" on Sonnet
 node scripts/build-hank.mjs --only mit,ica --no-tail --out trial.json   # quick trial on a few sources
 ```
 
@@ -100,12 +101,12 @@ node scripts/add-sources.mjs ~/hank-runs/boston-events-extra/agentRoot
     "defaultCategory": "arts & theater", "notes": "optional instructions for this source's agent" }
   ```
 
-  `type` is one of aggregator, civic, university or venue; it sets the codon order. `fetch` is one of: `ics`, a calendar feed parsed by script; or `page`, listing page(s) fetched as markdown by `page.mjs` that the agent extracts events from. Both are free. Prefer a feed when a site has one: many calendars that look JavaScript-only (Trumba, LibCal, Localist) publish an ICS link. Big feeds can add an `exclude` rule (`requireLocation`, `categories`, `titles`) that drops noise before the agent sees it. A feed event repeated on 3+ days (an exhibition) becomes one record with an `endDate`. URLs can carry the run's dates, e.g. `?start={start:YYYYMMDD}` or `{start+7:YYYY-MM-DD}` (also `end`), for calendars that take a date range. A `page` source with long descriptions can set `trimParagraphs` (e.g. 150) to keep only that many characters of text per listing item.
+  `type` is one of aggregator, civic, university or venue; it sets the codon order. `fetch` is one of: `ics`, a calendar feed parsed by script; or `page`, listing page(s) fetched as markdown by `page.mjs` that the agent extracts events from. Both are free. Prefer a feed when a site has one: many calendars that look JavaScript-only (Trumba, LibCal, Localist) publish an ICS link. Big feeds can add an `exclude` rule (`requireLocation`, `categories`, `titles`) that drops noise before the agent sees it. A feed event repeated on 3+ days (an exhibition) becomes one record with an `endDate`. URLs can carry the run's dates, e.g. `?start={start:YYYYMMDD}` or `{start+7:YYYY-MM-DD}` (also `end`), for calendars that take a date range. A `page` source with long descriptions can set `trimParagraphs` (e.g. 150) to keep only that many characters of text per listing item. A big `page` source can set `"heavy": true` to run on `--heavy-model` when one is given: in a trial, Haiku wrote one 10-event part per chunk on The Boston Calendar and kept 68 events to Sonnet 5.5's 94.
 
 ## Cost
 
 - **Firecrawl:** search only: the discover step runs 8 searches for new event sites, about 16 credits a run. Every page (listings, detail pages, spot-check, candidate checks) is fetched for free by `page.mjs`. To finish a run whose tail failed without refetching sources, build with `--only '' --reuse <old agentRoot> --no-discover`. The free plan allows 2 jobs at once; `firecrawl.mjs` waits and retries when both are busy.
-- **Models:** the local source codons cost $0 and take about 2–5 minutes each, so 30 sources is roughly 1.5–2 hours. The Sonnet steps are capped at $4 in total, and with `--source-model haiku` each source codon adds up to $0.30.
+- **Models:** the local source codons cost $0 and take about 2–5 minutes each, so 30 sources is roughly 1.5–2 hours. The Sonnet steps are capped at $4 in total, and each cloud source codon is capped at $1.50 (Haiku used about $0.30–0.45 on a big source).
 
 ## Scheduling later
 

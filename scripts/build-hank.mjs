@@ -3,6 +3,7 @@
 //   node scripts/build-hank.mjs                                 # full hank → hank.json
 //   node scripts/build-hank.mjs --only mit,ica --no-tail --out trial.json
 //   node scripts/build-hank.mjs --source-model haiku            # run source codons on cloud Haiku
+//   node scripts/build-hank.mjs --source-model haiku --heavy-model sonnet  # sources marked "heavy" on Sonnet
 //   node scripts/build-hank.mjs --tail-model pi/unsloth-hank/<model>  # run spot-check/discover/scout locally too
 //   node scripts/build-hank.mjs --only boston-calendar --reuse <old agentRoot> --no-discover
 //       # finish from an earlier run's per-source events, refetching only the listed sources
@@ -23,6 +24,7 @@ const { values: args } = parseArgs({
     only: { type: 'string' },
     'source-model': { type: 'string', default: DEFAULT_SOURCE_MODEL },
     'tail-model': { type: 'string', default: 'sonnet' },
+    'heavy-model': { type: 'string' },
     'no-tail': { type: 'boolean', default: false },
     'no-discover': { type: 'boolean', default: false },
     reuse: { type: 'string' },
@@ -31,6 +33,9 @@ const { values: args } = parseArgs({
 });
 const sourceModel = args['source-model'];
 const tailModel = args['tail-model'];
+// Big page sources (marked "heavy" in the registry) can run on a stronger model: Haiku stops at
+// one 10-event part per chunk on them and misses events.
+const modelFor = (s) => (s.heavy && args['heavy-model']) || sourceModel;
 
 const { sources: registry } = JSON.parse(readFileSync('data/sources.json', 'utf8'));
 const TYPE_ORDER = ['aggregator', 'civic', 'university', 'venue'];
@@ -112,15 +117,16 @@ const sourceCodons = ordered.map((s) => ({
   id: `src-${s.id}`,
   name: `${s.type}: ${s.name}`,
   description: `Extract events from ${s.name} (${s.fetch}).`,
-  model: sourceModel,
-  ...compaction(sourceModel),
+  model: modelFor(s),
+  ...compaction(modelFor(s)),
   continuationMode: 'fresh',
   promptFile: './prompts/source.md',
   appendSystemPromptText: `This codon handles source "${s.id}" (${s.name}).`,
   rigSetup: [...setup, { type: 'command', command: { run: `node fetch-source.mjs ${s.id}` } }],
   checkpointedFiles: [`events/${s.id}.json`, `events/parts/${s.id}-*.json`, `notes/sources/${s.id}.md`],
   onFailure: 'ignore',
-  budget: { ...(piMatch ? { maxTimeSeconds: 1500 } : { maxDollars: 0.3, maxTimeSeconds: 600 }), onExceeded: 'complete' },
+  // Cloud caps: Haiku needed up to ~$0.45 on a big source and $0.30 cut it off mid-run.
+  budget: { ...(modelFor(s).startsWith('pi/') ? { maxTimeSeconds: 1500 } : { maxDollars: 1.5, maxTimeSeconds: 900 }), onExceeded: 'complete' },
 }));
 
 const discover = [
@@ -178,7 +184,7 @@ const tail = [
   },
 ];
 
-const sourceDollars = piMatch ? 0 : sources.length * 0.3;
+const sourceDollars = sources.filter((s) => !modelFor(s).startsWith('pi/')).length * 1.5;
 const tailDollars = tailModel.startsWith('pi/') ? 0 : 4;
 const hank = {
   $schema: 'https://unpkg.com/hankweave@0.10.0/schemas/hank.schema.json',
@@ -199,4 +205,5 @@ if (reuse.length && !preflight.length && hank.hank.length) {
 }
 
 writeFileSync(args.out, JSON.stringify(hank, null, 2) + '\n');
-console.log(`${args.out}: ${preflight.length ? 'preflight + ' : ''}${sourceCodons.length} source codons on ${sourceModel}${args['no-tail'] ? '' : ` + spot-check, ${args['no-discover'] ? '' : 'discover, '}scout on ${tailModel}`}.`);
+const heavyCount = args['heavy-model'] ? sources.filter((s) => s.heavy).length : 0;
+console.log(`${args.out}: ${preflight.length ? 'preflight + ' : ''}${sourceCodons.length} source codons on ${sourceModel}${heavyCount ? ` (${heavyCount} heavy on ${args['heavy-model']})` : ''}${args['no-tail'] ? '' : ` + spot-check, ${args['no-discover'] ? '' : 'discover, '}scout on ${tailModel}`}.`);
