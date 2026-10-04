@@ -38,7 +38,7 @@ const next = chunkFiles[state.served];
 writeFileSync(stateFile, JSON.stringify({ served: state.served + 1, parts }) + '\n');
 console.log(`=== chunk ${state.served + 1} of ${chunkFiles.length} (${next}) ===`);
 console.log(readFileSync(`${dir}/${next}`, 'utf8'));
-console.log(`=== end of chunk ${state.served + 1} of ${chunkFiles.length}. Save its events to events/parts/${id}-${parts + 1}.json (or run node chunk.mjs ${id} --none), then run node chunk.mjs ${id} ===`);
+console.log(`=== end of chunk ${state.served + 1} of ${chunkFiles.length}. Save its events to events/parts/${id}-${parts + 1}.json, 10 at most per file; if there are more, continue in -${parts + 2}.json and so on, never dropping events (or run node chunk.mjs ${id} --none), then run node chunk.mjs ${id} ===`);
 
 // events-N.json first, then page-N.md, each in numeric order.
 function order(f) {

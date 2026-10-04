@@ -1,2 +1,0 @@
-status: ok
-Fetched 5 ICS chunks, 46 events across Newton. Kept public, general-interest programs. Skipped two online-only events (eBook intro and 50+ Job Seekers networking group, both "Virtual"). Combined the two same-day "Make Way for Storytime" 10am/11am slots into one record per date to satisfy the dedup rule. Kept the Adult-only Mini Golf as a public adult event. Author Talk is listed "Off Site" (venue kept as given).

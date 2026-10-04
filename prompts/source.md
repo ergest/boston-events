@@ -13,13 +13,13 @@ The rig has already fetched it. You get the data **one chunk at a time** from `n
 
 First read `window.json` and `current-source.json`. Then repeat until `chunk.mjs` says all chunks are done:
 
-1. Run `node chunk.mjs <id>` to get the next chunk.
+1. Run `node chunk.mjs <id>` to get the next chunk. Run it on its own and read its whole output: never pipe it through `head`, `tail` or `grep`, redirect it to a file, or combine it with the command that writes a part. Every event in the chunk must be read.
 2. Build records from it. `source` is the source's `name`. `city` must be one of the source's `cities` that matches where the event actually is (for `"all"`, any `window.json` city). Skip events outside the listed cities or the window. Use `defaultCategory` unless another category clearly fits better.
    Copy values exactly: `url` and `registerUrl` character for character (never build a link from a title), and for events from `events-N.json` chunks the `title`, `date`, `endDate`, `startTime` and `endTime` unchanged.
    A run that is on over a range of days (an exhibition, a festival, anything shown as "Through <date>" or a date range) is one record: `date` is its first day inside the window and `endDate` its last day (which may be after the window). Don't write one record per day.
-3. Save them with one write to the part file `chunk.mjs` names (`events/parts/<id>-1.json`, then `-2`, …), at most **10 events per part**; if a chunk has more, write two parts. If it has no usable events, run `node chunk.mjs <id> --none` instead.
+3. Save them with one write to the part file `chunk.mjs` names (`events/parts/<id>-1.json`, then `-2`, …), at most **10 events per part**. If a chunk has more than 10 usable events, write as many parts as it takes (`-N`, `-N+1`, …) before asking for the next chunk; never drop events to fit one part. If it has no usable events, run `node chunk.mjs <id> --none` instead.
 
-Keep your reasoning short: this is mechanical copying, not analysis. Never try to collect events from several chunks and write them together.
+Keep your reasoning short: this is mechanical copying, not analysis. Short reasoning never means reading less of a chunk. Never try to collect events from several chunks and write them together.
 
 If a listing lacks the date or time for an otherwise good event, you may open that event's page with `node fetch-detail.mjs <id> <url>`. It saves the page as `raw/<id>/detail-N.md` for you to read. It only accepts links from this source's listing and allows at most 5 pages per source; don't call `firecrawl` directly and never guess URLs.
 

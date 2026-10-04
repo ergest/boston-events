@@ -193,6 +193,10 @@ const hank = {
   },
   hank: [...preflight, ...sourceCodons, ...(args['no-tail'] ? [] : tail)],
 };
+// Without a preflight (cloud models), the first codon sets up and seeds the run instead.
+if (reuse.length && !preflight.length && hank.hank.length) {
+  hank.hank[0].rigSetup = [...setup, ...reuse, ...hank.hank[0].rigSetup];
+}
 
 writeFileSync(args.out, JSON.stringify(hank, null, 2) + '\n');
 console.log(`${args.out}: ${preflight.length ? 'preflight + ' : ''}${sourceCodons.length} source codons on ${sourceModel}${args['no-tail'] ? '' : ` + spot-check, ${args['no-discover'] ? '' : 'discover, '}scout on ${tailModel}`}.`);
