@@ -1,2 +1,2 @@
 status: thin
-Only one dated public event (Code & Tell, Oct 7) fell inside the window 2026-09-27 to 2026-10-11. The page's other events were either recurring weekly programs (Wednesdays @ Spark!) with no concrete dates, or outside the window (STEM Splash Sept 13, Demo Day Dec 11). Recurring events without specific dates were skipped since the date is required and must not be guessed.
+Listing page has only one dated in-window event: Code & Tell (Oct 7, 6–7:30 PM, Eventbrite link). Weekly Wednesday sessions (Cookie O'Clock, Tech Innovation Hours, Tech Talk) have no dates or detail pages and are student-oriented, so skipped. STEM Splash (Sep 13) and Demo Day (Dec 11) are outside the window.

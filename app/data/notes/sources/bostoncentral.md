@@ -1,7 +1,2 @@
 status: ok
-Source: Boston Central (bostoncentral), fetch: page.
-Two listing chunks (daily calendar, dated Sunday 2026-09-27) filtered to allowed cities.
-Chunk 1: verified 5 Boston-area events via detail pages (Atlantic Wharf's Fall Fest, Greenway Artisan Market, Open Streets Boston Series, Boston Family Days at ICA, SoWa Sundays).
-Chunk 2: many in-city events listed but the listing shows no dates; detail fetches were exhausted on chunk 1, so only the recurring-Sunday Memorial Drive recreation was datable and included. All other chunk-2 events were omitted because their dates in the window could not be confirmed.
-Cities outside the window list (Danvers, Salem, Concord, Vermont, Western Mass, etc.) skipped.
-Assumption: recurring weekly events dated to known window days.
+Single-day calendar page (Sunday 2026-10-04 only); all events dated 2026-10-04 per source notes. Listing gives only title, city, price tier; no times or venues, so venue is "See listing". Many entries are ongoing runs without shown end dates (no endDate set). Skipped out-of-area towns, online items, duplicates, and non-event listings (service ads, hotlines).

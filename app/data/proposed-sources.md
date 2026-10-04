@@ -1,38 +1,62 @@
-# Proposed Source Registry Changes
+# Proposed registry changes
 
 ## Summary
-
-Coverage is strong in Boston/Cambridge but four small cities are at or below the `minEventsPerCity` target of 3: Watertown (0), Waltham (1), Malden (1), and Dedham (0), plus Quincy (3, only 1 festival). The most important change is fixing the Cambridge City calendar, which currently yields 0 events because its week-view pages only render under a headless browser; it publishes a full ICS feed at `/citycalendar.ics` that covers the whole window (1,700+ events). I also add two new sources that directly fill the empty/short cities: Malden Events (Malden, ~15 public events) and Discover Quincy (Quincy, several in-window events). Watertown, Waltham, and Dedham civic sites were unreachable through the fetch rig (HTTP 000/403) and no alternative aggregator was confirmed, so no proposal is made for them. BU Spark is thin but legitimate and kept as-is.
+- Boston (375) and Cambridge (168) are well covered. Below the 3-event minimum or close to it: Quincy (1), Malden (10, but 0 music/family), Medford (11), Somerville (21, thin in music/arts/family).
+- No source is `broken`. One is `thin`: `bu-spark` (1 event). Two `ok` sources only reach a few days of the window: `do617` (Oct 3 only) and `somerville-city` (to Oct 6).
+- Highest value: add the Quincy, Medford and Malden city calendars and CACHE in Medford (a working ICS feed with 30 events in October). Widen `do617` with dated URLs.
+- Brookline has 0 food & drink and Quincy has nothing outside one festival, so these categories remain weak after this run.
 
 ## Add
 
-### Malden Events — fills Malden (currently 1 event, below target). A public events calendar for the city with a stable listing page and ~15 events, several inside the window (recurring Malden Farmers Market, leaf-peeping hikes, outdoor art class, trivia, bowling, theater). Not an ICS feed (the `/rss/` page is a placeholder), so fetch as a page.
-
+1. **Quincy city calendar**: Quincy has only 1 event; the page lists 13 days of the window. It mixes in meetings, so the notes tell the extractor to skip them.
 ```json
-{ "id": "malden-events", "name": "Malden Events", "type": "local", "fetch": "page", "urls": ["https://www.maldenevents.com/"], "cities": ["Malden"], "notes": "Public events calendar for Malden. Fetch the home listing; each event links to a /2026/<slug> detail page. Keep in-person public events (markets, hikes, family, arts, food); skip high-school sports and members-only/promo items. No street address on the listing — fill in from detail pages where shown." }
+{ "id": "quincy-city", "name": "City of Quincy calendar", "type": "civic", "fetch": "page", "urls": ["https://www.quincyma.gov/calendar.php"], "cities": ["Quincy"], "defaultCategory": "community", "notes": "Keep public events (festivals, library, community events). Skip board/committee meetings, hearings and recurring senior-center classes." }
 ```
 
-### Discover Quincy — fills/fortifies Quincy (currently 3 events, only 1 in festivals & markets). A tourism/events site with clear event detail pages inside the window (Eustis Estate Fine Arts & Crafts Market Oct 27, Food Truck & Music Festival, Quincy Spiritualist Psychic Fair Oct 10). Fetch as a page.
-
+2. **CACHE in Medford**: tested, and the ICS feed is live (30 DTSTART lines in 2026-10). Medford has 0 music and 0 family events.
 ```json
-{ "id": "discover-quincy", "name": "Discover Quincy", "type": "local", "fetch": "page", "urls": ["https://discoverquincy.com/events/"], "cities": ["Quincy"], "defaultCategory": "festivals & markets", "notes": "Quincy events and festivals. Link each event to its detail page (e.g. /events/<slug> or the venue's own page). Keep public in-person events; skip recurring monthly programs with no pinned date and religious-only events unless public and general-interest." }
+{ "id": "cache-medford", "name": "CACHE in Medford", "type": "venue", "fetch": "ics", "urls": ["https://www.cacheinmedford.org/event-calendar/list/?ical=1"], "cities": ["Medford"], "defaultCategory": "arts & theater", "notes": "Medford arts and culture: concerts, workshops, community days. Keep public events only." }
 ```
+
+3. **Medford events calendar**: lists all 15 days of the window. A `?ical=1` probe returned HTML, so there is no feed.
+```json
+{ "id": "medford-city", "name": "City of Medford events calendar", "type": "civic", "fetch": "page", "urls": ["https://www.medfordma.org/about/events-calendar"], "cities": ["Medford"], "defaultCategory": "community", "notes": "Skip board/commission meetings, hearings and recurring classes." }
+```
+
+4. **Malden city calendar**: lists 9 days of the window, and Malden has no music or family events. It may overlap with `malden-events`; the merge step should dedupe.
+```json
+{ "id": "malden-city", "name": "City of Malden calendar", "type": "civic", "fetch": "page", "urls": ["https://www.cityofmalden.org/calendar.aspx"], "cities": ["Malden"], "defaultCategory": "community", "notes": "Keep public in-person events. Skip council/board meetings and hearings." }
+```
+
+5. **Somerville Arts Council**: fills Somerville arts and music. The ICS feed at `/events/?ical=1` is stale (nothing after 2013), so use the page.
+```json
+{ "id": "somerville-arts-council", "name": "Somerville Arts Council", "type": "venue", "fetch": "page", "urls": ["https://somervilleartscouncil.org/events/"], "cities": ["Somerville"], "defaultCategory": "arts & theater", "notes": "Arts, music and community events. Skip grant workshops and administrative sessions." }
+```
+
+6. **Boston Public Market**: fills Boston food and family.
+```json
+{ "id": "boston-public-market", "name": "Boston Public Market", "type": "venue", "fetch": "page", "urls": ["https://bostonpublicmarket.org/events/"], "cities": ["Boston"], "defaultCategory": "food & drink", "notes": "Tastings, sing-alongs, kids activities, watch parties." }
+```
+
+7. **Town of Brookline calendar**: lists 3 window days. Lower value, since Brookline already has 66 events.
+```json
+{ "id": "brookline-town", "name": "Town of Brookline calendar", "type": "civic", "fetch": "page", "urls": ["https://www.brooklinema.gov/calendar.aspx"], "cities": ["Brookline"], "defaultCategory": "community", "notes": "Non-board public events only (e.g. Fall Community Day). Skip board/committee meetings." }
+```
+
+Not proposed: `discoverquincy.com` (4 days, probably a subset of the city calendar; it could be a later addition for Quincy). Libraries and Union Square Main had 0 days in the window.
 
 ## Fix
 
-### cambridge-city
-What's wrong: status `thin` because the configured week-view URLs (`citycalendar?start=...&view=Week`) only render events under a headless browser; the fetch rig returns the JS calendar shell with no listings (0 events). The City of Cambridge publishes a full ICS feed at `/citycalendar.ics` that covers the entire window (1,700+ events), which is far more reliable than the week-view pages. Switch to `fetch: "ics"` and drop the week-view URLs. Keep the existing exclude notes (skip board/commission meetings and hearings).
-
+**do617**: the page lists Oct 3 only, so the 15-day window is barely covered. Dated URLs of the form `/events/YYYY/MM/DD` return HTTP 200 (tested with 2026/10/10).
 ```json
-{ "id": "cambridge-city", "name": "City of Cambridge calendar", "type": "civic", "fetch": "ics", "urls": ["https://www.cambridgema.gov/citycalendar.ics"], "cities": ["Cambridge"], "defaultCategory": "community", "notes": "ICS feed behind the city calendar. Skip board/commission meetings and hearings. Note: the old week-view page URLs only render under a headless browser, so they were replaced by this feed.", "trimParagraphs": 150 }
+{ "id": "do617", "name": "Do617", "type": "aggregator", "fetch": "page", "urls": ["https://do617.com/events", "https://do617.com/events/2026/10/04", "https://do617.com/events/2026/10/05", "https://do617.com/events/2026/10/06", "https://do617.com/events/2026/10/07", "https://do617.com/events/2026/10/08", "https://do617.com/events/2026/10/09", "https://do617.com/events/2026/10/10", "https://do617.com/events/2026/10/11", "https://do617.com/events/2026/10/12", "https://do617.com/events/2026/10/13", "https://do617.com/events/2026/10/14", "https://do617.com/events/2026/10/15", "https://do617.com/events/2026/10/16", "https://do617.com/events/2026/10/17"], "cities": "all", "notes": "Each URL is one day; use that date for its events. Skip events outside the listed cities." }
 ```
+The URL list needs refreshing for each window. I did not check that every date page has content.
+
+**somerville-city**: the listing stops at Oct 6, and the calendar has a per-day view (`https://www.somervillema.gov/calendar?event_date=2026-10-DD`, linked from the month grid). I did not check that those pages list events. Suggest adding a few of them (e.g. 10-08, 10-10, 10-14) or `?page=1`, then checking the result next run. Keep the existing entry otherwise.
+
+**bu-spark** (thin, 1 event): only one dated event in the window, and the weekly sessions are student-oriented. Replace with the Remove below, or keep as is. It costs little, so it is optional.
 
 ## Remove
 
-(none)
-
-## Notes / judgment calls
-
-- **bu-spark** is `thin` (only one in-window event, Code & Tell, Oct 7) but it is a legitimate, reachable source; thinness here is a function of the narrow window, not a broken or moved site. Kept unchanged. If thinness persists, the discover step could look for BU CDS/faculty events feeds.
-- **Watertown, Waltham, Dedham**: the official city events pages return HTTP 000 (blocked/unreachable through the fetch rig) and one returns 403. Alternative domains (cityofwaltham.com) are parked/scam domains. No candidate-sources were provided by the discover step, so I did not invent sites. These three cities remain uncovered; a future run with working civic-site access or discovered local-event aggregators may be able to fill them.
-- Malden Events and Discover Quincy were confirmed by opening their pages with `node page.mjs`; both render their listing/event pages without requiring interaction.
+- `bu-spark`: yields 1 event per window; Code & Tell is probably also on Eventbrite/Luma. Low priority; keep if you want the Spark! events.

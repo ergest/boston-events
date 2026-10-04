@@ -1,5 +1,6 @@
 status: ok
-8 usable events from the Boch Center events listing (Boston venues: Shubert + Wang Theatres), all in the Sep 27–Oct 11 window.
-Skipped: out-of-window events (Oct 14 onward, and Nov/Dec 2026 – Feb/May/Sep 2027), CANCELLED shows (John Bishop Oct 16; Prateek Kuhad Nov 14).
-"Discovering King Tut's Tomb" excluded: page only showed "Now through October 18" with no start date, so the first day inside the window could not be determined.
-Gregg Allman event is at Arrow Street Arts Center in Cambridge, outside the Boston-only scope.
+Listing page parsed in 3 chunks; 8 events fall inside the window (Oct 3–17, 2026), all in Boston.
+Skipped: "Here's John Bishop" (Oct 16, cancelled); events after the window.
+Start times came from the calendar view at the end of the page. Spamalot has several shows a day, so only the first show time on Oct 8 is given.
+King Tut exhibition is one record (Oct 3–18).
+Ticket price not shown, so left blank.
