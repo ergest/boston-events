@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Stand-in for the `claude` CLI that runs Sonnet codons on Sonnet 5.5. Hankweave 0.12's model
+# registry has no Sonnet 5.5, so `sonnet` (and even `claude-sonnet-5-5`) resolves to
+# claude-sonnet-5; this rewrites that model argument and passes everything else through, so Haiku
+# codons are unaffected. Point Hankweave at it with
+#   CLAUDE_PATH_TO_CLAUDE_EXECUTABLE=$PWD/scripts/claude-sonnet55
+# Set CLAUDE_BIN if the real CLI is not at ~/.local/bin/claude or on PATH.
+real=${CLAUDE_BIN:-$HOME/.local/bin/claude}
+[ -x "$real" ] || real=$(command -v claude) || { echo "claude-sonnet55: no claude CLI found; set CLAUDE_BIN" >&2; exit 127; }
+args=()
+for a in "$@"; do
+  [ "$a" = "claude-sonnet-5" ] && a="claude-sonnet-5-5"
+  args+=("$a")
+done
+exec "$real" "${args[@]}"
