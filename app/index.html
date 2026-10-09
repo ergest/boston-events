@@ -90,7 +90,7 @@
   .dates { font-size: .78rem; color: var(--muted); }
   .empty { color: var(--muted); padding: 40px 0; text-align: center; }
   code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: .88em; }
-  @media (max-width: 520px) { #cats { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } #cats .count { display: none; } .ev { grid-template-columns: 52px minmax(0, 1fr); gap: 0 8px; } h2 { scroll-margin-top: 190px; } }
+  @media (max-width: 520px) { #cats .count { display: none; } .ev { grid-template-columns: 52px minmax(0, 1fr); gap: 0 8px; } h2 { scroll-margin-top: 190px; } }
 </style>
 <script src="data/events.js"></script>
 </head>
@@ -107,6 +107,7 @@
       <button class="chip" data-quick="tonight">Tonight</button>
       <button class="chip" data-quick="weekend">This weekend</button>
       <button class="chip" data-quick="free">Free</button>
+      <button class="chip" data-quick="ongoing">Ongoing</button>
       <details class="cities" id="cities"><summary class="chip" id="citiesLabel">All cities</summary><div class="menu" id="cityMenu"></div></details>
     </div>
     <div class="row" id="cats"></div>
@@ -150,13 +151,14 @@
   $('sub').textContent = `${events.length} upcoming events · ${fmtShort(data.window.start)}–${fmtShort(data.window.end)} · updated ${new Date(data.generatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}`;
 
   // State
-  const state = { q: '', day: '', quick: '', free: false, cats: new Set(), cities: new Set() };
+  const state = { q: '', day: '', quick: '', free: false, ongoing: false, cats: new Set(), cities: new Set() };
 
   // Filters that apply before the day choice (so the day strip can show counts).
   const baseMatch = (e) =>
     (!state.cities.size || state.cities.has(e.city)) &&
     (!state.cats.size || state.cats.has(e.category)) &&
     (!state.free || isFree(e)) &&
+    (!state.ongoing || isRun(e) || isSeries(e)) &&
     (!state.q || [e.title, e.venue, e.description, e.source, e.city].join(' ').toLowerCase().includes(state.q));
   function weekend() {
     const d = dow(today);
@@ -195,6 +197,7 @@
   document.querySelectorAll('[data-quick]').forEach((b) => b.addEventListener('click', () => {
     const q = b.dataset.quick;
     if (q === 'free') state.free = !state.free;
+    else if (q === 'ongoing') state.ongoing = !state.ongoing;
     else { state.quick = state.quick === q ? '' : q; if (state.quick) state.day = ''; }
     render();
   }));
@@ -202,7 +205,7 @@
     const b = ev.target.closest('[data-cat]');
     if (b) { state.cats.has(b.dataset.cat) ? state.cats.delete(b.dataset.cat) : state.cats.add(b.dataset.cat); render(); }
     if (ev.target.id === 'clear') {
-      Object.assign(state, { q: '', day: '', quick: '', free: false });
+      Object.assign(state, { q: '', day: '', quick: '', free: false, ongoing: false });
       state.cats.clear(); state.cities.clear();
       $('q').value = '';
       $('cityMenu').querySelectorAll('input').forEach((i) => (i.checked = false));
@@ -303,11 +306,11 @@
       return `<button class="day${dow(d) === 0 || dow(d) === 6 ? ' weekend' : ''}" data-day="${d}" aria-pressed="${state.day === d}" ${n ? '' : 'disabled'}>
         <small>${label}</small><strong>${Number(d.slice(8))}</strong><span>${n}</span></button>`;
     }).join('');
-    document.querySelectorAll('[data-quick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.quick === 'free' ? state.free : state.quick === b.dataset.quick));
+    document.querySelectorAll('[data-quick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.quick === 'free' ? state.free : b.dataset.quick === 'ongoing' ? state.ongoing : state.quick === b.dataset.quick));
     document.querySelectorAll('[data-cat]').forEach((b) => b.setAttribute('aria-pressed', state.cats.has(b.dataset.cat)));
     $('citiesLabel').textContent = !state.cities.size ? 'All cities' : state.cities.size <= 2 ? [...state.cities].join(', ') : `${state.cities.size} cities`;
     $('citiesLabel').setAttribute('aria-pressed', state.cities.size > 0);
-    $('clear').hidden = !(state.q || state.day || state.quick || state.free || state.cats.size || state.cities.size);
+    $('clear').hidden = !(state.q || state.day || state.quick || state.free || state.ongoing || state.cats.size || state.cities.size);
 
     const shown = base.filter(dayMatch);
     const single = shown.filter((e) => !isSeries(e) && !isRun(e));
