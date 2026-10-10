@@ -1,62 +1,53 @@
-# Proposed registry changes
+# Proposed source changes
 
 ## Summary
-- Boston (375) and Cambridge (168) are well covered. Below the 3-event minimum or close to it: Quincy (1), Malden (10, but 0 music/family), Medford (11), Somerville (21, thin in music/arts/family).
-- No source is `broken`. One is `thin`: `bu-spark` (1 event). Two `ok` sources only reach a few days of the window: `do617` (Oct 3 only) and `somerville-city` (to Oct 6).
-- Highest value: add the Quincy, Medford and Malden city calendars and CACHE in Medford (a working ICS feed with 30 events in October). Widen `do617` with dated URLs.
-- Brookline has 0 food & drink and Quincy has nothing outside one festival, so these categories remain weak after this run.
+
+- No source is marked `broken` or `thin`, but several are shallow in practice: boston-calendar and artsboston only yielded Oct 10, bostoncentral is one day, boston-gov covers Oct 10-14, and somerville-city covers Oct 10-13.
+- All cities meet the minimum of 3, but Malden (8), Somerville (34) and Brookline's food/sports categories are thin. Somerville has no tech & talks events, and Malden and Medford have almost no music or food.
+- Proposed 5 additions, led by Cambridge Office for Tourism (35 events, full window), Somerville Arts Council, Brookline.News and Boston Public Market. None of the candidates offers a usable ICS feed.
+- Two candidates are skipped (City of Malden calendar, Meet Boston) and no removals are proposed.
 
 ## Add
 
-1. **Quincy city calendar**: Quincy has only 1 event; the page lists 13 days of the window. It mixes in meetings, so the notes tell the extractor to skip them.
+1. **Cambridge Office for Tourism**: lists 35 events across the whole window, including exhibits, music, theater and festivals. Its `?ical=1` feed has only 3 in-window events, so use the page.
 ```json
-{ "id": "quincy-city", "name": "City of Quincy calendar", "type": "civic", "fetch": "page", "urls": ["https://www.quincyma.gov/calendar.php"], "cities": ["Quincy"], "defaultCategory": "community", "notes": "Keep public events (festivals, library, community events). Skip board/committee meetings, hearings and recurring senior-center classes." }
+{ "id": "cambridgeusa", "name": "Cambridge Office for Tourism", "type": "civic", "fetch": "page", "urls": ["https://cambridgeusa.org/events/month/"], "cities": ["Cambridge"], "defaultCategory": "arts & theater", "notes": "Tourism calendar for Cambridge. Use each event's own page as url. Categories on the page (Music, Theater, Kids / Families, Fairs & Festivals, Food, Lectures / Talks) map to ours. Skip classes and ongoing attractions with no date." }
 ```
 
-2. **CACHE in Medford**: tested, and the ICS feed is live (30 DTSTART lines in 2026-10). Medford has 0 music and 0 family events.
+2. **Somerville Arts Council**: public arts, music and community events in Somerville, which is below the other cities. Its `?ical=1` feed has no in-window events, so use the page.
 ```json
-{ "id": "cache-medford", "name": "CACHE in Medford", "type": "venue", "fetch": "ics", "urls": ["https://www.cacheinmedford.org/event-calendar/list/?ical=1"], "cities": ["Medford"], "defaultCategory": "arts & theater", "notes": "Medford arts and culture: concerts, workshops, community days. Keep public events only." }
+{ "id": "somerville-arts", "name": "Somerville Arts Council", "type": "civic", "fetch": "page", "urls": ["https://somervilleartscouncil.org/events/"], "cities": ["Somerville"], "defaultCategory": "arts & theater", "notes": "Multi-day entries (e.g. HONK! Oct 9-11): record once on the first date inside the window and put the full run in the description. Venue is the linked location name. Skip council meetings and grant deadlines." }
 ```
 
-3. **Medford events calendar**: lists all 15 days of the window. A `?ical=1` probe returned HTML, so there is no feed.
+3. **Brookline.News Events**: 8 of 15 window days. It fills Brookline's empty food & drink and sports categories and adds family and music events.
 ```json
-{ "id": "medford-city", "name": "City of Medford events calendar", "type": "civic", "fetch": "page", "urls": ["https://www.medfordma.org/about/events-calendar"], "cities": ["Medford"], "defaultCategory": "community", "notes": "Skip board/commission meetings, hearings and recurring classes." }
+{ "id": "brookline-news", "name": "Brookline.News Events", "type": "civic", "fetch": "page", "urls": ["https://brookline.news/events/"], "cities": ["Brookline"], "defaultCategory": "community", "notes": "Sponsor-submitted community events. Use the Sponsor's link as url. Dates and times are shown per event; a multi-date event lists extra dates in its details (record the first date inside the window). Skip online-only events." }
 ```
 
-4. **Malden city calendar**: lists 9 days of the window, and Malden has no music or family events. It may overlap with `malden-events`; the merge step should dedupe.
+4. **Boston Public Market**: dated food, music and family events in Boston, on 6 window days. It is a month-grid calendar, so read the day numbers carefully. Oct 25+ and earlier-month days also appear in the grid.
 ```json
-{ "id": "malden-city", "name": "City of Malden calendar", "type": "civic", "fetch": "page", "urls": ["https://www.cityofmalden.org/calendar.aspx"], "cities": ["Malden"], "defaultCategory": "community", "notes": "Keep public in-person events. Skip council/board meetings and hearings." }
+{ "id": "boston-public-market", "name": "Boston Public Market", "type": "venue", "fetch": "page", "urls": ["https://bostonpublicmarket.org/events/"], "cities": ["Boston"], "defaultCategory": "food & drink", "notes": "Month-grid calendar: the grid also shows days from the adjacent months (e.g. Sep 27-30, Nov 1), so only keep cells for October 10-24. Venue is Boston Public Market, 100 Hanover St. Free events unless a price is shown." }
 ```
 
-5. **Somerville Arts Council**: fills Somerville arts and music. The ICS feed at `/events/?ical=1` is stale (nothing after 2013), so use the page.
+5. **Meet Boston Festivals & Annual Events**: the official tourism calendar, with 4 window days listed. It adds festivals and markets in Boston. The main events page has only 3 window days. Its feed is RSS, not ICS, so use the page.
 ```json
-{ "id": "somerville-arts-council", "name": "Somerville Arts Council", "type": "venue", "fetch": "page", "urls": ["https://somervilleartscouncil.org/events/"], "cities": ["Somerville"], "defaultCategory": "arts & theater", "notes": "Arts, music and community events. Skip grant workshops and administrative sessions." }
+{ "id": "meetboston-festivals", "name": "Meet Boston Festivals & Annual Events", "type": "aggregator", "fetch": "page", "urls": ["https://www.meetboston.com/events/festivals-and-annual-events/"], "cities": "all", "defaultCategory": "festivals & markets", "notes": "Official tourism calendar. Many entries are multi-day or annual: record once on the first date inside the window with the full run in the description. Skip events outside our cities." }
 ```
 
-6. **Boston Public Market**: fills Boston food and family.
-```json
-{ "id": "boston-public-market", "name": "Boston Public Market", "type": "venue", "fetch": "page", "urls": ["https://bostonpublicmarket.org/events/"], "cities": ["Boston"], "defaultCategory": "food & drink", "notes": "Tastings, sing-alongs, kids activities, watch parties." }
-```
-
-7. **Town of Brookline calendar**: lists 3 window days. Lower value, since Brookline already has 66 events.
-```json
-{ "id": "brookline-town", "name": "Town of Brookline calendar", "type": "civic", "fetch": "page", "urls": ["https://www.brooklinema.gov/calendar.aspx"], "cities": ["Brookline"], "defaultCategory": "community", "notes": "Non-board public events only (e.g. Fall Community Day). Skip board/committee meetings." }
-```
-
-Not proposed: `discoverquincy.com` (4 days, probably a subset of the city calendar; it could be a later addition for Quincy). Libraries and Union Square Main had 0 days in the window.
+Skipped candidates:
+- City of Malden Calendar: mostly board and commission meetings, 7 window days and no feed. Malden is already covered by malden-events. Add it only if Malden stays thin.
+- The other "checked, not kept" sites list 0-3 window days.
 
 ## Fix
 
-**do617**: the page lists Oct 3 only, so the 15-day window is barely covered. Dated URLs of the form `/events/YYYY/MM/DD` return HTTP 200 (tested with 2026/10/10).
-```json
-{ "id": "do617", "name": "Do617", "type": "aggregator", "fetch": "page", "urls": ["https://do617.com/events", "https://do617.com/events/2026/10/04", "https://do617.com/events/2026/10/05", "https://do617.com/events/2026/10/06", "https://do617.com/events/2026/10/07", "https://do617.com/events/2026/10/08", "https://do617.com/events/2026/10/09", "https://do617.com/events/2026/10/10", "https://do617.com/events/2026/10/11", "https://do617.com/events/2026/10/12", "https://do617.com/events/2026/10/13", "https://do617.com/events/2026/10/14", "https://do617.com/events/2026/10/15", "https://do617.com/events/2026/10/16", "https://do617.com/events/2026/10/17"], "cities": "all", "notes": "Each URL is one day; use that date for its events. Skip events outside the listed cities." }
-```
-The URL list needs refreshing for each window. I did not check that every date page has content.
+- `boston-calendar` (page): the home page only shows today's events, so only Oct 10 was captured. Suggested fix: replace the URL with dated day or weekend pages. I did not verify the URL pattern, so check it before editing.
+- `artsboston`: also only returned Oct 10. Check whether the calendar needs a date or paging parameter. I could not confirm a better URL.
+- `somerville-city` (page, https://www.somervillema.gov/events): the page lists only Oct 10-13. Consider adding pagination or a later-dates URL if one exists. Unverified.
+- `boston-gov` (page): only Oct 10-14 are listed. Same pagination check as above.
+- `bostoncentral`: single-day calendar. Same check as above.
 
-**somerville-city**: the listing stops at Oct 6, and the calendar has a per-day view (`https://www.somervillema.gov/calendar?event_date=2026-10-DD`, linked from the month grid). I did not check that those pages list events. Suggest adding a few of them (e.g. 10-08, 10-10, 10-14) or `?page=1`, then checking the result next run. Keep the existing entry otherwise.
-
-**bu-spark** (thin, 1 event): only one dated event in the window, and the weekly sessions are student-oriented. Replace with the Remove below, or keep as is. It costs little, so it is optional.
+No corrected JSON is given for these, because I found no verified URL.
 
 ## Remove
 
-- `bu-spark`: yields 1 event per window; Code & Tell is probably also on Eventbrite/Luma. Low priority; keep if you want the Spark! events.
+None.

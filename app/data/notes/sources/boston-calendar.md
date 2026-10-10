@@ -1,3 +1,2 @@
 status: ok
-Listing page only reached Oct 3 (and one Oct 4 sponsored event); the page was truncated at 80000 chars, so later dates are not covered.
-94 events kept. Skipped events outside listed cities, listings with unclear city, duplicates, and non-event guides.
+Listing page only showed Oct 10 (today); all events are dated 2026-10-10. Times on the page looked unreliable (e.g. 5:30a concert), so start times were omitted. Skipped events outside the cities, duplicates (two Spamalot shows on the same day kept one), listicles, and ambiguous-location venues.

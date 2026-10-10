@@ -1,2 +1,7 @@
 status: ok
-Listing page (3 chunks) only covered Oct 4-5 of 3,894 items plus long-running exhibitions; 17 records written (5 exhibitions/runs, story times, yoga, baby music). Skipped notary hours, Age Strong office hours (no event URL), and Becoming Boston (gallery closed until Oct 30). All branches mapped to Boston.
+Listing at bpl.bibliocommons.com/v2/events came back as markdown with 3 chunks, 18 usable Boston events inside the window.
+All BPL branches are in Boston proper, so every record uses city Boston.
+Skipped: canceled events (Codman Square citizenship class, Roslindale bilingual story time), and three fragments at chunk boundaries with no title, date or venue.
+Becoming Boston exhibition kept with date 2026-10-10 (run is open in window), with a note in the description that the gallery is closed until October 30.
+Introduction to Knitting is listed as registration full; kept and noted.
+No detail pages were fetched.

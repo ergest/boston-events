@@ -1,14 +1,13 @@
 {
-  "start": "2026-10-03",
-  "end": "2026-10-17",
+  "start": "2026-10-10",
+  "end": "2026-10-24",
   "cities": [
     "Boston",
     "Cambridge",
     "Somerville",
     "Brookline",
     "Medford",
-    "Malden",
-    "Quincy"
+    "Malden"
   ],
   "categories": [
     "music",

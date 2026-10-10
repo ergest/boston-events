@@ -1,19 +1,28 @@
 # Merge
 
-667 raw → 667 valid → 652 after dedupe; 138 flagged.
+719 raw → 719 valid → 695 after dedupe; 228 flagged.
 
-- Merged duplicate "Revolutionary Words Tour A Literary Walk Through the Writings that Inspired Independence" (2026-10-03, Boston) from artsboston and boston-calendar
-- Merged duplicate "SpicetoberFest: Spice. Culture. Food." (2026-10-03, Boston) from artsboston and boston-calendar
-- Merged duplicate "6th Annual Oktoberfest at The Tall Ship" (2026-10-03, Boston) from allevents-boston and boston-calendar
-- Merged duplicate "Munich at The Market Oktoberfest" (2026-10-03, Boston) from allevents-boston and boston-calendar
-- Merged duplicate "Cindy Redman - The Songs I Sang Along the Way" (2026-10-03, Boston) from artsboston and boston-calendar
-- Merged duplicate "Home By 3" (2026-10-03, Boston) from boch-center and boston-calendar
-- Merged duplicate "Pepsi Eats Fest Boston" (2026-10-04, Boston) from allevents-boston and bostoncentral
-- Merged duplicate "Brighton Brewfest" (2026-10-03, Boston) from boston-calendar and do617
-- Merged duplicate "R&B ONLY LIVE - Boston, MA" (2026-10-03, Boston) from allevents-boston and eventbrite-boston
-- Merged duplicate "RESCHEDULED to 10/4 - 2026 Burkie's Walk & BHYC Pig Roast" (2026-10-04, Boston) from allevents-boston and eventbrite-boston
-- Merged duplicate "Discovering King Tut's Tomb" (2026-10-03, Boston) from boch-center and fever-boston
-- Merged duplicate "Collecting Wonders: Tomorrow’s Discoveries" (2026-10-04, Cambridge) from bostoncentral and harvard
-- Merged duplicate "Play Date: Free Family Art Day" (2026-10-04, Boston) from bostoncentral and ica
-- Merged duplicate "The Weavers" (2026-10-03, Cambridge) from boston-calendar and mit
-- Merged duplicate "Cambridge Science Carnival" (2026-10-04, Cambridge) from bostoncentral and mit
+- Merged duplicate "The Ink & Cobblestones Tour: A Walk Through Boston’s Literary Past" (2026-10-10, Boston) from artsboston and boston-calendar
+- Merged duplicate "Monty Python's Spamalot" (2026-10-10, Boston) from boch-center and boston-calendar
+- Merged duplicate "Outlander In Concert" (2026-10-10, Boston) from boch-center and boston-calendar
+- Merged duplicate "Spotlight: VAMP'D OUT! A Buffy the Vampire Slayer Drag Tribute Show" (2026-10-10, Boston) from artsboston and boston-calendar
+- Merged duplicate "All We Are" (2026-10-10, Cambridge) from artsboston and boston-calendar
+- Merged duplicate "$5 Ferry Weekend" (2026-10-10, Boston) from boston-calendar and bostoncentral
+- Merged duplicate "Comedy at Summer Shack ($15 + Free Parking!)..." (2026-10-10, Cambridge) from boston-calendar and bostoncentral
+- Merged duplicate "Greenway Artisan Market" (2026-10-10, Boston) from boston-calendar and bostoncentral
+- Merged duplicate "WICKED" (2026-10-10, Boston) from allevents-boston and bostoncentral
+- Merged duplicate "House of Heavy" (2026-10-10, Cambridge) from boston-calendar and bostoncentral
+- Merged duplicate "Collecting Wonders: Tomorrow’s Discoveries..." (2026-10-10, Cambridge) from boston-calendar and bostoncentral
+- Merged duplicate "Outlander in Concert" (2026-10-10, Boston) from boch-center and bostoncentral
+- Merged duplicate "Monty Python's Spamalot" (2026-10-10, Boston) from boch-center and do617
+- Merged duplicate "Boston Open Market" (2026-10-10, Boston) from boston-calendar and do617
+- Merged duplicate "Rock The Boat Boston: All Black Boat Ride Holiday Weekend 2026" (2026-10-10, Boston) from allevents-boston and eventbrite-boston
+- Merged duplicate "Discovering King Tut's Tomb" (2026-10-10, Boston) from boch-center and fever-boston
+- Merged duplicate "Collecting Wonders: Tomorrow’s Discoveries" (2026-10-10, Cambridge) from bostoncentral and harvard
+- Merged duplicate "Pop Quiz: 1776" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Rubies" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Second Saturdays Story Time" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Spotlight Tour: Model as Muse with Giselle Acosta ’27" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Peabody Museum Tours Led by Harvard Students" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "Spotlight Tour: In the Blink of an Eye with Jade Xiao ’27" (2026-10-10, Cambridge) from boston-calendar and harvard
+- Merged duplicate "HONK! Festival" (2026-10-10, Somerville) from do617 and somerville-city
