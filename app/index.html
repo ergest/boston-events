@@ -28,7 +28,15 @@
 
   /* Sticky controls: day strip + filter chips */
   .controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 8px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
-  .days { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding-bottom: 2px; }
+  .top { display: flex; gap: 8px; align-items: center; min-width: 0; }
+  .filters { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+  .toggle { display: none; flex: 0 0 auto; }
+  .toggle[aria-expanded=true] { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+  /* Scrolled down: only the day strip stays; the filters open as an overlay from the toggle. */
+  .controls.collapsed .toggle { display: inline-block; }
+  .controls.collapsed .filters { display: none; }
+  .controls.collapsed.peek .filters { display: grid; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); padding: 8px 0 10px; border-bottom: 1px solid var(--line); box-shadow: 0 12px 16px -14px rgb(0 0 0 / .35); }
+  .days { flex: 1 1 auto; min-width: 0; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; padding-bottom: 2px; }
   .day { flex: 0 0 auto; min-width: 54px; border: 1px solid var(--line); background: var(--panel); border-radius: 10px; padding: 5px 6px 4px; text-align: center; cursor: pointer; line-height: 1.15; }
   .day small { display: block; font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
   .day strong { display: block; font-size: 1.05rem; }
@@ -100,10 +108,16 @@
     <h1>Greater Boston Events</h1>
     <p id="sub"></p>
   </header>
-  <div class="controls">
-    <div class="days" id="days"></div>
+  <div class="controls" id="controls">
+    <div class="top">
+      <div class="days" id="days"></div>
+      <button class="chip toggle" id="toggle" aria-expanded="false">Filters</button>
+    </div>
+    <div class="filters">
     <div class="row">
       <input type="search" id="q" placeholder="Search events, venues…">
+      <button class="chip" data-quick="morning">Morning</button>
+      <button class="chip" data-quick="afternoon">Afternoon</button>
       <button class="chip" data-quick="tonight">Tonight</button>
       <button class="chip" data-quick="weekend">This weekend</button>
       <button class="chip" data-quick="free">Free</button>
@@ -111,6 +125,7 @@
       <details class="cities" id="cities"><summary class="chip" id="citiesLabel">All cities</summary><div class="menu" id="cityMenu"></div></details>
     </div>
     <div class="row" id="cats"></div>
+    </div>
   </div>
   <div id="list"></div>
 </main>
@@ -151,12 +166,17 @@
   $('sub').textContent = `${events.length} upcoming events · ${fmtShort(data.window.start)}–${fmtShort(data.window.end)} · updated ${new Date(data.generatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}`;
 
   // State
-  const state = { q: '', day: '', quick: '', free: false, ongoing: false, cats: new Set(), cities: new Set() };
+  const state = { q: '', day: '', quick: '', time: '', free: false, ongoing: false, cats: new Set(), cities: new Set() };
+
+  // Time of day by start time; events without one (all day, on view) don't match.
+  const SLOTS = { morning: ['00:00', '12:00'], afternoon: ['12:00', '17:00'] };
+  const inSlot = (e, s) => !!e.startTime && e.startTime >= SLOTS[s][0] && e.startTime < SLOTS[s][1];
 
   // Filters that apply before the day choice (so the day strip can show counts).
   const baseMatch = (e) =>
     (!state.cities.size || state.cities.has(e.city)) &&
     (!state.cats.size || state.cats.has(e.category)) &&
+    (!state.time || inSlot(e, state.time)) &&
     (!state.free || isFree(e)) &&
     (!state.ongoing || isRun(e) || isSeries(e)) &&
     (!state.q || [e.title, e.venue, e.description, e.source, e.city].join(' ').toLowerCase().includes(state.q));
@@ -198,14 +218,15 @@
     const q = b.dataset.quick;
     if (q === 'free') state.free = !state.free;
     else if (q === 'ongoing') state.ongoing = !state.ongoing;
-    else { state.quick = state.quick === q ? '' : q; if (state.quick) state.day = ''; }
+    else if (q in SLOTS) { state.time = state.time === q ? '' : q; if (state.time && state.quick === 'tonight') state.quick = ''; }
+    else { state.quick = state.quick === q ? '' : q; if (state.quick) state.day = ''; if (state.quick === 'tonight') state.time = ''; }
     render();
   }));
   $('cats').addEventListener('click', (ev) => {
     const b = ev.target.closest('[data-cat]');
     if (b) { state.cats.has(b.dataset.cat) ? state.cats.delete(b.dataset.cat) : state.cats.add(b.dataset.cat); render(); }
     if (ev.target.id === 'clear') {
-      Object.assign(state, { q: '', day: '', quick: '', free: false, ongoing: false });
+      Object.assign(state, { q: '', day: '', quick: '', time: '', free: false, ongoing: false });
       state.cats.clear(); state.cities.clear();
       $('q').value = '';
       $('cityMenu').querySelectorAll('input').forEach((i) => (i.checked = false));
@@ -215,7 +236,32 @@
   $('cityMenu').addEventListener('change', (ev) => { ev.target.checked ? state.cities.add(ev.target.value) : state.cities.delete(ev.target.value); render(); });
   document.addEventListener('click', (ev) => {
     for (const d of document.querySelectorAll('details[open]')) if (!d.contains(ev.target)) d.open = false;
+    if (!controls.contains(ev.target)) setPeek(false);
   });
+
+  // Collapse the filters to a "Filters" toggle once the controls have scrolled into their sticky spot.
+  const controls = $('controls');
+  let peekY = 0;
+  const collapsed = () => controls.classList.contains('collapsed');
+  function setPeek(on) {
+    controls.classList.toggle('peek', on);
+    $('toggle').setAttribute('aria-expanded', on);
+    peekY = scrollY;
+  }
+  function onScroll() {
+    const stickAt = controls.previousElementSibling.getBoundingClientRect().bottom + scrollY;
+    if (!collapsed()) {
+      if (scrollY <= stickAt + controls.offsetHeight) return;
+      const h = controls.offsetHeight;
+      controls.classList.add('collapsed');
+      window.scrollBy(0, -(h - controls.offsetHeight)); // keep the list from jumping up
+    } else if (scrollY <= stickAt + 4) {
+      controls.classList.remove('collapsed');
+      setPeek(false);
+    } else if (controls.classList.contains('peek') && Math.abs(scrollY - peekY) > 60) setPeek(false);
+  }
+  addEventListener('scroll', onScroll, { passive: true });
+  $('toggle').addEventListener('click', () => setPeek(!controls.classList.contains('peek')));
   $('list').addEventListener('click', (ev) => {
     const ics = ev.target.closest('[data-ics]');
     if (ics) { downloadIcs(events[+ics.dataset.ics]); ics.closest('details').open = false; return; }
@@ -306,11 +352,14 @@
       return `<button class="day${dow(d) === 0 || dow(d) === 6 ? ' weekend' : ''}" data-day="${d}" aria-pressed="${state.day === d}" ${n ? '' : 'disabled'}>
         <small>${label}</small><strong>${Number(d.slice(8))}</strong><span>${n}</span></button>`;
     }).join('');
-    document.querySelectorAll('[data-quick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.quick === 'free' ? state.free : b.dataset.quick === 'ongoing' ? state.ongoing : state.quick === b.dataset.quick));
+    const pressed = { free: state.free, ongoing: state.ongoing, morning: state.time === 'morning', afternoon: state.time === 'afternoon' };
+    document.querySelectorAll('[data-quick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.quick in pressed ? pressed[b.dataset.quick] : state.quick === b.dataset.quick));
     document.querySelectorAll('[data-cat]').forEach((b) => b.setAttribute('aria-pressed', state.cats.has(b.dataset.cat)));
     $('citiesLabel').textContent = !state.cities.size ? 'All cities' : state.cities.size <= 2 ? [...state.cities].join(', ') : `${state.cities.size} cities`;
     $('citiesLabel').setAttribute('aria-pressed', state.cities.size > 0);
-    $('clear').hidden = !(state.q || state.day || state.quick || state.free || state.ongoing || state.cats.size || state.cities.size);
+    $('clear').hidden = !(state.q || state.day || state.quick || state.time || state.free || state.ongoing || state.cats.size || state.cities.size);
+    const active = [state.q, state.quick, state.time, state.free, state.ongoing].filter(Boolean).length + state.cats.size + state.cities.size;
+    $('toggle').textContent = active ? `Filters · ${active}` : 'Filters';
 
     const shown = base.filter(dayMatch);
     const single = shown.filter((e) => !isSeries(e) && !isRun(e));
