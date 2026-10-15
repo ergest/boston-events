@@ -119,7 +119,7 @@
     <div class="row">
       <button class="chip" data-quick="morning">Morning</button>
       <button class="chip" data-quick="afternoon">Afternoon</button>
-      <button class="chip" data-quick="tonight">Tonight</button>
+      <button class="chip" data-quick="evening">Evening</button>
       <button class="chip" data-quick="weekend">This weekend</button>
       <button class="chip" data-quick="free">Free</button>
       <button class="chip" data-quick="ongoing">Ongoing</button>
@@ -169,7 +169,7 @@
   const state = { q: '', day: '', quick: '', time: '', free: false, ongoing: false, cats: new Set(), cities: new Set() };
 
   // Time of day by start time; events without one (all day, on view) don't match.
-  const SLOTS = { morning: ['00:00', '12:00'], afternoon: ['12:00', '17:00'] };
+  const SLOTS = { morning: ['00:00', '12:00'], afternoon: ['12:00', '17:00'], evening: ['17:00', '24:00'] };
   const inSlot = (e, s) => !!e.startTime && e.startTime >= SLOTS[s][0] && e.startTime < SLOTS[s][1];
 
   // Filters that apply before the day choice (so the day strip can show counts).
@@ -187,7 +187,6 @@
   }
   const dayMatch = (e) => {
     if (state.day) return onDay(e, state.day);
-    if (state.quick === 'tonight') return onDay(e, today) && (e.startTime || '') >= '17:00';
     if (state.quick === 'weekend') { const w = weekend(); return overlaps(e, w.start, w.end); }
     return true;
   };
@@ -218,8 +217,8 @@
     const q = b.dataset.quick;
     if (q === 'free') state.free = !state.free;
     else if (q === 'ongoing') state.ongoing = !state.ongoing;
-    else if (q in SLOTS) { state.time = state.time === q ? '' : q; if (state.time && state.quick === 'tonight') state.quick = ''; }
-    else { state.quick = state.quick === q ? '' : q; if (state.quick) state.day = ''; if (state.quick === 'tonight') state.time = ''; }
+    else if (q in SLOTS) { state.time = state.time === q ? '' : q; }
+    else { state.quick = state.quick === q ? '' : q; if (state.quick) state.day = ''; }
     render();
   }));
   $('cats').addEventListener('click', (ev) => {
@@ -298,8 +297,8 @@
   // Rendering
   function row(e, series) {
     const time = isRun(e) ? '<div class="time tba">On view</div>' : e.startTime ? `<div class="time">${esc(fmtTime(e.startTime))}</div>` : '<div class="time tba">All day</div>';
+    const place = `${e.venue && e.venue !== e.city ? esc(e.venue) + ', ' : ''}${esc(e.city)}`;
     const sub = [
-      `<span>${e.venue && e.venue !== e.city ? esc(e.venue) + ', ' : ''}${esc(e.city)}</span>`,
       `<span class="tag" style="--c:${catColor(e.category)}">${esc(e.category)}</span>`,
       isFree(e) ? '<span class="free">FREE</span>' : e.price ? `<span>${esc(e.price)}</span>` : '',
     ].join('');
@@ -310,6 +309,7 @@
       ${series ? `<div class="time tba">${series.length}×</div>` : time}
       <div>
         <div class="title"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></div>
+        <div class="sub">${place}</div>
         <div class="sub">${sub}</div>${when}
       </div>
       <div class="more">
@@ -348,7 +348,7 @@
       return `<button class="day${dow(d) === 0 || dow(d) === 6 ? ' weekend' : ''}" data-day="${d}" aria-pressed="${state.day === d}" ${n ? '' : 'disabled'}>
         <small>${label}</small><strong>${Number(d.slice(8))}</strong><span>${n}</span></button>`;
     }).join('');
-    const pressed = { free: state.free, ongoing: state.ongoing, morning: state.time === 'morning', afternoon: state.time === 'afternoon' };
+    const pressed = { free: state.free, ongoing: state.ongoing, ...Object.fromEntries(Object.keys(SLOTS).map((k) => [k, state.time === k])) };
     document.querySelectorAll('[data-quick]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.quick in pressed ? pressed[b.dataset.quick] : state.quick === b.dataset.quick));
     document.querySelectorAll('[data-cat]').forEach((b) => b.setAttribute('aria-pressed', state.cats.has(b.dataset.cat)));
     $('citiesLabel').textContent = !state.cities.size ? 'All cities' : state.cities.size <= 2 ? [...state.cities].join(', ') : `${state.cities.size} cities`;
