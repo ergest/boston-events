@@ -28,6 +28,7 @@ const { values: args } = parseArgs({
     'no-tail': { type: 'boolean', default: false },
     'no-discover': { type: 'boolean', default: false },
     reuse: { type: 'string' },
+    'max-dollars': { type: 'string' }, // overall cap; default is the sum of the codon budgets
     out: { type: 'string', default: 'hank.json' },
   },
 });
@@ -195,7 +196,7 @@ const hank = {
   },
   globalSystemPromptFile: './prompts/system.md',
   overrides: {
-    budget: { maxDollars: Math.max(1, Math.ceil(sourceDollars + tailDollars)), maxTimeSeconds: 4 * 3600, onExceeded: 'fail' },
+    budget: { maxDollars: args['max-dollars'] ? Number(args['max-dollars']) : Math.max(1, Math.ceil(sourceDollars + tailDollars)), maxTimeSeconds: 4 * 3600, onExceeded: 'fail' },
   },
   hank: [...preflight, ...sourceCodons, ...(args['no-tail'] ? [] : tail)],
 };
