@@ -1,6 +1,6 @@
 # Merge
 
-698 raw → 698 valid → 676 after dedupe; 129 flagged.
+698 raw → 698 valid → 676 after dedupe; 130 flagged.
 
 - Merged duplicate "Boston Book Festival" (2026-10-17, Boston) from allevents-boston and artsboston
 - Merged duplicate "Boston Book Festival" (2026-10-17, Boston) from allevents-boston and boston-calendar

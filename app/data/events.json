@@ -8,9 +8,7 @@
     "category": "music",
     "url": "https://bostix.org/event/the-pierre-hurel-trio-2/",
     "source": "ArtsBoston Calendar",
-    "sourceId": "artsboston",
-    "startTime": "19:00",
-    "registerUrl": "https://www.ticketweb.com/event/the-pierre-hurel-trio-regattabar-tickets/14925013?pl=regatta"
+    "sourceId": "artsboston"
   },
   {
     "id": "533fbf0e40",
@@ -21,10 +19,7 @@
     "category": "arts & theater",
     "url": "https://bostix.org/event/castle-of-our-skins-sacred-transcendence/",
     "source": "ArtsBoston Calendar",
-    "sourceId": "artsboston",
-    "startTime": "15:00",
-    "price": "Free",
-    "address": "160 Warren Street, Boston, MA 02119"
+    "sourceId": "artsboston"
   },
   {
     "id": "776a204d7f",
@@ -35,8 +30,7 @@
     "category": "tech & talks",
     "url": "https://bostix.org/event/call-it-evil-understanding-the-trump-era/",
     "source": "ArtsBoston Calendar",
-    "sourceId": "artsboston",
-    "registerUrl": "https://www.eventbrite.com/e/call-it-evil-understanding-the-trump-era-tickets-1998225712898"
+    "sourceId": "artsboston"
   },
   {
     "id": "0c1db0d1ac",
@@ -79,8 +73,6 @@
     "url": "https://www.bostoncentral.com/events/seasonalfun/p90135.php",
     "source": "Boston Central",
     "sourceId": "bostoncentral",
-    "startTime": "16:00",
-    "endTime": "20:00",
     "address": "325 Main Street, Cambridge, MA 02142",
     "registerUrl": "https://www.eventbrite.com/e/spooky-saturday-2026-tickets-2002168398577"
   },
@@ -94,9 +86,7 @@
     "price": "Free",
     "url": "https://www.bostoncentral.com/events/boston-open-market-copley-square/p66297.php",
     "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "11:00",
-    "endTime": "17:00"
+    "sourceId": "bostoncentral"
   },
   {
     "id": "f24bbf915b",
@@ -108,9 +98,7 @@
     "price": "Free",
     "url": "https://www.bostoncentral.com/events/head_of_the_charles_regatta/p1063.php",
     "source": "Boston Central",
-    "sourceId": "bostoncentral",
-    "startTime": "08:00",
-    "endTime": "16:30"
+    "sourceId": "bostoncentral"
   },
   {
     "id": "c5213d9aaa",
@@ -122,13 +110,13 @@
     "url": "https://www.bostoncentral.com/events/film/p89995.php",
     "source": "Boston Central",
     "sourceId": "bostoncentral",
-    "startTime": "10:30",
+    "address": "290 Harvard Street, Brookline, MA 02446",
     "price": "$9.50–$11.50",
-    "address": "290 Harvard Street, Brookline, MA 02446"
+    "registerUrl": "https://coolidge.org/films/hook"
   },
   {
     "id": "1c5cf31d69",
-    "title": "Oktoberfest at the New England Aquarium's...",
+    "title": "Oktoberfest at the New England Aquarium Dockside Beer Garden",
     "city": "Boston",
     "venue": "New England Aquarium",
     "date": "2026-10-17",
@@ -139,8 +127,7 @@
     "sourceId": "bostoncentral",
     "startTime": "12:00",
     "endTime": "19:00",
-    "address": "1 Central Wharf, Boston, MA 02110",
-    "description": "Family-friendly Oktoberfest at the Aquarium's Dockside Beer Garden, Fri–Sun through Oct 18; free entry, food and drink for purchase."
+    "address": "1 Central Wharf, Boston, MA 02110"
   },
   {
     "id": "5e0830e7b4",
@@ -153,9 +140,7 @@
     "url": "https://www.bostoncentral.com/events/boston-public-market/p43105.php",
     "source": "Boston Central",
     "sourceId": "bostoncentral",
-    "startTime": "08:00",
-    "endTime": "20:00",
-    "address": "100 Hanover Street, Boston, MA"
+    "address": "100 Hanover Street, Boston, MA 02108"
   },
   {
     "id": "e16fa8255c",
@@ -178,7 +163,9 @@
     "price": "Free",
     "url": "https://www.bostoncentral.com/events/farmer/p77849.php",
     "source": "Boston Central",
-    "sourceId": "bostoncentral"
+    "sourceId": "bostoncentral",
+    "startTime": "09:00",
+    "endTime": "13:00"
   },
   {
     "id": "bacb9402b0",
@@ -203,17 +190,6 @@
     "sourceId": "bostoncentral"
   },
   {
-    "id": "c9a0367419",
-    "title": "90 Years: ICA Boston's 90th Anniversary Exhibition",
-    "city": "Boston",
-    "venue": "Institute of Contemporary Art",
-    "date": "2026-10-17",
-    "category": "arts & theater",
-    "url": "https://www.bostoncentral.com/events/exhibit/p90317.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
     "id": "dc2e5efb0a",
     "title": "Ruckus! at Old South Meeting House",
     "city": "Boston",
@@ -222,7 +198,10 @@
     "category": "arts & theater",
     "url": "https://www.bostoncentral.com/events/exhibit/p89070.php",
     "source": "Boston Central",
-    "sourceId": "bostoncentral"
+    "sourceId": "bostoncentral",
+    "address": "310 Washington Street, Boston, MA 02108",
+    "price": "$10–$18",
+    "registerUrl": "https://revolutionaryspaces.org/explore/exhibits/ruckus/"
   },
   {
     "id": "8ccaa9824e",
@@ -235,14 +214,15 @@
     "url": "https://www.bostoncentral.com/events/arnold-arboretum-tours-boston/p5413.php",
     "description": "Self-guided walking tours at the Arnold Arboretum in Jamaica Plain.",
     "source": "Boston Central",
-    "sourceId": "bostoncentral"
+    "sourceId": "bostoncentral",
+    "address": "125 Arborway, Jamaica Plain, MA 02130"
   },
   {
     "id": "31253c152c",
     "title": "Becoming Boston: Eight Moments in the Geography of a Changing City",
     "city": "Boston",
     "venue": "Central Library in Copley Square",
-    "date": "2026-10-17",
+    "date": "2026-10-30",
     "endDate": "2027-02-01",
     "category": "arts & theater",
     "url": "https://bpl.bibliocommons.com/events/67ed385ff97aac3d000b236d",
@@ -394,7 +374,9 @@
     "url": "https://feverup.com/m/650120",
     "description": "Sunset cruise on Boston Harbor. Runs 17 Oct to 14 Nov.",
     "source": "Fever Boston",
-    "sourceId": "fever-boston"
+    "sourceId": "fever-boston",
+    "startTime": "17:00",
+    "address": "1 Long Wharf, Boston, MA 02210"
   },
   {
     "id": "0bfd64ca96",
@@ -8631,21 +8613,6 @@
     "description": "A one-person play by Tammy Denease of the Hidden Women Stage Company, bringing to life Elizabeth Mumbet Freeman.",
     "source": "Public Library of Brookline",
     "sourceId": "brookline-library"
-  },
-  {
-    "id": "b8f2ff0ab7",
-    "title": "Citywide Scavenger Hunt",
-    "city": "Cambridge",
-    "venue": "Russell Youth Center",
-    "address": "680 Huron Ave., Cambridge, MA 02138",
-    "date": "2026-10-29",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "family",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/10/29/citywidescavengerhunt",
-    "description": "Scavenger hunt followed by a hands-on arts and crafts activity at the Russell Youth Center.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "5800230e7a",
