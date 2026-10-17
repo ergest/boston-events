@@ -8,7 +8,7 @@
   "globalSystemPromptFile": "./prompts/system.md",
   "overrides": {
     "budget": {
-      "maxDollars": 4,
+      "maxDollars": 10,
       "maxTimeSeconds": 14400,
       "onExceeded": "fail"
     }
