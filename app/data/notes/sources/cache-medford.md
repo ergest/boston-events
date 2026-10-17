@@ -1,4 +1,4 @@
 status: ok
-Fetched the iCal feed (events-1 to events-3, 29 usable events across 2026-10-17 to 2026-10-21 in Medford). Kept public, general-interest events and mapped them to the record format.
-Dropped: "Mapping Memory: Journaling Through Alternative Process & Collage (Grades 6-9)" on 2026-10-19. The listing shows only "MA" as its location, and the detail page (raw/cache-medford/detail-1.md) gives no venue, so the city cannot be determined.
-Judgment calls: senior-center programs (Poetry for Seniors, Senior Movie Viewing) are kept as open to the public. Fee-based multi-week classes and series are kept with the first in-window date and the price shown. Line Dancing is in the "community" category because the feed lists it as "Other". Prices are given only where the feed states them.
+Feed (ICS) read in 3 pages covering 2026-10-17 to 2026-10-31; 58 records kept, all in Medford.
+Skipped: "Senior Ceramics at Clay Dreams" (held at Clay Dreams in Arlington, not Medford); a second "Let's Move!" listing (same series, same date, duplicate); the 10/25 "Stop Scrolling & Start Sketching" session (series already recorded on 10/18); repeats of events that appeared in overlapping feed pages.
+Judgment calls: "Mapping Memory" lists only "MA" as location, so venue is set to "CACHE in Medford". Some class series list dates after the stated run (e.g. kids sewing listed 10/27 but run 9/15-10/20); recorded as the feed shows them.

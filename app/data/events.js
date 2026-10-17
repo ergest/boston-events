@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
-  "generatedAt": "2026-10-17T13:48:36.931Z",
+  "generatedAt": "2026-10-17T13:59:18.715Z",
   "window": {
     "start": "2026-10-17",
     "end": "2026-10-31",
@@ -73,21 +73,6 @@ window.EVENTS_DATA = {
       "price": "From $22.50"
     },
     {
-      "id": "c441704a13",
-      "title": "Fall Party at Kendall/MIT Open Space",
-      "city": "Cambridge",
-      "venue": "Kendall/MIT Open Space",
-      "date": "2026-10-17",
-      "category": "family",
-      "price": "Free",
-      "url": "https://www.bostoncentral.com/events/seasonalfun/p90245.php",
-      "source": "Boston Central",
-      "sourceId": "bostoncentral",
-      "startTime": "14:00",
-      "endTime": "17:00",
-      "address": "292 Main Street, Cambridge, MA 02142"
-    },
-    {
       "id": "d7248ec012",
       "title": "Spooky Saturday at Urban Park Roof Garden",
       "city": "Cambridge",
@@ -140,21 +125,6 @@ window.EVENTS_DATA = {
       "registerUrl": "https://coolidge.org/films/hook"
     },
     {
-      "id": "1c5cf31d69",
-      "title": "Oktoberfest at the New England Aquarium Dockside Beer Garden",
-      "city": "Boston",
-      "venue": "New England Aquarium",
-      "date": "2026-10-17",
-      "category": "food & drink",
-      "price": "Free",
-      "url": "https://www.bostoncentral.com/events/food/p90111.php",
-      "source": "Boston Central",
-      "sourceId": "bostoncentral",
-      "startTime": "12:00",
-      "endTime": "19:00",
-      "address": "1 Central Wharf, Boston, MA 02110"
-    },
-    {
       "id": "5e0830e7b4",
       "title": "Boston Public Market",
       "city": "Boston",
@@ -177,20 +147,6 @@ window.EVENTS_DATA = {
       "url": "https://www.bostoncentral.com/events/haymarket-boston/p1152.php",
       "source": "Boston Central",
       "sourceId": "bostoncentral"
-    },
-    {
-      "id": "3c161babe8",
-      "title": "Union Square Farmers Market",
-      "city": "Somerville",
-      "venue": "Union Square",
-      "date": "2026-10-17",
-      "category": "festivals & markets",
-      "price": "Free",
-      "url": "https://www.bostoncentral.com/events/farmer/p77849.php",
-      "source": "Boston Central",
-      "sourceId": "bostoncentral",
-      "startTime": "09:00",
-      "endTime": "13:00"
     },
     {
       "id": "bacb9402b0",
@@ -241,19 +197,6 @@ window.EVENTS_DATA = {
       "source": "Boston Central",
       "sourceId": "bostoncentral",
       "address": "125 Arborway, Jamaica Plain, MA 02130"
-    },
-    {
-      "id": "31253c152c",
-      "title": "Becoming Boston: Eight Moments in the Geography of a Changing City",
-      "city": "Boston",
-      "venue": "Central Library in Copley Square",
-      "date": "2026-10-30",
-      "endDate": "2027-02-01",
-      "category": "arts & theater",
-      "url": "https://bpl.bibliocommons.com/events/67ed385ff97aac3d000b236d",
-      "description": "Exhibition in the Leventhal Map and Education Gallery, running March 31, 2025 to February 1, 2027. The gallery is closed until October 30, 2026, then reopens with new hours.",
-      "source": "Boston Public Library",
-      "sourceId": "bpl"
     },
     {
       "id": "c14c6d7cd4",
@@ -386,22 +329,6 @@ window.EVENTS_DATA = {
       "description": "Entry tickets to the New England Aquarium. Runs 17 Oct to 3 Jan.",
       "source": "Fever Boston",
       "sourceId": "fever-boston"
-    },
-    {
-      "id": "817c778931",
-      "title": "Boston Harbor: Sunset Cruise",
-      "city": "Boston",
-      "venue": "Evening Cruises in Boston",
-      "date": "2026-10-17",
-      "endDate": "2026-11-14",
-      "category": "sports & outdoors",
-      "price": "From $31.50",
-      "url": "https://feverup.com/m/650120",
-      "description": "Sunset cruise on Boston Harbor. Runs 17 Oct to 14 Nov.",
-      "source": "Fever Boston",
-      "sourceId": "fever-boston",
-      "startTime": "17:00",
-      "address": "1 Long Wharf, Boston, MA 02210"
     },
     {
       "id": "0bfd64ca96",
@@ -763,6 +690,19 @@ window.EVENTS_DATA = {
       "sourceId": "somerville-city"
     },
     {
+      "id": "3b587c7fd6",
+      "title": "Six Annual Sarah Bradlee Fulton Day",
+      "city": "Medford",
+      "venue": "Medford's Historic Salem Street Burying Ground",
+      "date": "2026-10-17",
+      "category": "community",
+      "price": "Free",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261017/cac47ee7-3f09-4fe4-aadb-69dcdd6a8e3c/six-annual-sarah-bradlee-fulton-day",
+      "description": "Citywide celebration of Medford's Revolutionary War heroine Sarah Bradlee Fulton, with a historic walk starting at 10 AM at the burying ground, a fife and drum, children's activities, and an original play. Sponsored by Looking Back at Medford History and the Medford Arts Council.",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
+    },
+    {
       "id": "858db31ebb",
       "title": "Susan G. Komen Massachusetts MORE THAN PINK Walk",
       "city": "Boston",
@@ -816,6 +756,20 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/10/17/bakery-crawl-tickets",
       "source": "Do617",
       "sourceId": "do617"
+    },
+    {
+      "id": "3c161babe8",
+      "title": "Union Square Farmers Market",
+      "city": "Somerville",
+      "venue": "Union Square",
+      "date": "2026-10-17",
+      "category": "festivals & markets",
+      "price": "Free",
+      "url": "https://www.bostoncentral.com/events/farmer/p77849.php",
+      "source": "Boston Central",
+      "sourceId": "bostoncentral",
+      "startTime": "09:00",
+      "endTime": "13:00"
     },
     {
       "id": "2050b7c97c",
@@ -896,21 +850,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-calendar"
     },
     {
-      "id": "7fb6b7adc8",
-      "title": "MakerSpace Drop-In",
-      "city": "Medford",
-      "venue": "Medford Public Library",
-      "address": "111 High St., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "09:00",
-      "endTime": "11:00",
-      "category": "tech & talks",
-      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-3/2026-10-17/",
-      "description": "Drop in to the Medford Public Library MakerSpace to work on your own projects or ask the in-house expert about the space and equipment. General safety badging is available.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "50a6feda1a",
       "title": "Where's Boston? 50 Years Later",
       "city": "Boston",
@@ -989,6 +928,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "7fb6b7adc8",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-3/2026-10-17/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "3ee6d8cc92",
       "title": "Moakley Park Clean Up",
       "city": "Boston",
@@ -1029,21 +983,6 @@ window.EVENTS_DATA = {
       "sourceId": "bpl"
     },
     {
-      "id": "deb15aebd6",
-      "title": "Intro To Watercolor Workshop",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "09:30",
-      "endTime": "12:30",
-      "category": "arts & theater",
-      "url": "https://www.cacheinmedford.org/event/intro-to-watercolor-workshop/",
-      "description": "A three-hour beginner watercolor class practicing guided techniques and quick studies in a loose, expressive style.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "da3d025dd2",
       "title": "ALO BOSTON SEAPORT: ALO RUNNERS CLUB",
       "city": "Boston",
@@ -1057,6 +996,21 @@ window.EVENTS_DATA = {
       "description": "A high-energy 5K run with the ALO Runners Club at ALO Boston Seaport.",
       "source": "Luma Boston",
       "sourceId": "luma-boston"
+    },
+    {
+      "id": "deb15aebd6",
+      "title": "Intro To Watercolor Workshop",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/intro-to-watercolor-workshop/",
+      "description": "A three-hour beginner watercolor class practicing guided techniques and quick studies.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "8aa6e3aaba",
@@ -1404,21 +1358,6 @@ window.EVENTS_DATA = {
       "sourceId": "bpl"
     },
     {
-      "id": "3c5bb7b83f",
-      "title": "Family Story Time",
-      "city": "Medford",
-      "venue": "Medford Public Library",
-      "address": "111 High St., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "10:00",
-      "endTime": "11:00",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/family-story-time-4/2026-10-17/",
-      "description": "Story hour for children ages 3 to 7 with books and songs. Parents and caregivers are welcome to join in.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "c4a3e751e0",
       "title": "Seaport District: Innovation or Inundation",
       "city": "Boston",
@@ -1518,6 +1457,64 @@ window.EVENTS_DATA = {
       "sourceId": "somerville-city"
     },
     {
+      "id": "cd6cdedbfb",
+      "title": "Drop-In Kids' Craft",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "3c5bb7b83f",
+      "title": "Family Story Time",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-4/2026-10-17/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "331363dbaf",
+      "title": "Exhibition: Remembering the Future",
+      "city": "Cambridge",
+      "venue": "MIT Museum",
+      "address": "265 Massachusetts Ave, Cambridge, MA 02139",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "category": "arts & theater",
+      "url": "https://cambridgeusa.org/event/exhibition-remembering-the-future-2/2026-10-17/",
+      "description": "Janet Echelman's sculptural work traces the Earth's climate history from the last ice age to the present.",
+      "source": "Cambridge Office for Tourism",
+      "sourceId": "cambridge-tourism"
+    },
+    {
+      "id": "6fdba225e1",
+      "title": "Exhibition: AI: Mind the Gap",
+      "city": "Cambridge",
+      "venue": "MIT Museum",
+      "address": "265 Massachusetts Ave, Cambridge, MA 02139",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "category": "arts & theater",
+      "url": "https://cambridgeusa.org/event/exhibition-ai-mind-the-gap-2/2026-10-17/",
+      "description": "An MIT Museum exhibition on artificial intelligence and what it reveals about human intelligence.",
+      "source": "Cambridge Office for Tourism",
+      "sourceId": "cambridge-tourism"
+    },
+    {
       "id": "7cf87dd2a8",
       "title": "Young Founder Class - NECINA",
       "city": "Brookline",
@@ -1557,6 +1554,35 @@ window.EVENTS_DATA = {
       "description": "Story time with Rhubarb the Therapy Dog, with stories, music and a group activity, run by the Fields Corner Branch team and the Dorchester Family Engagement Network.",
       "source": "Boston Public Library",
       "sourceId": "bpl"
+    },
+    {
+      "id": "c50ee1d3aa",
+      "title": "Face Painting by FaceArt",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-17",
+      "startTime": "10:30",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/bpm-events/face-painting-by-faceart-3/2026-10-17/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "086fe11fa7",
+      "title": "U.S. Citizenship Course",
+      "city": "Cambridge",
+      "venue": "Harvard Art Museums",
+      "address": "32 Quincy St, Cambridge, MA 02138",
+      "date": "2026-10-17",
+      "startTime": "10:30",
+      "endTime": "12:30",
+      "category": "community",
+      "price": "Free",
+      "url": "https://cambridgeusa.org/event/u-s-citizenship-course/2026-10-17/",
+      "description": "A free 8-week course, run with St. Mark Community Education Program, to prepare students for the U.S. citizenship exam.",
+      "source": "Cambridge Office for Tourism",
+      "sourceId": "cambridge-tourism"
     },
     {
       "id": "0db7dd81dd",
@@ -1783,6 +1809,33 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "655fe7018f",
+      "title": "Fall Tea Blending Experience with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-17",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/fall-tea-blending-experience-with-curio-spice-co/2026-10-17/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "f2260306bd",
+      "title": "Somerville Music Ecosystem: Spotlight on Recording",
+      "city": "Somerville",
+      "venue": "New Alliance Audio",
+      "date": "2026-10-17",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "category": "music",
+      "url": "https://somervilleartscouncil.org/events/somerville-music-ecosystem-spotlight-on-recording/",
+      "description": "A panel of recording, mixing and mastering engineers from the Somerville music community, moderated by Somerville Music Ambassador Ajda Snyder.",
+      "source": "Somerville Arts Council",
+      "sourceId": "somerville-arts-council"
+    },
+    {
       "id": "78c297b678",
       "title": "Becca Kidwell - Fifty Ways To Leave Your Forties",
       "city": "Boston",
@@ -1805,6 +1858,21 @@ window.EVENTS_DATA = {
       "url": "https://www.thebostoncalendar.com/events/harvard-square-food-tour-cambridge-ma--191",
       "source": "The Boston Calendar",
       "sourceId": "boston-calendar"
+    },
+    {
+      "id": "1c5cf31d69",
+      "title": "Oktoberfest at the New England Aquarium Dockside Beer Garden",
+      "city": "Boston",
+      "venue": "New England Aquarium",
+      "date": "2026-10-17",
+      "category": "food & drink",
+      "price": "Free",
+      "url": "https://www.bostoncentral.com/events/food/p90111.php",
+      "source": "Boston Central",
+      "sourceId": "bostoncentral",
+      "startTime": "12:00",
+      "endTime": "19:00",
+      "address": "1 Central Wharf, Boston, MA 02110"
     },
     {
       "id": "486a961514",
@@ -1980,22 +2048,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
-      "id": "2f3a1a8bce",
-      "title": "Sarah Bradlee Fulton Day",
-      "city": "Medford",
-      "venue": "Salem Street Burying Ground",
-      "address": "Salem Street and River Street, Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "12:00",
-      "endTime": "15:00",
-      "category": "community",
-      "url": "https://www.cacheinmedford.org/event/sarah-bradlee-fulton-day/",
-      "price": "Free",
-      "description": "A free community event celebrating Medford's Revolutionary War heroine Sarah Bradlee Fulton, with local history.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "286e891241",
       "title": "Fall Dessert Swap (Central Square)",
       "city": "Cambridge",
@@ -2161,6 +2213,48 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "259032692f",
+      "title": "MythBusting: 4 Wines, 4 Myths",
+      "city": "Brookline",
+      "venue": "Winestone",
+      "date": "2026-10-17",
+      "startTime": "12:00",
+      "category": "food & drink",
+      "url": "https://winestone.net/",
+      "description": "Four wines put familiar wine myths to the test in a tasting session.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "2f3a1a8bce",
+      "title": "Sarah Bradlee Fulton Day",
+      "city": "Medford",
+      "venue": "Salem Street Burying Ground",
+      "address": "Salem Street and River Street, Medford, 02155",
+      "date": "2026-10-17",
+      "startTime": "12:00",
+      "endTime": "15:00",
+      "category": "community",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/sarah-bradlee-fulton-day/",
+      "description": "Free community event celebrating Medford's Revolutionary War heroine Sarah Bradlee Fulton, with local history.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "ee31c29281",
+      "title": "Lucky Seven! The Gallery@57 Turns 7!",
+      "city": "Malden",
+      "venue": "The Gallery@57",
+      "address": "57 Pleasant St, Malden, MA",
+      "date": "2026-10-17",
+      "startTime": "12:00",
+      "category": "arts & theater",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261017/9a919fc1-8199-4dfe-9007-5c2317291400/lucky-seven-the-gallery-57-turns-7",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
+    },
+    {
       "id": "325499d00b",
       "title": "Building Bridges & Big Ideas: Miguel Rosales",
       "city": "Boston",
@@ -2305,6 +2399,22 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "0916a9f580",
+      "title": "Arts In The Park",
+      "city": "Cambridge",
+      "venue": "Sennott Park",
+      "address": "305 Broadway, Cambridge, MA 02139",
+      "date": "2026-10-17",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "category": "festivals & markets",
+      "price": "Free",
+      "url": "https://cambridgeusa.org/event/arts-in-the-park-2/",
+      "description": "An afternoon of art, food and music presented by Adius Arts Initiative and the Cambridge Department of Public Works.",
+      "source": "Cambridge Office for Tourism",
+      "sourceId": "cambridge-tourism"
+    },
+    {
       "id": "a402b80ded",
       "title": "Haitian Folkloric Dance at the Dance Complex",
       "city": "Cambridge",
@@ -2359,6 +2469,21 @@ window.EVENTS_DATA = {
       "description": "Gallery activity cart with art supplies and materials. Theme: Silver.",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "c441704a13",
+      "title": "Fall Party at Kendall/MIT Open Space",
+      "city": "Cambridge",
+      "venue": "Kendall/MIT Open Space",
+      "date": "2026-10-17",
+      "category": "family",
+      "price": "Free",
+      "url": "https://www.bostoncentral.com/events/seasonalfun/p90245.php",
+      "source": "Boston Central",
+      "sourceId": "bostoncentral",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "address": "292 Main Street, Cambridge, MA 02142"
     },
     {
       "id": "b9a9f8b23f",
@@ -2468,21 +2593,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-calendar"
     },
     {
-      "id": "b45dff148d",
-      "title": "Public Harmony Concert",
-      "city": "Medford",
-      "venue": "Medford Public Library",
-      "address": "111 High St., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "14:00",
-      "endTime": "15:00",
-      "category": "music",
-      "url": "https://www.cacheinmedford.org/event/public-harmony-concert/",
-      "description": "Public Harmony, a Tufts University student music and service group, performs for the community.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "6a6c869d46",
       "title": "Hyperion Shakespeare Company presents Othello",
       "city": "Cambridge",
@@ -2560,17 +2670,47 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "b45dff148d",
+      "title": "Public Harmony Concert",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/public-harmony-concert/",
+      "description": "Tufts University student musicians from Public Harmony perform for the community.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "a85398ae56",
+      "title": "Harvest Hoopla",
+      "city": "Cambridge",
+      "venue": "Pemberton Farms Marketplace",
+      "address": "2225 Massachusetts Ave, Cambridge, MA 02140",
+      "date": "2026-10-17",
+      "startTime": "14:00",
+      "endTime": "18:00",
+      "category": "festivals & markets",
+      "url": "https://cambridgeusa.org/event/harvest-hoopla-2/",
+      "description": "A fall harvest celebration with pumpkins, face painting and local vendors.",
+      "source": "Cambridge Office for Tourism",
+      "sourceId": "cambridge-tourism"
+    },
+    {
       "id": "f404376766",
       "title": "Storytime with Local Author Rosanne Demas",
       "city": "Medford",
       "venue": "Moon and Back Bookstore",
-      "address": "458 High St, Medford, MA 02155",
+      "address": "458 High St, Medford, MA, 02155",
       "date": "2026-10-17",
       "startTime": "14:30",
       "endTime": "15:30",
       "category": "family",
       "url": "https://www.cacheinmedford.org/event/storytime-with-local-author-rosanne-demas/",
-      "description": "Local author Rosanne Demas reads her debut children's book, Lily the Dragon and the Spooky Lake. Families are invited.",
+      "description": "Local author Rosanne Demas shares her debut children's book, Lily the Dragon and the Spooky Lake.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -2677,6 +2817,35 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/10/16/boston-rodeo-tickets",
       "source": "Do617",
       "sourceId": "do617"
+    },
+    {
+      "id": "598a495df4",
+      "title": "Author Live Mae Morris reading from “The Last Dragon House” at Turtle Books",
+      "city": "Brookline",
+      "venue": "Turtle Books",
+      "date": "2026-10-17",
+      "startTime": "16:00",
+      "category": "family",
+      "url": "https://turtlebooks.store/event/author-liz-mae-morris-reading-from-her-new-the-last-dragon-house/",
+      "description": "Author Liv Mae Morris reads from The Last Dragon House, the first book in a middle grade series.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "817c778931",
+      "title": "Boston Harbor: Sunset Cruise",
+      "city": "Boston",
+      "venue": "Evening Cruises in Boston",
+      "date": "2026-10-17",
+      "endDate": "2026-11-14",
+      "category": "sports & outdoors",
+      "price": "From $31.50",
+      "url": "https://feverup.com/m/650120",
+      "description": "Sunset cruise on Boston Harbor. Runs 17 Oct to 14 Nov.",
+      "source": "Fever Boston",
+      "sourceId": "fever-boston",
+      "startTime": "17:00",
+      "address": "1 Long Wharf, Boston, MA 02210"
     },
     {
       "id": "ef7ffa48bc",
@@ -2895,21 +3064,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-calendar"
     },
     {
-      "id": "d7a38fb01e",
-      "title": "Ovary Acting: Hot flashes and Hot Takes!",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "arts & theater",
-      "url": "https://www.cacheinmedford.org/event/ovary-acting-hot-flashes-and-hot-takes/",
-      "description": "A trans-inclusive stand-up comedy show about perimenopause and menopause.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "55f0bcd0db",
       "title": "Indoor Movie Night: Hocus Pocus",
       "city": "Cambridge",
@@ -2933,21 +3087,6 @@ window.EVENTS_DATA = {
       "url": "https://www.ticketmaster.com/gilla-band-18-boston-massachusetts-10-17-2026/event/010064B49BB0C9C6",
       "source": "Brighton Music Hall",
       "sourceId": "brighton-music-hall"
-    },
-    {
-      "id": "78eaa189b7",
-      "title": "Hallelujah The Hills / Patrick Stickles",
-      "city": "Medford",
-      "venue": "Deep Cuts Brewery",
-      "address": "21 Main St., Medford, MA 02155",
-      "date": "2026-10-17",
-      "startTime": "19:00",
-      "endTime": "22:00",
-      "category": "music",
-      "url": "https://www.cacheinmedford.org/event/hallelujah-the-hills-patrick-stickles/",
-      "description": "Live music from Hallelujah The Hills with Patrick Stickles (Titus Andronicus) at Deep Cuts Brewery.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
     },
     {
       "id": "a85997e558",
@@ -3003,6 +3142,36 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "d7a38fb01e",
+      "title": "Ovary Acting: Hot flashes and Hot Takes!",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/ovary-acting-hot-flashes-and-hot-takes/",
+      "description": "A trans-inclusive stand-up comedy show about perimenopause and menopause.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "78eaa189b7",
+      "title": "Hallelujah The Hills / Patrick Stickles",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA, 02155",
+      "date": "2026-10-17",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/hallelujah-the-hills-patrick-stickles/",
+      "description": "Live music from Hallelujah The Hills and Patrick Stickles (Titus Andronicus) at Deep Cuts Brewery.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "2f7363e8dd",
       "title": "Boston Chamber Symphony Performs Mozart, Beethoven, and Brahms with Joshua Brown",
       "city": "Cambridge",
@@ -3055,6 +3224,20 @@ window.EVENTS_DATA = {
       "description": "An interactive contemporary dance performance in which audience members move stones on stage, and the dancers and live music respond. Two performances are held at SomArt @ the Hive.",
       "source": "City of Somerville events",
       "sourceId": "somerville-city"
+    },
+    {
+      "id": "4876b9ce39",
+      "title": "MANIPULO - TALVEZ Touring from Ecuador",
+      "city": "Somerville",
+      "venue": "SomArt @ the Hive",
+      "date": "2026-10-17",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "url": "https://somervilleartscouncil.org/events/manipulo-talvez-touring-from-ecuador/",
+      "description": "An interactive performance that turns the stage into a living Japanese garden, where audience members move stones and dancers respond. The run is October 16-17, 2026.",
+      "source": "Somerville Arts Council",
+      "sourceId": "somerville-arts-council"
     },
     {
       "id": "96764641a9",
@@ -3341,13 +3524,13 @@ window.EVENTS_DATA = {
       "title": "Stop Scrolling & Start Sketching (Family Edition)",
       "city": "Medford",
       "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
       "date": "2026-10-18",
       "startTime": "09:30",
       "endTime": "11:00",
       "category": "family",
       "url": "https://www.cacheinmedford.org/event/stop-scrolling-start-sketching-family-edition-3/2026-10-18/",
-      "description": "A four-session family sketchbook class for learning together and building a habit of drawing instead of scrolling.",
+      "description": "A family sketchbook class across four sessions, for adults sketching alongside a child.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -3356,13 +3539,13 @@ window.EVENTS_DATA = {
       "title": "3rd Sunday Sound Bath with Hendrik",
       "city": "Medford",
       "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
       "date": "2026-10-18",
       "startTime": "09:30",
       "endTime": "11:00",
-      "category": "arts & theater",
+      "category": "community",
       "url": "https://www.cacheinmedford.org/event/3rd-sunday-sound-bath-with-hendrik-5/",
-      "description": "A relaxing Sunday morning sound bath led by Hendrik with gong and singing bowls, hosted by Down By Riverside.",
+      "description": "Relaxing Sunday morning sound bath with gong and singing bowls, led by Hendrik.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -3424,6 +3607,32 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "a779d0374c",
+      "title": "Jeff Jam Sing-along",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-18",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "category": "music",
+      "url": "https://bostonpublicmarket.org/bpm-events/jeff-jam-sing-along/2026-10-18/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "61bb3353c9",
+      "title": "Eat-Rake-Play Griggs Park",
+      "city": "Brookline",
+      "venue": "Griggs Park",
+      "date": "2026-10-18",
+      "startTime": "10:00",
+      "category": "sports & outdoors",
+      "url": "https://www.facebook.com/share/1DDN5vKyfv/",
+      "description": "Neighbors clean up the park with games and refreshments, hosted by the Griggs Park Neighborhood Association with the Brookline Dept of Public Works. All ages welcome.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "6d26e6995f",
       "title": "Open Streets Roslindale",
       "city": "Boston",
@@ -3438,6 +3647,32 @@ window.EVENTS_DATA = {
       "description": "Open Streets Boston event in Roslindale Square.",
       "source": "City of Boston events",
       "sourceId": "boston-gov"
+    },
+    {
+      "id": "8c17d456c9",
+      "title": "Face Painting by FaceArt",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-18",
+      "startTime": "10:30",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/bpm-events/face-painting-by-faceart-3/2026-10-18/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "affdbfcaf5",
+      "title": "Puppet Showplace Theater Presents: The Loose Caboose by Harry LaCoste",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "date": "2026-10-18",
+      "startTime": "10:30",
+      "category": "family",
+      "url": "https://www.puppetshowplace.org/calendar/2026/10/18/the-loose-caboose-by-harry-lacoste",
+      "description": "A train engineer discovers puppet characters and musical stories inside a suitcase, with hand puppets and live music. Recommended for ages 3 to 7; also performed Nov 3, 2026.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "90736adace",
@@ -3502,19 +3737,19 @@ window.EVENTS_DATA = {
       "sourceId": "medford-city"
     },
     {
-      "id": "c029f4d0e7",
-      "title": "Spooky Cyanotypes! Halloween Edition",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
+      "id": "3e81b0d40f",
+      "title": "Friends of Hall’s Pond Fall Community Day",
+      "city": "Brookline",
+      "venue": "Hall’s Pond Sanctuary",
+      "address": "3 Amory St, Brookline, MA 02446",
       "date": "2026-10-18",
-      "startTime": "13:00",
-      "endTime": "14:30",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/spooky-cyanotypes-halloween-edition/",
-      "description": "A kid-friendly Halloween cyanotype printing workshop where children and their grown-ups make sun-powered prints together.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "category": "sports & outdoors",
+      "url": "https://friendsofhallspond.org/visit-enjoy/community-work-days/",
+      "description": "Volunteers help prepare the sanctuary for winter with trail maintenance, native plantings and invasive species removal. All tools and supplies are provided, and family-friendly activities are offered.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "fe7371c2d3",
@@ -3545,6 +3780,61 @@ window.EVENTS_DATA = {
       "description": "A Halloween street festival on Somerville Avenue for all ages.",
       "source": "City of Somerville events",
       "sourceId": "somerville-city"
+    },
+    {
+      "id": "55df7d815f",
+      "title": "Patriots Watch Party",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "category": "sports & outdoors",
+      "url": "https://bostonpublicmarket.org/bpm-events/patriots-watch-party/2026-10-18/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "5e92920bba",
+      "title": "Author Janice Bangs Reading from “Mama Duck’s Lost Duckling” at Turtle Books",
+      "city": "Brookline",
+      "venue": "Turtle Books",
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "category": "family",
+      "url": "https://turtlebooks.store/event/author-janice-bangs-reading-from-mama-ducks-lost-duckling/",
+      "description": "Author Janice Bangs reads her picture book about a mother duck searching for a missing duckling.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "c029f4d0e7",
+      "title": "Spooky Cyanotypes! Halloween Edition",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/spooky-cyanotypes-halloween-edition/",
+      "description": "Kid-friendly cyanotype printing workshop for young artists and their grown-ups.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "ba668ca9a8",
+      "title": "SomerStreets: Monster Mash",
+      "city": "Somerville",
+      "venue": "Somerville Ave between Church St and Union Sq",
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "category": "festivals & markets",
+      "url": "https://somervilleartscouncil.org/events/monster-mash-2/",
+      "description": "A Halloween street festival with live music, interactive art activities, family fun and local food vendors. The severe weather date is October 25, 2026.",
+      "source": "Somerville Arts Council",
+      "sourceId": "somerville-arts-council"
     },
     {
       "id": "436443db7f",
@@ -3681,6 +3971,19 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "60b7aea2ec",
+      "title": "Graphic Novel Workshop at Turtle Books",
+      "city": "Brookline",
+      "venue": "Turtle Books",
+      "date": "2026-10-18",
+      "startTime": "15:00",
+      "category": "family",
+      "url": "https://turtlebooks.store/event/graphic-novel-workshop-10-18-3pm/",
+      "description": "A weekly illustrator's workshop with Dena Bach for first grade and up, on creating your own graphic novel.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "9b4833c664",
       "title": "Horizon Ensemble: American Portraits",
       "city": "Boston",
@@ -3691,21 +3994,6 @@ window.EVENTS_DATA = {
       "url": "https://www.thebostoncalendar.com/events/horizon-ensemble-american-portraits",
       "source": "The Boston Calendar",
       "sourceId": "boston-calendar"
-    },
-    {
-      "id": "f4dab23b49",
-      "title": "Opening Reception: Allegory of Freedom by TAG Gallery",
-      "city": "Medford",
-      "venue": "EventThem Studios",
-      "address": "344 Salem St., Medford, MA 02155",
-      "date": "2026-10-18",
-      "startTime": "16:00",
-      "endTime": "19:00",
-      "category": "arts & theater",
-      "url": "https://www.cacheinmedford.org/event/opening-reception-allegory-of-freedom-by-tag-gallery/",
-      "description": "Opening reception for the exhibition Allegory of Freedom, with a chance to meet the artists and see original contemporary art.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
     },
     {
       "id": "df8d62e4f4",
@@ -3719,6 +4007,21 @@ window.EVENTS_DATA = {
       "description": "Guided photowalk on Boston Common led by ChellyPic.",
       "source": "Eventbrite Boston",
       "sourceId": "eventbrite-boston"
+    },
+    {
+      "id": "f4dab23b49",
+      "title": "Opening Reception: Allegory of Freedom by TAG Gallery",
+      "city": "Medford",
+      "venue": "EventThem Studios",
+      "address": "344 Salem St., Medford, MA, 02155",
+      "date": "2026-10-18",
+      "startTime": "16:00",
+      "endTime": "19:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/opening-reception-allegory-of-freedom-by-tag-gallery/",
+      "description": "Opening reception for the Allegory of Freedom exhibition, with the artists in attendance.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "c4e8488d79",
@@ -3797,6 +4100,19 @@ window.EVENTS_DATA = {
       "url": "https://www.ticketmaster.com/lauren-sanderson-come-say-sum-tour-boston-massachusetts-10-18-2026/event/010064BCA6321A3A",
       "source": "Brighton Music Hall",
       "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "936c300a70",
+      "title": "Witches in the Vineyard: Intro to Biodynamic Wine",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-18",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/witches-in-the-vineyard-intro-to-biodynamic-wine/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "91a956d47a",
@@ -4033,13 +4349,13 @@ window.EVENTS_DATA = {
       "title": "Poetry for Seniors",
       "city": "Medford",
       "venue": "Medford Senior Center",
-      "address": "101 Riverside Ave., Medford, MA 02155",
+      "address": "101 Riverside Ave., Medford, MA, 02155",
       "date": "2026-10-19",
       "startTime": "10:30",
       "endTime": "11:30",
-      "category": "arts & theater",
+      "category": "community",
       "url": "https://www.cacheinmedford.org/event/poetry-for-seniors/2026-10-19/",
-      "description": "A relaxed poetry group led by Robert Castagna that meets on the first and third Mondays to read, reflect and share. All levels of interest are welcome.",
+      "description": "Relaxed poetry reading and discussion led by Robert Castagna, held on the first and third Mondays.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -4175,6 +4491,19 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "ae2ad9ed71",
+      "title": "Town of Brookline Energy Advocate Office Hours",
+      "city": "Brookline",
+      "venue": "Town of Brookline Energy Advocate Office",
+      "date": "2026-10-19",
+      "startTime": "14:00",
+      "category": "community",
+      "url": "https://www.brooklinema.gov/Calendar.aspx?EID=19591&month=10&year=2026&day=19&calType=0",
+      "description": "Office hours with the Town's energy advocate. No registration is necessary.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "8c57336171",
       "title": "General Exercise - Ralph & Jenny Center (Council on Aging)",
       "city": "Somerville",
@@ -4202,22 +4531,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
-      "id": "e86f54b0e8",
-      "title": "Exploring Materials Through Mixed Media Collage (Grades K-2)",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-19",
-      "startTime": "16:00",
-      "endTime": "17:00",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/exploring-materials-through-mixed-media-collage-grades-k-2/2026-10-19/",
-      "price": "$220 (members $200)",
-      "description": "Six-Monday mixed media collage class for grades K-2, inspired by the artist Mark Bradford. Runs Sept. 14 to Oct. 26 with no class Oct. 12.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "02ca43b832",
       "title": "Daily Yoga",
       "city": "Boston",
@@ -4232,6 +4545,22 @@ window.EVENTS_DATA = {
       "description": "Free, drop-in yoga led by trained and certified Spiritual Life Mellows, held daily through October 30. All levels welcome; no registration required, and mats and blocks are provided.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "e86f54b0e8",
+      "title": "Exploring Materials Through Mixed Media Collage (Grades K-2)",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-19",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$220 ($200 members)",
+      "url": "https://www.cacheinmedford.org/event/exploring-materials-through-mixed-media-collage-grades-k-2/2026-10-19/",
+      "description": "Six-week mixed media collage class for grades K-2, meeting Mondays 9/14 to 10/26 with no class 10/12.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "5776bb7abd",
@@ -4263,17 +4592,17 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
-      "id": "26a3a7bb6c",
-      "title": "MakerSpace Drop-In",
+      "id": "544c727ba6",
+      "title": "Mapping Memory: Journaling Through Alternative Process & Collage Grades: 6-9",
       "city": "Medford",
-      "venue": "Medford Public Library",
-      "address": "111 High St., Medford, MA 02155",
+      "venue": "CACHE in Medford",
       "date": "2026-10-19",
-      "startTime": "18:00",
-      "endTime": "20:00",
-      "category": "tech & talks",
-      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in/2026-10-19/",
-      "description": "Drop in to the Medford Library MakerSpace to work on your own projects or ask the in-house expert about the space and equipment. General safety badging is available.",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "arts & theater",
+      "price": "$220 ($200 members)",
+      "url": "https://www.cacheinmedford.org/event/mapping-memory-journaling-through-alternative-process-collage-grades-6-9/2026-10-19/",
+      "description": "Six-week journaling and collage workshop for grades 6-9, led by Al Spruill, meeting Mondays through 10/26 with no class 10/12.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -4291,6 +4620,21 @@ window.EVENTS_DATA = {
       "description": "A public debate and discussion on the role of the United States in the world with Jake Sullivan and Michael Anton, held in person at the JFK Jr. Forum and streamed online.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "26a3a7bb6c",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-19",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in/2026-10-19/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "12cf4fd2ce",
@@ -4338,13 +4682,13 @@ window.EVENTS_DATA = {
       "title": "Maternal Journaling Workshop",
       "city": "Medford",
       "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
       "date": "2026-10-20",
       "startTime": "09:30",
       "endTime": "11:30",
-      "category": "arts & theater",
+      "category": "community",
       "url": "https://www.cacheinmedford.org/event/maternal-journaling-workshop-3-2/2026-10-20/",
-      "description": "A weekly creative art journaling group led by midwife, artist and mother Nerida Ackland, part of the global Maternal Journal movement.",
+      "description": "Weekly creative art journaling group led by midwife and artist Nerida Ackland.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -4467,6 +4811,19 @@ window.EVENTS_DATA = {
       "sourceId": "tufts"
     },
     {
+      "id": "c6f613b89e",
+      "title": "Tasting Around the Wheel: Chocolate with George Howell",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-20",
+      "startTime": "12:00",
+      "endTime": "12:45",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/tasting-around-the-wheel-chocolate-with-george-howell/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "28dffc7beb",
       "title": "Caffe Italiano",
       "city": "Brookline",
@@ -4497,22 +4854,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-gov"
     },
     {
-      "id": "f09a8c0613",
-      "title": "Kids Beginner Sewing Grades 3-5",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-20",
-      "startTime": "16:00",
-      "endTime": "17:00",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/kids-beginner-sewing-grades-3-5/2026-10-20/",
-      "price": "$245 (members $221)",
-      "description": "Six-Tuesday beginner sewing class for grades 3-5. Runs Sept. 15 to Oct. 20.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "51a8f566c5",
       "title": "Crafternoon: Wings of Fire Suncatchers (Collins)",
       "city": "Cambridge",
@@ -4526,6 +4867,22 @@ window.EVENTS_DATA = {
       "description": "After-school craft session where kids decorate a paper stained-glass suncatcher with a Wings of Fire dragon design.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "f09a8c0613",
+      "title": "Kids Beginner Sewing Grades 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-20",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$245 ($221 members)",
+      "url": "https://www.cacheinmedford.org/event/kids-beginner-sewing-grades-3-5/2026-10-20/",
+      "description": "Six-week beginner sewing class for grades 3-5, running Tuesdays 9/15 to 10/20.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "36e88f4281",
@@ -4556,6 +4913,21 @@ window.EVENTS_DATA = {
       "description": "A Pokémon club at the Coolidge Corner Library with battles, card trading, and a chance to learn the game.",
       "source": "Public Library of Brookline",
       "sourceId": "brookline-library"
+    },
+    {
+      "id": "e7dd9eb950",
+      "title": "Taste of Brookline",
+      "city": "Brookline",
+      "venue": "Brookline Teen Center",
+      "date": "2026-10-20",
+      "startTime": "17:00",
+      "endTime": "19:00",
+      "category": "food & drink",
+      "price": "$35 today, $40 at the door",
+      "url": "https://secure.givelively.org/event/brookline-teen-center-inc/2nd-annual-taste-of-brookline-2026",
+      "description": "The Brookline Teen Center's second annual tasting event brings together local flavors and community.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "55783b06d6",
@@ -4645,37 +5017,6 @@ window.EVENTS_DATA = {
       "sourceId": "boch-center"
     },
     {
-      "id": "9297602a65",
-      "title": "French Conversation Salon",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-20",
-      "startTime": "19:00",
-      "endTime": "20:00",
-      "category": "community",
-      "url": "https://www.cacheinmedford.org/event/french-conversation-salon/2026-10-20/",
-      "price": "$190",
-      "description": "A welcoming French conversation group led by Dr. Carey Dardompré for learners from beginner to advanced. Six Tuesdays, Sept. 15 to Oct. 20.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
-      "id": "63ce3011e7",
-      "title": "Sungaze / Lavisher / Slow Quit",
-      "city": "Medford",
-      "venue": "Deep Cuts Brewery",
-      "address": "21 Main St., Medford, MA 02155",
-      "date": "2026-10-20",
-      "startTime": "19:00",
-      "endTime": "22:00",
-      "category": "music",
-      "url": "https://www.cacheinmedford.org/event/sungaze-lavisher-slow-quit/",
-      "description": "Live music from Sungaze, Lavisher and Slow Quit at Deep Cuts Brewery. Doors at 7 PM, food until 9 PM.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "412003956a",
       "title": "Let's Get Organized!",
       "city": "Medford",
@@ -4716,6 +5057,37 @@ window.EVENTS_DATA = {
       "sourceId": "tufts"
     },
     {
+      "id": "9297602a65",
+      "title": "French Conversation Salon",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-20",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "category": "community",
+      "price": "$190",
+      "url": "https://www.cacheinmedford.org/event/french-conversation-salon/2026-10-20/",
+      "description": "Conversation group for French learners of all levels, led by Dr. Carey Dardompré, running Tuesdays 9/15 to 10/20.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "63ce3011e7",
+      "title": "Sungaze / Lavisher / Slow Quit",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA, 02155",
+      "date": "2026-10-20",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/sungaze-lavisher-slow-quit/",
+      "description": "Live music from Sungaze, Lavisher and Slow Quit at Deep Cuts Brewery; doors at 7 PM.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "cd5f729979",
       "title": "Boston Harbor Sightseeing Cruise",
       "city": "Boston",
@@ -4749,13 +5121,13 @@ window.EVENTS_DATA = {
       "title": "Music Together® Joyful Music",
       "city": "Medford",
       "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
       "date": "2026-10-21",
       "startTime": "09:45",
       "endTime": "10:30",
       "category": "family",
       "url": "https://www.cacheinmedford.org/event/music-together-joyful-music/2026-10-21/",
-      "description": "A weekly 45-minute mixed-age family music class for babies, toddlers and preschoolers and the grown-ups who join them.",
+      "description": "Weekly 45-minute mixed-age family music class for babies, toddlers, preschoolers and their grown-ups.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -4949,21 +5321,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
-      "id": "59ae91f2d7",
-      "title": "Senior Movie Viewing",
-      "city": "Medford",
-      "venue": "Medford Senior Center",
-      "address": "101 Riverside Ave., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "13:00",
-      "endTime": "15:00",
-      "category": "community",
-      "url": "https://www.cacheinmedford.org/event/senior-movie-viewing/2026-10-21/",
-      "description": "A weekly film screened in the Senior Center library, a chance to relax, socialize and unwind.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "d0c6b36eb6",
       "title": "Mercy Otis Warren: Looking at Revolutionary Women",
       "city": "Boston",
@@ -4991,6 +5348,21 @@ window.EVENTS_DATA = {
       "description": "Contemplative capoeira movement session led by a Capoeira Mellow, combining acrobatics, music, mindfulness and cultural learning.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "59ae91f2d7",
+      "title": "Senior Movie Viewing",
+      "city": "Medford",
+      "venue": "Medford Senior Center",
+      "address": "101 Riverside Ave., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/senior-movie-viewing/2026-10-21/",
+      "description": "Weekly film screening in the Senior Center library, with time to relax and socialize.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "09b957ce01",
@@ -5024,17 +5396,30 @@ window.EVENTS_DATA = {
       "sourceId": "boston-gov"
     },
     {
+      "id": "471a429518",
+      "title": "Midday Munchies",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-21",
+      "startTime": "13:30",
+      "endTime": "14:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/midday-munchies-4/2026-10-21/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "afd51facb8",
       "title": "A Journey Home with the Khmer Urban Ballet",
       "city": "Medford",
       "venue": "Granoff Music Center, Tufts University",
-      "address": "20 Talbot Ave., Medford, MA 02155",
+      "address": "20 Talbot Ave., Medford, MA, 02155",
       "date": "2026-10-21",
       "startTime": "13:30",
       "endTime": "15:30",
       "category": "arts & theater",
       "url": "https://www.cacheinmedford.org/event/a-journey-home-with-the-khmer-urban-ballet/",
-      "description": "An original dance work by the Khmer Urban Ballet about a Cambodian-American family's journey as refugees and their descendants.",
+      "description": "Original dance work by the Khmer Urban Ballet about a Cambodian-American family's journey as refugees and their descendants.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -5113,21 +5498,6 @@ window.EVENTS_DATA = {
       "sourceId": "bu-spark"
     },
     {
-      "id": "c43e894d28",
-      "title": "Family Story Time at the Medford Public Library",
-      "city": "Medford",
-      "venue": "Medford Public Library",
-      "address": "111 High St., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "15:00",
-      "endTime": "16:00",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/family-story-time-at-the-medford-public-library-3/2026-10-21/",
-      "description": "Story hour for children ages 3 to 7 with books and songs. Parents and caregivers are welcome to join in.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "2e22f74b6e",
       "title": "Malden Farmers Market",
       "city": "Malden",
@@ -5140,6 +5510,21 @@ window.EVENTS_DATA = {
       "description": "Recurring weekly farmers market on Wednesdays at Malden City Hall Plaza; the listing shows Oct 21 and Oct 28 in this window.",
       "source": "Malden Events",
       "sourceId": "malden-events"
+    },
+    {
+      "id": "c43e894d28",
+      "title": "Family Story Time at the Medford Public Library",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-at-the-medford-public-library-3/2026-10-21/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "7c2164ab97",
@@ -5201,21 +5586,6 @@ window.EVENTS_DATA = {
       "sourceId": "bu-spark"
     },
     {
-      "id": "56a8639789",
-      "title": "Photo Explorers Grades: 3-5",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "16:00",
-      "endTime": "17:00",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/photo-explorers-grades-3-5/2026-10-21/",
-      "description": "A six-week hands-on photography class for grades 3-5 exploring light, image-making, visual storytelling and cyanotype printing.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "771a3c5f7b",
       "title": "[ OPEN HOUSE ] Howe, Manning & Almy: Boston’s First All-Woman Firm and the Changing Face of Architecture",
       "city": "Cambridge",
@@ -5228,6 +5598,21 @@ window.EVENTS_DATA = {
       "description": "Open house at the Maihaugen Gallery for the Howe, Manning & Almy exhibit on Boston's first known all-woman architecture firm, founded in 1900.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "56a8639789",
+      "title": "Photo Explorers Grades: 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/photo-explorers-grades-3-5/2026-10-21/",
+      "description": "Six-week hands-on photography class for grades 3-5, exploring light, image-making and cyanotype printing.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "74bfd5dbe3",
@@ -5288,21 +5673,6 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
-      "id": "b6b8b76eb2",
-      "title": "Intro to Water Colors Grades 6-8",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "17:30",
-      "endTime": "18:30",
-      "category": "family",
-      "url": "https://www.cacheinmedford.org/event/intro-to-water-colors-grades-6-8/2026-10-21/",
-      "description": "A relaxed watercolor class for middle schoolers covering color mixing, composition and paint application.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "48cedd1e15",
       "title": "MIT Trivia Night!",
       "city": "Cambridge",
@@ -5315,6 +5685,35 @@ window.EVENTS_DATA = {
       "description": "Trivia night in the Rainbow Lounge with pizza, tenders and popcorn, including questions on LGBTQ+ MIT history.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "b6b8b76eb2",
+      "title": "Intro to Water Colors Grades 6-8",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/intro-to-water-colors-grades-6-8/2026-10-21/",
+      "description": "Watercolor fundamentals for middle school students, covering color mixing, composition and paint application.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "9c0846add0",
+      "title": "Local Comedy Legends give back to their Local Veterans",
+      "city": "Medford",
+      "venue": "19 Washington St, Medford",
+      "address": "19 Washington St, Medford, MA",
+      "date": "2026-10-21",
+      "startTime": "17:30",
+      "category": "arts & theater",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261021/9965b5a6-2ab8-4ff7-80aa-45eab6d0799e/local-comedy-legends-give-back-to-their-local-veterans",
+      "description": "Local comedy performers give back to local veterans.",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
     },
     {
       "id": "71a5ada769",
@@ -5343,21 +5742,6 @@ window.EVENTS_DATA = {
       "description": "A weekly workshop run by Spark! Ambassadors to build skills and meet industry professionals.",
       "source": "BU Spark! events",
       "sourceId": "bu-spark"
-    },
-    {
-      "id": "a06d113138",
-      "title": "Monthly Junk Journal Workshop & Journal Night",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "18:00",
-      "endTime": "20:00",
-      "category": "arts & theater",
-      "url": "https://www.cacheinmedford.org/event/monthly-junk-journal-workshop-journal-night-3/",
-      "description": "Make a one-of-a-kind junk journal from upcycled book pages using a simple one-stitch bookbinding technique, led by Found and Flowered.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
     },
     {
       "id": "be4c504394",
@@ -5478,6 +5862,48 @@ window.EVENTS_DATA = {
       "sourceId": "tufts"
     },
     {
+      "id": "e095ba0290",
+      "title": "Love Letters LIVE: Halloween Edition with The B-Side and Rory Uphold",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-21",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "url": "https://bostonpublicmarket.org/bpm-events/love-letters-live-halloween-edition-with-the-b-side-and-rory-uphold/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "a06d113138",
+      "title": "Monthly Junk Journal Workshop & Journal Night",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/monthly-junk-journal-workshop-journal-night-3/",
+      "description": "Make a junk journal from upcycled book pages with a simple one-stitch bookbinding technique, led by Found and Flowered.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "5665c0ead3",
+      "title": "Free Family Movie Night at the Malden Public Library",
+      "city": "Malden",
+      "venue": "Malden Public Library",
+      "address": "36 Salem St, Malden, MA",
+      "date": "2026-10-21",
+      "startTime": "18:00",
+      "category": "family",
+      "price": "Free",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261021/17165d94-64ab-471b-8803-6ce155d3acc7/free-family-movie-night-at-the-malden-public-library",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
+    },
+    {
       "id": "63c6701a50",
       "title": "Maria Claudia Clemente and Francesco Isidori, \"The Architecture of Public Space\"",
       "city": "Cambridge",
@@ -5491,6 +5917,19 @@ window.EVENTS_DATA = {
       "description": "A public lecture by architects Maria Claudia Clemente and Francesco Isidori on the architecture of public space.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "71285059cc",
+      "title": "World Rhythms: Dance Across Cultures",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-21",
+      "startTime": "18:30",
+      "category": "music",
+      "url": "https://www.facone.org/programs/world-rhythms.html",
+      "description": "A weekly inclusive social dance session with circle, line and couple dances from Europe, Asia, Africa and the Americas.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "9b57012daa",
@@ -5532,37 +5971,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
-      "id": "fc54741652",
-      "title": "Make + Mingle",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "address": "162 Mystic Ave., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "community",
-      "url": "https://www.cacheinmedford.org/event/make-mingle/2026-10-21/",
-      "price": "Free",
-      "description": "A free drop-in evening to create and mingle with other artists. Bring your own sketchbook or art projects.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
-      "id": "da783dc3d1",
-      "title": "The Croaks / Andro Queen / Ohio State Fair",
-      "city": "Medford",
-      "venue": "Deep Cuts Brewery",
-      "address": "21 Main St., Medford, MA 02155",
-      "date": "2026-10-21",
-      "startTime": "19:00",
-      "endTime": "22:00",
-      "category": "music",
-      "url": "https://www.cacheinmedford.org/event/the-croaks-andro-queen-ohio-state-fair/",
-      "description": "Single release party for The Croaks, with Andro Queen and Ohio State Fair at Deep Cuts Brewery. Doors at 7 PM.",
-      "source": "CACHE in Medford",
-      "sourceId": "cache-medford"
-    },
-    {
       "id": "67c00efd64",
       "title": "OUT HERE 10: An Evening with the Black Seed Writers (Central Square)",
       "city": "Cambridge",
@@ -5578,17 +5986,74 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
+      "id": "5838b6e154",
+      "title": "Amaro Making 101: Guided Tasting & Class",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-21",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/amaro-making-101-guided-tasting-class/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "fc54741652",
+      "title": "Make + Mingle",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/make-mingle/2026-10-21/",
+      "description": "Free drop-in to create and mingle with other artists; bring your own sketchbook or art projects.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "da783dc3d1",
+      "title": "The Croaks / Andro Queen / Ohio State Fair",
+      "city": "Medford",
+      "venue": "Deep Cuts Brewery",
+      "address": "21 Main St., Medford, MA, 02155",
+      "date": "2026-10-21",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/the-croaks-andro-queen-ohio-state-fair/",
+      "description": "Single release party for The Croaks, with Andro Queen and Ohio State Fair; doors at 7 PM.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "8d9ae8914d",
+      "title": "The American Soundscape. Celebrating 250 years of American music.",
+      "city": "Brookline",
+      "venue": "Brookline Community Band",
+      "date": "2026-10-21",
+      "startTime": "19:30",
+      "category": "music",
+      "url": "https://www.brooklinecommunityband.org/",
+      "description": "A Brookline Community Band concert of American music, from Appalachian folk and American rivers to jazz and classical.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "d9b4854f64",
       "title": "Line Dancing",
       "city": "Medford",
       "venue": "Great American Beer Hall",
-      "address": "142 Mystic Ave., Medford, MA 02155",
+      "address": "142 Mystic Ave., Medford, MA, 02155",
       "date": "2026-10-21",
       "startTime": "19:30",
       "endTime": "22:30",
       "category": "community",
       "url": "https://www.cacheinmedford.org/event/line-dancing/2026-10-21/",
-      "description": "Line dancing nights, held twice a month, with professional lessons at each high-energy session.",
+      "description": "Line dancing night with professional lessons, now held twice a month at the Great American Beer Hall.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
     },
@@ -5605,6 +6070,35 @@ window.EVENTS_DATA = {
       "description": "One-day hybrid conference with multidisciplinary speakers on resilience in an era of constant, compounding disruption.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "304b415225",
+      "title": "Kids Activity Hour",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-22",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "d2f88ec9cc",
+      "title": "Let's Move! Outdoor Dance Classroom",
+      "city": "Medford",
+      "venue": "Harris Park",
+      "address": "226-238 Middlesex Ave., Medford, MA, 02155",
+      "date": "2026-10-22",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/lets-move-outdoor-dance-classroom/2026-10-22/",
+      "description": "Free outdoor dance session for families at Harris Park, part of a six-week series hosted by The Click and the Medford Family Network.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "848baf1532",
@@ -5794,6 +6288,21 @@ window.EVENTS_DATA = {
       "description": "A talk on what nuclear proliferation in the Middle East would mean, from the Weatherhead Center and Center for Middle Eastern Studies.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "dd79031e2b",
+      "title": "Medford Farmers Market",
+      "city": "Medford",
+      "venue": "Condon Band Shell",
+      "address": "2501 Mystic Valley Parkway, Medford, MA, 02155",
+      "date": "2026-10-22",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "category": "festivals & markets",
+      "url": "https://www.cacheinmedford.org/event/medford-farmers-market/2026-10-22/",
+      "description": "Weekly farmers market with local farmers, artisans and food producers at the Condon Band Shell.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "f009d136c7",
@@ -6026,6 +6535,19 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "3ad948979d",
+      "title": "Annual Harvest Party Fundraiser",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-22",
+      "startTime": "17:30",
+      "endTime": "19:30",
+      "category": "community",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "e1501d5edd",
       "title": "Hawthorne Heights at Citizens House of Blues Boston",
       "city": "Boston",
@@ -6209,6 +6731,32 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "d0aacd4e94",
+      "title": "From Playdates to Peer Pressure: Parenting Ages 6-12",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-22",
+      "startTime": "19:00",
+      "category": "family",
+      "url": "https://bgsp.edu/event/from-playdates-to-peer-pressure-parenting-ages-6-12/",
+      "description": "A discussion of external influences, technology and peer pressure for parents of children ages 6 to 12.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "a25b701730",
+      "title": "Raising a Joyful Reader w/ Vicki Milstein",
+      "city": "Brookline",
+      "venue": "Turtle Books",
+      "date": "2026-10-22",
+      "startTime": "19:00",
+      "category": "family",
+      "url": "https://turtlebooks.store/event/raising-a-reader/",
+      "description": "A discussion with educator Vicki Milstein on building a family culture that embraces reading. RSVP is requested on the event page.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "703f6833dc",
       "title": "Nate Jackson at The Wilbur",
       "city": "Boston",
@@ -6346,6 +6894,32 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "04dbcc6a54",
+      "title": "Boston Public Market Tour",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-23",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "10c8974c8d",
+      "title": "Fall Tea Blending Experience with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-23",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "176b6deca8",
       "title": "already and not yet: A world premiere by Tod Machover",
       "city": "Boston",
@@ -6405,6 +6979,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "e2f49beeca",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-23",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-2/2026-10-23/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "7e3892e3f0",
       "title": "Battling The Firehose of Falsehood: Confronting Russian Disinformation in Central Asia",
       "city": "Cambridge",
@@ -6435,6 +7024,19 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
+      "id": "711323248e",
+      "title": "Spice School: Blending Bar with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-23",
+      "startTime": "17:45",
+      "endTime": "19:45",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "747b7d8fe6",
       "title": "Sound Performance: Eric Wong",
       "city": "Cambridge",
@@ -6448,6 +7050,23 @@ window.EVENTS_DATA = {
       "description": "Performance by sound artist Eric Wong as part of his Bluetooth Speaker Series, presented with Non-Event and the Goethe-Institut Boston.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "6904f2c863",
+      "title": "Raising Resilient Youth (Session 1: Online Gaming, Internet Safety & Positive Family Communication)",
+      "city": "Malden",
+      "venue": "Chinese Culture Connection",
+      "address": "75 Pleasant St, Suite 403, Malden, MA 02148",
+      "date": "2026-10-23",
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "category": "community",
+      "price": "Free",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261023/f84cc332-1880-485c-9a79-1a3a61e4a6aa/raising-resilient-youth",
+      "registerUrl": "https://bit.ly/3TBKoHW",
+      "description": "Free parent and caregiver workshop, presented in Mandarin with dinner included, on recognizing risk factors and supporting teen well-being. Registration required. Part 1 of a 2-part series.",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
     },
     {
       "id": "f18896c040",
@@ -6586,6 +7205,34 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "e0f0cfd05f",
+      "title": "Jazz Sanctuary featuring Jason Palmer and Kevin Harris",
+      "city": "Brookline",
+      "venue": "United Parish in Brookline",
+      "date": "2026-10-23",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://events.humanitix.com/jazz-sanctuary-featuring-jason-palmer",
+      "description": "The Jazz Sanctuary concert series opens with trumpeter Jason Palmer and pianist Kevin Harris.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "048b9c3e8e",
+      "title": "Bruce Cockburn with Special Guest Livingston Taylor",
+      "city": "Medford",
+      "venue": "Chevalier Theatre",
+      "address": "30 Forest St., Medford, MA, 02155",
+      "date": "2026-10-23",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.cacheinmedford.org/event/bruce-cockburn-with-special-guest-livingston-taylor/",
+      "description": "Canadian singer-songwriter Bruce Cockburn in concert, with Livingston Taylor opening.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "3fec2c16c7",
       "title": "The Yellow Balloon",
       "city": "Cambridge",
@@ -6700,6 +7347,21 @@ window.EVENTS_DATA = {
       "sourceId": "luma-boston"
     },
     {
+      "id": "2e8a8434bb",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-24",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-3/2026-10-24/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "aebd14a762",
       "title": "Exhibit Opening for Living Connections: The Arnold Arboretum and Korea",
       "city": "Boston",
@@ -6744,6 +7406,47 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "20ce3b31a6",
+      "title": "Magician Peter O'Malley",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-24",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "78f44a3143",
+      "title": "Family Story Time",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-24",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-4/2026-10-24/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "e01ad6b631",
+      "title": "Bead Affaire",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave, Medford, MA",
+      "date": "2026-10-24",
+      "startTime": "10:00",
+      "category": "arts & theater",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261024/22cb3a43-18a8-46cf-abd1-fd9db9042c3c/bead-affaire",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
+    },
+    {
       "id": "a7a4803bef",
       "title": "Flu and Covid Clinic",
       "city": "Medford",
@@ -6756,6 +7459,32 @@ window.EVENTS_DATA = {
       "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/26608",
       "source": "City of Medford events calendar",
       "sourceId": "medford-city"
+    },
+    {
+      "id": "70ec65edea",
+      "title": "Face Painting by FaceArt",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-24",
+      "startTime": "10:30",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "74501f5e44",
+      "title": "Puppet Showplace Theater Presents: The Four Seasons by Drama of Works",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "date": "2026-10-24",
+      "startTime": "10:30",
+      "category": "family",
+      "url": "https://www.puppetshowplace.org/calendar/2026/10/24/the-four-seasons-by-drama-of-works",
+      "description": "A toy theater production of classical music and seasonal change, recommended for ages 3 to 8. Also performed Oct 25, 2026.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "a9ab591d95",
@@ -6788,6 +7517,19 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "4f1a939682",
+      "title": "Fall Tea Blending Experience with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-24",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "09a0257096",
       "title": "Day of the Dead Celebration",
       "city": "Cambridge",
@@ -6818,6 +7560,34 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "ce8fa23c2a",
+      "title": "GF Pumpkin Cinnamon Roll Baking Class with Jennifer Lee's Bakery & Dear Gluten",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-24",
+      "startTime": "12:00",
+      "endTime": "13:30",
+      "category": "food & drink",
+      "description": "Gluten-free pumpkin cinnamon roll baking class. A second session with Jennifer Lee's and Dear Gluten is listed the same day at 2:00 pm to 3:30 pm.",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "c83bfade4d",
+      "title": "19th Anniversary Grand Wine Tasting",
+      "city": "Brookline",
+      "venue": "Winestone",
+      "date": "2026-10-24",
+      "startTime": "12:00",
+      "category": "food & drink",
+      "price": "Free",
+      "url": "https://winestone.net/19th-anniversary-grand-tasting-event",
+      "description": "Winestone celebrates 19 years in business with 19 wines and finger food at a grand tasting.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "989e03807d",
       "title": "Howl-O-Ween Yappy Hour",
       "city": "Somerville",
@@ -6845,6 +7615,20 @@ window.EVENTS_DATA = {
       "description": "Northeastern men's soccer home match against Hofstra.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "7e36d6b3c2",
+      "title": "Girl Scout troop 84329 Fall Reuse Market and Snack Festival",
+      "city": "Brookline",
+      "venue": "United Parish Church – Willett Hall",
+      "date": "2026-10-24",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "category": "family",
+      "url": "https://docs.google.com/forms/d/1LEjfp06D49GsGNvvR984_pt7UPPQYN_74BdISJht6gs/edit",
+      "description": "Girl Scout Troop 84329 hosts a fall reuse market and snack festival with food, shopping and songs.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "752894f1c7",
@@ -6937,6 +7721,21 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "aff9a63591",
+      "title": "Tufts Halloween on the Hill",
+      "city": "Medford",
+      "venue": "Tufts University Quad",
+      "address": "200 Packard Ave., Medford, MA, 02155",
+      "date": "2026-10-24",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/tufts-halloween-on-the-hill-2/",
+      "description": "Annual Halloween celebration on the Tufts quad, inviting neighboring families to join in.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "93ec0f8edc",
       "title": "Senior violin recital",
       "city": "Brookline",
@@ -6989,6 +7788,20 @@ window.EVENTS_DATA = {
       "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27845",
       "source": "City of Medford events calendar",
       "sourceId": "medford-city"
+    },
+    {
+      "id": "f69d50d08a",
+      "title": "Party for the Pantry",
+      "city": "Brookline",
+      "venue": "Brookline Food Pantry",
+      "date": "2026-10-24",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "category": "food & drink",
+      "url": "https://www.brooklinefoodpantry.org/",
+      "description": "The Brookline Food Pantry's fundraising party with food and music.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "73cc4caf7b",
@@ -7046,6 +7859,20 @@ window.EVENTS_DATA = {
       "description": "A film screening at the Harvard Film Archive.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "be70081ada",
+      "title": "Farewell, My Butterfly: An Evening of Korean Traditional Dance & Music, Old and New",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-24",
+      "startTime": "19:00",
+      "category": "music",
+      "price": "Free",
+      "url": "https://www.eventbrite.com/e/farewell-my-butterfly-an-evening-of-korean-music-and-dance-old-and-new-tickets-2003089351171",
+      "description": "The Oasis Music Series presents Korean traditional dance, gayageum and a cross-cultural collaboration with jazz and contemporary dance, followed by a reception with the artists.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "37f3a4c871",
@@ -7109,6 +7936,19 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "3f72f36427",
+      "title": "Jeff Jam Sing-along",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-25",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "category": "music",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "b8a3aee497",
       "title": "Somerville Monster Dash 5K",
       "city": "Somerville",
@@ -7123,6 +7963,19 @@ window.EVENTS_DATA = {
       "sourceId": "assembly-row"
     },
     {
+      "id": "e68b48707a",
+      "title": "Face Painting by FaceArt",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-25",
+      "startTime": "10:30",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "968d974fe7",
       "title": "Invasive Plants Medford Taskforce: Burning Bush",
       "city": "Medford",
@@ -7135,6 +7988,19 @@ window.EVENTS_DATA = {
       "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27589",
       "source": "City of Medford events calendar",
       "sourceId": "medford-city"
+    },
+    {
+      "id": "fe60ff6a5b",
+      "title": "W.H. Lincoln School Pumpkinfest",
+      "city": "Brookline",
+      "venue": "W.H. Lincoln School",
+      "date": "2026-10-25",
+      "startTime": "12:00",
+      "category": "family",
+      "url": "https://lincolnschoolpto.org/pumpkinfest",
+      "description": "The Lincoln School's annual carnival with family fun, food, rides, games and prizes.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "c5a556ea71",
@@ -7207,6 +8073,32 @@ window.EVENTS_DATA = {
       "description": "Northeastern volleyball home match against Stony Brook.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "d1f214c76e",
+      "title": "SOTTO VOCE",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-25",
+      "startTime": "17:00",
+      "category": "music",
+      "url": "https://mistralmusic.org/event/sotto-voce-brookline/",
+      "description": "An intimate chamber program of opera composers' works, including Verdi's String Quartet and Respighi's Piano Quintet, with three new commissions based on Verdi's La Forza del Destino.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "6ee16cd566",
+      "title": "Cellar Comedy: Spooky Edition!",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-25",
+      "startTime": "18:30",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "98dc4fc83c",
@@ -7411,6 +8303,22 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "f3ee9e12f0",
+      "title": "Exploring Materials Through Mixed Media Collage (Grades K-2)",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-26",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$220 ($200 members)",
+      "url": "https://www.cacheinmedford.org/event/exploring-materials-through-mixed-media-collage-grades-k-2/2026-10-26/",
+      "description": "Six-week mixed media collage class for grades K-2, meeting Mondays 9/14 to 10/26 with no class 10/12.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "1a7f299d84",
       "title": "Innovation on Steroids:  What are We Learning from the Ukraine War?",
       "city": "Cambridge",
@@ -7440,6 +8348,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "80d0fbc1b1",
+      "title": "Mapping Memory: Journaling Through Alternative Process & Collage Grades: 6-9",
+      "city": "Medford",
+      "venue": "CACHE in Medford",
+      "date": "2026-10-26",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "arts & theater",
+      "price": "$220 ($200 members)",
+      "url": "https://www.cacheinmedford.org/event/mapping-memory-journaling-through-alternative-process-collage-grades-6-9/2026-10-26/",
+      "description": "Six-week journaling and collage workshop for grades 6-9, led by Al Spruill, meeting Mondays through 10/26 with no class 10/12.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "44af977eb9",
       "title": "Film Screening: 'Mr. Nobody Against Putin'",
       "city": "Cambridge",
@@ -7467,6 +8390,34 @@ window.EVENTS_DATA = {
       "description": "Lecture by artist Laurelie Rae on Cities of Islamic Art, Vol. 2 and the formation of contemporary Islamic art in North America.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "96f478430c",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-26",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in/2026-10-26/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "eb973e8fa8",
+      "title": "Birth Wars: A Special Screening & Panel Discussion",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-26",
+      "startTime": "18:30",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/1996810815903?aff=oddtdtcreator",
+      "description": "A screening of the film Birth Wars followed by a panel with filmmaker Janet Jarman and local experts on maternity care and reproductive rights in Massachusetts.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "64c5478f95",
@@ -7580,6 +8531,21 @@ window.EVENTS_DATA = {
       "sourceId": "medford-city"
     },
     {
+      "id": "3d267bb65b",
+      "title": "Maternal Journaling Workshop",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-27",
+      "startTime": "09:30",
+      "endTime": "11:30",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/maternal-journaling-workshop-3-2/2026-10-27/",
+      "description": "Weekly creative art journaling group led by midwife and artist Nerida Ackland.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "6f5cd1e98d",
       "title": "Family Storytime",
       "city": "Brookline",
@@ -7636,6 +8602,19 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "352485b24b",
+      "title": "Coffee & Community with George Howell",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-27",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "category": "community",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "195391d736",
       "title": "Caffe Italiano",
       "city": "Brookline",
@@ -7663,6 +8642,22 @@ window.EVENTS_DATA = {
       "description": "Drop-in tarot readings for teens with healer, artist and educator Laura Campagna.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "ddbef3ddef",
+      "title": "Kids Beginner Sewing Grades 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-27",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "price": "$245 ($221 members)",
+      "url": "https://www.cacheinmedford.org/event/kids-beginner-sewing-grades-3-5/2026-10-27/",
+      "description": "Beginner sewing class for grades 3-5, six Tuesdays from 9/15 to 10/20.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "3718195db6",
@@ -7707,6 +8702,21 @@ window.EVENTS_DATA = {
       "description": "Panel discussion on the practice of wisdom with Harvard scholars Davíd Carrasco and Arthur Kleinman, presented with Harvard Book Store.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "887502b6c4",
+      "title": "Figure Drawing Drop-In",
+      "city": "Medford",
+      "venue": "EventThem Studios",
+      "address": "344 Salem St., Medford, MA, 02155",
+      "date": "2026-10-27",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/figure-drawing-drop-in/",
+      "description": "Two-hour drop-in figure drawing session led by artist Dina Mordeno, with a live model.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "7ed9e6f5c6",
@@ -7763,6 +8773,22 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston"
     },
     {
+      "id": "9df768fec1",
+      "title": "French Conversation Salon",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-27",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "category": "community",
+      "price": "$190",
+      "url": "https://www.cacheinmedford.org/event/french-conversation-salon/2026-10-27/",
+      "description": "Conversation group for French learners of all levels, led by Dr. Carey Dardompré.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "99dd82c5b4",
       "title": "Boston Speaker Series - Boris Johnson at Boston Symphony Hall",
       "city": "Boston",
@@ -7803,6 +8829,21 @@ window.EVENTS_DATA = {
       "sourceId": "luma-boston"
     },
     {
+      "id": "da1173b452",
+      "title": "Music Together® Joyful Music",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "09:45",
+      "endTime": "10:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/music-together-joyful-music/2026-10-28/",
+      "description": "Weekly 45-minute mixed-age family music class for babies, toddlers, preschoolers and their grown-ups.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "e2c1ff7fdd",
       "title": "English Club ELL Conversation Group",
       "city": "Brookline",
@@ -7815,6 +8856,19 @@ window.EVENTS_DATA = {
       "description": "An informal conversation group where English learners practice English and meet other language learners.",
       "source": "Public Library of Brookline",
       "sourceId": "brookline-library"
+    },
+    {
+      "id": "8d6e4577f7",
+      "title": "Town of Brookline Energy Advocate Office Hours",
+      "city": "Brookline",
+      "venue": "Town of Brookline Energy Advocate Office",
+      "date": "2026-10-28",
+      "startTime": "10:00",
+      "category": "community",
+      "url": "https://www.brooklinema.gov/Calendar.aspx?EID=19592&month=10&year=2026&day=28&calType=0",
+      "description": "Office hours with the Town's energy advocate. No registration is necessary.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "f255b402d4",
@@ -7904,6 +8958,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "1f9d0ad4cf",
+      "title": "Senior Movie Viewing",
+      "city": "Medford",
+      "venue": "Medford Senior Center",
+      "address": "101 Riverside Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "category": "community",
+      "url": "https://www.cacheinmedford.org/event/senior-movie-viewing/2026-10-28/",
+      "description": "Weekly film screening in the Senior Center library, with time to relax and socialize.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "2e1feca8e7",
       "title": "Movie Matinee",
       "city": "Brookline",
@@ -7917,6 +8986,19 @@ window.EVENTS_DATA = {
       "description": "A free weekly screening of recent favorite films at the Coolidge Corner Library. Doors open 1:15 PM, film starts 1:30 PM.",
       "source": "Public Library of Brookline",
       "sourceId": "brookline-library"
+    },
+    {
+      "id": "d79df463f2",
+      "title": "Midday Munchies",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-28",
+      "startTime": "13:30",
+      "endTime": "14:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "7d44e3c72e",
@@ -8008,6 +9090,21 @@ window.EVENTS_DATA = {
       "sourceId": "luma-boston"
     },
     {
+      "id": "2ef1fd564a",
+      "title": "Family Story Time at the Medford Public Library",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-at-the-medford-public-library-3/2026-10-28/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "8f84b18839",
       "title": "Digital Embroidery (Main)",
       "city": "Cambridge",
@@ -8079,6 +9176,21 @@ window.EVENTS_DATA = {
       "description": "Annual Picower Lecture by Richard L. Huganir of Johns Hopkins University on neurotransmitter receptors and synaptic memory.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "ac46d1dbaf",
+      "title": "Photo Explorers Grades: 3-5",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/photo-explorers-grades-3-5/2026-10-28/",
+      "description": "Six-week hands-on photography class for grades 3-5, exploring light, image-making and cyanotype printing.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "b8e91d55c7",
@@ -8182,6 +9294,34 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "3f90fcc9ee",
+      "title": "BPM x SOMA Yoga Flow, Sound Bath & Smoothie",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-28",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "sports & outdoors",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "ea680c60ed",
+      "title": "Intro to Water Colors Grades 6-8",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "17:30",
+      "endTime": "18:30",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/intro-to-water-colors-grades-6-8/2026-10-28/",
+      "description": "Watercolor fundamentals for middle school students, covering color mixing, composition and paint application.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "8b56ad75e4",
       "title": "Scary Story Night",
       "city": "Brookline",
@@ -8256,6 +9396,34 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "2d4a48b8c7",
+      "title": "World Rhythms: Dance Across Cultures",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-28",
+      "startTime": "18:30",
+      "category": "music",
+      "url": "https://www.facone.org/programs/world-rhythms.html",
+      "description": "A weekly inclusive social dance session with circle, line and couple dances from Europe, Asia, Africa and the Americas.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "0c9648a743",
+      "title": "Live Figure Drawing Sessions",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "18:30",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/live-figure-drawing-sessions/2026-10-28/",
+      "description": "Non-instructor-led live drawing session with a live model, with a studio monitor present.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "3b52e28dc6",
       "title": "In Conversation with Ina Garten at Emerson Colonial Theatre Boston",
       "city": "Boston",
@@ -8306,6 +9474,22 @@ window.EVENTS_DATA = {
       "description": "A sauna and cold plunge gathering during Tough Tech Week.",
       "source": "Luma Boston",
       "sourceId": "luma-boston"
+    },
+    {
+      "id": "0c12bfb523",
+      "title": "Make + Mingle",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "address": "162 Mystic Ave., Medford, MA, 02155",
+      "date": "2026-10-28",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "arts & theater",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/make-mingle/2026-10-28/",
+      "description": "Free drop-in to create and mingle with other artists; bring your own sketchbook or art projects.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "c271072f20",
@@ -8374,6 +9558,35 @@ window.EVENTS_DATA = {
       "description": "A one-day summit on climate technology at Greentown Labs.",
       "source": "Luma Boston",
       "sourceId": "luma-boston"
+    },
+    {
+      "id": "240f3ea639",
+      "title": "Kids Activity Hour",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-29",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "92fd79308b",
+      "title": "Let's Move! Outdoor Dance Classroom",
+      "city": "Medford",
+      "venue": "Harris Park",
+      "address": "226-238 Middlesex Ave., Medford, MA, 02155",
+      "date": "2026-10-29",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "price": "Free",
+      "url": "https://www.cacheinmedford.org/event/lets-move-outdoor-dance-classroom/2026-10-29/",
+      "description": "Free outdoor dance session for families at Harris Park, part of a six-week series hosted by The Click and the Medford Family Network.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "c16652d072",
@@ -8490,6 +9703,21 @@ window.EVENTS_DATA = {
       "description": "Launch of INNER ZONE: The Untold Violence of Retribution in Besieged Sarajevo (University of Pennsylvania Press, 2026), with Jelena Golubović in conversation.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "29b580c78c",
+      "title": "Medford Farmers Market",
+      "city": "Medford",
+      "venue": "Condon Band Shell",
+      "address": "2501 Mystic Valley Parkway, Medford, MA, 02155",
+      "date": "2026-10-29",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "category": "festivals & markets",
+      "url": "https://www.cacheinmedford.org/event/medford-farmers-market/2026-10-29/",
+      "description": "Weekly farmers market with local farmers, artisans and food producers at the Condon Band Shell.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
     },
     {
       "id": "ba8370c083",
@@ -8776,6 +10004,47 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "bdbd334c3d",
+      "title": "Coloring Club: Halloween Edition",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-29",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "4a26a1862c",
+      "title": "Brookline Wellness Mixer",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-29",
+      "startTime": "18:00",
+      "category": "community",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSffVn-baaH13E4bx0e0E06nzlH9EpLt-CIIbkZO-Ip2xMinww/viewform",
+      "description": "A relaxed Halloween-season gathering with Lumen Health, Nourish Minds Counseling & Wellness and AcuBoston, with light refreshments and prizes. RSVP is requested.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "2941e042b7",
+      "title": "Sip & Paint: Día de los Muertos",
+      "city": "Medford",
+      "venue": "EventThem Studios",
+      "address": "344 Salem St., Medford, MA, 02155",
+      "date": "2026-10-29",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "arts & theater",
+      "url": "https://www.cacheinmedford.org/event/sip-paint-dia-de-los-muertos/",
+      "description": "Guided painting evening inspired by Día de los Muertos, led by artist Edward Rocha.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "dec3666dd1",
       "title": "Halloween Movie: Sinners (Central Square)",
       "city": "Cambridge",
@@ -8933,6 +10202,19 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston"
     },
     {
+      "id": "31253c152c",
+      "title": "Becoming Boston: Eight Moments in the Geography of a Changing City",
+      "city": "Boston",
+      "venue": "Central Library in Copley Square",
+      "date": "2026-10-30",
+      "endDate": "2027-02-01",
+      "category": "arts & theater",
+      "url": "https://bpl.bibliocommons.com/events/67ed385ff97aac3d000b236d",
+      "description": "Exhibition in the Leventhal Map and Education Gallery, running March 31, 2025 to February 1, 2027. The gallery is closed until October 30, 2026, then reopens with new hours.",
+      "source": "Boston Public Library",
+      "sourceId": "bpl"
+    },
+    {
       "id": "eb26174187",
       "title": "Boston's Haunted Halloween Cruise Party",
       "city": "Boston",
@@ -9049,6 +10331,32 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
+      "id": "975317d453",
+      "title": "Boston Public Market Tour",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-30",
+      "startTime": "11:00",
+      "endTime": "11:30",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "6a265796c5",
+      "title": "Fall Tea Blending Experience with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-30",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "11de845339",
       "title": "America at 250",
       "city": "Boston",
@@ -9107,6 +10415,21 @@ window.EVENTS_DATA = {
       "sourceId": "malden-events"
     },
     {
+      "id": "4a50158f22",
+      "title": "Business Trick or Treat",
+      "city": "Medford",
+      "venue": "Haines Square",
+      "address": "429 Salem St., Medford, MA, 02155",
+      "date": "2026-10-30",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/business-trick-or-treat/",
+      "description": "Afternoon of trick-or-treating at participating Medford businesses; costumes encouraged.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "80fc15b7d5",
       "title": "Halloween Party Ft. Prof Bugman (O'Connell)",
       "city": "Cambridge",
@@ -9120,6 +10443,34 @@ window.EVENTS_DATA = {
       "description": "Halloween celebration with Professor Bugman and his Spooky Bones and Creepy Crawlies program on comparative skeletal anatomy.",
       "source": "City of Cambridge calendar",
       "sourceId": "cambridge-city"
+    },
+    {
+      "id": "0ae5bb9be8",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-30",
+      "startTime": "16:00",
+      "endTime": "17:30",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-2/2026-10-30/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "b58ddc931c",
+      "title": "Spice School: Blending Bar with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-30",
+      "startTime": "17:45",
+      "endTime": "19:45",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "f3bbabc09f",
@@ -9148,6 +10499,23 @@ window.EVENTS_DATA = {
       "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/27844",
       "source": "City of Medford events calendar",
       "sourceId": "medford-city"
+    },
+    {
+      "id": "6159b2e879",
+      "title": "Raising Resilient Youth (Session 2: Youth Mental Health, Stress Management & Financial Literacy)",
+      "city": "Malden",
+      "venue": "Chinese Culture Connection",
+      "address": "75 Pleasant St, Suite 403, Malden, MA 02148",
+      "date": "2026-10-30",
+      "startTime": "18:30",
+      "endTime": "20:00",
+      "category": "community",
+      "price": "Free",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261030/bc6257b2-ee6f-4c70-b5fc-1c50a943ac7d/raising-resilient-youth",
+      "registerUrl": "https://bit.ly/3TBKoHW",
+      "description": "Free parent and caregiver workshop, presented in Mandarin with dinner included, on youth mental health, stress management and financial literacy. Registration required. Part 2 of a 2-part series.",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
     },
     {
       "id": "59b716d354",
@@ -9192,6 +10560,19 @@ window.EVENTS_DATA = {
       "description": "A film screening at the Harvard Film Archive.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "cc75ddd55a",
+      "title": "Haunted Cellar Halloween Party at Marzae",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-30",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "category": "community",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "c91b573761",
@@ -9249,6 +10630,21 @@ window.EVENTS_DATA = {
       "sourceId": "mos"
     },
     {
+      "id": "08f49c2496",
+      "title": "MakerSpace Drop-In",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-31",
+      "startTime": "09:00",
+      "endTime": "11:00",
+      "category": "tech & talks",
+      "url": "https://www.cacheinmedford.org/event/makerspace-drop-in-3/2026-10-31/",
+      "description": "Drop in to work on personal projects or ask the in-house expert about the MakerSpace equipment.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
       "id": "94db2c5afe",
       "title": "Watershed Community Event: Veronica Robles Cultural Center Day of the Dead",
       "city": "Boston",
@@ -9280,6 +10676,73 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "55153f7c5f",
+      "title": "Family Halloween Party & Pumpkin Stroll",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-31",
+      "startTime": "10:00",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "ae1e8de0f6",
+      "title": "Drop-In Kids' Craft",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-31",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "7b5e3be578",
+      "title": "Family Story Time",
+      "city": "Medford",
+      "venue": "Medford Public Library",
+      "address": "111 High St., Medford, MA, 02155",
+      "date": "2026-10-31",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://www.cacheinmedford.org/event/family-story-time-4/2026-10-31/",
+      "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
+      "source": "CACHE in Medford",
+      "sourceId": "cache-medford"
+    },
+    {
+      "id": "4183b59662",
+      "title": "Face Painting by FaceArt",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "endTime": "15:00",
+      "category": "family",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
+      "id": "39e41b29f9",
+      "title": "Puppet Showplace Theater: Lisa the Wise: A Baba Yaga Story by Sarah Nolen of Puppet Motion",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "date": "2026-10-31",
+      "startTime": "10:30",
+      "category": "family",
+      "url": "https://www.puppetshowplace.org/calendar/2026/10/31/lisa-the-wise-a-baba-yaga-story-by-sarah-nolen-of-puppet-motion",
+      "description": "A brave girl meets Baba Yaga in a shadow puppetry story. Recommended for ages 4 to 10; also performed Nov 1, 2026.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "88e08e89e7",
       "title": "Discovery Cart",
       "city": "Boston",
@@ -9293,6 +10756,19 @@ window.EVENTS_DATA = {
       "description": "Gallery activity cart with art supplies and materials. Theme: Silver.",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "6e7326483f",
+      "title": "Fall Tea Blending Experience with Curio Spice Co.",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-31",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/events/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
     },
     {
       "id": "508661d6f7",
@@ -9336,6 +10812,19 @@ window.EVENTS_DATA = {
       "description": "Halloween bar crawl with DJ PAULY D, starting at Lansdowne Pub.",
       "source": "Eventbrite Boston",
       "sourceId": "eventbrite-boston"
+    },
+    {
+      "id": "47318130bb",
+      "title": "Maplewood Halloween Festival",
+      "city": "Malden",
+      "venue": "Trafton Park",
+      "address": "Trafton Park, Maplewood, Malden, MA 02148",
+      "date": "2026-10-31",
+      "startTime": "12:00",
+      "category": "festivals & markets",
+      "url": "https://patch.com/massachusetts/malden/calendar/event/20261031/0603d265-3d9e-4b33-b66a-caba3b19ff6c/maplewood-halloween-festival",
+      "source": "Patch Malden Calendar",
+      "sourceId": "patch-malden"
     },
     {
       "id": "dd30c4194c",
