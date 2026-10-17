@@ -45,6 +45,7 @@
   .day[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
   .day[aria-pressed=true] small, .day[aria-pressed=true] span { color: var(--accent-fg); }
   .day:disabled { opacity: .4; cursor: default; }
+  .month { flex: 0 0 auto; align-self: center; writing-mode: vertical-rl; transform: rotate(180deg); font-size: .68rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
   .row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
   input[type=search] { font: inherit; font-size: .88rem; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; width: 100%; }
   .chip { font-size: .8rem; border: 1px solid var(--line); background: var(--chip); border-radius: 999px; padding: 3px 10px; cursor: pointer; white-space: nowrap; }
@@ -342,10 +343,12 @@
     // Day strip with counts under the current non-day filters.
     const perDay = {};
     for (const e of base) if (!isRun(e)) perDay[e.date] = (perDay[e.date] || 0) + 1;
-    $('days').innerHTML = days.map((d) => {
+    $('days').innerHTML = days.map((d, i) => {
       const n = perDay[d] || 0;
       const label = d === today ? 'Today' : new Date(d + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'short' });
-      return `<button class="day${dow(d) === 0 || dow(d) === 6 ? ' weekend' : ''}" data-day="${d}" aria-pressed="${state.day === d}" ${n ? '' : 'disabled'}>
+      // Month label at the start of the strip and wherever it crosses into a new month.
+      const month = i === 0 || d.endsWith('-01') ? `<span class="month">${new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short' })}</span>` : '';
+      return `${month}<button class="day${dow(d) === 0 || dow(d) === 6 ? ' weekend' : ''}" data-day="${d}" aria-pressed="${state.day === d}" ${n ? '' : 'disabled'}>
         <small>${label}</small><strong>${Number(d.slice(8))}</strong><span>${n}</span></button>`;
     }).join('');
     const pressed = { free: state.free, ongoing: state.ongoing, ...Object.fromEntries(Object.keys(SLOTS).map((k) => [k, state.time === k])) };

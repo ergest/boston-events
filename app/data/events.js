@@ -1,8 +1,8 @@
 window.EVENTS_DATA = {
-  "generatedAt": "2026-10-17T13:59:18.715Z",
+  "generatedAt": "2026-10-17T14:46:24.862Z",
   "window": {
     "start": "2026-10-17",
-    "end": "2026-10-31",
+    "end": "2026-11-16",
     "cities": [
       "Boston",
       "Cambridge",
@@ -56,21 +56,6 @@ window.EVENTS_DATA = {
       "url": "https://bostix.org/event/call-it-evil-understanding-the-trump-era/",
       "source": "ArtsBoston Calendar",
       "sourceId": "artsboston"
-    },
-    {
-      "id": "0c1db0d1ac",
-      "title": "Discovering King Tut's Tomb",
-      "city": "Boston",
-      "venue": "The Castle at Park Plaza",
-      "date": "2026-10-17",
-      "endDate": "2026-10-18",
-      "category": "arts & theater",
-      "url": "https://www.bochcenter.org/events/detail/discovering-king-tuts-tomb",
-      "registerUrl": "https://feverup.com/m/532123?cp_landing=cta_header&cp_landing_term=cta_header&cp_landing_source=kingtutexperience&utm_source=direct",
-      "description": "Run through October 18, 2026, at The Castle at Park Plaza.",
-      "source": "Boch Center",
-      "sourceId": "boch-center",
-      "price": "From $22.50"
     },
     {
       "id": "d7248ec012",
@@ -701,6 +686,21 @@ window.EVENTS_DATA = {
       "description": "Citywide celebration of Medford's Revolutionary War heroine Sarah Bradlee Fulton, with a historic walk starting at 10 AM at the burying ground, a fife and drum, children's activities, and an original play. Sponsored by Looking Back at Medford History and the Medford Arts Council.",
       "source": "Patch Malden Calendar",
       "sourceId": "patch-malden"
+    },
+    {
+      "id": "0c1db0d1ac",
+      "title": "Discovering King Tut's Tomb",
+      "city": "Boston",
+      "venue": "The Castle at Park Plaza",
+      "date": "2026-10-17",
+      "endDate": "2026-10-18",
+      "category": "arts & theater",
+      "url": "https://www.bochcenter.org/events/detail/discovering-king-tuts-tomb",
+      "registerUrl": "https://feverup.com/m/532123?cp_landing=cta_header&cp_landing_term=cta_header&cp_landing_source=kingtutexperience&utm_source=direct",
+      "description": "Run through October 18, 2026, at The Castle at Park Plaza.",
+      "source": "Boch Center",
+      "sourceId": "boch-center",
+      "price": "From $22.50"
     },
     {
       "id": "858db31ebb",
@@ -1388,30 +1388,6 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
-      "id": "342cc34efa",
-      "title": "Malden Donation Fair and Clothing Exchange",
-      "city": "Malden",
-      "venue": "Bread of Life",
-      "date": "2026-10-17",
-      "startTime": "10:00",
-      "category": "community",
-      "url": "https://www.maldenevents.com/10/17/2026/malden-donation-fair-and-clothing-exchange/",
-      "source": "Malden Events",
-      "sourceId": "malden-events"
-    },
-    {
-      "id": "f6b0243ef7",
-      "title": "Friends of the Malden Public Library Book Sale",
-      "city": "Malden",
-      "venue": "Malden Public Library",
-      "date": "2026-10-17",
-      "startTime": "10:00",
-      "category": "community",
-      "url": "https://www.maldenevents.com/10/17/2026/friends-of-the-malden-public-library-book-sale/",
-      "source": "Malden Events",
-      "sourceId": "malden-events"
-    },
-    {
       "id": "880f57cfbb",
       "title": "Junk in the Trunk",
       "city": "Medford",
@@ -1513,6 +1489,30 @@ window.EVENTS_DATA = {
       "description": "An MIT Museum exhibition on artificial intelligence and what it reveals about human intelligence.",
       "source": "Cambridge Office for Tourism",
       "sourceId": "cambridge-tourism"
+    },
+    {
+      "id": "342cc34efa",
+      "title": "Malden Donation Fair and Clothing Exchange",
+      "city": "Malden",
+      "venue": "Bread of Life",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "category": "community",
+      "url": "https://www.maldenevents.com/10/17/2026/malden-donation-fair-and-clothing-exchange/",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "f6b0243ef7",
+      "title": "Friends of the Malden Public Library Book Sale",
+      "city": "Malden",
+      "venue": "Malden Public Library",
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "category": "community",
+      "url": "https://www.maldenevents.com/10/17/2026/friends-of-the-malden-public-library-book-sale/",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
     },
     {
       "id": "7cf87dd2a8",
@@ -2213,19 +2213,6 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
-      "id": "259032692f",
-      "title": "MythBusting: 4 Wines, 4 Myths",
-      "city": "Brookline",
-      "venue": "Winestone",
-      "date": "2026-10-17",
-      "startTime": "12:00",
-      "category": "food & drink",
-      "url": "https://winestone.net/",
-      "description": "Four wines put familiar wine myths to the test in a tasting session.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
-    },
-    {
       "id": "2f3a1a8bce",
       "title": "Sarah Bradlee Fulton Day",
       "city": "Medford",
@@ -2253,6 +2240,19 @@ window.EVENTS_DATA = {
       "url": "https://patch.com/massachusetts/malden/calendar/event/20261017/9a919fc1-8199-4dfe-9007-5c2317291400/lucky-seven-the-gallery-57-turns-7",
       "source": "Patch Malden Calendar",
       "sourceId": "patch-malden"
+    },
+    {
+      "id": "259032692f",
+      "title": "MythBusting: 4 Wines, 4 Myths",
+      "city": "Brookline",
+      "venue": "Winestone",
+      "date": "2026-10-17",
+      "startTime": "12:00",
+      "category": "food & drink",
+      "url": "https://winestone.net/",
+      "description": "Four wines put familiar wine myths to the test in a tasting session.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "325499d00b",
@@ -3076,19 +3076,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-calendar"
     },
     {
-      "id": "040e70d3be",
-      "title": "Gilla Band (18+)",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-17",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/gilla-band-18-boston-massachusetts-10-17-2026/event/010064B49BB0C9C6",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "a85997e558",
       "title": "Olivia Rodrigo, Wolf Alice",
       "city": "Boston",
@@ -3172,6 +3159,19 @@ window.EVENTS_DATA = {
       "sourceId": "cache-medford"
     },
     {
+      "id": "040e70d3be",
+      "title": "Gilla Band (18+)",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-17",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/gilla-band-18-boston-massachusetts-10-17-2026/event/010064B49BB0C9C6",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
       "id": "2f7363e8dd",
       "title": "Boston Chamber Symphony Performs Mozart, Beethoven, and Brahms with Joshua Brown",
       "city": "Cambridge",
@@ -3240,19 +3240,6 @@ window.EVENTS_DATA = {
       "sourceId": "somerville-arts-council"
     },
     {
-      "id": "96764641a9",
-      "title": "Sin Bandera: Escenas US Tour",
-      "city": "Boston",
-      "venue": "Wang Theatre",
-      "date": "2026-10-17",
-      "startTime": "20:00",
-      "category": "music",
-      "url": "https://www.bochcenter.org/events/detail/sinbandera",
-      "registerUrl": "https://www.ticketmaster.com/event/010064E1C7C73175",
-      "source": "Boch Center",
-      "sourceId": "boch-center"
-    },
-    {
       "id": "d0a56132f1",
       "title": "Andris Nelsons with Hilary Hahn and Seth Parker Woods",
       "city": "Boston",
@@ -3279,6 +3266,19 @@ window.EVENTS_DATA = {
       "description": "Chamber concert by Radius Ensemble, including a world premiere co-commission by Jonathan Russell.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "96764641a9",
+      "title": "Sin Bandera: Escenas US Tour",
+      "city": "Boston",
+      "venue": "Wang Theatre",
+      "date": "2026-10-17",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://www.bochcenter.org/events/detail/sinbandera",
+      "registerUrl": "https://www.ticketmaster.com/event/010064E1C7C73175",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
     },
     {
       "id": "597b962105",
@@ -3795,19 +3795,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-public-market"
     },
     {
-      "id": "5e92920bba",
-      "title": "Author Janice Bangs Reading from “Mama Duck’s Lost Duckling” at Turtle Books",
-      "city": "Brookline",
-      "venue": "Turtle Books",
-      "date": "2026-10-18",
-      "startTime": "13:00",
-      "category": "family",
-      "url": "https://turtlebooks.store/event/author-janice-bangs-reading-from-mama-ducks-lost-duckling/",
-      "description": "Author Janice Bangs reads her picture book about a mother duck searching for a missing duckling.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
-    },
-    {
       "id": "c029f4d0e7",
       "title": "Spooky Cyanotypes! Halloween Edition",
       "city": "Medford",
@@ -3835,6 +3822,19 @@ window.EVENTS_DATA = {
       "description": "A Halloween street festival with live music, interactive art activities, family fun and local food vendors. The severe weather date is October 25, 2026.",
       "source": "Somerville Arts Council",
       "sourceId": "somerville-arts-council"
+    },
+    {
+      "id": "5e92920bba",
+      "title": "Author Janice Bangs Reading from “Mama Duck’s Lost Duckling” at Turtle Books",
+      "city": "Brookline",
+      "venue": "Turtle Books",
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "category": "family",
+      "url": "https://turtlebooks.store/event/author-janice-bangs-reading-from-mama-ducks-lost-duckling/",
+      "description": "Author Janice Bangs reads her picture book about a mother duck searching for a missing duckling.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "436443db7f",
@@ -4076,6 +4076,19 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
+      "id": "936c300a70",
+      "title": "Witches in the Vineyard: Intro to Biodynamic Wine",
+      "city": "Boston",
+      "venue": "Boston Public Market",
+      "date": "2026-10-18",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "food & drink",
+      "url": "https://bostonpublicmarket.org/bpm-events/witches-in-the-vineyard-intro-to-biodynamic-wine/",
+      "source": "Boston Public Market",
+      "sourceId": "boston-public-market"
+    },
+    {
       "id": "3ce03e0e72",
       "title": "for KING + COUNTRY",
       "city": "Boston",
@@ -4100,19 +4113,6 @@ window.EVENTS_DATA = {
       "url": "https://www.ticketmaster.com/lauren-sanderson-come-say-sum-tour-boston-massachusetts-10-18-2026/event/010064BCA6321A3A",
       "source": "Brighton Music Hall",
       "sourceId": "brighton-music-hall"
-    },
-    {
-      "id": "936c300a70",
-      "title": "Witches in the Vineyard: Intro to Biodynamic Wine",
-      "city": "Boston",
-      "venue": "Boston Public Market",
-      "date": "2026-10-18",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "food & drink",
-      "url": "https://bostonpublicmarket.org/bpm-events/witches-in-the-vineyard-intro-to-biodynamic-wine/",
-      "source": "Boston Public Market",
-      "sourceId": "boston-public-market"
     },
     {
       "id": "91a956d47a",
@@ -4945,19 +4945,6 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
-      "id": "a7c186ab5c",
-      "title": "CRADLE OF FILTH: Majestic In Death ( MOVED TO BRIGHTON MUSIC HALL )",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-20",
-      "startTime": "18:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/cradle-of-filth-majestic-in-death-boston-massachusetts-10-20-2026/event/010064E8D764AEA4",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "84cd383541",
       "title": "Narcan Distribution (Central Square)",
       "city": "Cambridge",
@@ -5003,18 +4990,17 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
-      "id": "4752637721",
-      "title": "The Thorn",
+      "id": "a7c186ab5c",
+      "title": "CRADLE OF FILTH: Majestic In Death ( MOVED TO BRIGHTON MUSIC HALL )",
       "city": "Boston",
-      "venue": "Wang Theatre",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
       "date": "2026-10-20",
-      "endDate": "2026-10-21",
-      "startTime": "19:00",
-      "category": "arts & theater",
-      "url": "https://www.bochcenter.org/events/detail/thethorn",
-      "registerUrl": "https://www.ticketmaster.com/venue/8248?attractionId=2960542&brand=WANGTHEATRE",
-      "source": "Boch Center",
-      "sourceId": "boch-center"
+      "startTime": "18:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/cradle-of-filth-majestic-in-death-boston-massachusetts-10-20-2026/event/010064E8D764AEA4",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "412003956a",
@@ -5086,6 +5072,20 @@ window.EVENTS_DATA = {
       "description": "Live music from Sungaze, Lavisher and Slow Quit at Deep Cuts Brewery; doors at 7 PM.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "4752637721",
+      "title": "The Thorn",
+      "city": "Boston",
+      "venue": "Wang Theatre",
+      "date": "2026-10-20",
+      "endDate": "2026-10-21",
+      "startTime": "19:00",
+      "category": "arts & theater",
+      "url": "https://www.bochcenter.org/events/detail/thethorn",
+      "registerUrl": "https://www.ticketmaster.com/venue/8248?attractionId=2960542&brand=WANGTHEATRE",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
     },
     {
       "id": "cd5f729979",
@@ -5498,20 +5498,6 @@ window.EVENTS_DATA = {
       "sourceId": "bu-spark"
     },
     {
-      "id": "2e22f74b6e",
-      "title": "Malden Farmers Market",
-      "city": "Malden",
-      "venue": "Malden City Hall Plaza",
-      "date": "2026-10-21",
-      "startTime": "15:00",
-      "category": "food & drink",
-      "price": "Free",
-      "url": "https://www.maldenevents.com/10/21/2026/recurring-malden-farmers-market/",
-      "description": "Recurring weekly farmers market on Wednesdays at Malden City Hall Plaza; the listing shows Oct 21 and Oct 28 in this window.",
-      "source": "Malden Events",
-      "sourceId": "malden-events"
-    },
-    {
       "id": "c43e894d28",
       "title": "Family Story Time at the Medford Public Library",
       "city": "Medford",
@@ -5525,6 +5511,20 @@ window.EVENTS_DATA = {
       "description": "Story hour with books and songs for children ages 3-7; parents and caregivers welcome.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "2e22f74b6e",
+      "title": "Malden Farmers Market",
+      "city": "Malden",
+      "venue": "Malden City Hall Plaza",
+      "date": "2026-10-21",
+      "startTime": "15:00",
+      "category": "food & drink",
+      "price": "Free",
+      "url": "https://www.maldenevents.com/10/21/2026/recurring-malden-farmers-market/",
+      "description": "Recurring weekly farmers market on Wednesdays at Malden City Hall Plaza; the listing shows Oct 21 and Oct 28 in this window.",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
     },
     {
       "id": "7c2164ab97",
@@ -5944,19 +5944,6 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
-      "id": "c61eefe9db",
-      "title": "Ecca Vandal",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-21",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/ecca-vandal-boston-massachusetts-10-21-2026/event/010064B2E5F2495E",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "64440c536e",
       "title": "Millennial Book Group",
       "city": "Brookline",
@@ -6030,17 +6017,17 @@ window.EVENTS_DATA = {
       "sourceId": "cache-medford"
     },
     {
-      "id": "8d9ae8914d",
-      "title": "The American Soundscape. Celebrating 250 years of American music.",
-      "city": "Brookline",
-      "venue": "Brookline Community Band",
+      "id": "c61eefe9db",
+      "title": "Ecca Vandal",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
       "date": "2026-10-21",
-      "startTime": "19:30",
+      "startTime": "19:00",
       "category": "music",
-      "url": "https://www.brooklinecommunityband.org/",
-      "description": "A Brookline Community Band concert of American music, from Appalachian folk and American rivers to jazz and classical.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
+      "url": "https://www.ticketmaster.com/ecca-vandal-boston-massachusetts-10-21-2026/event/010064B2E5F2495E",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "d9b4854f64",
@@ -6056,6 +6043,19 @@ window.EVENTS_DATA = {
       "description": "Line dancing night with professional lessons, now held twice a month at the Great American Beer Hall.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "8d9ae8914d",
+      "title": "The American Soundscape. Celebrating 250 years of American music.",
+      "city": "Brookline",
+      "venue": "Brookline Community Band",
+      "date": "2026-10-21",
+      "startTime": "19:30",
+      "category": "music",
+      "url": "https://www.brooklinecommunityband.org/",
+      "description": "A Brookline Community Band concert of American music, from Appalachian folk and American rivers to jazz and classical.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "fae54d4722",
@@ -6605,19 +6605,6 @@ window.EVENTS_DATA = {
       "sourceId": "luma-boston"
     },
     {
-      "id": "236989a343",
-      "title": "Coming Home Dinner",
-      "city": "Medford",
-      "venue": "Arts Collaborative Medford",
-      "date": "2026-10-22",
-      "startTime": "18:00",
-      "category": "arts & theater",
-      "url": "https://www.maldenevents.com/10/22/2026/coming-home-dinner/",
-      "registerUrl": "https://forms.gle/Boy4EyNTforRAQNg8",
-      "source": "Malden Events",
-      "sourceId": "malden-events"
-    },
-    {
       "id": "671a9098b1",
       "title": "2026 Fall Exhibitions Opening Reception",
       "city": "Cambridge",
@@ -6645,6 +6632,19 @@ window.EVENTS_DATA = {
       "description": "Lecture by design leader Carrie McKnelly, part of the MIT Fall 2026 Architecture Lecture Series.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "236989a343",
+      "title": "Coming Home Dinner",
+      "city": "Medford",
+      "venue": "Arts Collaborative Medford",
+      "date": "2026-10-22",
+      "startTime": "18:00",
+      "category": "arts & theater",
+      "url": "https://www.maldenevents.com/10/22/2026/coming-home-dinner/",
+      "registerUrl": "https://forms.gle/Boy4EyNTforRAQNg8",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
     },
     {
       "id": "6a01f0b28a",
@@ -6704,19 +6704,6 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
-      "id": "ea3ceb8ef6",
-      "title": "Sophie Truax: Can't Split a Worm Tour",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-22",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/sophie-truax-cant-split-a-worm-boston-massachusetts-10-22-2026/event/010064DE9A8CBFF4",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "63c3d09d65",
       "title": "\"Entangled\" Film Screening",
       "city": "Cambridge",
@@ -6729,6 +6716,19 @@ window.EVENTS_DATA = {
       "description": "Screening of Entangled, a 75-minute award-winning film about climate change and the collision between critically endangered right whales and shipping traffic.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "ea3ceb8ef6",
+      "title": "Sophie Truax: Can't Split a Worm Tour",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-22",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/sophie-truax-cant-split-a-worm-boston-massachusetts-10-22-2026/event/010064DE9A8CBFF4",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "d0aacd4e94",
@@ -7093,19 +7093,6 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
-      "id": "972b9da53c",
-      "title": "An Evening With Assembly of Dust (18+)",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-23",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/an-evening-with-assembly-of-dust-boston-massachusetts-10-23-2026/event/01006453DD93D0B4",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "0a72d66a3b",
       "title": "Mandy",
       "city": "Cambridge",
@@ -7136,6 +7123,19 @@ window.EVENTS_DATA = {
       "description": "Film screening at the Boston Palestine Film Festival.",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "972b9da53c",
+      "title": "An Evening With Assembly of Dust (18+)",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-23",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/an-evening-with-assembly-of-dust-boston-massachusetts-10-23-2026/event/01006453DD93D0B4",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "76ee4ba297",
@@ -7205,19 +7205,6 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
-      "id": "e0f0cfd05f",
-      "title": "Jazz Sanctuary featuring Jason Palmer and Kevin Harris",
-      "city": "Brookline",
-      "venue": "United Parish in Brookline",
-      "date": "2026-10-23",
-      "startTime": "20:00",
-      "category": "music",
-      "url": "https://events.humanitix.com/jazz-sanctuary-featuring-jason-palmer",
-      "description": "The Jazz Sanctuary concert series opens with trumpeter Jason Palmer and pianist Kevin Harris.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
-    },
-    {
       "id": "048b9c3e8e",
       "title": "Bruce Cockburn with Special Guest Livingston Taylor",
       "city": "Medford",
@@ -7231,6 +7218,19 @@ window.EVENTS_DATA = {
       "description": "Canadian singer-songwriter Bruce Cockburn in concert, with Livingston Taylor opening.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "e0f0cfd05f",
+      "title": "Jazz Sanctuary featuring Jason Palmer and Kevin Harris",
+      "city": "Brookline",
+      "venue": "United Parish in Brookline",
+      "date": "2026-10-23",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://events.humanitix.com/jazz-sanctuary-featuring-jason-palmer",
+      "description": "The Jazz Sanctuary concert series opens with trumpeter Jason Palmer and pianist Kevin Harris.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "3fec2c16c7",
@@ -7817,19 +7817,6 @@ window.EVENTS_DATA = {
       "sourceId": "bso"
     },
     {
-      "id": "22ecf136ae",
-      "title": "An Evening With Assembly of Dust (18+)",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-24",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/an-evening-with-assembly-of-dust-boston-massachusetts-10-24-2026/event/01006453DDA5D0FC",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "c61613d29e",
       "title": "Cambridge NITES: Steep'd Intergenerational Tea",
       "city": "Cambridge",
@@ -7861,6 +7848,19 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "22ecf136ae",
+      "title": "An Evening With Assembly of Dust (18+)",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-24",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/an-evening-with-assembly-of-dust-boston-massachusetts-10-24-2026/event/01006453DDA5D0FC",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
       "id": "be70081ada",
       "title": "Farewell, My Butterfly: An Evening of Korean Traditional Dance & Music, Old and New",
       "city": "Brookline",
@@ -7873,20 +7873,6 @@ window.EVENTS_DATA = {
       "description": "The Oasis Music Series presents Korean traditional dance, gayageum and a cross-cultural collaboration with jazz and contemporary dance, followed by a reception with the artists.",
       "source": "Brookline.News Events",
       "sourceId": "brookline-news"
-    },
-    {
-      "id": "37f3a4c871",
-      "title": "Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks",
-      "city": "Boston",
-      "venue": "Shubert Theatre",
-      "date": "2026-10-24",
-      "startTime": "20:00",
-      "category": "music",
-      "url": "https://www.bochcenter.org/events/detail/thejayhawks",
-      "registerUrl": "https://www.ticketmaster.com/event/010064D1E857EDF7",
-      "description": "Presented by the Folk Americana Roots Hall of Fame.",
-      "source": "Boch Center",
-      "sourceId": "boch-center"
     },
     {
       "id": "46dc259e72",
@@ -7903,6 +7889,20 @@ window.EVENTS_DATA = {
       "description": "A concert by the Harvard Pops Orchestra at Lowell Lecture Hall. Full price $15; students and Harvard ID holders $10.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "37f3a4c871",
+      "title": "Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks",
+      "city": "Boston",
+      "venue": "Shubert Theatre",
+      "date": "2026-10-24",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://www.bochcenter.org/events/detail/thejayhawks",
+      "registerUrl": "https://www.ticketmaster.com/event/010064D1E857EDF7",
+      "description": "Presented by the Folk Americana Roots Hall of Fame.",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
     },
     {
       "id": "62c39400bd",
@@ -8101,19 +8101,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-public-market"
     },
     {
-      "id": "98dc4fc83c",
-      "title": "MARIS",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-25",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/maris-boston-massachusetts-10-25-2026/event/010064BBEA867B15",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "f740da65a4",
       "title": "It Always Rains on Sunday",
       "city": "Cambridge",
@@ -8128,6 +8115,19 @@ window.EVENTS_DATA = {
       "description": "A film screening at the Harvard Film Archive.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "98dc4fc83c",
+      "title": "MARIS",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-25",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/maris-boston-massachusetts-10-25-2026/event/010064BBEA867B15",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "ec8403cacd",
@@ -8420,32 +8420,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-news"
     },
     {
-      "id": "64c5478f95",
-      "title": "The Parables Tour with Father Mike Schmitz",
-      "city": "Boston",
-      "venue": "Wang Theatre",
-      "date": "2026-10-26",
-      "startTime": "19:00",
-      "category": "arts & theater",
-      "url": "https://www.bochcenter.org/events/detail/fathermike",
-      "registerUrl": "https://www.ticketmaster.com/event/01006507940CAD1C",
-      "source": "Boch Center",
-      "sourceId": "boch-center"
-    },
-    {
-      "id": "e07e16a808",
-      "title": "LØLØ: God Forbid a Girl Goes on Tour",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-26",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/ll-god-forbid-a-girl-goes-boston-massachusetts-10-26-2026/event/010064ABB005FD3A",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "c61b664d13",
       "title": "Owl Night with Mass Audubon",
       "city": "Brookline",
@@ -8474,6 +8448,32 @@ window.EVENTS_DATA = {
       "description": "A film screening at the Harvard Film Archive.",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "64c5478f95",
+      "title": "The Parables Tour with Father Mike Schmitz",
+      "city": "Boston",
+      "venue": "Wang Theatre",
+      "date": "2026-10-26",
+      "startTime": "19:00",
+      "category": "arts & theater",
+      "url": "https://www.bochcenter.org/events/detail/fathermike",
+      "registerUrl": "https://www.ticketmaster.com/event/01006507940CAD1C",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "e07e16a808",
+      "title": "LØLØ: God Forbid a Girl Goes on Tour",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-26",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/ll-god-forbid-a-girl-goes-boston-massachusetts-10-26-2026/event/010064ABB005FD3A",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "43c1fec37b",
@@ -8746,19 +8746,6 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
-      "id": "1bc264dca2",
-      "title": "Maddie Zahm: Everything All The Time Tour",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-27",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/maddie-zahm-everything-all-the-time-boston-massachusetts-10-27-2026/event/010064C2B659D152",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "fad5607a73",
       "title": "FREE Early Movie Screening of WILD HORSE NINE",
       "city": "Boston",
@@ -8787,6 +8774,19 @@ window.EVENTS_DATA = {
       "description": "Conversation group for French learners of all levels, led by Dr. Carey Dardompré.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "1bc264dca2",
+      "title": "Maddie Zahm: Everything All The Time Tour",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-27",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/maddie-zahm-everything-all-the-time-boston-massachusetts-10-27-2026/event/010064C2B659D152",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "99dd82c5b4",
@@ -9396,19 +9396,6 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
-      "id": "2d4a48b8c7",
-      "title": "World Rhythms: Dance Across Cultures",
-      "city": "Brookline",
-      "venue": "See event page",
-      "date": "2026-10-28",
-      "startTime": "18:30",
-      "category": "music",
-      "url": "https://www.facone.org/programs/world-rhythms.html",
-      "description": "A weekly inclusive social dance session with circle, line and couple dances from Europe, Asia, Africa and the Americas.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
-    },
-    {
       "id": "0c9648a743",
       "title": "Live Figure Drawing Sessions",
       "city": "Medford",
@@ -9424,6 +9411,19 @@ window.EVENTS_DATA = {
       "sourceId": "cache-medford"
     },
     {
+      "id": "2d4a48b8c7",
+      "title": "World Rhythms: Dance Across Cultures",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-28",
+      "startTime": "18:30",
+      "category": "music",
+      "url": "https://www.facone.org/programs/world-rhythms.html",
+      "description": "A weekly inclusive social dance session with circle, line and couple dances from Europe, Asia, Africa and the Americas.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
       "id": "3b52e28dc6",
       "title": "In Conversation with Ina Garten at Emerson Colonial Theatre Boston",
       "city": "Boston",
@@ -9434,31 +9434,6 @@ window.EVENTS_DATA = {
       "url": "https://allevents.in/boston/in-conversation-with-ina-garten-at-emerson-colonial-theatre-boston/2400029940596801",
       "source": "Allevents Boston",
       "sourceId": "allevents-boston"
-    },
-    {
-      "id": "458fedb91d",
-      "title": "Starting Over With John & Yoko - Book Release",
-      "city": "Boston",
-      "venue": "Folk Americana Roots Hall of Fame",
-      "date": "2026-10-28",
-      "startTime": "19:00",
-      "category": "arts & theater",
-      "url": "https://www.bochcenter.org/events/detail/starting-over-with-john-yoko-book-release",
-      "source": "Boch Center",
-      "sourceId": "boch-center"
-    },
-    {
-      "id": "447d59067c",
-      "title": "After",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-28",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/after-boston-massachusetts-10-28-2026/event/010064F0C7DB91B1",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
     },
     {
       "id": "9dffbb2513",
@@ -9490,6 +9465,31 @@ window.EVENTS_DATA = {
       "description": "Free drop-in to create and mingle with other artists; bring your own sketchbook or art projects.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "458fedb91d",
+      "title": "Starting Over With John & Yoko - Book Release",
+      "city": "Boston",
+      "venue": "Folk Americana Roots Hall of Fame",
+      "date": "2026-10-28",
+      "startTime": "19:00",
+      "category": "arts & theater",
+      "url": "https://www.bochcenter.org/events/detail/starting-over-with-john-yoko-book-release",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "447d59067c",
+      "title": "After",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-28",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/after-boston-massachusetts-10-28-2026/event/010064F0C7DB91B1",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "c271072f20",
@@ -10017,19 +10017,6 @@ window.EVENTS_DATA = {
       "sourceId": "boston-public-market"
     },
     {
-      "id": "4a26a1862c",
-      "title": "Brookline Wellness Mixer",
-      "city": "Brookline",
-      "venue": "See event page",
-      "date": "2026-10-29",
-      "startTime": "18:00",
-      "category": "community",
-      "url": "https://docs.google.com/forms/d/e/1FAIpQLSffVn-baaH13E4bx0e0E06nzlH9EpLt-CIIbkZO-Ip2xMinww/viewform",
-      "description": "A relaxed Halloween-season gathering with Lumen Health, Nourish Minds Counseling & Wellness and AcuBoston, with light refreshments and prizes. RSVP is requested.",
-      "source": "Brookline.News Events",
-      "sourceId": "brookline-news"
-    },
-    {
       "id": "2941e042b7",
       "title": "Sip & Paint: Día de los Muertos",
       "city": "Medford",
@@ -10043,6 +10030,19 @@ window.EVENTS_DATA = {
       "description": "Guided painting evening inspired by Día de los Muertos, led by artist Edward Rocha.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "4a26a1862c",
+      "title": "Brookline Wellness Mixer",
+      "city": "Brookline",
+      "venue": "See event page",
+      "date": "2026-10-29",
+      "startTime": "18:00",
+      "category": "community",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSffVn-baaH13E4bx0e0E06nzlH9EpLt-CIIbkZO-Ip2xMinww/viewform",
+      "description": "A relaxed Halloween-season gathering with Lumen Health, Nourish Minds Counseling & Wellness and AcuBoston, with light refreshments and prizes. RSVP is requested.",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
     },
     {
       "id": "dec3666dd1",
@@ -10098,19 +10098,6 @@ window.EVENTS_DATA = {
       "sourceId": "allevents-boston"
     },
     {
-      "id": "c831c90723",
-      "title": "Eph See: Halloween Homecoming Show pres. by Blair B*tch Project (18+)",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-29",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/eph-see-halloween-homecoming-show-pres-boston-massachusetts-10-29-2026/event/0100650DD10E8601",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "dff43ecf90",
       "title": "Uzo Aduba: Owning Your Identity",
       "city": "Boston",
@@ -10124,6 +10111,19 @@ window.EVENTS_DATA = {
       "description": "The Ruth and Carl J. Shapiro Celebrity Lectures. Offered in person and online.",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "c831c90723",
+      "title": "Eph See: Halloween Homecoming Show pres. by Blair B*tch Project (18+)",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-29",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/eph-see-halloween-homecoming-show-pres-boston-massachusetts-10-29-2026/event/0100650DD10E8601",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "20fcb39114",
@@ -10402,19 +10402,6 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
-      "id": "04b14e7571",
-      "title": "22nd Annual Trick or Treat",
-      "city": "Malden",
-      "venue": "Malden City Hall Plaza",
-      "date": "2026-10-30",
-      "startTime": "15:00",
-      "category": "family",
-      "price": "Free",
-      "url": "https://www.maldenevents.com/10/30/2026/22nd-annual-trick-or-treat/",
-      "source": "Malden Events",
-      "sourceId": "malden-events"
-    },
-    {
       "id": "4a50158f22",
       "title": "Business Trick or Treat",
       "city": "Medford",
@@ -10428,6 +10415,19 @@ window.EVENTS_DATA = {
       "description": "Afternoon of trick-or-treating at participating Medford businesses; costumes encouraged.",
       "source": "CACHE in Medford",
       "sourceId": "cache-medford"
+    },
+    {
+      "id": "04b14e7571",
+      "title": "22nd Annual Trick or Treat",
+      "city": "Malden",
+      "venue": "Malden City Hall Plaza",
+      "date": "2026-10-30",
+      "startTime": "15:00",
+      "category": "family",
+      "price": "Free",
+      "url": "https://www.maldenevents.com/10/30/2026/22nd-annual-trick-or-treat/",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
     },
     {
       "id": "80fc15b7d5",
@@ -10533,19 +10533,6 @@ window.EVENTS_DATA = {
       "sourceId": "assembly-row"
     },
     {
-      "id": "5f6559ae06",
-      "title": "Jenna Davis",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-30",
-      "startTime": "19:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/jenna-davis-boston-massachusetts-10-30-2026/event/010064C3EBFCE020",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "56cb9aaa10",
       "title": "Come and Go",
       "city": "Cambridge",
@@ -10573,6 +10560,19 @@ window.EVENTS_DATA = {
       "url": "https://bostonpublicmarket.org/events/",
       "source": "Boston Public Market",
       "sourceId": "boston-public-market"
+    },
+    {
+      "id": "5f6559ae06",
+      "title": "Jenna Davis",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-30",
+      "startTime": "19:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/jenna-davis-boston-massachusetts-10-30-2026/event/010064C3EBFCE020",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "c91b573761",
@@ -10931,19 +10931,6 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
-      "id": "40ced43a4e",
-      "title": "Broadway Rave (18+)",
-      "city": "Boston",
-      "venue": "Brighton Music Hall",
-      "address": "158 Brighton Avenue, Boston, MA 02134",
-      "date": "2026-10-31",
-      "startTime": "20:00",
-      "category": "music",
-      "url": "https://www.ticketmaster.com/broadway-rave-18-boston-massachusetts-10-31-2026/event/01006504CC49A7A3",
-      "source": "Brighton Music Hall",
-      "sourceId": "brighton-music-hall"
-    },
-    {
       "id": "7bbf83e2d2",
       "title": "Fright Night in Fenway: Halloween Night All Access Bar Pass",
       "city": "Boston",
@@ -10969,6 +10956,19 @@ window.EVENTS_DATA = {
       "description": "Halloween evening event at the ICA, 8 PM to midnight.",
       "source": "Institute of Contemporary Art",
       "sourceId": "ica"
+    },
+    {
+      "id": "40ced43a4e",
+      "title": "Broadway Rave (18+)",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "date": "2026-10-31",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://www.ticketmaster.com/broadway-rave-18-boston-massachusetts-10-31-2026/event/01006504CC49A7A3",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
     },
     {
       "id": "7383c9fd55",
@@ -11012,6 +11012,500 @@ window.EVENTS_DATA = {
       "description": "A Día de los Muertos celebration focused on connection, release and transformation.",
       "source": "Luma Boston",
       "sourceId": "luma-boston"
+    },
+    {
+      "id": "5d20401b2c",
+      "title": "Patrick Droney",
+      "url": "https://www.bochcenter.org/events/detail/patrickdroney",
+      "registerUrl": "https://www.ticketmaster.com/event/010064D6A178AD31",
+      "date": "2026-11-01",
+      "city": "Boston",
+      "venue": "Shubert Theatre",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "3a8f8b7371",
+      "title": "An Evening With Blu DeTiger: The Want You Baby Tonight Tour",
+      "url": "https://www.ticketmaster.com/an-evening-with-blu-detiger-the-boston-massachusetts-11-01-2026/event/0100650CDEDCB548",
+      "date": "2026-11-01",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "63984e2721",
+      "title": "Grand Opening: Free Education Staffing Training Center",
+      "url": "https://www.maldenevents.com/11/02/2026/grand-opening-free-education-staffing-training-center/",
+      "date": "2026-11-02",
+      "startTime": "11:30",
+      "city": "Malden",
+      "venue": "Malden",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "7c5eae0691",
+      "title": "Madds Buckley: 2026/2027 North American Tour",
+      "url": "https://www.ticketmaster.com/madds-buckley-20262027-north-american-tour-boston-massachusetts-11-02-2026/event/010064F4A7981A38",
+      "date": "2026-11-02",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "6339e272b9",
+      "title": "Gregg Allman: The Music of My Soul",
+      "url": "https://www.bochcenter.org/events/detail/tmoms",
+      "registerUrl": "https://www.ticketmaster.com/event/0100650690F1D312",
+      "date": "2026-11-04",
+      "city": "Cambridge",
+      "venue": "Arrow Street Arts Center",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "027b326cff",
+      "title": "World Rhythms: Dance Across Cultures",
+      "date": "2026-11-04",
+      "startTime": "18:30",
+      "url": "https://www.facone.org/programs/world-rhythms.html",
+      "city": "Brookline",
+      "venue": "See event page",
+      "category": "music",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "dc659c0c94",
+      "title": "Pretty Sick",
+      "url": "https://www.ticketmaster.com/pretty-sick-boston-massachusetts-11-04-2026/event/01006503A06EBAC2",
+      "date": "2026-11-04",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "f9e18dc31c",
+      "title": "The Teen Years: Ceding Control, Cultivating Connection",
+      "date": "2026-11-04",
+      "startTime": "19:00",
+      "url": "https://bgsp.edu/event/the-teen-years-ceding-control-cultivating-connection/",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "family",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "53c9609efa",
+      "title": "Wellness Class for People with Dementia and Loved Ones",
+      "url": "https://www.maldenevents.com/11/05/2026/wellness-class-for-people-with-dementia-and-loved-ones/",
+      "date": "2026-11-05",
+      "startTime": "12:00",
+      "city": "Malden",
+      "venue": "Malden Senior Center",
+      "category": "sports & outdoors",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "598bd7026a",
+      "title": "BIG Teen Media Showcase",
+      "date": "2026-11-05",
+      "startTime": "18:00",
+      "url": "https://www.eventbrite.com/e/big-teen-media-showcase-tickets-2001008948631",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "family",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "dd0debbcbd",
+      "title": "Kylie Morgan: Healed Cowgirl Tour",
+      "url": "https://www.ticketmaster.com/kylie-morgan-healed-cowgirl-tour-boston-massachusetts-11-05-2026/event/01006434D67AD484",
+      "date": "2026-11-05",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "a772774c78",
+      "title": "Brookline High School Innovation Fund – GALA-RAMA",
+      "date": "2026-11-05",
+      "startTime": "19:00",
+      "url": "https://bhsinnovationfund.org/gala-rama/",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "food & drink",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "360201b03e",
+      "title": "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON",
+      "url": "https://www.bochcenter.org/events/detail/beat",
+      "registerUrl": "https://www.ticketmaster.com/event/010064FEA2A92407",
+      "date": "2026-11-06",
+      "city": "Boston",
+      "venue": "Wang Theatre",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "9442c1f2c5",
+      "title": "Dante Gebel - World Tour Despedida 2026",
+      "url": "https://www.bochcenter.org/events/detail/dantegebel",
+      "registerUrl": "https://www.ticketmaster.com/event/010064729C55D35D",
+      "date": "2026-11-06",
+      "city": "Boston",
+      "venue": "Shubert Theatre",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "c44fd0c596",
+      "title": "Tai Chi Class",
+      "url": "https://www.maldenevents.com/11/06/2026/tai-chi-class/",
+      "date": "2026-11-06",
+      "startTime": "10:00",
+      "city": "Malden",
+      "venue": "CCC Office",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "bf1630d45f",
+      "title": "Kyle Hume",
+      "url": "https://www.ticketmaster.com/kyle-hume-boston-massachusetts-11-06-2026/event/01006474EEFE3A13",
+      "date": "2026-11-06",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "ef41ff1336",
+      "title": "Murder Mystery Co. Dinner Theater Show",
+      "url": "https://www.maldenevents.com/11/06/2026/murder-mystery-co-dinner-theater-show/",
+      "date": "2026-11-06",
+      "startTime": "19:00",
+      "city": "Malden",
+      "venue": "Exchange Street Bistro",
+      "category": "food & drink",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "e8f30794df",
+      "title": "Puppet Showplace Theater Presents: An Evening with Mr. Vernon Watercress by Nate Puppets",
+      "date": "2026-11-06",
+      "startTime": "20:00",
+      "url": "https://www.puppetshowplace.org/calendar/2026/11/06/an-evening-with-mr-vernon-watercress-by-nate-puppets",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "category": "arts & theater",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "0992eae11d",
+      "title": "Shmooze, Booze, and 26.2",
+      "date": "2026-11-06",
+      "startTime": "20:00",
+      "url": "https://www.eventbrite.com/e/2003064758614?aff=oddtdtcreator",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "food & drink",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "7a88214047",
+      "title": "Family Violin for Beginners",
+      "url": "https://www.maldenevents.com/11/07/2026/family-violin-for-beginners/",
+      "date": "2026-11-07",
+      "startTime": "09:15",
+      "city": "Malden",
+      "venue": "Map Family Learning Center",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "d63152a88d",
+      "title": "Author Anna Housley Juster reading “How to Train your Amygdala” at Turtle Books",
+      "date": "2026-11-07",
+      "startTime": "16:00",
+      "url": "https://turtlebooks.store/event/author-visit-by-anna-housley-juster-reading-how-to-train-your-amygdala-and-the-best-good-thing-discovering-joy-on-a-very-bad-smad-day/",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "family",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "51f0cd1d31",
+      "title": "Porch Light: Hush Tour",
+      "url": "https://www.ticketmaster.com/porch-light-hush-tour-boston-massachusetts-11-07-2026/event/010064E8B9BE3883",
+      "date": "2026-11-07",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "929f44272b",
+      "title": "FREE Leaf Peeping Hikes for All Ages",
+      "url": "https://www.maldenevents.com/11/08/2026/free-leaf-peeping-hikes-for-all-ages/",
+      "date": "2026-11-08",
+      "startTime": "11:00",
+      "city": "Malden",
+      "venue": "Middlesex Fells Reservation",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "ad674693e9",
+      "title": "Red Leather: Tahoe Tour",
+      "url": "https://www.ticketmaster.com/red-leather-tahoe-tour-boston-massachusetts-11-08-2026/event/0100646DAD20201B",
+      "date": "2026-11-08",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "00b1c9d736",
+      "title": "13 Moons & 12,000 Years: Wampanoag History Past & Present",
+      "date": "2026-11-09",
+      "startTime": "18:00",
+      "url": "https://brooklinelibrary.libcal.com/event/17687731",
+      "city": "Brookline",
+      "venue": "Brookline",
+      "category": "community",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "6515c8103b",
+      "title": "SIX60",
+      "url": "https://www.ticketmaster.com/six60-boston-massachusetts-11-09-2026/event/010064E99DDED3C0",
+      "date": "2026-11-09",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "464fbdc039",
+      "title": "Michigander",
+      "url": "https://www.ticketmaster.com/michigander-boston-massachusetts-11-10-2026/event/010064A1C917CBDC",
+      "date": "2026-11-10",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "c37d0d7f53",
+      "title": "Puppet Showplace Theater Presents: Dig Down Deep: A Cave Adventure by CactusHead Puppets — World Premiere!",
+      "date": "2026-11-11",
+      "startTime": "14:00",
+      "url": "https://www.puppetshowplace.org/calendar/2026/11/11/dig-down-deep-a-cave-adventure-by-cactushead-puppets-world-premiere",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "category": "family",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "f25085c3e1",
+      "title": "World Rhythms: Dance Across Cultures",
+      "date": "2026-11-11",
+      "startTime": "18:30",
+      "url": "https://www.facone.org/programs/world-rhythms.html",
+      "city": "Brookline",
+      "venue": "See event page",
+      "category": "music",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "c06fc739f7",
+      "title": "The Wldlfe",
+      "url": "https://www.ticketmaster.com/the-wldlfe-boston-massachusetts-11-11-2026/event/010064CCD6B199AB",
+      "date": "2026-11-11",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "bd3fe6bc96",
+      "title": "Alyssa Grace",
+      "url": "https://www.ticketmaster.com/alyssa-grace-boston-massachusetts-11-12-2026/event/0100651CE03D67DD",
+      "date": "2026-11-12",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "3c6d4d0cb9",
+      "title": "Lucy Darling: The More the Merrier",
+      "url": "https://www.bochcenter.org/events/detail/lucydarling",
+      "registerUrl": "https://www.ticketmaster.com/event/0100651AC9173E9E",
+      "date": "2026-11-13",
+      "city": "Boston",
+      "venue": "Wang Theatre",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "4a064bdfbb",
+      "title": "Punch Brothers",
+      "url": "https://www.bochcenter.org/events/detail/punchbrothers",
+      "registerUrl": "https://www.ticketmaster.com/event/0100649EEDED11B0",
+      "date": "2026-11-13",
+      "city": "Boston",
+      "venue": "Shubert Theatre",
+      "category": "arts & theater",
+      "source": "Boch Center",
+      "sourceId": "boch-center"
+    },
+    {
+      "id": "4071ffd540",
+      "title": "Tai Chi Class",
+      "url": "https://www.maldenevents.com/11/13/2026/tai-chi-class/",
+      "date": "2026-11-13",
+      "startTime": "10:00",
+      "city": "Malden",
+      "venue": "CCC Office",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "ba1ff55ab0",
+      "title": "Havok (18+)",
+      "url": "https://www.ticketmaster.com/havok-18-boston-massachusetts-11-13-2026/event/0100650EA2422849",
+      "date": "2026-11-13",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "1fe6923a37",
+      "title": "12th Chinese Culture Connection Ping Pong Tournament",
+      "url": "https://www.maldenevents.com/11/14/2026/12th-chinese-culture-connection-ping-pong-tournament/",
+      "date": "2026-11-14",
+      "startTime": "08:00",
+      "city": "Malden",
+      "venue": "Malden High School Gymnasium",
+      "category": "sports & outdoors",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
+    },
+    {
+      "id": "5badbb8287",
+      "title": "Sophie Hunter Presents: Stereoscope The Tour",
+      "url": "https://www.ticketmaster.com/sophie-hunter-presents-stereoscope-the-tour-boston-massachusetts-11-14-2026/event/010064D7B083FB73",
+      "date": "2026-11-14",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "a1bf9297b5",
+      "title": "Puppet Showplace Theater Presents: Fall Puppet Slam",
+      "date": "2026-11-14",
+      "startTime": "20:00",
+      "url": "https://www.puppetshowplace.org/calendar/2026/11/14/fall-puppet-slam",
+      "city": "Brookline",
+      "venue": "Puppet Showplace Theater",
+      "category": "arts & theater",
+      "source": "Brookline.News Events",
+      "sourceId": "brookline-news"
+    },
+    {
+      "id": "c7b244d7d8",
+      "title": "ApolloRed1: Brazy Butterfly Tour",
+      "url": "https://www.ticketmaster.com/apollored1-brazy-butterfly-tour-boston-massachusetts-11-15-2026/event/0100652FE8FAAD73",
+      "date": "2026-11-15",
+      "startTime": "19:00",
+      "city": "Boston",
+      "venue": "Brighton Music Hall",
+      "address": "158 Brighton Avenue, Boston, MA 02134",
+      "category": "music",
+      "source": "Brighton Music Hall",
+      "sourceId": "brighton-music-hall"
+    },
+    {
+      "id": "5a7402588f",
+      "title": "Malden Community Gathering",
+      "url": "https://www.maldenevents.com/11/16/2026/malden-community-gathering/",
+      "date": "2026-11-16",
+      "startTime": "10:00",
+      "city": "Malden",
+      "venue": "CCC Office",
+      "category": "community",
+      "source": "Malden Events",
+      "sourceId": "malden-events"
     }
   ]
 };

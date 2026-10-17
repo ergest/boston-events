@@ -1,6 +1,6 @@
 # Greater Boston Events
 
-A [Hankweave](https://hankweave.southbridge.ai) hank that collects the next two weeks of events in Boston and nearby cities, and a small static app to browse them, register, and add them to your calendar.
+A [Hankweave](https://hankweave.southbridge.ai) hank that collects the next 30 days of events in Boston and nearby cities, and a small static app to browse them, register, and add them to your calendar.
 
 **Live demo:** https://ergest.github.io/boston-events/ (a snapshot from one run; it is not updated automatically)
 
@@ -111,7 +111,7 @@ node scripts/add-sources.mjs ~/hank-runs/boston-events-extra/agentRoot
 
 ## Configure
 
-- `data/config.json`: cities, `daysAhead` (default 14), categories, and `minEventsPerCity` (the threshold the scout uses to spot gaps).
+- `data/config.json`: cities, `daysAhead` (30; the script defaults to 14 if unset), categories, and `minEventsPerCity` (the threshold the scout uses to spot gaps).
 - `data/sources.json`: one entry per source.
 
   ```json
