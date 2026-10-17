@@ -1,5 +1,7 @@
 status: ok
-Read the Trumba ICS feed in 7 chunks; kept 48 in-person public events in Cambridge and Boston within 2026-10-10 to 2026-10-24.
-Skipped: online-only sessions (Zoom/webinar), worship services (Sunday Service, Evensong), IOP "Study Group" sessions (likely student-only), items with no venue or city (Worldwide Week, World Mental Health Week 2026), and items with no event link in the feed (Douglass talk, Cavell conference).
-Duplicates of multi-day runs were recorded once. Peabody student tours on 10-11 were folded into the 10-10 run record.
-Times and prices are copied from the feed; "Regular admission" is used where the feed says regular museum rates apply and gives no fixed price.
+Read all 12 chunks of the Harvard Gazette Trumba ICS feed (88 records written to events/harvard.json, all in Cambridge or Boston, all inside 2026-10-17 to 2026-10-31).
+Skipped: online-only events (Zoom or livestream-only, including Free U.S. Citizenship Class Online), church services (Sunday Service, Evensong), and events with no location or no event URL in the feed (Worldwide Week, Greece and the New World Order, Ingersoll Lecture, The World in Between, Stanley Cavell conference, Passionate Micrology).
+Some URLs are listing or calendar pages (Askwith, Adam Grant box office, Lunchtime Recital); they are the only link the feed gives for those events.
+Hybrid events with a physical venue (in person plus Zoom or livestream) are kept.
+Multi-day runs are one record on the first in-window date with endDate set (e.g. exhibitions, Peabody tours from 10-17 to 10-31).
+Two Othello performances on 2026-10-17 were merged into one record (14:00); the 19:30 showtime is noted in its description.

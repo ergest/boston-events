@@ -1,2 +1,2 @@
 status: ok
-Listing page only showed Oct 10 (today); all events are dated 2026-10-10. Times on the page looked unreliable (e.g. 5:30a concert), so start times were omitted. Skipped events outside the cities, duplicates (two Spamalot shows on the same day kept one), listicles, and ambiguous-location venues.
+Listing page (7 chunks) only covers Oct 17-18 (today's events, truncated at 80k chars). Kept events with a clearly identifiable in-window city; skipped suburbs, duplicates, ambiguous venues (e.g. First Street Market, Hutchinson Field), and meeting-location-hidden tours. Chunk 7 was truncated before the end.

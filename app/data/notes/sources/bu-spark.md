@@ -1,6 +1,7 @@
 status: ok
-Listing page https://www.bu.edu/spark/events/ fetched as markdown with a recurring weekly schedule and no per-event links.
-Kept the three weekly Wednesday events (Cookie O'Clock, Tech Innovation Hours, Tech Talk) for Oct 14 and Oct 21, 2026, at the times shown on the page. Venue is CDS Building, Floor 2.
-Their url is the listing page because no per-event page exists. Addresses and prices are not shown, so they are omitted.
-Skipped Code & Tell (Oct 7, before the window), STEM Splash (Sep 13) and Demo Day (Dec 11), both outside the window. Spark! Space Hours are opening hours, not events.
-Assumed the weekly events are open to the public, since the page lists them as public events.
+Listing page https://www.bu.edu/spark/events/ fetched as one markdown chunk (page-1.md) with no FETCH_ERROR.
+Weekly Wednesday events (Cookie O'Clock, Tech Innovation Hours, Tech Talk) have no per-event pages and no dates on the listing; expanded to the in-window Wednesdays Oct 21 and Oct 28, 2026, one record per occurrence, with url set to the listing page.
+Venue is "CDS Building, Floor 2"; street address not shown on the listing, so omitted. No prices shown, so omitted.
+Out of window and skipped: Code & Tell (Oct 7), STEM Splash (Sep 13), Demo Day (Dec 11). Spark! Space Hours are not an event and were skipped.
+Cookie O'Clock categorized as community; Tech Innovation Hours and Tech Talk as tech & talks (defaultCategory).
+Listing does not mark the weekly events as students-only, so they were treated as public.

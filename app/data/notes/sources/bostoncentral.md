@@ -1,2 +1,2 @@
 status: ok
-Listing is a single-day calendar (Oct 10, 2026) with titles, town and price tier only; no times or venues. All records dated 2026-10-10, many are ongoing attractions/markets. Titles are as truncated on the listing; prices are the listing's $ tiers. Only Greater Boston cities kept.
+Listing is a single-day calendar (today, 2026-10-17 only); all records dated 2026-10-17. Many entries lack venue/time, so only events with a venue in the title or detail page were kept (17 records). Used 3 detail fetches for venue/time (Book Festival, Big Squash, FOCCP). Skipped out-of-area towns and entries with no identifiable venue. Prices shown only as $ tiers were omitted. Ongoing exhibits/markets listed as of today with no end date.

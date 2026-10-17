@@ -1,7 +1,6 @@
 status: ok
-Trumba ICS feed (events.tufts.edu), 5 chunks, about 50 entries in the window. Most were internal, staff, student or course events marked Open to Public: No, or online-only webinars.
-Kept 7 public, in-person events in Medford, Somerville and Boston, each with its own URL.
-Skipped without a URL, because the feed has none and I won't build one: Sunday Concert Series (Oct 18), Khmer Urban Ballet (Oct 21), Stealing America (Oct 19), Presidency Unbound (Oct 21), Arnold J. Kemp: Three Performances (Oct 17).
-Skipped as unclear: Party at the (Early & By Mail) Polls (Oct 19), Drawing with AI (Oct 14), Digital Scholarship: Sonic Studies (Oct 23). The feed doesn't show whether they are open to the public.
-Skipped as not general interest: AS&E Graduate Admissions Open House (Oct 22).
-Skipped as outside the source's cities: K'uuyemugeh / Tufts in Translation (Cambridge, LabCentral), Civic Life Lunch (North Grafton).
+Read the Trumba ICS feed (events.tufts.edu) in 5 chunks, 47 events in total within the window; kept 10 public, general-interest events in Medford, Somerville or Boston.
+Dropped: events marked Open to Public: No (training, info sessions, student, staff and postdoc events); online-only or Grafton/North Grafton events; the Wind Ensemble (rescheduled to Nov 8); the Admissions Open House (admissions, not general interest).
+Dropped for no event URL in the feed (url is required): Sunday Concert Series (Oct 18, Oct 25), Khmer Urban Ballet, The Presidency Unbound?, Stealing America, Granoff Colloquium, Tufts Composers: New at Noon #1.
+Dropped as unconfirmed public status: Light Up Your Art: Intro to Paper Circuits (page says both in-person and online, registration needed); Digital Scholarship: Sonic Studies (hybrid, public flag truncated).
+Judgment calls: stripped trailing commas that the feed adds to some URLs; used the Microsoft Forms link as the url for Betting on Hope (no other page given); Food is Medicine Summit has no start time in the feed or on its page, so startTime is omitted and the 2-day run is noted in the description (endDate removed because the feed had none); fetched detail pages for the summit, the paper circuits event and ADAPT (ADAPT gained its address, price and registration link from the page).

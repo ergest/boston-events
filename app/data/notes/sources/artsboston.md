@@ -1,4 +1,6 @@
 status: ok
-Fetched calendar.artsboston.org as a markdown page with 2 chunks. Chunk 1 listed about 20 events dated 2026-10-10; 6 were in Boston or Cambridge and were kept (Bill's Bar comedy, Lizz Wright at Berklee, VAMP'D OUT! at Huntington Maso Studio, All We Are at Multicultural Arts Center, Ink & Cobblestones tour in Beacon Hill, and the Boston Book Festival). The rest were in towns outside the allowed cities (Plymouth, Beverly, Norwood, Foxboro, West Newton, New Bedford, Rockport, Wayland, Lexington).
-Boston Book Festival date (2026-10-17) and "Free" price come from the featured banner only; no detail page was opened to confirm start time.
-Chunk 2 had only Instagram teasers and footer text, so it produced no events.
+Listing page at https://calendar.artsboston.org/ rendered as markdown with 14 events under "Upcoming Events", all dated 2026-10-17 (the window start). 8 are kept: Boston or Cambridge venues, public, in person.
+Skipped as outside the allowed cities: Plymouth, Norwood, Beverly, Waltham, Rockport, Lincoln (6 events).
+The listing shows no times, prices or street addresses, so those fields are omitted. Event URLs are the BosTix event pages; the listing's "Official website" links were not used.
+Only the first page of the listing was read. It shows events for one day only and has a "Load More" button that was not followed, so events on later dates in the window are not covered. Second chunk held only site chrome and Instagram teasers, no events.
+Category choices: "Call it Evil. Understanding the Trump Era" set to tech & talks (a talk). "Matt Shore ... Comedy Music Album" set to music. The two festival-type events set to festivals & markets.

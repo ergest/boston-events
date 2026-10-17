@@ -1,6 +1,11 @@
 status: ok
-Listing page at icaboston.org/events/ is a server-rendered calendar with dated entries; 15 in-window occurrences extracted (Oct 10–24, 2026).
-Each dated occurrence of a recurring program is its own record (Perfect Memory Oct 10/11/12, Waterfront Art Walks Oct 16/21, ICA Free Thursday Night Oct 15/22).
-Skipped: Opening Celebration (Oct 13) and Member Tour: 90 YEARS (Oct 18), tagged ICA Members; Online Series: Eyes on Art (Oct 20), virtual.
-Art-Making After Dark: opened detail page; its dates start Nov 12, so none in window.
-College Night (Oct 16): no price shown on listing, left blank. Book Talk, MIDDAY Braiding Futures: no price shown.
+Read the ICA events calendar page (2 chunks). 10 in-window public events and 6 on-view exhibitions kept, 16 records total.
+Skipped: Member Tour (90 YEARS) and Member Tour (Leilah Babirye) (ICA Members tag), Online Series: Eyes on Art (virtual), all events and exhibitions whose first date is after Oct 31 (Boston Family Days, Play Date, Homeschool Family Workshop, First Fridays, Bank of America Museums on Us, Family ART-trek, ICA Unlocked, Sudan Archives, Art-Making After Dark, ICA Gala, Bill T. Jones, Gallery Talk: Max Gruber, Andrew Schneider, Ogemdi Ude, Motherhood, sweat variant, Gallery Talk: Ruth Erickson, The Inevitable Return, The Artist's Voice, etc.).
+Judgment calls:
+- Exhibitions are one record each, date 2026-10-17 (first day in window), endDate = run end, per the multi-day rule.
+- Venue is "ICA Boston" for ICA-hosted events because the listing does not give a venue name per event. Waterfront Art Walks and Free Thursday Night use this too.
+- Day of the Dead is one record (Oct 31 to Nov 2) at "The Watershed" per the listing's "At the Watershed" tag. endTime 17:00 is the Sat/Sun time; the Mon Nov 2 close (4 PM) is in the description.
+- ICA Halloween endTime is "00:00" (listing says 12 AM).
+- Fall Teen Night is listed as category "family" (ICA Teens); it is open to the public so kept.
+- Recurring events: one record on the first in-window date, with later dates in the description.
+- Prices shown only where the listing tags "Free"; others omitted.

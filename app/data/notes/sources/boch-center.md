@@ -1,5 +1,8 @@
 status: ok
-Listing page (bochcenter.org/events) returned all upcoming shows in three markdown chunks, with dates in "Mon D - D, YYYY" form and no start times in the list.
-Kept 10 in-window Boston events (Oct 10-24, 2026) from the Wang Theatre and Shubert Theatre; the Castle at Park Plaza King Tut exhibition is recorded as a run through Oct 18.
-Skipped John Bishop (Oct 16, cancelled) and everything dated Oct 26 or later. Times are omitted because the listing does not show them reliably; no detail pages were fetched.
-Multi-day runs (Spamalot, King Tut, The Thorn, Jim Gaffigan) use endDate. Venues are all Boston, so no addresses were added.
+Fetched https://www.bochcenter.org/events (listing page, 3 chunks). Window Oct 17–31, 2026 gives 9 usable events, all in Boston (Wang Theatre, Shubert Theatre, The Castle at Park Plaza, Folk Americana Roots Hall of Fame).
+Chunk 1 (list view) gave the events. Chunk 2 was all Nov 2026 onward, so nothing usable. Chunk 3 was the October calendar grid: it repeated chunk 1 events and supplied start times, which were added to the records. Pre-window October items (Oct 1–16) were skipped.
+Judgment calls:
+- Times are taken from the calendar grid. Jim Gaffigan (19:30 / 20:00 / 19:00 on different dates) and King Tut (TBA) have no startTime.
+- Folk Americana Roots Hall of Fame is not given an address in the listing; treated as Boston because it is listed under Boch Center events. Venue address left out.
+- Category: Boch Center defaultCategory "arts & theater" used, except music for concerts (Sin Bandera, for KING + COUNTRY, Jayhawks).
+- Cancelled or rescheduled events are not in the window, so none were included.

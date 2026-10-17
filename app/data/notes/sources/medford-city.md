@@ -1,6 +1,6 @@
 status: ok
-The City of Medford calendar page (month grid) listed events for the whole window in two markdown chunks; the page is server-rendered, so all entries were readable.
-Kept 5 public events in Medford between 2026-10-10 and 2026-10-24: Fire Prevention Day, Harvest Your Energy Festival, Junk in the Trunk, Sarah Bradlee Fulton Day, Future Ready: Getting Hired.
-Skipped: board, commission and School/City Council meetings, public hearings, the Community Development and Preservation meetings, early voting (civic process, not an event), and flu/COVID and Community Care Van clinics (public health services, not general-interest events).
-Skipped "Let's Get Organized!" (Oct 20, MHA Auditorium) because the listing does not say what it is or who runs it; it may be a public meeting.
-No detail pages were fetched; times come from the listing only and no prices are shown.
+Fetched the City of Medford events calendar page (month grid, markdown). It listed events from Sept 27 to Oct 31 2026; I used the window Oct 17–31.
+Kept 14 public, in-person Medford events (craft fairs, festivals, Halloween and pumpkin events, Burning Bush volunteer pull, Community Care Van and flu/Covid clinics, Future Ready jobs workshop, Screenagers talk, Gede Fèt Festival, Junk in the Trunk, Sarah Bradlee Fulton Day, Harvest Your Energy Festival, Let's Get Organized!).
+Skipped: board, commission, committee and council meetings, public hearings (incl. Wellington Greenway 25% design hearing), bid pre-meetings, and the many Early Voting day listings (civic service, not an event).
+Skipped: Government & Public Sector Job Fair (Oct 28), because the venue is Central Square Library in Cambridge, outside this source's city.
+Judgment calls: the clinics are public health services, included as community events. "Let's Get Organized!" and "Future Ready: Getting Hired" show no description, so the records have only the title, venue and time. No prices shown, so none recorded. Addresses are included only where the listing shows them.
