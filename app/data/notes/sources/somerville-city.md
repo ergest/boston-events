@@ -1,4 +1,10 @@
 status: ok
-Calendar page lists events Oct 17-19 2026 (the rest of the window was not in the listing). 11 usable events joined into 10 records: 1 civic early-voting run, 1 farmers market, 3 Oct 17 evening/afternoon events, 1 Oct 18 Monster Mash, and 5 in-person Council on Aging classes on Oct 19 (merged the two Holland Street sessions into one record).
-Skipped: virtual Council on Aging classes, School Committee and Human Rights Commission meetings, and a walking tour at Mount Auburn Cemetery (Cambridge, outside the source's city).
-Monster Mash venue is the street name from the listing; the detail page was not fetched. Council on Aging classes may be restricted to older adults, which the page does not state. Detail fetches used: 5 of 5.
+Listing page (somervillema.gov/events) shows upcoming events only through Oct 26, 2026, so the window is covered only in part. Page is server-rendered with full titles, dates and times.
+Kept 11 in-person public records across 12 listings. Dropped:
+- Virtual Nutrition Class, Virtual Nutrition Make-up & Q&A, Virtual General Exercise: online only.
+- Second Somerville Mobile Farmers Market listing on each day (2:30pm stop): covered by the one run record; its description is stale (refers to a July 9 start).
+- Second General Exercise - Holland Street listing on Oct 26 at 11:00am: same title, date and city as the 9:00am record, so the checker treats it as a duplicate. Its own URL is https://www.somervillema.gov/events/2026/10/26/general-exercise-holland-street-council-aging-0.
+- Repeated Early Voting and Mobile Market entries for Oct 24–26: one record each, run start only.
+Calls made: Early Voting is one record for Oct 23 with the city calendar hours for that day and no endDate, since the run's end is not shown. Mobile Market is one record (Oct 23 to Oct 31) for the Friday 10:30am stop. Take Back Day is two records, one per drop-off site.
+Venues missing from the listing: fetched detail pages for Eastern Flow, Financial Literacy, Mobile Market, SHINE Medicare workshop and Latin American Heritage Celebration (5 of 5 allowed). Prices for records whose pages were not opened are left out.
+Holland Street events use venue "Holland Street" as the title gives it; not confirmed against a detail page.

@@ -1,5 +1,6 @@
 status: ok
-Listing page returned 8 in-window events in Malden or Medford (Oct 17–31). Skipped Stoneham, Winchester, Wakefield, Melrose and Somerville events, the Medford youth hockey signup promo, and the Children's Own open house.
-Start time left blank for Sarah Bradlee Fulton Day: the page shows 10:00 PM but the description says the walk starts at 10 AM.
-Oct 30 Raising Resilient Youth: listing shows 6:30 AM, but the detail page gives 6:30–8:00 PM, so the detail-page time is used.
-Raising Resilient Youth is a 2-part series, so each session is its own record (Oct 23 and Oct 30).
+Fetched the Patch Malden calendar listing page (one chunk, markdown). It lists events for Malden, Medford and neighbouring towns.
+Kept 11 in-window events in Malden (10) and Medford (1): Bead Affaire (Medford, Oct 24), two Raising Resilient Youth sessions (Oct 23 and Oct 30, separate dates), Neat Streets Campaign, Maplewood Halloween Festival, Free Education Staffing Center grand opening, dementia wellness class, LIMELight: Facing Grief, Thanksgiving Ping Pong Tournament, Winter Wonderland Crafts Fair, and Merry Makers Holiday Market.
+Skipped out-of-window events (Breakfast With Santa Nov 28, Holiday Shopping Pop Up Dec 9, Blizzard of Blues Dec 12, and the Dec 6 virtual open house), other towns (Assembly Row/Somerville, Melrose, Salem), and the online Commonwealth School open house.
+Times are taken from the listing only; no end times or prices are shown, so none are recorded. Listing gives no separate registration links, so only the event URLs are used.
+Judgement calls: Grand Opening and the Ping Pong Tournament are treated as public, since the listing does not mark them private. Categories are picked from the listing's titles, and everything else defaults to community.

@@ -1,8 +1,6 @@
 status: ok
-Page is a month-grid calendar for October 2026 with a list section below it covering Oct 17 to 21 only.
-Events from Oct 16 and earlier, and late-September entries shown in the grid, are outside the window and were skipped.
-Only Oct 17 to 21 items have their own event links in the list section; those use their event pages.
-All other in-window items appear only as grid titles with no links, so their url is the calendar page https://bostonpublicmarket.org/events/.
-Multi-session items (GF Pumpkin Cinnamon Roll class at 12:00 and 2:00 on Oct 24) are one record; the second session is noted in its description.
-Jeff Jam Sing-along is categorised as music; Patriots Watch Party and yoga/sound bath as sports & outdoors; Halloween party and fundraiser as community.
-No addresses or prices are shown on the page, so those fields are omitted.
+Fetched https://bostonpublicmarket.org/events/ (one page chunk). The page is a month grid that shows only October 2026, so nothing from Nov 1-22 is visible.
+Saved 10 events (Oct 23-27) that have their own event-page links in the list section at the bottom of the page.
+Skipped about 25 grid-only items in the window (Oct 27-31: Midday Munchies, Kids Activity Hour, Boston Public Market Tour, Ted Lasso Trivia, Pizza & Lambrusco Game Night, Live Music: Theo Linebaugh, Witches in the Vineyard, Love Letters LIVE, Amaro Making 101, Annual Harvest Party Fundraiser, Coloring Club, Haunted Cellar Halloween Party, Family Halloween Party & Pumpkin Stroll, and others). The grid gives no event-page URLs, and I did not use the listing URL in their place.
+Prices and addresses are not shown on the page, so they are omitted.
+Categories: class and tasting events are food & drink; kids' and face-painting events are family; Jeff Jam Sing-along is music; Cellar Comedy is arts & theater.

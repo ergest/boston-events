@@ -1,8 +1,5 @@
 status: ok
-Read the Events Calendar iCal feed (events-1.json, 11 events inside the window, all in Somerville). Kept 10; all are public, in person and inside 2026-10-17 to 2026-10-31.
-Dropped nothing as members-only or online.
-Judgment calls:
-- Venue-based listings with no street address (FITRow, Baxter Park, Participating Assembly Row businesses) omit `address`.
-- Descriptions are short paraphrases of the feed's truncated text, with nothing added.
-- The LEGO adults-only night is categorized as "community" because "family" does not fit an adults-only event.
-- The feed shows no prices or registration links, so `price` and `registerUrl` are omitted.
+Assembly Row ICS feed (https://assemblyrow.com/events/?ical=1) returned 2 chunks, 13 events inside the window, all in Somerville; 13 kept.
+Calls made: Muse Paintbar and The Row Hotel events are public and kept, with the venue address from the feed. Brick or Treat Adult Night (adults-only LEGO night) and Dana Augustine Designer Showcase kept; the first is filed under community, the second under the default festivals & markets.
+Descriptions were shortened to one sentence from the feed text; no price or registration URL was shown, so none is written.
+Trick-or-Treat For A Cause and Somerville Monster Dash 5K have no full street address in the feed, so the address is omitted or partial.

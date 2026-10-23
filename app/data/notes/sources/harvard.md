@@ -1,7 +1,7 @@
 status: ok
-Read all 12 chunks of the Harvard Gazette Trumba ICS feed (88 records written to events/harvard.json, all in Cambridge or Boston, all inside 2026-10-17 to 2026-10-31).
-Skipped: online-only events (Zoom or livestream-only, including Free U.S. Citizenship Class Online), church services (Sunday Service, Evensong), and events with no location or no event URL in the feed (Worldwide Week, Greece and the New World Order, Ingersoll Lecture, The World in Between, Stanley Cavell conference, Passionate Micrology).
-Some URLs are listing or calendar pages (Askwith, Adam Grant box office, Lunchtime Recital); they are the only link the feed gives for those events.
-Hybrid events with a physical venue (in person plus Zoom or livestream) are kept.
-Multi-day runs are one record on the first in-window date with endDate set (e.g. exhibitions, Peabody tours from 10-17 to 10-31).
-Two Othello performances on 2026-10-17 were merged into one record (14:00); the 19:30 showtime is noted in its description.
+Trumba ICS feed (gazette.ics), 13 chunks, 89 records kept in events/harvard.json. Cambridge and Boston venues only.
+Skipped: online-only events (Zoom/webinar only); worship and church services (Sunday Service, Compline, All Saints, Commemoration, Choir concert on a YouTube-only link); the "seminar" exclude pattern (Governing Technology, K262); events with no usable url in the feed (Public Research Talks at CSWR, Ingersoll Lecture, Fear Less, Dharma Among Us, Día de los Muertos, Through the Transparent Darkness, Morris Loeb Lectures, Weatherhead Forum, Harvard Dramatic Club's Into the Woods); events whose only url is a generic listing or homepage (Askwith Education Forum, Adam Grant book talk, Global Arts Live Niladri Kumar, HBS "Domestic Violence" email-tracking link, Harvard Choir Fall Concert); Harvard Kennedy School "Blockchain Stablecoins" (classes/workshops, possibly student-only); IOP "Study Group with Ambassador Chris Lu" (study group, likely participants only); Marie Antoinette Nov 15 screening (same url as the Oct 29 record, not duplicated).
+Into the Woods: fetched the detail page (raw/harvard/detail-1.md), it has no venue or address, so no city could be assigned.
+Peabody "Tours Led by Harvard Students": one record on its first in-window date (Oct 23); the Oct 25 listing is the same run and was dropped.
+Runs use the feed's endDate (exhibitions, film and tour runs). Prices are copied from the feed's Cost field, shortened, and omitted where absent. No registerUrl except ArtsThursdays Halloween.
+Harvard Film Archive records use "$8–$10; Harvard students free" as a shortened price; the feed lists concessions and free tiers for Harvard ID holders.

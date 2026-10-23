@@ -1,5 +1,2 @@
-status: ok
-Listing page (page-1.md) showed 5 events. Kept 3 in-window Somerville events: MANIPULO (Oct 17, SomArt @ the Hive), Somerville Music Ecosystem (Oct 17, New Alliance Audio), SomerStreets Monster Mash (Oct 18).
-Dropped SomerWrites: Sarah C. Beckmann, because it is on Nov 3, after the window ends Oct 31.
-MANIPULO's run is Oct 16-17; the record starts on Oct 17, the first day inside the window, with endDate Oct 17.
-No prices or addresses were shown on the listing, so none are included.
+status: thin
+The events page (https://somervilleartscouncil.org/events/) fetched fine and lists events, but only one falls inside the window: SomerWrites: Sarah C. Beckmann, Nov 3 2026, 7:00–8:30 pm at Portico Brewing. Kept it as Somerville (source notes say all Somerville unless the venue is elsewhere; no address shown, so I did not verify the venue's city beyond that default). Category set to arts & theater (the source default). No FETCH_ERROR. The rest of the page is calendar filter chrome with no other dated events.

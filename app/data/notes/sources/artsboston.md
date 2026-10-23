@@ -1,6 +1,5 @@
 status: ok
-Listing page at https://calendar.artsboston.org/ rendered as markdown with 14 events under "Upcoming Events", all dated 2026-10-17 (the window start). 8 are kept: Boston or Cambridge venues, public, in person.
-Skipped as outside the allowed cities: Plymouth, Norwood, Beverly, Waltham, Rockport, Lincoln (6 events).
-The listing shows no times, prices or street addresses, so those fields are omitted. Event URLs are the BosTix event pages; the listing's "Official website" links were not used.
-Only the first page of the listing was read. It shows events for one day only and has a "Load More" button that was not followed, so events on later dates in the window are not covered. Second chunk held only site chrome and Instagram teasers, no events.
-Category choices: "Call it Evil. Understanding the Trump Era" set to tech & talks (a talk). "Matt Shore ... Comedy Music Album" set to music. The two festival-type events set to festivals & markets.
+Listing page (calendar.artsboston.org) showed 15 upcoming events, nearly all dated Oct 23, 2026. Only 6 were in listed cities: Boston, Cambridge, Somerville, Brookline. The rest were in Plymouth, Worcester, Norwood, Foxboro, Rockport, Newburyport, North Reading and Arlington, so they were skipped.
+Listing gave no times or addresses. Two multi-day events in Boston (Continuum, Nov 14–15; 48th Boston International Antiquarian Book Fair, Nov 6–8) appear only in the Instagram-style banner and "Featured" strip, so I opened their bostix detail pages (2 of 5 detail fetches) to get dates, venues and prices.
+Times were left out where the listing did not show one; for the multi-day runs with different hours per day, the hours went into the description.
+Ticket links from the "Official website" buttons were used as registerUrl only where they were clearly ticketing (Eventbrite, Humanitix, Emerson Theatres, book fair tinyurl). A Facebook group link was not used.

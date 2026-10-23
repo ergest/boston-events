@@ -1,5 +1,5 @@
 status: ok
-Venue listing page (crossroadspresents.com) lists Oct 17-31 2026 events at Brighton Music Hall, all Boston; 14 in-window events from the Ticketmaster widget, mapped to records.
-Chunk 2 and 3 had only Dec 2026 onward listings, venue info and detail blocks already covered by chunk 1, so they added nothing.
-Skipped: 'An Evening With Assembly Of Dust [TWO DAY TICKET]' (same shows as the Oct 23 and Oct 24 records, no time). 'CRADLE OF FILTH: Majestic In Death II' (Oct 20, 6 PM, separate Ticketmaster URL) is a second listing of the same Oct 20 show; kept the 'MOVED TO BRIGHTON MUSIC HALL' listing only.
-No prices shown on the listing, so price is omitted. Category defaulted to music for all.
+Fetched the Brighton Music Hall venue page (crossroadspresents.com) as markdown: 3 chunks, the upcoming-events list runs Oct 23, 2026 through May 2, 2027.
+Kept 29 in-window events (Oct 23 to Nov 22, 2026), all at Brighton Music Hall, 158 Brighton Ave, Boston, category "music" except Maddie Zahm (comedy, "arts & theater").
+Skipped: events after Nov 22 (Nov 28 onward, all of chunk 2 and most of chunk 1); "An Evening With Assembly Of Dust [TWO DAY TICKET]" because it duplicates the Oct 23 and Oct 24 single-night listings.
+No prices or door times in the listing, so price is omitted; start times are the listed show times (7 PM, or 8 PM for Broadway Rave and Emo Night Brooklyn). 18+ and 21+ labels are kept in titles as the organizer writes them.

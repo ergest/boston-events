@@ -1,8 +1,5 @@
 status: ok
-Listing page (arboretum.harvard.edu/events/) fetched as markdown in 2 chunks; it lists events from Oct 17 onward, with dates shown per event.
-Kept 11 public in-person events dated 2026-10-17 to 2026-10-31 (window end), all in Boston (Arnold Arboretum; the page shows no street address).
-Skipped as members-only: Tree Mob: Sourwood (Oct 19), Member Preview for Living Connections (Oct 23), Identifying Oaks and Maples (Oct 25), Centre St Beds Up Close (Oct 25).
-Skipped events dated after Oct 31 (November listings).
-Price is "Free" for all kept events, per the page's "All events at the Arboretum are free."
-Street address not shown on the listing, so left out. Start/end times taken from the listing; registerUrl only where the page links a separate ticket/tickets-form anchor.
-Waitlisted events (Mushroom Hunt, Forest Bathing, Autumn in the Arboretum) are kept since they are still public; the description says so.
+The events page (https://arboretum.harvard.edu/events/) lists about 19 events from 2026-10-23 to 2026-11-22; 15 were usable.
+Skipped 4 as Members-Only: Member Preview for Living Connections (Oct 23), Identifying Oaks and Maples (Oct 25), Centre Street Beds Up Close (Oct 25), Sustainability Spotlight: Geothermal Heating at Weld Hill (Nov 17).
+All events are free per the page. No street addresses shown, so `address` is omitted; venues are the listed gate or building names.
+Kept "Rescheduled" Forest Bathing and Peters Hill Tour as normal records. Category left at the source default (sports & outdoors) except family (Wicked Plants), music (Iris Percussion Quartet), arts & theater (exhibit opening, ink printing) and tech & talks (lecture).

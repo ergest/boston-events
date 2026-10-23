@@ -1,6 +1,4 @@
 status: ok
-Page listed events for Oct 17 through Dec 18; 5 fall in the Oct 17–31 window and were kept.
-Kept: Malden Donation Fair (Oct 17), Friends of Malden Public Library Book Sale (Oct 17), Malden Farmers Market (Oct 21, recurring weekly, one record), Coming Home Dinner (Oct 22, Medford), 22nd Annual Trick or Treat (Oct 30).
-Skipped: recurring classes (Tai Chi, Chinese Knots), the high-school football game, the Women in Business Luncheon (business networking), and the Oct 23 "Raising Resilient Youth" and Oct 25 bowling event, whose venues carry no Malden region tag and whose city the page does not show.
-Also skipped: "The Art of Storytelling with Sound and Soul" (Oct 17), because the listing shows no venue or city.
-All events after Oct 31 were outside the window.
+Fetched listing page https://www.maldenevents.com/ as markdown (2 chunks). 20 events kept, all with Malden, Boston (Seaport, Dorchester) venues in the 2026-10-23 to 2026-11-22 window.
+Skipped: Tai Chi classes and other recurring classes; business networking (Women in Business Luncheon, Morning Networking Mixer); high-school football (MHS Football v. Somerville High); the Grand Opening of the Free Education Staffing Training Center (venue name truncated on the listing, so no reliable address or city); a duplicate Murder Mystery Co. listing on Nov 20 at Exchange Street Bistro (second VIEW link with the same title, time and venue); and entries dated after 2026-11-22.
+Judgment calls: Middlesex Fells hike is set to Malden because the listing and registration page say "from Malden"; the Dorchester Brewing show and the Seaport conference are set to Boston by venue. The Bats in the City talk is set to "tech & talks"; the Farmers Market is set to "festivals & markets".

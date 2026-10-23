@@ -1,7 +1,7 @@
 status: ok
-Fetched https://bpl.bibliocommons.com/v2/events as markdown (3 page chunks). The listing was filtered from Oct 17, 2026 and showed 20 of 3,735 items, so this is only the first page of results; later dates in the window were not in the fetched content.
-Kept 19 events, all in Boston (branch neighborhoods such as Jamaica Plain, Hyde Park, Dorchester, Roslindale, Brighton, South Boston, Faneuil, Connolly are all within the city).
-Multi-day exhibitions run past Oct 31 (Becoming Boston, Lexicon, Life, Liberty, and the Pursuit of Happiness, Face to Face, City Scenes) are one record each on 2026-10-17 with endDate set to the run's last day.
-Skipped: Citizenship Preparation Class at Codman Square (status Canceled); Online events filter not applied, none appeared in the fetched content.
-Judgment calls: "Book Sale" set to festivals & markets; arts/crafts workshops set to arts & theater; Chess and ESOL/citizenship classes set to community. Prices only where the listing says (Citizenship Exam Prep is "free").
-Registration-only events (Tai Chi, Pumpkin Carving, Citizenship classes) are kept; Introduction to Knitting was listed as "Registration full".
+The fetched listing (https://bpl.bibliocommons.com/v2/events, 3 page chunks) showed 20 of 3,567 items, sorted from Oct 23 onward. It mixed multi-week exhibitions with single-day events that all fall on Oct 23, 2026.
+Kept 18 in-person public events in Boston. Multi-week exhibitions have one record on Oct 23 with an endDate.
+Skipped: "Belated Punk Rock Week: Smithereens" (listed as Canceled); "Poetry at Boston Pizza & Grill" (the venue's city is not shown on the listing, so it could not be placed in a city; it is a Uphams Corner Branch program).
+Times were copied only where the listing showed them. The Halloween Costume Swap and the exhibitions have no times.
+Central Library exhibits (Becoming Boston, Lexicon) are noted as closed until Oct 30, 2026, as the listing says.
+Coverage is partial: only the first listing page was fetched, so later dates in the Oct 23 to Nov 22 window are not included. No detail pages were opened.

@@ -1,7 +1,4 @@
 status: ok
-Read all 3 chunks of the Brookline.News events page (26 events kept, all dated 2026-10-17 to 2026-10-31).
-Skipped: library-tagged events (Hispanic Heritage celebration, AI and misinformation talk, Autumn Leaves, Hidden Women Theater, Wampanoag history) as covered by brookline-library; the virtual Davis Path footbridge hearing as online-only; First Church in Chestnut Hill concert because Chestnut Hill is in Newton, not a listed city; duplicate listings of MythBusters and Eat-Rake-Play Griggs Park.
-Listing has no venue for many events, so venue is the organizer name where shown, otherwise "See event page". No detail pages were fetched.
-Girl Scout listing time reads 1:00 am; the description gives 1–4 PM, so I used 13:00–16:00.
-Weekly events (World Rhythms) and the Energy Advocate office hours are kept as one record per occurrence inside the window.
-Puppet Showplace shows that also run after Oct 31 are kept on their in-window dates only.
+Read the Brookline.News events page (two chunks) and kept 26 in-window events; the listing is Brookline-only, so every record has city Brookline.
+Skipped: Brookline Library events (brookline-library covers them, e.g. Understanding A.I. and Misinformation, Autumn Leaves, Hidden Women, 13 Moons); Oct 22 listings (before the window); events after Nov 22; the Free Concert at First Church in Chestnut Hill, because the church is not clearly in Brookline.
+Judgment calls: the Girl Scout listing showed 1:00 am, so I used the 1–4 PM time from its description. The weekly World Rhythms dance is one record from Oct 28 to Nov 18 instead of four. Where the listing did not name a venue, venue is "See event page"; the Oasis, Mistral, Birth Wars, Teen Years, Wellness Mixer and Interfaith Thanksgiving records use it. "Party for the Pantry" uses the Brookline Food Pantry as venue. Wine tasting price is "Free" as stated; Farewell, My Butterfly is "Free" as stated.

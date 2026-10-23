@@ -15,6 +15,8 @@ const listingUrls = new Set(sources.flatMap((s) => s.urls).map((u) => normUrl(ex
 // Registry sites were already read through Firecrawl, so a bot-blocking status from them is not a dead link.
 const sourceHosts = new Set(sources.flatMap((s) => s.urls).map((u) => new URL(u).hostname));
 const BOT_BLOCK = /^returned HTTP (401|403|406|429)$/;
+// Ticketing sites that block every non-browser fetch; their links are the venue's own, so a block is expected.
+const TICKETING = /(^|\.)ticketmaster\.com$/;
 const log = [];
 
 // 0. Join any source whose agent saved part files but never ran join.mjs.
@@ -70,7 +72,7 @@ const flags = new Map(events.map((e) => [e.id, []]));
 const status = await checkUrls([...new Set(events.map((e) => e.url))]);
 for (const e of events) {
   const s = status.get(e.url);
-  if (s !== 'ok' && !(BOT_BLOCK.test(s) && sourceHosts.has(new URL(e.url).hostname))) flags.get(e.id).push(`url ${s}`);
+  if (s !== 'ok' && !(BOT_BLOCK.test(s) && (sourceHosts.has(new URL(e.url).hostname) || TICKETING.test(new URL(e.url).hostname)))) flags.get(e.id).push(`url ${s}`);
   if (listingUrls.has(normUrl(e.url))) flags.get(e.id).push('url is a source listing page, not the event page');
   if (!e.startTime) flags.get(e.id).push('no start time');
 }
