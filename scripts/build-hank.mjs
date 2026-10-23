@@ -28,6 +28,8 @@ const { values: args } = parseArgs({
     'no-tail': { type: 'boolean', default: false },
     'no-discover': { type: 'boolean', default: false },
     reuse: { type: 'string' },
+    'spot-seconds': { type: 'string' }, // spot-check time cap; default 1200 (2400 on a local model)
+    'spot-dollars': { type: 'string' }, // spot-check dollar cap; default 1.5
     'max-dollars': { type: 'string' }, // overall cap; default is the sum of the codon budgets
     out: { type: 'string', default: 'hank.json' },
   },
@@ -75,7 +77,7 @@ if (args.reuse && !existsSync(`${args.reuse}/events`)) {
   process.exit(1);
 }
 const reuse = args.reuse
-  ? [{ type: 'command', command: { run: `mkdir -p events notes/sources && cp ${args.reuse}/events/*.json events/ && cp ${args.reuse}/notes/sources/*.md notes/sources/` } }]
+  ? [{ type: 'command', command: { run: `mkdir -p events notes/sources && cp ${args.reuse}/events/*.json events/ && cp ${args.reuse}/notes/sources/*.md notes/sources/ && { cp ${args.reuse}/notes/candidate-sources.md notes/ 2> /dev/null || true; }` } }]
   : [];
 
 // For a local Pi model, a preflight codon checks that the server is up and the model answers,
@@ -162,7 +164,11 @@ const tail = [
     // flag.mjs applies each decision as it goes; if this codon fails, scout and export use what is done.
     onFailure: 'ignore',
     // Over budget, the run goes on with the events fixed so far; unresolved flags stay as they are.
-    budget: { maxDollars: 1.5, maxTimeSeconds: tailModel.startsWith('pi/') ? 2400 : 1200, onExceeded: 'complete' },
+    budget: {
+      maxDollars: Number(args['spot-dollars'] ?? 1.5),
+      maxTimeSeconds: Number(args['spot-seconds'] ?? (tailModel.startsWith('pi/') ? 2400 : 1200)),
+      onExceeded: 'complete',
+    },
   },
   ...(args['no-discover'] ? [] : discover),
   {
