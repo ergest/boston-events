@@ -1,22 +1,31 @@
 # Coverage
 
-Window 2026-10-23 → 2026-11-22. Target: at least 3 events per city.
+Window 2026-10-25 → 2026-11-24. Target: at least 3 events per city.
 
 | City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors | community |
 |---|---|---|---|---|---|---|---|---|---|
-| Boston | 441 | 83 | 110 | 52 | 12 | 33 | 49 | 52 | 50 |
-| Cambridge | 244 | 20 | 68 | 7 | 5 | 35 | 79 | 8 | 22 |
-| Somerville | 40 | 4 | 6 | 0 | 6 | 5 | 3 | 6 | 10 |
-| Brookline | 156 | 16 | 30 | 5 | 1 | 65 | 8 | 5 | 26 |
-| Medford | 100 | 7 | 22 | 0 | 8 | 22 | 27 | 0 | 14 |
-| Malden | 25 | 0 | 5 | 0 | 3 | 6 | 1 | 3 | 7 |
+| Boston | 837 | 276 | 193 | 77 | 11 | 44 | 58 | 63 | 115 |
+| Cambridge | 410 | 110 | 96 | 16 | 2 | 35 | 81 | 7 | 63 |
+| Somerville | 117 | 58 | 30 | 3 | 3 | 4 | 3 | 4 | 12 |
+| Brookline | 172 | 12 | 54 | 2 | 0 | 64 | 8 | 5 | 27 |
+| Medford | 110 | 16 | 21 | 2 | 6 | 20 | 24 | 2 | 19 |
+| Malden | 33 | 3 | 9 | 0 | 4 | 5 | 1 | 3 | 8 |
 
 ## Events per source (before merge)
 
-- do617: 19
+- do617: 125
+- do617-2: 114
+- do617-3: 160
+- do617-4: 161
+- do617-5: 133
+- do617-6: 64
 - boston-calendar: 59
 - allevents-boston: 48
-- eventbrite-boston: 20
+- eventbrite-boston: 82
+- eventbrite-boston-2: 96
+- eventbrite-boston-3: 99
+- eventbrite-boston-4: 62
+- eventbrite-boston-5: 76
 - bostoncentral: 42
 - luma-boston: 26
 - artsboston: 8

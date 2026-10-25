@@ -1,19 +1,35 @@
 # Spot-check
 
-Flagged: 199. Reviewed: 199. Kept: 67. Fixed: 118. Removed: 15.
+Flagged: 212. Reviewed: 212. Kept: 128. Fixed: 54. Removed: 31.
 
-- Removed Early Education Developmental Screening (2026-11-17): link dead (ENOTFOUND), no page text
-- Removed Curated Cuisine: Chef Eric Ripert (2026-10-23): duplicate of 7273bc46a6, which is the more complete record
-- Removed Assembly of Dust (2026-10-23): duplicate of 972b9da53c, which is the venue record with address and ticket link
-- Removed Jim Gaffigan (2026-10-23): duplicate of 0495e88225 (official Boch Center record, covers the Oct 23-25 run)
-- Removed Jim Gaffigan - Boston, MA - Everything is Wonderful! Tour (2026-10-23): duplicate of 0495e88225 (official Boch Center record)
-- Removed Night in the Stacks: Midnight Circus (2026-10-23): same event as 692b4a9694 (same venue, date, time)
-- Removed Cityside Pumpkin Patch at Island Creek Oyster (2026-10-23): duplicate of 89f893f6f9 (more complete record with times and address)
-- Removed Fourth Dimension Tap Company Presents Sound (2026-10-23): duplicate of 75f51f8ddf (same show, Calderwood Pavilion, Oct 23 7:30pm; that record has venue and time)
-- Removed 90 Years: ICA Boston's 90th Anniversary Exhibition (2026-10-23): duplicate of a577f4dae8 (official ICA record for the same exhibition)
-- Removed Ruckus! at Old South Meeting House (2026-10-23): duplicate of cadaa3a7fe (same show, same venue, has start time)
-- Removed Street Stage at Moakley Park (2026-10-23): one-night event on July 29, 2026 (listing end date is bogus); outside window
-- Removed Gravity & Other Myths: Ten Thousand Hours (2026-10-23): duplicate of b774bac6a6 (same show Oct 23 8pm, has venue)
-- Removed Boston Lights: A Lantern Experience at Franklin Park Zoo (2026-10-23): duplicate of 1c3be99e35 (same lantern event, Franklin Park Zoo; that record has hours and end date)
-- Removed SMALL MART Outdoor Market | Art, Makers & More (2026-10-23): duplicate of Small Mart Davis Square records (b9eb4b40e1, e2e6d08031)
-- Removed 4th Annual Food is Medicine National Summit (2026-10-28): in-person attendance at capacity and by invitation only; only the online livestream is open
+- Removed Civic Life Lunch – More Than a Jersey: On the Team, In the Community (2026-11-04): url dead (malformed zoom link, 404), page shows nothing about the event
+- Removed Early Education Developmental Screening (2026-11-17): link dead (domain not found), no page text
+- Removed October 25th,  2026 - Drag Me To Bunch @ Carrie Nation (2026-10-25): duplicate of e2ab4308aa
+- Removed Boston Symphony Chamber Players (2026-10-25): duplicate of 3b53ffbf8a, less complete
+- Removed LØlØ (2026-10-26): duplicate of e07e16a808
+- Removed Maddie Zahm (2026-10-27): duplicate of 1bc264dca2
+- Removed Live Music (2026-10-29): duplicate of 99eb2deadb
+- Removed Eph See: Halloween Homecoming Show (2026-10-29): duplicate of c831c90723
+- Removed Hippie Hour w/ Promised Land! (2026-10-30): duplicate of 233cc1a4aa
+- Removed Jenna Davis, Ava Liv Mabry (2026-10-30): duplicate of 5f6559ae06
+- Removed Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE! (2026-10-31): duplicate of 9c942e48e9 (same bar crawl, same times)
+- Removed Boston Fenway Official Halloween Bar Crawl (2026-10-31): duplicate of 1b5c4af387 (same Fenway crawl, venue, times)
+- Removed Boston Faneuil Hall Halloween Bar Crawl 2026 (2026-10-31): duplicate of 55a2bc74af
+- Removed Boston's Haunted Hop 2026: Halloween Bar Crawl (2026-10-31): duplicate of 5205e3030c
+- Removed The Fright Crawl | Boston's #1 Halloween Bar Crawl 2026 | Sat, Oct 31 (2026-10-31): duplicate of 5205e3030c (identical crawl, venue, time, description)
+- Removed Broadway Rave (2026-10-31): duplicate of 40ced43a4e
+- Removed November 1st,  2026 - Drag Me To Bunch @ Carrie Nation (2026-11-01): duplicate of ee0566d1c0
+- Removed Blu DeTiger (2026-11-01): duplicate of 3a8f8b7371
+- Removed Porch Light (2026-11-07): duplicate of 51f0cd1d31
+- Removed Red Leather (2026-11-08): duplicate of ad674693e9
+- Removed Michigander, Wildermiss (2026-11-10): duplicate of 464fbdc039
+- Removed Merry Makers at Idle Hands and Cafe Reynard — Holiday Market 2026 (2026-11-14): duplicate of 0c98001992, which is more complete
+- Removed Sophie Hunter (2026-11-14): duplicate of 5badbb8287
+- Removed Sir Woman (2026-11-17): duplicate of 23f6519921
+- Removed Low Cut Connie (2026-11-18): duplicate of 61590c46fe
+- Removed Broadway Rave (2026-11-20): duplicate of 61fe3e9416
+- Removed Emo Night Brooklyn (2026-11-21): duplicate of 449a34a701
+- Removed Night Shift Pop-up Beer Garden on The Greenway 2026 (2026-10-25): page shows beer garden closed on every remaining day (Oct 25-27)
+- Removed Prospect Hill Tower: History Unlocked Drop-In Chats (2026-10-25): duplicate: same series already listed for 2026-10-29
+- Removed Boston's Revolutionary and Drunken Past with Ye Olde Tavern Tours (2026-10-25): page says no tickets available (sold out)
+- Removed 4th Annual Food is Medicine National Summit (2026-10-28): in-person attendance at capacity and invitation only; only online livestream open

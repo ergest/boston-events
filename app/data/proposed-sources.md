@@ -2,53 +2,75 @@
 
 ## Summary
 
-- All six cities clear `minEventsPerCity` (3); Malden (25) and Somerville (40) are the thinnest. Festivals & markets (Boston 12, Brookline 1, Cambridge 5) and food & drink (Somerville, Medford, Malden: 0) are the emptiest categories.
-- Existing sources: 1 broken (`open-newbury`), 2 thin (`bu-spark`, `somerville-arts-council`). I propose removing the first two and fixing the third.
-- Additions target Somerville, Medford and Malden libraries and city calendars, plus Meet Boston for Boston festivals.
-- Rejected: Cambridge Public Library LibCal feed (the ICS stops at 2026-10-21, so it covers none of the window; the `days`, `limit` and `date` parameters change nothing). Malden's city iCal feed is stale (only recurring "Food Policy Council" meetings from 2024–25), so the Malden city page is proposed instead.
-- Note: the Assabet library calendars only render the current month (October), so they cover Oct 23–31. A month query parameter did not work. Re-check in November.
+- Every city meets `minEventsPerCity` (Malden is lowest at 33, Somerville 117). Weak spots are categories: festivals & markets (Brookline 0, Cambridge 2, Boston 11), and food & drink in Malden (0), Brookline (2), Medford (2), Somerville (3).
+- Three sources are broken or thin: `open-newbury` (boston.gov was under maintenance), `bu-spark` (0 usable events), `somerville-arts-council` (1 event). Proposals below remove the first two and fix the third.
+- Of the discover candidates, the City of Malden iCal feed and the Somerville Arts Council feed are the cheapest wins. Meet Boston's RSS returns "Access Denied" to curl, so it is added as a page source for festivals. Somerville Arts Council's `?ical=1` is a real feed but is mostly old events (see Fix).
+- Not run through the checker: no feeds were ingested, only probed with curl.
 
 ## Add
 
-### 1. somerville-library — fills Somerville (40 events, 0 food & drink), the lowest city after Malden.
-Assabet calendar page (the library's own page is an iframe of it). Lists address and time per event.
+### 1. City of Malden calendar (ICS)
+The site publishes a Municode-style iCal feed. 23 entries, about 7 inside the window, which helps Malden's food & drink and community gaps. Many are recurring board or council meetings, so the exclude list matters.
+
 ```json
-{ "id": "somerville-library", "name": "Somerville Public Library", "type": "venue", "fetch": "page", "urls": ["https://somervillepubliclibrary.assabetinteractive.com/calendar/"], "cities": ["Somerville"], "defaultCategory": "community", "notes": "Assabet calendar; the page shows the current month only. Skip meeting and study room bookings, one-on-one social work appointments, and ESOL or other recurring classes. Keep author talks, kids' programs, films, and workshops open to the public." }
+{ "id": "malden-city", "name": "City of Malden Calendar", "type": "city", "fetch": "ics", "urls": ["https://www.cityofmalden.org/common/modules/iCalendar/iCalendar.aspx?catID=14&feed=calendar"], "cities": ["Malden"], "defaultCategory": "community", "notes": "Municipal calendar feed. Skip board, council, commission, committee and council-on-aging meetings (e.g. Food Policy Council); keep public community events, film nights, Trunk or Treat, festivals." }
 ```
 
-### 2. medford-library — fills Medford (0 food & drink, 0 sports) and diversifies away from cache-medford.
-Same Assabet platform.
+### 2. Meet Boston Festivals & Annual Events (page)
+Official tourism board list of festivals and fairs; fills the festivals & markets category (Boston 11, Brookline 0). Its RSS feed returned "Access Denied" to curl, so use the page.
+
 ```json
-{ "id": "medford-library", "name": "Medford Public Library", "type": "venue", "fetch": "page", "urls": ["https://medfordlibrary.assabetinteractive.com/calendar/"], "cities": ["Medford"], "defaultCategory": "family", "notes": "Assabet calendar; the page shows the current month only. Skip ESOL classes, meeting and room bookings, and society business meetings. Keep toddler time, story times, author talks, film screenings, and public workshops." }
+{ "id": "meetboston-festivals", "name": "Meet Boston Festivals & Annual Events", "type": "tourism", "fetch": "page", "urls": ["https://www.meetboston.com/events/festivals-and-annual-events/"], "cities": "all", "defaultCategory": "festivals & markets", "notes": "Fetched with browser (JS rendered). Multi-day festivals: one record on first in-window date, with full run in description. Skip events outside the listed cities." }
 ```
 
-### 3. meetboston-events — Boston festivals & markets gap (12 events) and general coverage.
-Official tourism board listing. The site also offers an RSS feed, but it is a long filtered URL limited to one week and not a standard ICS, so the page is safer.
+### 3. Meet Boston Events Calendar (page)
+General Boston coverage across categories, shown 5 days of the window by the check. Lower priority because it overlaps Do617 and Eventbrite.
+
 ```json
-{ "id": "meetboston-events", "name": "Meet Boston Events", "type": "aggregator", "fetch": "page", "urls": ["https://www.meetboston.com/events/", "https://www.meetboston.com/events/festivals-and-annual-events/"], "cities": ["Boston", "Cambridge", "Brookline", "Somerville"], "defaultCategory": "festivals & markets", "notes": "Tourism board listing. Many entries are multi-week runs: record one event dated at the later of the start date and the window start, with the full run in the description. Skip online-only events." }
+{ "id": "meetboston-events", "name": "Meet Boston Events", "type": "tourism", "fetch": "page", "urls": ["https://www.meetboston.com/events/"], "cities": "all", "notes": "Fetched with browser. RSS feed blocks curl (Access Denied), so use the page. Use detail pages for venue and times." }
 ```
 
-### 4. malden-city-calendar — Malden is the thinnest city (25 events).
-The city's iCal feed is stale, so use the page. Only about 4 days of the window were parsed, so expect a modest yield.
+### 4. Brookline Town Calendar (page)
+Public non-board events; 3 days in window, and Brookline has 0 festivals & markets and 2 food & drink.
+
 ```json
-{ "id": "malden-city-calendar", "name": "City of Malden Calendar", "type": "venue", "fetch": "page", "urls": ["https://www.cityofmalden.org/calendar.aspx?CID=14"], "cities": ["Malden"], "defaultCategory": "community", "notes": "Skip board and committee meetings, including Food Policy Council, and other administrative meetings. Keep public events such as Trunk or Treat, film screenings and festivals." }
+{ "id": "brookline-town", "name": "Town of Brookline Calendar", "type": "city", "fetch": "page", "urls": ["https://www.brooklinema.gov/calendar.aspx"], "cities": ["Brookline"], "defaultCategory": "community", "notes": "Fetched with browser. Skip board, commission, committee and town meeting entries; keep public events only. The Municode iCalendar URL pattern returns an HTML page here, so there is no feed." }
 ```
 
-### 5. brookline-town-calendar — Brookline festivals & markets (1 event).
+### 5. Cambridge Public Library (ICS, limited)
+A real LibCal feed exists, but it returns the first 500 entries in date order and ends 2026-10-26, so only about 10 are in the window. Worth adding only if a date-limited variant is found; the page below may cover more.
+
 ```json
-{ "id": "brookline-town-calendar", "name": "Brookline Town Calendar", "type": "venue", "fetch": "page", "urls": ["https://www.brooklinema.gov/calendar.aspx"], "cities": ["Brookline"], "defaultCategory": "community", "notes": "Skip board, committee and commission meetings. Keep public events only." }
+{ "id": "cambridge-library", "name": "Cambridge Public Library", "type": "library", "fetch": "ics", "urls": ["https://cambridgepl.libcal.com/ical_subscribe.php?src=p&cid=7052"], "cities": ["Cambridge"], "defaultCategory": "community", "notes": "LibCal feed is capped at 500 entries and ends 2026-10-26, so it only covers the first few days of the window. All events free and public. Skip online-only entries." }
 ```
-Low value: only 3 days of the window were found. Add last.
+
+### 6. Somerville Public Library (page)
+Check parsed 0 days, but the search snippet showed dated events, so it may be JS rendered. Try it with the browser fetch. Somerville has little food & drink, family and tech content.
+
+```json
+{ "id": "somerville-library", "name": "Somerville Public Library", "type": "library", "fetch": "page", "urls": ["https://somervillepubliclibrary.org/calendar/"], "cities": ["Somerville"], "defaultCategory": "community", "notes": "Candidate check found 0 days, probably JS rendering; verify with the first run. Skip online-only and staff events." }
+```
+
+### 7. Medford Public Library (page)
+Same situation as Somerville: check parsed 0 days but the page lists dated programs (toddler time, etc.), which helps Medford family and food & drink.
+
+```json
+{ "id": "medford-library", "name": "Medford Public Library", "type": "library", "fetch": "page", "urls": ["https://medfordlibrary.org/events/"], "cities": ["Medford"], "defaultCategory": "family", "notes": "Candidate check found 0 days (HTTP 200 via curl); verify extraction on the first run. Set category per event (family, community, arts)." }
+```
 
 ## Fix
 
-### somerville-arts-council (thin: 1 event in the window)
-The events page works and lists real events, but few fall inside this window, so the source is just quiet, not broken. The site's `?ical=1` feed does respond with valid ICS (WP Events plugin), but it starts in 2010 and none of the 50 entries returned fall inside the window, so it is no better. Keep the entry and add a note so the agent doesn't over-extract; revisit next month.
+### somerville-arts-council
+The page works but lists only 1 in-window event. The `?ical=1` feed is a valid iCal feed, but it contains 50 entries and none with 2026 dates (oldest items first), so switching to ICS would not help yet. Keep as is, low value; consider removing if it stays at 0 or 1 next run.
+
 ```json
-{ "id": "somerville-arts-council", "name": "Somerville Arts Council", "type": "venue", "fetch": "page", "urls": ["https://somervilleartscouncil.org/events/"], "cities": ["Somerville"], "defaultCategory": "arts & theater", "notes": "Few events fall in any given month. Venue is often not Somerville (e.g. partner breweries); check the venue's city before assigning." }
+{ "id": "somerville-arts-council", "name": "Somerville Arts Council", "type": "arts", "fetch": "page", "urls": ["https://somervilleartscouncil.org/events/"], "cities": ["Somerville"], "defaultCategory": "arts & theater", "notes": "Thin: about 1 event per run. The WordPress ?ical=1 feed exists but returns only old entries (50, none in 2026), so it is not useful." }
 ```
+
+### somerville-city
+Status ok, but the listing only ran through 2026-10-26 in the last run, so most of the window is missing. No fix found from the notes alone; consider adding a second URL with `?page=1` once checked with `node page.mjs`.
 
 ## Remove
 
-- `open-newbury` — broken. The page was a "Boston.gov Under Maintenance" notice, and it is a single-street program page, not an event listing. It produced 0 events and is covered by `boston-gov`.
-- `bu-spark` — thin. It gave 0 events. The page lists only past events, a December event, and undated "Every Wednesday" recurring sessions, with no per-event pages or feed. BU events are better covered by aggregators.
+- `open-newbury`: boston.gov page returned only an "Under Maintenance" notice and 0 events. It is a single-street program page, not an event listing, and Boston is already the best covered city. Remove.
+- `bu-spark`: 0 usable events. The page has only recurring "Every Wednesday" items with no dates or detail URLs, and its one-off events fall outside the window. Remove, or revisit if Spark moves to a dated calendar.
