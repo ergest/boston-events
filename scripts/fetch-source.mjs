@@ -54,18 +54,32 @@ if (source.fetch === 'ics') {
       errors.push(`${url}: ${err.message}`);
     }
   }
-} else if (source.fetch === 'dostuff') {
-  // DoStuff-network sites (Do617): one listing per day, paged. Cards carry schema.org microdata, so a script parses them and the agent only triages.
+} else if (source.fetch === 'dostuff' || source.fetch === 'eventbrite') {
+  // Sites with one listing per day, paged, whose pages carry structured data (DoStuff microdata on Do617, __SERVER_DATA__ JSON on Eventbrite):
+  // a script parses them and the agent only triages.
   const base = new URL(source.urls[0]).origin;
+  const eb = source.fetch === 'eventbrite';
+  const listUrl = (day, page) => {
+    const [y, m, dd] = day.split('-').map(Number);
+    return eb ? `${source.urls[0].replace(/\/?(\?.*)?$/, '')}--${day}/?page=${page}` : `${base}/events/${y}/${m}/${dd}?page=${page}`;
+  };
+  const parse = eb ? parseEventbrite : parseDoStuff;
+  // Pages per day: Eventbrite ranks by relevance and lists ~1000 a day, so near days take maxPages and far days farMaxPages.
+  const nearDate = new Date(`${window.start}T12:00:00Z`);
+  nearDate.setUTCDate(nearDate.getUTCDate() + (source.nearDays ?? 9999));
+  const nearBy = nearDate.toISOString().slice(0, 10);
+  const pagesFor = (day) => (day > nearBy ? (source.farMaxPages ?? source.maxPages ?? 12) : (source.maxPages ?? 12));
+  // source.days = [first, last] day offsets from the window start: one source per slice keeps each agent's context small.
+  const [firstDay, lastDay] = source.days ?? [0, 9999];
   const days = [];
-  for (let d = new Date(`${window.start}T12:00:00Z`); d.toISOString().slice(0, 10) <= window.end; d.setUTCDate(d.getUTCDate() + 1)) days.push(d.toISOString().slice(0, 10));
+  for (let i = 0, d = new Date(`${window.start}T12:00:00Z`); d.toISOString().slice(0, 10) <= window.end; i++, d.setUTCDate(d.getUTCDate() + 1)) if (i >= firstDay && i <= lastDay) days.push(d.toISOString().slice(0, 10));
   const seen = new Set();
   const found = [];
   const fetchDay = async (day) => {
-    const [y, m, dd] = day.split('-').map(Number);
     let count = 0;
-    for (let page = 1; page <= (source.maxPages ?? 12); page++) {
-      const url = `${base}/events/${y}/${m}/${dd}?page=${page}`;
+    for (let page = 1; page <= pagesFor(day); page++) {
+      const url = listUrl(day, page);
+      if (eb) await new Promise((r) => setTimeout(r, 1000));
       let html;
       for (let attempt = 1; !html; attempt++) {
         try {
@@ -73,7 +87,7 @@ if (source.fetch === 'ics') {
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
           html = await res.text();
         } catch (err) {
-          if (attempt < 4) await new Promise((r) => setTimeout(r, 1500 * attempt));
+          if (attempt < (eb ? 7 : 4)) await new Promise((r) => setTimeout(r, (eb ? 4000 : 1500) * attempt));
           else {
             errors.push(`${url}: ${err.message}`);
             break;
@@ -81,7 +95,7 @@ if (source.fetch === 'ics') {
         }
       }
       if (!html) break;
-      const cards = parseDoStuff(html, base).filter((e) => !seen.has(e.url + e.date));
+      const cards = parse(html, base).filter((e) => !seen.has(e.url + e.date));
       if (!cards.length) break;
       for (const e of cards) seen.add(e.url + e.date);
       found.push(...cards);
@@ -89,7 +103,8 @@ if (source.fetch === 'ics') {
     }
     return count;
   };
-  for (let i = 0; i < days.length; i += 5) await Promise.all(days.slice(i, i + 5).map(fetchDay));
+  const lanes = eb ? 1 : 5; // Eventbrite answers 429 under heavier load
+  for (let i = 0; i < days.length; i += lanes) await Promise.all(days.slice(i, i + lanes).map(fetchDay));
   // Cards name their city; drop other known cities (Boston neighborhoods count as Boston) but keep cards with no city.
   const hoods = ['Allston', 'Back Bay', 'Brighton', 'Charlestown', 'Chinatown', 'Dorchester', 'East Boston', 'Fenway', 'Hyde Park', 'Jamaica Plain', 'Mattapan', 'Mission Hill', 'Roslindale', 'Roxbury', 'South Boston', 'South End', 'West Roxbury'];
   const wanted = new Set([...window.cities, ...hoods].map((c) => c.toLowerCase()));
@@ -101,7 +116,7 @@ if (source.fetch === 'ics') {
   nearEnd.setUTCDate(nearEnd.getUTCDate() + (source.nearDays ?? 9999));
   const nearLimit = nearEnd.toISOString().slice(0, 10);
   const kept = pre.filter((e) => {
-    const far = e.date > nearLimit && (e.attendees ?? 0) < (source.farMinAttendees ?? 0);
+    const far = e.date > nearLimit && source.farMinAttendees && (e.attendees ?? 0) < source.farMinAttendees;
     if (far) excluded.push({ reason: 'far and unpopular', title: e.title, date: e.date });
     return !far;
   });
@@ -120,7 +135,7 @@ if (source.fetch === 'ics') {
     }
   }
 } else {
-  errors.push(`unknown fetch method "${source.fetch}" (use "ics", "dostuff" or "page")`);
+  errors.push(`unknown fetch method "${source.fetch}" (use "ics", "dostuff", "eventbrite" or "page")`);
 }
 
 // Full copies for grounding, then the agent's chunks.
@@ -211,6 +226,35 @@ function parseDoStuff(html, base) {
       description: /ds-listing-soldout[\s\S]{0,200}>\s*Free\s*</.test(card) ? 'Free' : undefined,
       feedCategories: card.match(/ds-event-category-([a-z-]+)/)?.[1],
       attendees: Number(card.match(/ds-listing-attendee-count"><span[^>]*><\/span>\s*(\d+)/)?.[1]) || undefined,
+    };
+    out.push(JSON.parse(JSON.stringify(rec)));
+  }
+  return out;
+}
+
+// Eventbrite search pages embed their results as JSON. Keeps Massachusetts, in-person, not cancelled.
+function parseEventbrite(html) {
+  const raw = html.match(/window\.__SERVER_DATA__\s*=\s*(\{.*?\});\s*\n/s)?.[1];
+  if (!raw) return [];
+  let results;
+  try {
+    results = JSON.parse(raw).search_data?.events?.results ?? [];
+  } catch {
+    return [];
+  }
+  const out = [];
+  for (const r of results) {
+    const a = r.primary_venue?.address ?? {};
+    if (!r.name || !r.start_date || !r.url || r.is_online_event || r.is_cancelled || (a.region && a.region !== 'MA')) continue;
+    const rec = {
+      title: unescape(r.name),
+      date: r.start_date,
+      endDate: r.end_date && r.end_date > r.start_date ? r.end_date : undefined,
+      startTime: r.start_time || undefined,
+      endTime: r.end_date === r.start_date ? r.end_time || undefined : undefined,
+      location: [r.primary_venue?.name, a.address_1, a.city, a.region].filter(Boolean).join(', ') || undefined,
+      url: r.url.replace(/^https?:\/\/(www\.)?eventbrite\.[a-z.]+/, 'https://www.eventbrite.com').split('?')[0],
+      description: unescape(r.summary ?? '').slice(0, 400) || undefined,
     };
     out.push(JSON.parse(JSON.stringify(rec)));
   }

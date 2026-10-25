@@ -51,7 +51,7 @@ for (const s of registry) {
   if (ids.has(s.id)) problems.push(`duplicate id "${s.id}"`);
   ids.add(s.id);
   if (!TYPE_ORDER.includes(s.type)) problems.push(`${s.id}: type must be one of ${TYPE_ORDER.join(', ')}`);
-  if (!['ics', 'page', 'dostuff'].includes(s.fetch)) problems.push(`${s.id}: fetch must be "ics", "page" or "dostuff"`);
+  if (!['ics', 'page', 'dostuff', 'eventbrite'].includes(s.fetch)) problems.push(`${s.id}: fetch must be "ics", "page", "dostuff" or "eventbrite"`);
   if (!Array.isArray(s.urls) || !s.urls.length) problems.push(`${s.id}: urls must be a nonempty array`);
   if (s.cities !== 'all' && !Array.isArray(s.cities)) problems.push(`${s.id}: cities must be "all" or an array`);
 }
