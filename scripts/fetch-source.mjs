@@ -54,6 +54,61 @@ if (source.fetch === 'ics') {
       errors.push(`${url}: ${err.message}`);
     }
   }
+} else if (source.fetch === 'dostuff') {
+  // DoStuff-network sites (Do617): one listing per day, paged. Cards carry schema.org microdata, so a script parses them and the agent only triages.
+  const base = new URL(source.urls[0]).origin;
+  const days = [];
+  for (let d = new Date(`${window.start}T12:00:00Z`); d.toISOString().slice(0, 10) <= window.end; d.setUTCDate(d.getUTCDate() + 1)) days.push(d.toISOString().slice(0, 10));
+  const seen = new Set();
+  const found = [];
+  const fetchDay = async (day) => {
+    const [y, m, dd] = day.split('-').map(Number);
+    let count = 0;
+    for (let page = 1; page <= (source.maxPages ?? 12); page++) {
+      const url = `${base}/events/${y}/${m}/${dd}?page=${page}`;
+      let html;
+      for (let attempt = 1; !html; attempt++) {
+        try {
+          const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(60000) });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          html = await res.text();
+        } catch (err) {
+          if (attempt < 4) await new Promise((r) => setTimeout(r, 1500 * attempt));
+          else {
+            errors.push(`${url}: ${err.message}`);
+            break;
+          }
+        }
+      }
+      if (!html) break;
+      const cards = parseDoStuff(html, base).filter((e) => !seen.has(e.url + e.date));
+      if (!cards.length) break;
+      for (const e of cards) seen.add(e.url + e.date);
+      found.push(...cards);
+      count += cards.length;
+    }
+    return count;
+  };
+  for (let i = 0; i < days.length; i += 5) await Promise.all(days.slice(i, i + 5).map(fetchDay));
+  // Cards name their city; drop other known cities (Boston neighborhoods count as Boston) but keep cards with no city.
+  const hoods = ['Allston', 'Back Bay', 'Brighton', 'Charlestown', 'Chinatown', 'Dorchester', 'East Boston', 'Fenway', 'Hyde Park', 'Jamaica Plain', 'Mattapan', 'Mission Hill', 'Roslindale', 'Roxbury', 'South Boston', 'South End', 'West Roxbury'];
+  const wanted = new Set([...window.cities, ...hoods].map((c) => c.toLowerCase()));
+  const cityOf = (e) => e.location?.split(', ').at(-2);
+  const inWindow = found.filter((e) => e.date >= window.start && e.date <= window.end && (!source.cityFilter || !/MA$/.test(e.location ?? '') || wanted.has(cityOf(e)?.toLowerCase()) || !cityOf(e) || cityOf(e) === e.location?.split(', ')[0]));
+  const { kept: pre, excluded } = applyExclude(inWindow, source.exclude);
+  // Far-out days only keep popular events (the ones that sell out); weekly runs re-cover the near days in full.
+  const nearEnd = new Date(`${window.start}T12:00:00Z`);
+  nearEnd.setUTCDate(nearEnd.getUTCDate() + (source.nearDays ?? 9999));
+  const nearLimit = nearEnd.toISOString().slice(0, 10);
+  const kept = pre.filter((e) => {
+    const far = e.date > nearLimit && (e.attendees ?? 0) < (source.farMinAttendees ?? 0);
+    if (far) excluded.push({ reason: 'far and unpopular', title: e.title, date: e.date });
+    return !far;
+  });
+  const runs = collapseRuns(kept, (e) => [e.title, e.location ?? '', e.startTime ?? ''].join('|')).map(({ attendees, ...e }) => e);
+  events.push(...runs);
+  if (excluded.length) writeFileSync(`raw/${id}.excluded.json`, JSON.stringify(excluded, null, 2) + '\n');
+  console.log(`${id}: ${found.length} listing cards over ${days.length} days; ${inWindow.length} in window, ${excluded.length} pre-filtered out, ${runs.length} after collapsing runs`);
 } else if (source.fetch === 'page') {
   // curl first, then a headless local browser for pages that need JavaScript (page.mjs); no paid service.
   for (const url of source.urls.map((u) => expandUrl(u, window))) {
@@ -65,7 +120,7 @@ if (source.fetch === 'ics') {
     }
   }
 } else {
-  errors.push(`unknown fetch method "${source.fetch}" (use "ics" or "page")`);
+  errors.push(`unknown fetch method "${source.fetch}" (use "ics", "dostuff" or "page")`);
 }
 
 // Full copies for grounding, then the agent's chunks.
@@ -127,6 +182,41 @@ function applyExclude(events, rules) {
   return { kept, excluded };
 }
 
+// --- DoStuff listing parsing ---------------------------------------------------------------
+
+// Keeps Massachusetts cards only (the listing mixes in NH, RI and online events).
+function parseDoStuff(html, base) {
+  const out = [];
+  for (const card of html.split('<div class="ds-listing event-card').slice(1)) {
+    const get = (re) => unescape(card.match(re)?.[1] ?? '');
+    const start = card.match(/itemprop="startDate"[^>]*content="([^"]+)"/)?.[1];
+    const end = card.match(/itemprop="endDate"[^>]*content="([^"]+)"/)?.[1];
+    const permalink = card.match(/data-permalink="([^"]+)"/)?.[1];
+    const region = get(/itemprop="addressRegion" content="([^"]*)"/);
+    const title = get(/itemprop="name">([^<]+)<\/span>\s*<\/a>/);
+    if (!start || !permalink || !title || (region && region !== 'MA')) continue;
+    const venue = get(/<a href="\/venues\/[^"]*" itemprop="url"><span itemprop="name">([^<]*)</);
+    const street = get(/itemprop="streetAddress" content="([^"]*)"/);
+    const city = get(/itemprop="addressLocality" content="([^"]*)"/);
+    const date = start.slice(0, 10);
+    const startTime = /T\d{2}:\d{2}/.test(start) ? start.slice(11, 16) : undefined;
+    const rec = {
+      title,
+      date,
+      endDate: end && end.slice(0, 10) > date ? end.slice(0, 10) : undefined,
+      startTime,
+      endTime: end && end.slice(0, 10) === date ? end.slice(11, 16) : undefined,
+      location: [venue, street, city, region].filter(Boolean).join(', ') || undefined,
+      url: base + permalink,
+      description: /ds-listing-soldout[\s\S]{0,200}>\s*Free\s*</.test(card) ? 'Free' : undefined,
+      feedCategories: card.match(/ds-event-category-([a-z-]+)/)?.[1],
+      attendees: Number(card.match(/ds-listing-attendee-count"><span[^>]*><\/span>\s*(\d+)/)?.[1]) || undefined,
+    };
+    out.push(JSON.parse(JSON.stringify(rec)));
+  }
+  return out;
+}
+
 // --- minimal ICS parsing -------------------------------------------------------------
 
 function parseIcs(text) {
@@ -148,10 +238,10 @@ function parseIcs(text) {
 
 // An exhibition or daily program appears in a feed once per day. The same title, link and start
 // time on 3+ dates becomes one record on its first date, with endDate set to its last date.
-function collapseRuns(list) {
+function collapseRuns(list, keyOf = (e) => [e.title, e.url ?? '', e.startTime ?? ''].join('|')) {
   const groups = new Map();
   for (const e of list) {
-    const key = [e.title, e.url ?? '', e.startTime ?? ''].join('|');
+    const key = keyOf(e);
     groups.set(key, [...(groups.get(key) ?? []), e]);
   }
   const out = [];
