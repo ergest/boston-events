@@ -9,14 +9,14 @@
     --bg: #f7f6f2; --panel: #ffffff; --fg: #1c1c1a; --muted: #6a6a64; --line: #e3e1da; --hover: #f1efe8;
     --accent: #0b5cad; --accent-fg: #ffffff; --chip: #ecebe5;
     --c-music: #7b3fb5; --c-arts: #b2361f; --c-food: #b86a00; --c-fest: #c0287a;
-    --c-family: #1f8a5b; --c-tech: #2463b8; --c-sports: #3f7d1e; --c-community: #6b5a3e;
+    --c-family: #1f8a5b; --c-tech: #2463b8; --c-sports: #3f7d1e;
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #141413; --panel: #1d1d1b; --fg: #ecebe6; --muted: #9b9a93; --line: #2e2e2b; --hover: #252523;
       --accent: #6aa9ec; --accent-fg: #0d1b2a; --chip: #262624;
       --c-music: #b98ae6; --c-arts: #ee8a74; --c-food: #e8a94a; --c-fest: #ec7bb8;
-      --c-family: #5fcf9a; --c-tech: #7eaef0; --c-sports: #93cc6a; --c-community: #c7b28e;
+      --c-family: #5fcf9a; --c-tech: #7eaef0; --c-sports: #93cc6a;
     }
   }
   * { box-sizing: border-box; }
@@ -148,8 +148,8 @@
   const fmtShort = (iso) => new Date(iso + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   const fmtTime = (t) => { const [h, m] = t.split(':').map(Number); return `${((h + 11) % 12) + 1}${m ? ':' + String(m).padStart(2, '0') : ''}${h < 12 ? 'am' : 'pm'}`; };
   const isFree = (e) => /^free\b/i.test(e.price || '');
-  const CAT_VAR = { music: 'music', 'arts & theater': 'arts', 'food & drink': 'food', 'festivals & markets': 'fest', family: 'family', 'tech & talks': 'tech', 'sports & outdoors': 'sports', community: 'community' };
-  const catColor = (c) => `var(--c-${CAT_VAR[c] || 'community'})`;
+  const CAT_VAR = { music: 'music', 'arts & theater': 'arts', 'food & drink': 'food', 'festivals & markets': 'fest', family: 'family', 'tech & talks': 'tech', 'sports & outdoors': 'sports' };
+  const catColor = (c) => CAT_VAR[c] ? `var(--c-${CAT_VAR[c]})` : 'var(--muted)';
 
   const events = data.events.filter((e) => (e.endDate || e.date) >= today).sort((a, b) => (a.date + (a.startTime || '99')).localeCompare(b.date + (b.startTime || '99')));
   events.forEach((e, i) => (e._i = i));
