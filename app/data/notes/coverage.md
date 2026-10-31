@@ -2,14 +2,14 @@
 
 Window 2026-10-31 → 2026-11-30. Target: at least 3 events per city.
 
-| City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors | community |
-|---|---|---|---|---|---|---|---|---|---|
-| Boston | 1004 | 330 | 264 | 104 | 32 | 64 | 50 | 73 | 87 |
-| Cambridge | 404 | 154 | 75 | 17 | 2 | 31 | 68 | 10 | 47 |
-| Somerville | 134 | 76 | 28 | 6 | 4 | 5 | 1 | 3 | 11 |
-| Brookline | 105 | 19 | 27 | 2 | 0 | 36 | 1 | 1 | 19 |
-| Medford | 32 | 3 | 6 | 3 | 0 | 1 | 12 | 6 | 1 |
-| Malden | 33 | 5 | 3 | 0 | 3 | 6 | 0 | 3 | 13 |
+| City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors |
+|---|---|---|---|---|---|---|---|---|
+| Boston | 917 | 330 | 264 | 104 | 32 | 64 | 50 | 73 |
+| Cambridge | 357 | 154 | 75 | 17 | 2 | 31 | 68 | 10 |
+| Somerville | 123 | 76 | 28 | 6 | 4 | 5 | 1 | 3 |
+| Brookline | 86 | 19 | 27 | 2 | 0 | 36 | 1 | 1 |
+| Medford | 31 | 3 | 6 | 3 | 0 | 1 | 12 | 6 |
+| Malden | 20 | 5 | 3 | 0 | 3 | 6 | 0 | 3 |
 
 ## Events per source (before merge)
 
@@ -53,7 +53,6 @@ Window 2026-10-31 → 2026-11-30. Target: at least 3 events per city.
 - boch-center: 9
 - brighton-music-hall: 22
 - assembly-row: 4
-- cache-medford: 0
 - patch-malden: 13
 - brookline-news: 37
 - somerville-arts-council: 1

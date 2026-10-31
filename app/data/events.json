@@ -203,18 +203,6 @@
     "sourceId": "bostoncentral"
   },
   {
-    "id": "6527db619f",
-    "title": "Veronica Robles Cultural Center Day of the...",
-    "city": "Boston",
-    "venue": "Veronica Robles Cultural Center",
-    "date": "2026-10-31",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/seasonalfun/p75521.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
     "id": "19cd2a6eb5",
     "title": "Comedy at Summer Shack ($15 + Free Parking!)...",
     "city": "Cambridge",
@@ -472,42 +460,6 @@
     "sourceId": "bostoncentral"
   },
   {
-    "id": "6aeb4c0f02",
-    "title": "Stronger Together Health Fair",
-    "city": "Boston",
-    "venue": "Boston",
-    "date": "2026-10-31",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/health/p90252.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
-    "id": "373275e8e4",
-    "title": "Dia de Muertos (Day of the Dead) Celebration...",
-    "city": "Boston",
-    "venue": "Boston",
-    "date": "2026-10-31",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/holiday/p62624.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
-    "id": "e0fb7653a5",
-    "title": "East Somerville Halloween Block Party and...",
-    "city": "Somerville",
-    "venue": "East Somerville",
-    "date": "2026-10-31",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/holiday/p90583.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
     "id": "ed961560d0",
     "title": "Halloween Celebration at Kings Bowling",
     "city": "Boston",
@@ -693,18 +645,6 @@
     "sourceId": "bostoncentral"
   },
   {
-    "id": "d563b94f15",
-    "title": "Black Heritage Trail Walking Tours | Boston...",
-    "city": "Boston",
-    "venue": "Black Heritage Trail",
-    "date": "2026-10-31",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.bostoncentral.com/events/tour/p66006.php",
-    "source": "Boston Central",
-    "sourceId": "bostoncentral"
-  },
-  {
     "id": "85a4985ae1",
     "title": "Ghosts and Gravestones Ghost Tour 2026",
     "city": "Boston",
@@ -742,19 +682,6 @@
     "sourceId": "bpl"
   },
   {
-    "id": "a494f84adc",
-    "title": "Exhibition: Life, Liberty, and the Pursuit of Happiness",
-    "city": "Boston",
-    "venue": "Central Library in Copley Square",
-    "date": "2026-10-31",
-    "endDate": "2026-12-02",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a5a5de8cca66c2f00a41753",
-    "description": "Free public exhibition and program series from the Community History Department, marking the 250th anniversary of the Declaration of Independence. Runs through December 2, 2026.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
     "id": "0fdf189869",
     "title": "Art Exhibition — Dan Wasserman: Face to Face",
     "city": "Boston",
@@ -764,18 +691,6 @@
     "category": "arts & theater",
     "url": "https://bpl.bibliocommons.com/v2/events/6a8ef647be148200298a2902",
     "description": "Exhibition of work by Dan Wasserman, part of the branch's 2026 rotating art series. Runs through November 10, 2026.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "f708c75bac",
-    "title": "Side Quest: Drop-in Crafts",
-    "city": "Boston",
-    "venue": "Shaw-Roxbury Branch Library",
-    "date": "2026-10-31",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6ace6e929d27a0004550a66d",
-    "description": "Drop in to the teen space any time after school for a variety of crafts during the Side Quest weeks. Runs through October 31, 2026.",
     "source": "Boston Public Library",
     "sourceId": "bpl"
   },
@@ -1019,20 +934,6 @@
     "sourceId": "fever-boston"
   },
   {
-    "id": "ccc003b51d",
-    "title": "View Boston Observation Deck Admission Tickets",
-    "city": "Boston",
-    "venue": "View Boston",
-    "date": "2026-10-31",
-    "endDate": "2027-04-28",
-    "category": "community",
-    "price": "From $15.00",
-    "url": "https://feverup.com/m/164889",
-    "description": "Observation deck admission. Runs 31 Oct 2026 - 28 Apr 2027.",
-    "source": "Fever Boston",
-    "sourceId": "fever-boston"
-  },
-  {
     "id": "0a3626a0d6",
     "title": "Boston Freedom Trail Self-Guided Walking Audio Tour",
     "city": "Boston",
@@ -1043,20 +944,6 @@
     "price": "From $10.00",
     "url": "https://feverup.com/m/650123",
     "description": "Self-guided audio walking tour of the Freedom Trail. Runs 31 Oct 2026 - 28 Jan 2027.",
-    "source": "Fever Boston",
-    "sourceId": "fever-boston"
-  },
-  {
-    "id": "a430743652",
-    "title": "Hop-on Hop-off Boston Old Town Trolley",
-    "city": "Boston",
-    "venue": "Tia's",
-    "date": "2026-10-31",
-    "endDate": "2027-01-26",
-    "category": "community",
-    "price": "From $51.45",
-    "url": "https://feverup.com/m/137806",
-    "description": "Hop-on hop-off trolley tour. Runs 31 Oct 2026 - 26 Jan 2027.",
     "source": "Fever Boston",
     "sourceId": "fever-boston"
   },
@@ -1454,20 +1341,6 @@
     "sourceId": "mos"
   },
   {
-    "id": "5bb16ad615",
-    "title": "Aging Together Medford",
-    "city": "Medford",
-    "venue": "Bonsignore Hall, Medford Public Library",
-    "date": "2026-10-31",
-    "startTime": "09:15",
-    "endTime": "11:30",
-    "category": "community",
-    "url": "https://www.medfordma.org/about/events-calendar/event-details/~occur-id/28088",
-    "description": "A talk by Dr. Anya Lepp of Beth Israel Deaconess on palliative care, what it is and how it can help at different stages. All are welcome.",
-    "source": "City of Medford events calendar",
-    "sourceId": "medford-city"
-  },
-  {
     "id": "0ad66ffe64",
     "title": "Good Morning, Newbury Street",
     "city": "Boston",
@@ -1517,108 +1390,6 @@
     "category": "family",
     "url": "https://bpl.bibliocommons.com/v2/events/6a207db24407827f8aa26704",
     "description": "Chess lessons with an experienced player covering moves, guidance and strategy.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "7221fc2b51",
-    "title": "Citizenship Preparation Class",
-    "city": "Boston",
-    "venue": "Central Library in Copley Square",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a7f7f62d4b10d0030068a8b",
-    "registerUrl": "https://bpl.bibliocommons.com/events/6a7f7f62d4b10d0030068a8b",
-    "description": "Part of an 11-week course, run with St. Mark Communication Education, preparing participants for the Naturalization interview. Registration required.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "5322b36aa8",
-    "title": "ESOL Conversation Group",
-    "city": "Boston",
-    "venue": "Codman Square Branch Library",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "11:30",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a79d5f9003cbf2bcbb9fbd2",
-    "description": "Informal, free-to-join group for adult learners to practice speaking English, led by a volunteer teacher. Meets every Saturday.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "c3d9033083",
-    "title": "Homebuyer Workshop with Neighborhood Assistance Corporation of America",
-    "city": "Boston",
-    "venue": "Central Library in Copley Square",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "14:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a849aadbe14820029882a1f",
-    "description": "Homebuyer workshop and community meeting hosted by the Neighborhood Assistance Corporation of America, covering topics related to homeownership.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "3ae3d6ea71",
-    "title": "Citizenship Exam Prep Class",
-    "city": "Boston",
-    "venue": "Roslindale Branch Library",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "price": "Free",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a8f111b29a7dd0d6746c75d",
-    "registerUrl": "https://bpl.bibliocommons.com/events/6a8f111b29a7dd0d6746c75d",
-    "description": "Free program, run with St. Mark Community Education Program, preparing participants for the citizenship test and the N-400 interview. Registration required.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "511b06c901",
-    "title": "Yarn & Craft Supply Swap",
-    "city": "Boston",
-    "venue": "Jamaica Plain Branch Library",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a8f128860ccaf01c0212c4d",
-    "description": "Bring unwanted yarn, hooks, needles, patterns, fabric or embroidery supplies to swap with other crafters.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "8c8938527a",
-    "title": "Spanish Language Conversation Group",
-    "city": "Boston",
-    "venue": "Connolly Branch Library",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "11:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6aa9a75b86d8450031165dc3",
-    "description": "Informal conversation practice in Spanish, best for intermediate speakers. No registration required.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "f1c1166047",
-    "title": "Race and Inclusion Book Group: The Boston Way by Mark Kurlansky",
-    "city": "Boston",
-    "venue": "Roslindale Branch Library",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "11:30",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6ac6b0e0a85a2c00337de3de",
-    "registerUrl": "https://bpl.bibliocommons.com/events/6ac6b0e0a85a2c00337de3de",
-    "description": "Hybrid book group discussing The Boston Way: Radicals Against Slavery & The Civil War by Mark Kurlansky. Registration required.",
     "source": "Boston Public Library",
     "sourceId": "bpl"
   },
@@ -1721,18 +1492,6 @@
     "sourceId": "do617"
   },
   {
-    "id": "e22db0ac06",
-    "title": "Halloween Parade",
-    "city": "Boston",
-    "venue": "Mary Ellen Welch Greenway",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/10/31/halloween-parade-tickets",
-    "source": "Do617",
-    "sourceId": "do617"
-  },
-  {
     "id": "575e279c5a",
     "title": "BOSTON RETAIL SHOW 2026",
     "city": "Boston",
@@ -1780,38 +1539,6 @@
     "sourceId": "harvard"
   },
   {
-    "id": "94db2c5afe",
-    "title": "Watershed Community Event: Veronica Robles Cultural Center Day of the Dead",
-    "city": "Boston",
-    "venue": "The Watershed at ICA",
-    "date": "2026-10-31",
-    "endDate": "2026-11-02",
-    "startTime": "10:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.icaboston.org/events/veronica-robles-cultural-center-day-of-the-dead/",
-    "description": "Free Day of the Dead community event with an altar and cultural programming, running Oct 31 to Nov 2. Hours are 10 AM to 5 PM on Oct 31 and Nov 1 and 10 AM to 4 PM on Nov 2.",
-    "source": "Institute of Contemporary Art",
-    "sourceId": "ica"
-  },
-  {
-    "id": "5e6534c884",
-    "title": "Halloween Bulb Blitz",
-    "city": "Somerville",
-    "venue": "The Independent (meeting point)",
-    "address": "75 Union Square, Somerville, MA 02143",
-    "date": "2026-10-31",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.somervillema.gov/events/2026/10/31/halloween-bulb-blitz",
-    "registerUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeBGSVxxfOCulRi674TEbLlvWHuZDgjQTY6LArlI-Z3yVOSTQ/viewform",
-    "description": "A volunteer session planting hundreds of bulbs in the garden planters along Somerville Ave. No experience needed; safety vests, gloves and bulbs are provided.",
-    "source": "City of Somerville events",
-    "sourceId": "somerville-city"
-  },
-  {
     "id": "4183b59662",
     "title": "Face Painting by FaceArt",
     "city": "Boston",
@@ -1852,22 +1579,6 @@
     "sourceId": "brookline-news"
   },
   {
-    "id": "9e1468c004",
-    "title": "U.S. Citizenship Course",
-    "city": "Cambridge",
-    "venue": "Harvard Art Museums",
-    "address": "32 Quincy St, Cambridge, MA 02138",
-    "date": "2026-10-31",
-    "startTime": "10:30",
-    "endTime": "12:30",
-    "category": "community",
-    "price": "Free",
-    "url": "https://cambridgeusa.org/event/u-s-citizenship-course/2026-10-31/",
-    "description": "A free 8-week course, run with the St. Mark Community Education Program, to prepare students for the U.S. citizenship exam's 100 civics questions.",
-    "source": "Cambridge Office for Tourism",
-    "sourceId": "cambridge-tourism"
-  },
-  {
     "id": "b087efa593",
     "title": "Frankenweenie",
     "city": "Brookline",
@@ -1905,34 +1616,6 @@
     "url": "https://bostonpublicmarket.org/bpm-events/fall-tea-blending-experience-with-curio-spice-co/2026-10-31/",
     "source": "Boston Public Market",
     "sourceId": "boston-public-market"
-  },
-  {
-    "id": "00315eb725",
-    "title": "Drop-in ESOL Conversation Group (Level 2 and higher)",
-    "city": "Boston",
-    "venue": "Central Library in Copley Square",
-    "date": "2026-10-31",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a0c6edd17731928001ac137",
-    "description": "Drop-in group for adult ESOL learners at Level 2 and higher to practice speaking English, led by a volunteer instructor.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
-  },
-  {
-    "id": "8ba0879548",
-    "title": "Drop-In Knitting",
-    "city": "Boston",
-    "venue": "Faneuil Branch Library",
-    "date": "2026-10-31",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://bpl.bibliocommons.com/v2/events/6a329b172ea730c17ab78bbd",
-    "description": "Weekly drop-in knitting group. Bring your own needles and yarn.",
-    "source": "Boston Public Library",
-    "sourceId": "bpl"
   },
   {
     "id": "8b8d9fd2ef",
@@ -1991,19 +1674,6 @@
     "sourceId": "ica"
   },
   {
-    "id": "529cbefa34",
-    "title": "GMAACC Halloween Neat Streets Neighborhood Cleanup",
-    "city": "Malden",
-    "venue": "GMAACC Center",
-    "date": "2026-10-31",
-    "startTime": "11:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.maldenevents.com/10/31/2026/gmaacc-halloween-neat-streets-neighborhood-cleanup/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
-  },
-  {
     "id": "27c7bf9ce6",
     "title": "Boston Stories",
     "city": "Boston",
@@ -2017,19 +1687,6 @@
     "description": "Guided tour.",
     "source": "Museum of Fine Arts",
     "sourceId": "mfa"
-  },
-  {
-    "id": "bff8520eed",
-    "title": "Neat Streets Campaign: with The Greater Malden Asian American Community Coalition (GMAACC)",
-    "city": "Malden",
-    "venue": "381 Pearl St",
-    "address": "381 Pearl St, Malden",
-    "date": "2026-10-31",
-    "startTime": "11:00",
-    "category": "community",
-    "url": "https://patch.com/massachusetts/malden/calendar/event/20261031/fa4d0677-6d63-4f60-8adc-878dfce2a46c/neat-streets-campaign-with-the-greater-malden-asian-american-community-coalition-gmaacc",
-    "source": "Patch Malden Calendar",
-    "sourceId": "patch-malden"
   },
   {
     "id": "508661d6f7",
@@ -2854,21 +2511,6 @@
     "sourceId": "eventbrite-boston-3"
   },
   {
-    "id": "b85086ba2d",
-    "title": "Dinner with Christians: Boston | Giving Back Edition",
-    "city": "Boston",
-    "venue": "Restaurant of the Week",
-    "address": "Dartmouth Street, Boston, MA",
-    "date": "2026-10-31",
-    "startTime": "19:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/dinner-with-christians-boston-giving-back-edition-tickets-1990363098607",
-    "description": "A ticketed community dinner with a giving-back theme.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
-  },
-  {
     "id": "e731387972",
     "title": "Big Ballers | Dinner with Entrepreneurs: Boston",
     "city": "Boston",
@@ -3071,21 +2713,6 @@
     "category": "food & drink",
     "url": "https://www.eventbrite.com/e/fright-night-in-fenway-halloween-night-all-access-bar-pass-tickets-2000044256210",
     "description": "An all-access bar pass for Fenway bars on Halloween night.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
-  },
-  {
-    "id": "bbed4aee39",
-    "title": "Harvard Book Store After Dark",
-    "city": "Cambridge",
-    "venue": "Harvard Book Store",
-    "address": "1256 Massachusetts Avenue, Cambridge, MA",
-    "date": "2026-10-31",
-    "startTime": "20:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/harvard-book-store-after-dark-tickets-1997977166489",
-    "description": "A Halloween evening of trick-or-treating and shopping at Harvard Book Store.",
     "source": "Eventbrite Boston",
     "sourceId": "eventbrite-boston"
   },
@@ -3293,20 +2920,6 @@
     "sourceId": "eventbrite-boston-5"
   },
   {
-    "id": "3aa2259122",
-    "title": "Haunted Hay Ride - Halloween 2026 @ Loretta's Last Call",
-    "city": "Boston",
-    "venue": "Loretta's Last Call",
-    "address": "1 Lansdowne Street, Boston, MA",
-    "date": "2026-10-31",
-    "startTime": "21:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/haunted-hay-ride-halloween-2026-lorettas-last-call-tickets-2002978854673",
-    "description": "A Halloween haunted hay ride night at Loretta's Last Call.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
-  },
-  {
     "id": "11a4e845f0",
     "title": "BOSTON HORROR STORY",
     "city": "Boston",
@@ -3442,20 +3055,6 @@
     "description": "A $1 Halloween party, $1 tickets before 11 pm for the first 100 in costume. 21+.",
     "source": "Eventbrite Boston (days 11-end)",
     "sourceId": "eventbrite-boston-5"
-  },
-  {
-    "id": "cadcf794ef",
-    "title": "002: TRICK OR TEASE",
-    "city": "Boston",
-    "venue": "Reunion BBQ",
-    "address": "439 Tremont Street, Boston, MA",
-    "date": "2026-10-31",
-    "startTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/002-trick-or-tease-tickets-2002250576373",
-    "description": "A queer Halloween party for queer people of color.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
   },
   {
     "id": "6b4b345745",
@@ -3943,19 +3542,6 @@
     "sourceId": "do617-2"
   },
   {
-    "id": "d452f1500b",
-    "title": "Find the Good Scavenger Hunt",
-    "city": "Boston",
-    "venue": "Boston",
-    "date": "2026-11-01",
-    "startTime": "09:00",
-    "category": "community",
-    "description": "Scavenger hunt running Oct 23 to Nov 13.",
-    "url": "https://do617.com/events/2026/10/23/find-the-good-scavenger-hunt-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
     "id": "d8637c1645",
     "title": "Where’s Boston? 50 Years Later",
     "city": "Boston",
@@ -4223,22 +3809,6 @@
     "sourceId": "mos"
   },
   {
-    "id": "ca787484ec",
-    "title": "Energy Clinics and Savings",
-    "city": "Boston",
-    "venue": "Grove Hall Branch of the Boston Public Library",
-    "address": "41 Geneva Avenue, Boston, MA",
-    "date": "2026-11-01",
-    "startTime": "11:30",
-    "endTime": "13:30",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.eventbrite.com/e/energy-clinics-and-savings-tickets-2003664938769",
-    "description": "In-person clinic to review Massachusetts Smart 3.0 bill protections and no-cost enrollment. Bring a recent bill.",
-    "source": "Eventbrite Boston (days 6-8)",
-    "sourceId": "eventbrite-boston-3"
-  },
-  {
     "id": "c82d6ba79d",
     "title": "Rhythms in the Garden with the Iris Percussion Quartet",
     "city": "Boston",
@@ -4253,22 +3823,6 @@
     "description": "The Iris Percussion Quartet performs a program of small percussion and found objects in the Leventritt Shrub and Vine Garden, including new pieces written for the concert.",
     "source": "Arnold Arboretum",
     "sourceId": "arnold-arboretum"
-  },
-  {
-    "id": "0a92e56c5a",
-    "title": "Antigua and Barbuda Flag Raising",
-    "city": "Boston",
-    "venue": "Boston City Hall Plaza",
-    "address": "1 City Hall Square, Boston, MA 02201",
-    "date": "2026-11-01",
-    "startTime": "12:00",
-    "endTime": "13:33",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16604676",
-    "description": "Annual flag raising celebrating the culture, history, and independence of Antiguans and Barbudans, with community leaders and music. All are welcome.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
   },
   {
     "id": "a2343e27d0",
@@ -4330,20 +3884,6 @@
     "sourceId": "northeastern"
   },
   {
-    "id": "3158fee55b",
-    "title": "Quilters Gathering",
-    "city": "Brookline",
-    "venue": "Conference Room - Brookline Village",
-    "date": "2026-11-01",
-    "startTime": "13:15",
-    "endTime": "16:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17753555",
-    "description": "A meeting of the Quilters' Connection community group.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
-  },
-  {
     "id": "6e11071251",
     "title": "Yuseok and Keaton's Fall Concert",
     "city": "Brookline",
@@ -4366,20 +3906,6 @@
     "startTime": "13:30",
     "category": "music",
     "url": "https://do617.com/events/2026/11/1/isabella-stewart-gardner-museum-eleanor-alberga-with-green-room-ensemble-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
-    "id": "ab144c56c8",
-    "title": "Boozy Bingo",
-    "city": "Boston",
-    "venue": "Blondie's",
-    "date": "2026-11-01",
-    "startTime": "14:00",
-    "endTime": "20:00",
-    "category": "community",
-    "description": "Weekly Sunday bingo at the bar.",
-    "url": "https://do617.com/events/weekly/sun/boozy-bingo-sundays-blondie-s-tickets",
     "source": "Do617 (days 2-3)",
     "sourceId": "do617-2"
   },
@@ -4788,18 +4314,6 @@
     "sourceId": "do617-2"
   },
   {
-    "id": "30972e295f",
-    "title": "New Beginnings Reentry Services, Inc. 10th Anniversary Fundraiser",
-    "city": "Boston",
-    "venue": "Strand Theatre",
-    "date": "2026-11-01",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/1/new-beginnings-reentry-services-inc-10th-anniversary-fundraiser-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
     "id": "11eb1cf122",
     "title": "Lizard Lounge Poetry Jam Slam Team Takeover",
     "city": "Cambridge",
@@ -4935,21 +4449,6 @@
     "sourceId": "harvard"
   },
   {
-    "id": "ef4aef95ac",
-    "title": "Muriel Siebert: Redefining Power and Possibility on Wall Street",
-    "city": "Boston",
-    "venue": "North Lobby, Baker Library | Bloomberg Center, Harvard Business School",
-    "address": "Soldiers Field Road, Boston",
-    "date": "2026-11-02",
-    "endDate": "2026-11-30",
-    "startTime": "07:00",
-    "endTime": "19:00",
-    "category": "community",
-    "url": "https://www.library.hbs.edu/special-collections-and-archives/exhibits/muriel-siebert",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
     "id": "f38ddac583",
     "title": "Pepita Lo-Fi Monday",
     "city": "Cambridge",
@@ -4977,22 +4476,6 @@
     "sourceId": "eventbrite-boston-3"
   },
   {
-    "id": "1595488458",
-    "title": "Cooking Up Change: Women’s Agency and Community Building Through Cookbooks",
-    "city": "Cambridge",
-    "venue": "Lia and William Poorvu Gallery, Schlesinger Library",
-    "address": "3 James St., Cambridge",
-    "date": "2026-11-02",
-    "endDate": "2026-11-27",
-    "startTime": "09:00",
-    "endTime": "16:30",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.radcliffe.harvard.edu/event/2026-cooking-up-change-exhibition",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
     "id": "16e8bafee1",
     "title": "General Exercise - Holland Street (Council on Aging)",
     "city": "Somerville",
@@ -5007,35 +4490,6 @@
     "sourceId": "somerville-city"
   },
   {
-    "id": "cba2a172c2",
-    "title": "Age Strong's Medicare Open Enrollment Clinics - Fenway",
-    "city": "Boston",
-    "venue": "Fenway Community Center",
-    "address": "1282 Boylston St #123, Fenway, Boston",
-    "date": "2026-11-02",
-    "startTime": "10:00",
-    "endTime": "15:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16626216",
-    "description": "Assess your Medicare and prescription plan annually to get the best coverage at the lowest cost.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
-  },
-  {
-    "id": "20ea789a8b",
-    "title": "Watershed Community Event | Veronica Robles Cultural Center Day of the Dead",
-    "city": "Boston",
-    "venue": "The Institute of Contemporary Art/Boston",
-    "date": "2026-11-02",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/2/watershed-community-event-veronica-robles-cultural-center-day-of-the-dead-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
     "id": "2098e0d355",
     "title": "50 Shades of Modern",
     "city": "Cambridge",
@@ -5046,37 +4500,6 @@
     "endTime": "17:00",
     "category": "arts & theater",
     "url": "https://library.harvard.edu/exhibits/50-shades-modern",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
-    "id": "cfcd9899cf",
-    "title": "Adam Smith and the other revolution of 1776",
-    "city": "Cambridge",
-    "venue": "Houghton Library",
-    "address": "Harvard Yard, Cambridge",
-    "date": "2026-11-02",
-    "endDate": "2026-11-27",
-    "startTime": "10:00",
-    "endTime": "17:00",
-    "category": "community",
-    "url": "https://library.harvard.edu/exhibits/adam-smith-and-other-revolution-1776",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
-    "id": "6981eb3535",
-    "title": "Harvard and the American Revolution",
-    "city": "Cambridge",
-    "venue": "Lammot du Pont Copeland Gallery, Pusey Library, Harvard University Archives",
-    "address": "Harvard Yard, Cambridge",
-    "date": "2026-11-02",
-    "endDate": "2026-11-27",
-    "startTime": "10:00",
-    "endTime": "18:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://library.harvard.edu/exhibits/harvard-and-american-revolution",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
   },
@@ -5109,20 +4532,6 @@
     "description": "An exhibit on Boston's first known all-woman architecture firm, founded in 1900 by Lois Lilley Howe. On view through May 27, 2027.",
     "source": "MIT Events",
     "sourceId": "mit"
-  },
-  {
-    "id": "6880b052da",
-    "title": "Coffee & Conversation Ralph & Jenny Center (Council on Aging)",
-    "city": "Somerville",
-    "venue": "Ralph & Jenny Center",
-    "date": "2026-11-02",
-    "startTime": "10:00",
-    "endTime": "11:00",
-    "category": "community",
-    "url": "https://www.somervillema.gov/events/2026/11/02/coffee-conversation-ralph-jenny-center-council-aging",
-    "description": "A staff-led discussion group on topics suggested by participants, held in a friendly and respectful setting.",
-    "source": "City of Somerville events",
-    "sourceId": "somerville-city"
   },
   {
     "id": "bbd2ba66d9",
@@ -5181,19 +4590,6 @@
     "sourceId": "somerville-city"
   },
   {
-    "id": "63984e2721",
-    "title": "Grand Opening: Free Education Staffing Training Center",
-    "city": "Malden",
-    "venue": "Free Education Staffing Center",
-    "date": "2026-11-02",
-    "startTime": "11:30",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.maldenevents.com/11/02/2026/grand-opening-free-education-staffing-training-center/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
-  },
-  {
     "id": "91f6253c4e",
     "title": "MICO In-Store Signing at Harvard Square 11/02",
     "city": "Boston",
@@ -5204,21 +4600,6 @@
     "url": "https://do617.com/events/2026/11/2/mico-in-store-signing-at-harvard-square-11-02-tickets",
     "source": "Do617 (days 2-3)",
     "sourceId": "do617-2"
-  },
-  {
-    "id": "beae99ff18",
-    "title": "Boston Semper Fidelis Society USMC Birthday Luncheon",
-    "city": "Boston",
-    "venue": "Thomas M. Menino Convention & Exhibition Center",
-    "address": "415 Summer Street, Boston, MA",
-    "date": "2026-11-02",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/boston-semper-fidelis-society-usmc-birthday-luncheon-tickets-1993796303415",
-    "description": "The Boston Semper Fidelis Society's 39th Marine Corps birthday luncheon.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
   },
   {
     "id": "2e1686e297",
@@ -5250,21 +4631,6 @@
     "sourceId": "mit"
   },
   {
-    "id": "592af981e4",
-    "title": "Daily Guided Meditation",
-    "city": "Boston",
-    "venue": "Center for Spirituality, Dialogue, and Service , Ell Hall 200",
-    "date": "2026-11-02",
-    "endDate": "2026-11-30",
-    "startTime": "12:00",
-    "endTime": "12:30",
-    "category": "community",
-    "url": "https://calendar.northeastern.edu/event/daily-guided-meditation",
-    "description": "Free, drop-in guided meditation. No registration or prior experience required; mats and cushions are provided.",
-    "source": "Northeastern University Calendar",
-    "sourceId": "northeastern"
-  },
-  {
     "id": "abd5fe9e5c",
     "title": "DECODING:ENCODING | Amen Ra Mashariki",
     "city": "Cambridge",
@@ -5277,49 +4643,6 @@
     "description": "A talk by Amen Ra Mashariki as part of the DECODING:ENCODING series.",
     "source": "MIT Events",
     "sourceId": "mit"
-  },
-  {
-    "id": "d065f74f31",
-    "title": "Nutrition at Ralph & Jenny (Council on Aging)",
-    "city": "Somerville",
-    "venue": "Ralph & Jenny Center",
-    "date": "2026-11-02",
-    "startTime": "12:30",
-    "category": "community",
-    "url": "https://www.somervillema.gov/events/2026/11/02/nutrition-ralph-jenny-council-aging",
-    "description": "A monthly nutrition class on building meal plans around personal needs and lifestyle.",
-    "source": "City of Somerville events",
-    "sourceId": "somerville-city"
-  },
-  {
-    "id": "bc50eef6b1",
-    "title": "Medication Takeback Day",
-    "city": "Cambridge",
-    "venue": "Citywide Senior Center",
-    "address": "806 Massachusetts Ave., Cambridge, MA 02139",
-    "date": "2026-11-02",
-    "startTime": "13:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/citycalendar/2026/11/02/cambridge’s27thannualfamilyliteracyfunday",
-    "description": "Dispose of unused medications safely with the Cambridge Public Health Department, Police Department and Council on Aging.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "20fc9bba98",
-    "title": "SNAP and MassHealth Assistance at Central Square Library",
-    "city": "Cambridge",
-    "venue": "Central Square Branch, Cambridge Public Library",
-    "address": "45 Pearl St., Cambridge, MA 02139",
-    "date": "2026-11-02",
-    "startTime": "13:00",
-    "endTime": "16:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/02/snapmasshealthassistance",
-    "description": "In-person help understanding SNAP and MassHealth requirement changes, checking eligibility and next steps.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "e39ce10a0f",
@@ -5404,18 +4727,6 @@
     "description": "Free, drop-in yoga for all levels. No registration or prior experience required; mats and blocks are provided.",
     "source": "Northeastern University Calendar",
     "sourceId": "northeastern"
-  },
-  {
-    "id": "c044fcd386",
-    "title": "Boston Queer Fiber Arts Night",
-    "city": "Somerville",
-    "venue": "Aeronaut Brewing Company",
-    "date": "2026-11-02",
-    "startTime": "18:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/2/boston-queer-fiber-arts-night-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
   },
   {
     "id": "ff055c36d7",
@@ -5567,30 +4878,6 @@
     "startTime": "19:00",
     "category": "music",
     "url": "https://do617.com/events/2026/11/2/elan-mehler-trio-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
-    "id": "26d5655176",
-    "title": "Millennial Speed-Dating (Monogamous)",
-    "city": "Somerville",
-    "venue": "Aeronaut Brewing Company",
-    "date": "2026-11-02",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/2/millennial-speed-dating-monogamous-tickets",
-    "source": "Do617 (days 2-3)",
-    "sourceId": "do617-2"
-  },
-  {
-    "id": "1871d4aeff",
-    "title": "Jeopardy Bar League",
-    "city": "Cambridge",
-    "venue": "Lamplighter Brewing Company",
-    "date": "2026-11-02",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/2/jeopardy-bar-league-tickets",
     "source": "Do617 (days 2-3)",
     "sourceId": "do617-2"
   },
@@ -5784,35 +5071,6 @@
     "description": "An exhibition running from June 15 to November 8.",
     "source": "Do617 (days 4-5)",
     "sourceId": "do617-3"
-  },
-  {
-    "id": "561b4ed6a0",
-    "title": "Civic Engagement Discovery Day",
-    "city": "Malden",
-    "venue": "First Parish Malden",
-    "date": "2026-11-03",
-    "startTime": "09:00",
-    "category": "community",
-    "url": "https://www.maldenevents.com/11/03/2026/civic-engagement-discovery-day/",
-    "registerUrl": "https://tinyurl.com/CUUSP11326",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
-  },
-  {
-    "id": "a74c7201a9",
-    "title": "Age Strong's Medicare Open Enrollment Clinics - Roxbury",
-    "city": "Boston",
-    "venue": "Central Boston Elder Services",
-    "address": "2315 Washington St, Roxbury, Boston",
-    "date": "2026-11-03",
-    "startTime": "10:00",
-    "endTime": "15:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16626221",
-    "description": "Assess your Medicare and prescription plan annually to get the best coverage at the lowest cost.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
   },
   {
     "id": "dea85b052d",
@@ -6016,38 +5274,6 @@
     "sourceId": "harvard"
   },
   {
-    "id": "a47061db3b",
-    "title": "LGBTQ+ Youth Vision Board Workshop",
-    "city": "Boston",
-    "venue": "26 Court St, Conference Room 324",
-    "address": "26 Court St, Boston, MA",
-    "date": "2026-11-03",
-    "startTime": "15:00",
-    "endTime": "17:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdsKj9alxec7FzCZ9hHJr-uxl-MSfxL2fFrMWgXc4rGMm0WZg/viewform?usp=sharing&ouid=112271449268108902874",
-    "description": "Create a vision board about your interests, goals, favorite things, and people who inspire you.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
-  },
-  {
-    "id": "075f7a0bac",
-    "title": "Free Bike Repair at BCYF Blackstone",
-    "city": "Boston",
-    "venue": "BCYF Blackstone",
-    "address": "50 West Brookline Street, Boston, MA 02118",
-    "date": "2026-11-03",
-    "startTime": "15:30",
-    "endTime": "17:30",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16634816",
-    "description": "A free, hands-on bike repair workshop for flat tires, brakes, and gears.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
-  },
-  {
     "id": "7e5defdbfa",
     "title": "Crafternoon: Paper Spaceships (Collins)",
     "city": "Cambridge",
@@ -6074,21 +5300,6 @@
     "category": "family",
     "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/03/crafternoonlibrarycarddesigncontestmain",
     "description": "Create a design with library art supplies to enter the library card design contest.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "04ca7c1a0c",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-03",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/03/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
   },
@@ -6151,20 +5362,6 @@
     "sourceId": "eventbrite-boston"
   },
   {
-    "id": "034de0b8e1",
-    "title": "What is Your Light?",
-    "city": "Cambridge",
-    "venue": "Building W15: MIT Chapel",
-    "date": "2026-11-03",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/what-is-your-light-2026",
-    "description": "A drop-in community event at the MIT Chapel with cider and hot chocolate, presented by the MIT Office of Religious, Spiritual, and Ethical Life. Stay as long as you like.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
     "id": "fda06629af",
     "title": "AJ McLean",
     "city": "Boston",
@@ -6209,19 +5406,6 @@
     "startTime": "19:00",
     "category": "family",
     "url": "https://do617.com/events/2026/11/3/disney-descendants-zombies-camp-rock-worlds-collide-concert-tour-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
-    "id": "b18414f080",
-    "title": "Hooks and Books",
-    "city": "Boston",
-    "venue": "Trident Booksellers & Cafe",
-    "date": "2026-11-03",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/3/hooks-and-books-tickets",
     "source": "Do617 (days 4-5)",
     "sourceId": "do617-3"
   },
@@ -6385,19 +5569,6 @@
     "description": "An open mic followed by a discussion with poet Sarah C. Beckmann, moderated by Josh Breeden. Part of the SomerWrites series.",
     "source": "Somerville Arts Council",
     "sourceId": "somerville-arts-council"
-  },
-  {
-    "id": "0682e5ec76",
-    "title": "Musical Bingo",
-    "city": "Boston",
-    "venue": "Mighty Squirrel Brewing Co.",
-    "date": "2026-11-03",
-    "startTime": "19:30",
-    "category": "community",
-    "url": "https://do617.com/events/weekly/tue/musical-bingo-tickets",
-    "description": "A weekly musical bingo night on Tuesdays.",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
   },
   {
     "id": "9cec272046",
@@ -6574,20 +5745,6 @@
     "description": "Guided tour.",
     "source": "Museum of Fine Arts",
     "sourceId": "mfa"
-  },
-  {
-    "id": "f277e10637",
-    "title": "MIT Reads' Pop Up Library",
-    "city": "Cambridge",
-    "venue": "Building 10, Lobby 10",
-    "date": "2026-11-04",
-    "startTime": "11:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/mit-reads-pop-up-library",
-    "description": "A pop-up book collection inspired by this fall's MIT Reads selection, Exhalation by Ted Chiang. Browse and check out a book.",
-    "source": "MIT Events",
-    "sourceId": "mit"
   },
   {
     "id": "f2d6ea2ad3",
@@ -6808,19 +5965,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "397576ba71",
-    "title": "Create for Wellness",
-    "city": "Malden",
-    "venue": "75 Pleasant St",
-    "address": "75 Pleasant St, Malden",
-    "date": "2026-11-04",
-    "startTime": "15:00",
-    "category": "community",
-    "url": "https://patch.com/massachusetts/malden/calendar/event/20261104/784b384f-c6df-4c9a-b5da-bc3d7d530add/create-for-wellness",
-    "source": "Patch Malden Calendar",
-    "sourceId": "patch-malden"
-  },
-  {
     "id": "4887d4ac78",
     "title": "Ed Popielarczyk Magic Show: Session 2",
     "city": "Brookline",
@@ -6916,21 +6060,6 @@
     "description": "An interactive program in collaboration with World Forestry Center and The Air We Share on the impacts of wildfire on human and forest health, and what communities can do to become smoke ready.",
     "source": "Museum of Science",
     "sourceId": "mos"
-  },
-  {
-    "id": "dab850e7a4",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-04",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/04/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "a4ef6350e6",
@@ -7042,18 +6171,6 @@
     "sourceId": "do617-3"
   },
   {
-    "id": "d0fc6361ac",
-    "title": "Magic: The Gathering - Game night",
-    "city": "Boston",
-    "venue": "Mighty Squirrel Brewing Co.",
-    "date": "2026-11-04",
-    "startTime": "18:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/4/magic-the-gathering-game-night-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
     "id": "cf11efcf3f",
     "title": "AMA Boston: AI in Marketing: Beyond the Hype, Into Practice",
     "city": "Boston",
@@ -7119,30 +6236,6 @@
     "sourceId": "do617-3"
   },
   {
-    "id": "babcfb64d8",
-    "title": "Party Around the World: Celebrating Language, Culture and Connection",
-    "city": "Somerville",
-    "venue": "Arts At The Armory",
-    "date": "2026-11-04",
-    "startTime": "18:30",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/4/party-around-the-world-celebrating-language-culture-and-connection-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
-    "id": "05f0a04dbf",
-    "title": "Boston Social Conversations | Millennial Crisis",
-    "city": "Somerville",
-    "venue": "Aeronaut Brewing Company",
-    "date": "2026-11-04",
-    "startTime": "18:30",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/4/boston-social-conversations-millennial-crisis-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
     "id": "4cf8729543",
     "title": "Countertenor: Anthony Roth Costanzo on the voice that helped define contemporary opera",
     "city": "Boston",
@@ -7194,20 +6287,6 @@
     "sourceId": "brookline-news"
   },
   {
-    "id": "53f56e13af",
-    "title": "Brewery Book Club (Lamplighter)",
-    "city": "Cambridge",
-    "venue": "Lamplighter Brewing Co.",
-    "date": "2026-11-04",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/04/brewerybookclublamplighter",
-    "description": "November Brewery Book Club run by Lamplighter and the Cambridge Public Library, discussing contemporary works from marginalized voices over a beer.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "86e7cdc867",
     "title": "ThotBot Remediation: Immersive Theater & Live Music",
     "city": "Somerville",
@@ -7217,19 +6296,6 @@
     "endTime": "21:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/11/4/thotbot-remediation-immersive-theater-live-music-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
-    "id": "fe8021baa2",
-    "title": "Joey Clift with Vanessa Lillie: We've Been Here the Whole Time",
-    "city": "Brookline",
-    "venue": "Brookline Booksmith",
-    "date": "2026-11-04",
-    "startTime": "19:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/4/joey-clift-with-vanessa-lillie-we-ve-been-here-the-whole-time-tickets",
     "source": "Do617 (days 4-5)",
     "sourceId": "do617-3"
   },
@@ -7344,18 +6410,6 @@
     "sourceId": "do617-3"
   },
   {
-    "id": "3c83c332b2",
-    "title": "Cambridge Public Library Book Club",
-    "city": "Cambridge",
-    "venue": "Lamplighter Brewing Company",
-    "date": "2026-11-04",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/4/cambridge-public-library-book-club-tickets",
-    "source": "Do617 (days 4-5)",
-    "sourceId": "do617-3"
-  },
-  {
     "id": "95e5e83e81",
     "title": "The World Spins To Bring Us Closer",
     "city": "Boston",
@@ -7366,20 +6420,6 @@
     "url": "https://do617.com/events/2026/11/4/the-world-spins-to-bring-us-closer-tickets",
     "source": "Do617 (days 4-5)",
     "sourceId": "do617-3"
-  },
-  {
-    "id": "801bba7cf8",
-    "title": "Bats in the City! Talk on Urban Bats at Malden Library",
-    "city": "Malden",
-    "venue": "Malden Public Library",
-    "date": "2026-11-04",
-    "startTime": "19:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.maldenevents.com/11/04/2026/bats-in-the-city-talk-on-urban-bats-at-malden-library/",
-    "registerUrl": "https://maldenpubliclibrary.assabetinteractive.com/calendar/bats/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
   },
   {
     "id": "3484d7d0ab",
@@ -7625,22 +6665,6 @@
     "sourceId": "mit"
   },
   {
-    "id": "ac03282888",
-    "title": "Age Strong's Medicare Open Enrollment Clinics - Roslindale",
-    "city": "Boston",
-    "venue": "Boston Center for Youth & Families Roslindale",
-    "address": "6 Cummins Hwy, Roslindale, Boston",
-    "date": "2026-11-05",
-    "startTime": "10:00",
-    "endTime": "15:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16626226",
-    "description": "Assess your Medicare and prescription plan annually to get the best coverage at the lowest cost.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
-  },
-  {
     "id": "6666c83666",
     "title": "Ruckus!",
     "city": "Boston",
@@ -7708,21 +6732,6 @@
     "sourceId": "mit"
   },
   {
-    "id": "1d1e6115e8",
-    "title": "SNAP and MassHealth Assistance at Cambridge Senior Center",
-    "city": "Cambridge",
-    "venue": "Cambridge Senior Center",
-    "address": "806 Massachusetts Ave., Cambridge, MA 02139",
-    "date": "2026-11-05",
-    "startTime": "12:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/05/snapmasshealthassistance",
-    "description": "In-person help understanding SNAP and MassHealth requirement changes, checking eligibility and next steps.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "efb068bedd",
     "title": "Gallery Highlights",
     "city": "Boston",
@@ -7736,19 +6745,6 @@
     "description": "Guided tour.",
     "source": "Museum of Fine Arts",
     "sourceId": "mfa"
-  },
-  {
-    "id": "53c9609efa",
-    "title": "Wellness Class for People with Dementia and Loved Ones",
-    "city": "Malden",
-    "venue": "Malden Senior Center",
-    "date": "2026-11-05",
-    "startTime": "12:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.maldenevents.com/11/05/2026/wellness-class-for-people-with-dementia-and-loved-ones/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
   },
   {
     "id": "665bde665b",
@@ -7778,20 +6774,6 @@
     "description": "Guided tour.",
     "source": "Museum of Fine Arts",
     "sourceId": "mfa"
-  },
-  {
-    "id": "a696a3c221",
-    "title": "Go Green After Halloween",
-    "city": "Brookline",
-    "venue": "West Centre Street Parking Lot",
-    "date": "2026-11-05",
-    "startTime": "13:30",
-    "endTime": "18:30",
-    "category": "community",
-    "url": "https://www.brooklinema.gov/m/newsflash/Home/Detail/2624",
-    "description": "Brookline DPW's fourth annual event for recycling pumpkins and gourds, held during the Brookline Farmer's Market.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
   },
   {
     "id": "9e5b5d226a",
@@ -7863,22 +6845,6 @@
     "description": "A talk by visiting scholars Youdi Wang, a guqin performer, and Bing Wei, a curator and artist, at Northeastern.",
     "source": "Northeastern University Calendar",
     "sourceId": "northeastern"
-  },
-  {
-    "id": "2566247c76",
-    "title": "Immigrant Advancement Community Office Hours - East Boston",
-    "city": "Boston",
-    "venue": "365 Bremen St.",
-    "address": "365 Bremen St., Boston, MA 02128",
-    "date": "2026-11-05",
-    "startTime": "16:00",
-    "endTime": "19:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16102406",
-    "description": "In-person community office hours from the Immigrant Advancement office.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
   },
   {
     "id": "1da07babfa",
@@ -7994,37 +6960,6 @@
     "description": "A discussion with GE Vernova's chief corporate officer and chief sustainability officer, Roger Martella, on the energy transition.",
     "source": "MIT Events",
     "sourceId": "mit"
-  },
-  {
-    "id": "eb2adc7b04",
-    "title": "Workshop on BERDO Compliance for Condo and Co-op Associations",
-    "city": "Boston",
-    "venue": "Civic Pavilion",
-    "address": "1 City Hall Square, Boston, MA 02201",
-    "date": "2026-11-05",
-    "startTime": "17:30",
-    "endTime": "19:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.boston.gov/node/16626181",
-    "description": "An interactive City of Boston and Emerald Cities Collaborative workshop introducing the BERDO Condo and Co-op Workbook for planning building compliance.",
-    "source": "City of Boston events",
-    "sourceId": "boston-gov"
-  },
-  {
-    "id": "932d309ee4",
-    "title": "Spanish Conversation Group (O'Connell)",
-    "city": "Cambridge",
-    "venue": "O'Connell Branch, Cambridge Public Library",
-    "address": "48 Sixth St., Cambridge, MA 02141",
-    "date": "2026-11-05",
-    "startTime": "17:30",
-    "endTime": "18:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/05/spanishconversationgroupoconnell",
-    "description": "Friendly group for practicing Spanish, for learners and advanced speakers alike.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "ff0caf88d2",
@@ -8218,18 +7153,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "ba3cb04304",
-    "title": "Lectures on Tap – “The Songwriting Genius of Bob Dylan”",
-    "city": "Boston",
-    "venue": "Dorchester Brewing Company",
-    "date": "2026-11-05",
-    "startTime": "18:30",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/5/lectures-on-tap-the-songwriting-genius-of-bob-dylan-tickets",
-    "source": "Do617 (days 6-7)",
-    "sourceId": "do617-4"
-  },
-  {
     "id": "c61590945f",
     "title": "Artisans Asylum Speaker Series: Alison Croney Moses",
     "city": "Boston",
@@ -8260,20 +7183,6 @@
     "sourceId": "harvard"
   },
   {
-    "id": "1eaba75bec",
-    "title": "The Farther Shore: A Book Conversation with Seth Fleisher, MTS ’98, and Professor Charles Hallisey",
-    "city": "Cambridge",
-    "venue": "James Room East, Swartz Hall, Harvard Divinity School",
-    "address": "45 Francis Avenue, Cambridge, MA 02138",
-    "date": "2026-11-05",
-    "startTime": "18:30",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://luma.com/bm8ip94y",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
     "id": "dd0debbcbd",
     "title": "Kylie Morgan: Healed Cowgirl Tour",
     "city": "Boston",
@@ -8285,20 +7194,6 @@
     "url": "https://www.ticketmaster.com/kylie-morgan-healed-cowgirl-tour-boston-massachusetts-11-05-2026/event/01006434D67AD484",
     "source": "Brighton Music Hall",
     "sourceId": "brighton-music-hall"
-  },
-  {
-    "id": "a772774c78",
-    "title": "Brookline High School Innovation Fund – GALA-RAMA",
-    "city": "Brookline",
-    "venue": "Not listed",
-    "date": "2026-11-05",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://bhsinnovationfund.org/gala-rama/",
-    "price": "$250",
-    "description": "Fundraising gala supporting education and innovation at Brookline High School. Adults only.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
   },
   {
     "id": "f115aed4b1",
@@ -8475,18 +7370,6 @@
     "sourceId": "do617-4"
   },
   {
-    "id": "d828bdbc3f",
-    "title": "Duty, Sacrifice, Honor: Unsung Black Veterans in U.S. History",
-    "city": "Boston",
-    "venue": "Strand Theater",
-    "date": "2026-11-05",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/5/duty-sacrifice-honor-unsung-black-veterans-in-u-s-history-tickets",
-    "source": "Do617 (days 6-7)",
-    "sourceId": "do617-4"
-  },
-  {
     "id": "e5697b6fd2",
     "title": "Wild Horse Nine",
     "city": "Brookline",
@@ -8521,21 +7404,6 @@
     "url": "https://do617.com/events/2026/11/5/creature-feature-tickets",
     "source": "Do617 (days 6-7)",
     "sourceId": "do617-4"
-  },
-  {
-    "id": "72a7b83063",
-    "title": "Harvard Chan South Asia Students Association for Jashn-e-Diwali",
-    "city": "Boston",
-    "venue": "Vanderbilt JBM Hall, Student Lounge",
-    "address": "107 Avenue Louis Pasteur, Boston, MA",
-    "date": "2026-11-05",
-    "startTime": "19:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/harvard-chan-south-asia-students-association-for-jashn-e-diwali-tickets-2003670075132",
-    "description": "A Diwali celebration with an evening of cultural programming.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
   },
   {
     "id": "f5e8e73313",
@@ -8787,21 +7655,6 @@
     "sourceId": "do617-4"
   },
   {
-    "id": "f2773b8438",
-    "title": "Fashionably Late: Boston Fashion Nights",
-    "city": "Boston",
-    "venue": "The Liberty, a Luxury Collection Hotel, Boston",
-    "address": "215 Charles Street, Boston, MA",
-    "date": "2026-11-05",
-    "startTime": "20:30",
-    "endTime": "22:30",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/fashionably-late-boston-fashion-nights-tickets-1999285908973",
-    "description": "An evening fashion night at The Liberty hotel.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
-  },
-  {
     "id": "37e6622f90",
     "title": "BT Allstars 1st Thursdays Spring Residency!!",
     "city": "Boston",
@@ -8875,21 +7728,6 @@
     "url": "https://do617.com/events/2026/11/6/pepita-lo-fi-friday-tickets",
     "source": "Do617 (days 6-7)",
     "sourceId": "do617-4"
-  },
-  {
-    "id": "c8209bb13f",
-    "title": "SNAP and MassHealth Assistance at North Cambridge Senior Center",
-    "city": "Cambridge",
-    "venue": "North Cambridge Senior Center",
-    "address": "2050 Massachusetts Ave., Cambridge, MA 02140",
-    "date": "2026-11-06",
-    "startTime": "09:30",
-    "endTime": "11:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/06/copyofsnapmasshealthassistance",
-    "description": "In-person help understanding SNAP and MassHealth requirement changes, checking eligibility and next steps.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "c6a5b57ef5",
@@ -9116,20 +7954,6 @@
     "sourceId": "harvard"
   },
   {
-    "id": "0a3311e550",
-    "title": "Bagel Break with Milena Pagan `11",
-    "city": "Cambridge",
-    "venue": "Building 50: Walker Memorial, 250",
-    "date": "2026-11-06",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/bagel-break-with-milena-pagan-11",
-    "description": "A bagel break with MIT alumna Milena Pagan, who will talk about founding Rebelle Artisan Bagels.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
     "id": "d9db1a848d",
     "title": "Sunset Lighthouse Cruise",
     "city": "Boston",
@@ -9150,18 +7974,6 @@
     "startTime": "18:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/11/6/the-scout-click-for-showtimes-tickets",
-    "source": "Do617 (days 6-7)",
-    "sourceId": "do617-4"
-  },
-  {
-    "id": "39873b51ca",
-    "title": "A Salute To Service",
-    "city": "Boston",
-    "venue": "USS Constitution Museum",
-    "date": "2026-11-06",
-    "startTime": "18:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/6/a-salute-to-service-tickets",
     "source": "Do617 (days 6-7)",
     "sourceId": "do617-4"
   },
@@ -9189,21 +8001,6 @@
     "category": "sports & outdoors",
     "url": "https://www.eventbrite.com/e/skate-it-forward-series-tickets-1987940061237",
     "description": "A roller skating session hosted by MaceyOMaze to support educational equity.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
-  },
-  {
-    "id": "1dea853908",
-    "title": "WISE Boston Women of Inspiration 2026",
-    "city": "Boston",
-    "venue": "100 Causeway Street",
-    "address": "100 Causeway Street, Boston, MA",
-    "date": "2026-11-06",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/wise-boston-women-of-inspiration-2026-tickets-2002433760281",
-    "description": "An evening celebrating women making an impact in Boston.",
     "source": "Eventbrite Boston (days 3-5)",
     "sourceId": "eventbrite-boston-2"
   },
@@ -9629,20 +8426,6 @@
     "sourceId": "allevents-boston"
   },
   {
-    "id": "0992eae11d",
-    "title": "Shmooze, Booze, and 26.2",
-    "city": "Brookline",
-    "venue": "Brookline Teen Center",
-    "date": "2026-11-06",
-    "startTime": "20:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/2003064758614?aff=oddtdtcreator",
-    "price": "Free",
-    "description": "Fundraiser kicking off a Boston Marathon run for the Brookline Teen Center, with free drinks, food and games.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
-  },
-  {
     "id": "e8f30794df",
     "title": "Puppet Showplace Theater Presents: An Evening with Mr. Vernon Watercress by Nate Puppets",
     "city": "Brookline",
@@ -10011,64 +8794,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "e3e718ed3b",
-    "title": "Access Off Hours",
-    "city": "Boston",
-    "venue": "Museum of Science",
-    "date": "2026-11-07",
-    "startTime": "08:00",
-    "endTime": "09:00",
-    "category": "community",
-    "url": "https://www.mos.org/events/access-hours",
-    "description": "Masked access hours with the Museum experience as it typically is during public hours, with capacity limited to 150 people for a quieter, less crowded visit.",
-    "source": "Museum of Science",
-    "sourceId": "mos"
-  },
-  {
-    "id": "0d9dac7f5e",
-    "title": "College Preparedness Conference",
-    "city": "Cambridge",
-    "venue": "MIT",
-    "address": "77 Massachusetts Ave., Cambridge, MA 02138",
-    "date": "2026-11-07",
-    "startTime": "09:00",
-    "endTime": "14:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/07/collegepreparednessconference",
-    "description": "Conference for Cambridge students and families on college tools and resources, hosted by Cambridge Public Schools, The Village and the College Success Initiative.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "d4e78540ae",
-    "title": "Household Hazardous Waste Collection Day",
-    "city": "Cambridge",
-    "venue": "50 Mooney Street",
-    "address": "50 Mooney Street, Cambridge, MA",
-    "date": "2026-11-07",
-    "startTime": "09:00",
-    "endTime": "13:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/publicworks/Calendar/2026/11/07/householdhazardouswastecollectionday",
-    "description": "The final Household Hazardous Waste Collection Day of 2026.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "030e6d7bc7",
-    "title": "Find the Good Scavenger Hunt",
-    "city": "Boston",
-    "venue": "Boston",
-    "date": "2026-11-07",
-    "endDate": "2026-11-09",
-    "startTime": "09:00",
-    "category": "community",
-    "description": "Scavenger hunt running Oct 23 to Nov 13.",
-    "url": "https://do617.com/events/2026/10/23/find-the-good-scavenger-hunt-tickets",
-    "source": "Do617 (days 8-10)",
-    "sourceId": "do617-5"
-  },
-  {
     "id": "63672825a3",
     "title": "Where’s Boston? 50 Years Later",
     "city": "Boston",
@@ -10093,21 +8818,6 @@
     "url": "https://do617.com/events/2026/11/7/pilates-in-the-sky-with-boston-body-pilates-at-view-boston-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
-  },
-  {
-    "id": "6e386c850d",
-    "title": "Give Veterans a Smile",
-    "city": "Boston",
-    "venue": "Harvard Dental Center",
-    "address": "188 Longwood Ave, Boston",
-    "date": "2026-11-07",
-    "startTime": "09:00",
-    "endTime": "12:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.hsdm.harvard.edu/event/give-vets-smile",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
   },
   {
     "id": "ae191a225a",
@@ -10189,19 +8899,6 @@
     "url": "https://do617.com/events/2026/11/7/drop-in-kids-craft-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
-  },
-  {
-    "id": "76f23318c5",
-    "title": "City of Malden - Community Planning Workshop",
-    "city": "Malden",
-    "venue": "Malden Teen & Senior Center",
-    "date": "2026-11-07",
-    "startTime": "10:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.maldenevents.com/11/07/2026/city-of-malden-community-planning-workshop/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
   },
   {
     "id": "371db7d84e",
@@ -10453,18 +9150,6 @@
     "startTime": "12:00",
     "category": "festivals & markets",
     "url": "https://do617.com/events/2026/11/7/renaissance-faire-1787089569",
-    "source": "Do617 (days 8-10)",
-    "sourceId": "do617-5"
-  },
-  {
-    "id": "ca9e1f1892",
-    "title": "Boston Veterans Parade",
-    "city": "Boston",
-    "venue": "Boston Common",
-    "date": "2026-11-07",
-    "startTime": "12:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/7/boston-veterans-parade-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
   },
@@ -10725,21 +9410,6 @@
     "description": "Flute master class with Hayley Miller of the Boston Ballet Orchestra and Albany Symphony Orchestra.",
     "source": "Brookline.News Events",
     "sourceId": "brookline-news"
-  },
-  {
-    "id": "9cbb6ce406",
-    "title": "Rev. Burns Stanfield Retirement Celebration & Show 11/7/2026",
-    "city": "Boston",
-    "venue": "Boston College High School",
-    "address": "150 Morrissey Boulevard, Boston, MA",
-    "date": "2026-11-07",
-    "startTime": "17:30",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/rev-burns-stanfield-retirement-celebration-show-1172026-tickets-1990505089305",
-    "description": "An in-person celebration honoring Reverend Burns Stanfield's ministry.",
-    "source": "Eventbrite Boston (days 6-8)",
-    "sourceId": "eventbrite-boston-3"
   },
   {
     "id": "32e2aa99a8",
@@ -11460,21 +10130,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "8cbd1a201e",
-    "title": "Rev. Burns Stanfield Retirement Worship and Blessing Service 11/8/2026",
-    "city": "Boston",
-    "venue": "Fourth Presbyterian Church",
-    "address": "340 Dorchester Street, Boston, MA",
-    "date": "2026-11-08",
-    "startTime": "10:30",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/rev-burns-stanfield-retirement-worship-and-blessing-service-1182026-tickets-1991498117479",
-    "description": "A retirement worship service and blessing with guest preacher Rev. Hurmon Hamilton, followed by a reception.",
-    "source": "Eventbrite Boston (days 6-8)",
-    "sourceId": "eventbrite-boston-3"
-  },
-  {
     "id": "45f57e6973",
     "title": "SoWa Open Market",
     "city": "Boston",
@@ -11728,19 +10383,6 @@
     "url": "https://do617.com/events/2026/11/8/emily-and-the-galaxy-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
-  },
-  {
-    "id": "84bf2c33d2",
-    "title": "CISV Massachusetts Informational Event",
-    "city": "Brookline",
-    "venue": "Not listed",
-    "date": "2026-11-08",
-    "startTime": "15:00",
-    "category": "community",
-    "url": "https://springfield.cisvusa.org/",
-    "description": "Informational event about CISV Massachusetts, a global youth organization focused on friendship and world cultures.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
   },
   {
     "id": "7980d82d2e",
@@ -12148,20 +10790,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "10b68122fb",
-    "title": "Winter Preparedness with Emergency Preparedness Coordinator Sara Schaffer",
-    "city": "Brookline",
-    "venue": "Meeting Room - Putterham",
-    "date": "2026-11-09",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17853470",
-    "description": "How to prepare yourself, your home and your pets for a New England winter, led by the Town Emergency Preparedness Coordinator.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
-  },
-  {
     "id": "81bf14741c",
     "title": "Boston Stories",
     "city": "Boston",
@@ -12275,35 +10903,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "8d0f5fb2d9",
-    "title": "Autumn LGBTQ+ Job Fair",
-    "city": "Boston",
-    "venue": "NonProfit Center",
-    "address": "89 South St, Boston, MA 02111",
-    "date": "2026-11-09",
-    "startTime": "15:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://luma.com/fnt5pmr4",
-    "source": "Luma Boston",
-    "sourceId": "luma-boston"
-  },
-  {
-    "id": "9db8fa0247",
-    "title": "Green Energy Consumers Fall Meeting",
-    "city": "Boston",
-    "venue": "Artists For Humanity",
-    "address": "100 West 2nd Street, Boston, MA",
-    "date": "2026-11-09",
-    "startTime": "17:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/green-energy-consumers-fall-meeting-tickets-2001889844414",
-    "description": "A fall meeting celebrating progress toward a zero-carbon future and planning for the next steps.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
-  },
-  {
     "id": "c423a925ff",
     "title": "Magic the Gathering for Kids (Main)",
     "city": "Cambridge",
@@ -12317,20 +10916,6 @@
     "description": "Learn to play Magic: The Gathering, a strategy card game, whether you are new or experienced.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
-  },
-  {
-    "id": "00b1c9d736",
-    "title": "13 Moons & 12,000 Years: Wampanoag History Past & Present",
-    "city": "Brookline",
-    "venue": "Hunneman Hall - Brookline Village",
-    "date": "2026-11-09",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17687731",
-    "description": "A conversation with Tim Turner (Cherokee Nation), Director of Indigenous Education & Training, on 12,000 years of Wampanoag history.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
   },
   {
     "id": "b19a8d74b0",
@@ -12399,34 +10984,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "1e01482d55",
-    "title": "Radius Taking Collective Action to Shape AI Policy: MIT AI Governance",
-    "city": "Cambridge",
-    "venue": "Building 10, 105 (Bush Room)",
-    "date": "2026-11-09",
-    "startTime": "18:00",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/radius-taking-collective-action-to-shape-ai-policy-mit-ai-governance",
-    "description": "A community discussion on how people can act together to shape AI policy and bring AI under public control.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
-    "id": "e9ba1c64df",
-    "title": "Reckonings Community Network Series: Archives Fellowship Hour: Collecting Community and Family Stories",
-    "city": "Boston",
-    "venue": "Bruce C. Bolling Municipal Building",
-    "date": "2026-11-09",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://calendar.northeastern.edu/event/reckonings-community-network-series-archives-fellowship-hour-collecting-community-and-family-stories",
-    "description": "A fellowship hour on collecting family and community stories, part of the Reckonings Community Network Series.",
-    "source": "Northeastern University Calendar",
-    "sourceId": "northeastern"
-  },
-  {
     "id": "2839712a2f",
     "title": "Telling the Stories that Matter on a Burning Planet",
     "city": "Medford",
@@ -12438,18 +10995,6 @@
     "category": "tech & talks",
     "source": "Tufts events",
     "sourceId": "tufts"
-  },
-  {
-    "id": "8a199cecc6",
-    "title": "Skip the Small Talk Night",
-    "city": "Somerville",
-    "venue": "Aeronaut",
-    "date": "2026-11-09",
-    "startTime": "18:30",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/9/skip-the-small-talk-night-tickets",
-    "source": "Do617 (days 8-10)",
-    "sourceId": "do617-5"
   },
   {
     "id": "6b280e7b89",
@@ -12502,20 +11047,6 @@
     "endTime": "20:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/11/9/tom-drury-with-jayne-anne-phillips-west-of-loveland-tickets",
-    "source": "Do617 (days 8-10)",
-    "sourceId": "do617-5"
-  },
-  {
-    "id": "56f557b42b",
-    "title": "Silent Book Club & Write Night",
-    "city": "Boston",
-    "venue": "Trident Booksellers & Cafe",
-    "address": "Back Bay",
-    "date": "2026-11-09",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/9/silent-book-club-write-night-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
   },
@@ -12581,18 +11112,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "5333fbf68a",
-    "title": "Somerville Museum - Tavern Talk",
-    "city": "Somerville",
-    "venue": "Aeronaut Brewing Company",
-    "date": "2026-11-09",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/9/somerville-museum-tavern-talk-tickets",
-    "source": "Do617 (days 8-10)",
-    "sourceId": "do617-5"
-  },
-  {
     "id": "1451126574",
     "title": "Elan Mehler Trio",
     "city": "Cambridge",
@@ -12603,21 +11122,6 @@
     "url": "https://do617.com/events/2026/11/9/elan-mehler-trio-tickets",
     "source": "Do617 (days 8-10)",
     "sourceId": "do617-5"
-  },
-  {
-    "id": "5bb4c99799",
-    "title": "Not Your Bubbe Book Club Discussion of Always Carry Salt by Samantha Ellis",
-    "city": "Boston",
-    "venue": "The Boston Synagogue",
-    "address": "55 Martha Road, Boston, MA",
-    "date": "2026-11-09",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/not-your-bubbe-book-club-discussion-of-always-carry-salt-by-samantha-ellis-tickets-1996823980278",
-    "description": "A book club discussion of Always Carry Salt by Samantha Ellis.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
   },
   {
     "id": "c6511146ef",
@@ -12745,21 +11249,6 @@
     "sourceId": "do617-5"
   },
   {
-    "id": "7af52388b1",
-    "title": "EdVestors' 2026 School on the Move Prize Ceremony",
-    "city": "Boston",
-    "venue": "521 Overlook at Fenway Park",
-    "address": "14 Lansdowne St, Boston, MA",
-    "date": "2026-11-10",
-    "startTime": "08:00",
-    "endTime": "10:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/edvestors-2026-school-on-the-move-prize-ceremony-tickets-1998447331766",
-    "description": "Prize ceremony celebrating three of Boston's most improving schools.",
-    "source": "Eventbrite Boston (days 6-8)",
-    "sourceId": "eventbrite-boston-3"
-  },
-  {
     "id": "ee04788eac",
     "title": "Busy Bookworms",
     "city": "Malden",
@@ -12857,20 +11346,6 @@
     "sourceId": "northeastern"
   },
   {
-    "id": "54c2ec50de",
-    "title": "MIT Henge 2026",
-    "city": "Cambridge",
-    "venue": "Building 8, Third Floor",
-    "date": "2026-11-10",
-    "startTime": "16:10",
-    "endTime": "16:30",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/mit-henge-2026",
-    "description": "A twice-yearly alignment of the sun with the Infinite Corridor, viewable from the third floor of Building 8 weather permitting.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
     "id": "955d10dd9c",
     "title": "KSJ + STS Fall Lecture - The Fight for Facts: Evidence in an Age of Doubt",
     "city": "Cambridge",
@@ -12883,21 +11358,6 @@
     "description": "A fall lecture from the Program in Science, Technology, and Society and the Knight Science Journalism Program on evidence in an age of doubt.",
     "source": "MIT Events",
     "sourceId": "mit"
-  },
-  {
-    "id": "17918b6b95",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-10",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/10/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "a4b1fc7836",
@@ -12928,20 +11388,6 @@
     "sourceId": "luma-boston"
   },
   {
-    "id": "68d579c0b2",
-    "title": "Brookline.News Public Meeting",
-    "city": "Brookline",
-    "venue": "Meeting Room - Coolidge Corner",
-    "date": "2026-11-10",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17725292",
-    "description": "A public meeting to discuss the latest annual report, with a talk from Boston University journalism professor Steve Greenlee.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
-  },
-  {
     "id": "0cc4a346ce",
     "title": "Alice Hoffman presents: The Witches of Cambridge (Main)",
     "city": "Cambridge",
@@ -12955,20 +11401,6 @@
     "description": "Alice Hoffman discusses The Witches of Cambridge, presented with Harvard Book Store. Tickets are sold out; contact Harvard Book Store for more information.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
-  },
-  {
-    "id": "dfb14c3f4d",
-    "title": "Yoga Nidra with Aromatherapy & Type a message •0.  DIY Essential Oils",
-    "city": "Boston",
-    "venue": "Center for Spirituality, Dialogue, and Service, Ell Hall 200",
-    "date": "2026-11-10",
-    "startTime": "18:00",
-    "endTime": "19:00",
-    "category": "community",
-    "url": "https://calendar.northeastern.edu/event/yoga-nidra-with-aromatherapy-type-a-message-0-diy-essential-oils",
-    "description": "Guided Yoga Nidra combined with aromatherapy; participants make their own essential-oil blend to take home. No movement or prior experience required.",
-    "source": "Northeastern University Calendar",
-    "sourceId": "northeastern"
   },
   {
     "id": "c20d599b94",
@@ -12997,21 +11429,6 @@
     "category": "arts & theater",
     "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/10/hereandnowcraftingyourstorycentralsquare",
     "description": "Interactive, memoir-inspired writing workshop with close readings and hands-on exercises.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "c0d04d6ce1",
-    "title": "Kids' Books for Everyone (O'Neill)",
-    "city": "Cambridge",
-    "venue": "O'Neill Branch, Cambridge Public Library",
-    "address": "70 Rindge Ave., Cambridge, MA 02140",
-    "date": "2026-11-10",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/10/kidsbooksforeveryoneoneill",
-    "description": "Monthly group for adults who enjoy children's books to read and discuss together; food is provided.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
   },
@@ -13084,19 +11501,6 @@
     "sourceId": "allevents-boston"
   },
   {
-    "id": "550ba1ec8e",
-    "title": "Veterans Day Tour",
-    "city": "Boston",
-    "venue": "USS Constitution Museum",
-    "date": "2026-11-11",
-    "startTime": "09:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://allevents.in/boston/veterans-day-tour/100002003144170136",
-    "source": "Allevents Boston",
-    "sourceId": "allevents-boston"
-  },
-  {
     "id": "67720c6bdd",
     "title": "Find the Good Scavenger Hunt",
     "city": "Boston",
@@ -13107,18 +11511,6 @@
     "category": "family",
     "url": "https://do617.com/events/2026/10/23/find-the-good-scavenger-hunt-tickets",
     "description": "Scavenger hunt running Oct 23 to Nov 13.",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "8c14fe211b",
-    "title": "Free Entry for Veterans",
-    "city": "Boston",
-    "venue": "View Boston",
-    "date": "2026-11-11",
-    "startTime": "10:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/11/free-entry-for-veterans-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
   },
@@ -13149,21 +11541,6 @@
     "url": "https://do617.com/events/2026/7/2/ruckus-general-museum-admission-to-the-old-south-meeting-house-old-state-house-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
-  },
-  {
-    "id": "5b41a273b4",
-    "title": "Veterans Day Observance Event",
-    "city": "Cambridge",
-    "venue": "Sheraton Commander",
-    "address": "16 Garden St., Cambridge, MA 02138",
-    "date": "2026-11-11",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/veteransservices/Calendar/2026/11/11/copycityofcambridgeveteransdayobservanceeventnovember11",
-    "description": "Veterans Day observance hosted by the City of Cambridge Department of Veterans Services.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "c9687b52dd",
@@ -13400,21 +11777,6 @@
     "url": "https://do617.com/events/2026/11/11/beartooth-pure-ecstasy-world-tour-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
-  },
-  {
-    "id": "830fb2be95",
-    "title": "The Friendsgiving Edit - Mahjong Social",
-    "city": "Boston",
-    "venue": "Cafe Landwer",
-    "address": "383 Chestnut Hill Avenue, Boston, MA",
-    "date": "2026-11-11",
-    "startTime": "18:45",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/the-friendsgiving-edit-mahjong-social-tickets-2003565903552",
-    "description": "A Mahjong social evening at Cafe Landwer.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
   },
   {
     "id": "c06fc739f7",
@@ -13707,21 +12069,6 @@
     "sourceId": "fever-boston"
   },
   {
-    "id": "7e04ae4175",
-    "title": "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026",
-    "city": "Cambridge",
-    "venue": "Harvard Graduate School of Education",
-    "address": "13 Appian Way, Cambridge, MA",
-    "date": "2026-11-12",
-    "startTime": "09:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/the-22nd-annual-national-black-pre-law-conference-and-law-fair-2026-tickets-1993349044652",
-    "description": "A pre-law conference and law fair centering the perspectives of aspiring Black lawyers.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
-  },
-  {
     "id": "418410b615",
     "title": "Spanish and English Family Singalong: ¡Viva Vocabulary!",
     "city": "Brookline",
@@ -13905,19 +12252,6 @@
     "sourceId": "do617-6"
   },
   {
-    "id": "6d2b695183",
-    "title": "Free Thursday Nights",
-    "city": "Boston",
-    "venue": "Isabella Stewart Gardner Museum",
-    "date": "2026-11-12",
-    "startTime": "17:00",
-    "category": "community",
-    "url": "https://do617.com/events/weekly/thu/free-thursday-nights-tickets",
-    "description": "Weekly free evening at the museum.",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
     "id": "f861c84f69",
     "title": "ArtsThursdays: Conversation with the Artist Carmen Winant",
     "city": "Cambridge",
@@ -14020,34 +12354,6 @@
     "sourceId": "assembly-row"
   },
   {
-    "id": "8435fca403",
-    "title": "Short Story Reading Group (Central)",
-    "city": "Cambridge",
-    "venue": "Central Square Branch, Cambridge Public Library",
-    "address": "45 Pearl St., Cambridge, MA 02139",
-    "date": "2026-11-12",
-    "startTime": "18:00",
-    "endTime": "19:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/12/shortstoryreadinggroupcentral",
-    "description": "Monthly group that reads and discusses a short story; drop-ins welcome, registration helpful but not required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
-    "id": "69d5b55106",
-    "title": "Queer Entrepreneur Mixer",
-    "city": "Somerville",
-    "venue": "Artisan's Asylum",
-    "date": "2026-11-12",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/12/queer-entrepreneur-mixer-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
     "id": "14f76f032e",
     "title": "Magen Tracy And The Missed Connections, Eric Salt & The Electric City",
     "city": "Somerville",
@@ -14086,20 +12392,6 @@
     "url": "https://luma.com/x2d94ihu",
     "source": "Luma Boston",
     "sourceId": "luma-boston"
-  },
-  {
-    "id": "5827787248",
-    "title": "After Dark: Decoding Whales and Dolphins",
-    "city": "Cambridge",
-    "venue": "MIT Museum",
-    "date": "2026-11-12",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/after-dark-decoding-whales-and-dolphins",
-    "description": "An evening at the MIT Museum with talks, hands-on activities and immersive installations about whales and dolphins.",
-    "source": "MIT Events",
-    "sourceId": "mit"
   },
   {
     "id": "12fdc3b6f9",
@@ -14436,21 +12728,6 @@
     "sourceId": "do617-6"
   },
   {
-    "id": "ec2eda4432",
-    "title": "3rd Annual Cabo Verdean 40 under 40 Gala Merito",
-    "city": "Boston",
-    "venue": "Venezia",
-    "address": "20 Ericsson Street, Boston, MA",
-    "date": "2026-11-12",
-    "endDate": "2026-11-13",
-    "startTime": "19:30",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/3rd-annual-cabo-verdean-40-under-40-gala-merito-tickets-1998994265660",
-    "description": "A gala celebrating Boston's Cabo Verdean 40 Under 40 honorees, 6 pm to 1 am on November 12.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
-  },
-  {
     "id": "f03191e92b",
     "title": "BEOWULF",
     "city": "Cambridge",
@@ -14580,21 +12857,6 @@
     "sourceId": "fever-boston"
   },
   {
-    "id": "e8513afc88",
-    "title": "2nd Ann  Embracing Black Healing & Self-Advocacy Conference for Black Women",
-    "city": "Boston",
-    "venue": "Simmons University",
-    "address": "300 Fenway, Boston, MA",
-    "date": "2026-11-13",
-    "startTime": "08:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/2nd-ann-embracing-black-healing-self-advocacy-conference-for-black-women-tickets-1990813156743",
-    "description": "A conference on wellness for Black women, covering science, medicine, spirituality and alternative healing.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
-  },
-  {
     "id": "dd82e9919c",
     "title": "2026 Northeast Region Burn Conference",
     "city": "Boston",
@@ -14623,21 +12885,6 @@
     "description": "A day of networking, learning and talks about artificial intelligence.",
     "source": "Eventbrite Boston (days 3-5)",
     "sourceId": "eventbrite-boston-2"
-  },
-  {
-    "id": "58e99bcf2e",
-    "title": "SNAP and MassHealth Assistance at Margaret Fuller Neighborhood House Food Pantry",
-    "city": "Cambridge",
-    "venue": "Margaret Fuller Neighborhood House Food Pantry",
-    "address": "71 Cherry St., Cambridge, MA 02139",
-    "date": "2026-11-13",
-    "startTime": "09:30",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/13/copyofcopyofsnapmasshealthassistance",
-    "description": "In-person help understanding SNAP and MassHealth requirement changes, checking eligibility and next steps.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "35bb301545",
@@ -14740,21 +12987,6 @@
     "description": "Hands-on STEAM workshop on designing buildings with architect Neha Garg, for ages 8 to 12. Registration recommended.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
-  },
-  {
-    "id": "2a15604289",
-    "title": "New England for All",
-    "city": "Boston",
-    "venue": "Artists For Humanity",
-    "address": "100 W 2nd Street, Boston, MA",
-    "date": "2026-11-13",
-    "startTime": "17:00",
-    "endTime": "20:30",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/new-england-for-all-tickets-2000163211007",
-    "description": "An event bringing entrepreneurs, businesses and community leaders together to support local businesses.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
   },
   {
     "id": "e78fe48545",
@@ -14907,19 +13139,6 @@
     "startTime": "19:00",
     "category": "music",
     "url": "https://do617.com/events/2026/11/13/jojo-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "6f004c16c5",
-    "title": "Emerson Whitney: O Mother",
-    "city": "Brookline",
-    "venue": "Brookline Booksmith",
-    "date": "2026-11-13",
-    "startTime": "19:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/13/emerson-whitney-o-mother-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
   },
@@ -15394,20 +13613,6 @@
     "sourceId": "mfa"
   },
   {
-    "id": "aeb2665af6",
-    "title": "Native American Heritage Month Celebration 2026",
-    "city": "Boston",
-    "venue": "Museum of Science",
-    "date": "2026-11-14",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "category": "community",
-    "url": "https://www.mos.org/events/native-american-heritage-month-celebration-2026",
-    "description": "A day of programming dedicated to Indigenous knowledge, science, and storytelling, with Rodrigo Cordova, Eastern Medicine Singers, and Thea Hopkins.",
-    "source": "Museum of Science",
-    "sourceId": "mos"
-  },
-  {
     "id": "c8126be690",
     "title": "Winter Wonderland Crafts Fair",
     "city": "Malden",
@@ -15446,35 +13651,6 @@
     "description": "A holiday market with local makers, craft ales and food.",
     "source": "Eventbrite Boston",
     "sourceId": "eventbrite-boston"
-  },
-  {
-    "id": "2fe4f196db",
-    "title": "Veterans Cruise",
-    "city": "Boston",
-    "venue": "Boston Harbor",
-    "address": "10 Waterside Avenue, Boston, MA",
-    "date": "2026-11-14",
-    "startTime": "11:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/veterans-cruise-tickets-2001395384471",
-    "description": "A cruise and excursion to Georges Island honoring veterans and active service members.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
-  },
-  {
-    "id": "8edec02313",
-    "title": "What is Sufism - talk and discussion",
-    "city": "Brookline",
-    "venue": "Meeting Room - Coolidge Corner",
-    "date": "2026-11-14",
-    "startTime": "11:00",
-    "endTime": "14:30",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17801579",
-    "description": "A talk and discussion on mystical Sufism, what it is and the spiritual path it explains. Open to the public and free of charge.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
   },
   {
     "id": "0f5e0ad499",
@@ -15543,19 +13719,6 @@
     "startTime": "12:00",
     "category": "festivals & markets",
     "url": "https://do617.com/events/2026/11/14/lagers-and-leaves-a-fall-festival-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "498e246d13",
-    "title": "Transnational Series: Petra Hůlová and Carolina Pihelgas",
-    "city": "Brookline",
-    "venue": "Brookline Booksmith",
-    "date": "2026-11-14",
-    "startTime": "12:00",
-    "endTime": "13:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/14/transnational-series-petra-hulova-and-carolina-pihelgas-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
   },
@@ -15690,21 +13853,6 @@
     "sourceId": "brookline-library"
   },
   {
-    "id": "048ccb2b73",
-    "title": "Career Exploration: Mapping Your Future (O'Neill)",
-    "city": "Cambridge",
-    "venue": "O'Neill Branch, Cambridge Public Library",
-    "address": "70 Rindge Ave., Cambridge, MA 02140",
-    "date": "2026-11-14",
-    "startTime": "14:00",
-    "endTime": "15:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/14/careerexplorationmappingyourfutureoneill",
-    "description": "Interactive career workshop with career coach Sara Reese on identifying interests, strengths and values and exploring aligned careers.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "45cbeb53a2",
     "title": "Tiny Dino Dig (Valente)",
     "city": "Cambridge",
@@ -15760,21 +13908,6 @@
     "url": "https://do617.com/events/2026/11/14/kafkaesque-boston-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
-  },
-  {
-    "id": "ce16767924",
-    "title": "2026 Honoree Night",
-    "city": "Boston",
-    "venue": "The West End Museum",
-    "address": "150 Staniford St. Suite 7, Boston, MA",
-    "date": "2026-11-14",
-    "startTime": "15:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/2026-honoree-night-tickets-1996650016949",
-    "description": "A celebration honoring community members, supporting the West End Museum's expanded mission.",
-    "source": "Eventbrite Boston (days 3-5)",
-    "sourceId": "eventbrite-boston-2"
   },
   {
     "id": "0a58924ffa",
@@ -16324,20 +14457,6 @@
     "sourceId": "brookline-library"
   },
   {
-    "id": "bc79acd332",
-    "title": "Boozy Bingo",
-    "city": "Boston",
-    "venue": "Blondie's",
-    "date": "2026-11-15",
-    "startTime": "14:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/weekly/sun/boozy-bingo-sundays-blondie-s-tickets",
-    "description": "Recurring weekly bingo afternoon at Blondie's.",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
     "id": "fc4cc12724",
     "title": "Yellow Letters (Gelbe Briefe)",
     "city": "Boston",
@@ -16409,21 +14528,6 @@
     "url": "https://harvardfilmarchive.org/calendar/marie-antoinette-2026-10",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
-  },
-  {
-    "id": "4d2d7e1640",
-    "title": "Emmanuel Baptist Church 80th Anniversary Banquet",
-    "city": "Malden",
-    "venue": "Anthony's Malden",
-    "address": "105 Canal Street, Malden, MA",
-    "date": "2026-11-15",
-    "startTime": "15:30",
-    "endTime": "18:30",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/emmanuel-baptist-church-80th-anniversary-banquet-tickets-2003172921131",
-    "description": "An 80th anniversary banquet for Emmanuel Baptist Church.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
   },
   {
     "id": "c851c435eb",
@@ -16625,18 +14729,6 @@
     "sourceId": "do617-6"
   },
   {
-    "id": "5a7402588f",
-    "title": "Malden Community Gathering",
-    "city": "Malden",
-    "venue": "CCC Office",
-    "date": "2026-11-16",
-    "startTime": "10:00",
-    "category": "community",
-    "url": "https://www.maldenevents.com/11/16/2026/malden-community-gathering/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
-  },
-  {
     "id": "2f2b9b50b9",
     "title": "Boston Stories",
     "city": "Boston",
@@ -16721,20 +14813,6 @@
     "sourceId": "mfa"
   },
   {
-    "id": "9e9e9a713d",
-    "title": "Discussion Night: AI Issues, Policy, & Potential Pause",
-    "city": "Cambridge",
-    "venue": "Building 10, 105",
-    "date": "2026-11-16",
-    "startTime": "17:00",
-    "endTime": "19:00",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/discussion-night-ai-issues-policy-potential-pause",
-    "description": "A discussion night, hosted by Radius, on AI issues, policy and the case for a potential pause.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
     "id": "4a4622cd5f",
     "title": "Magic the Gathering for Kids (Main)",
     "city": "Cambridge",
@@ -16748,31 +14826,6 @@
     "description": "Learn to play Magic: The Gathering, a strategy card game, whether you are new or experienced.",
     "source": "City of Cambridge calendar",
     "sourceId": "cambridge-city"
-  },
-  {
-    "id": "c426381eb5",
-    "title": "Harvard Book Store Welcomes Melissa Clark",
-    "city": "Cambridge",
-    "venue": "The Brattle Theatre",
-    "date": "2026-11-16",
-    "startTime": "18:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/16/harvard-book-store-welcomes-melissa-clark-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "9234316eef",
-    "title": "Traitors: A Real Life Competition of Traitors and Faithfuls",
-    "city": "Boston",
-    "venue": "High Street Place",
-    "date": "2026-11-16",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/16/traitors-a-real-life-competition-of-traitors-and-faithfuls-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
   },
   {
     "id": "39b0c9269f",
@@ -16836,19 +14889,6 @@
     "startTime": "19:00",
     "category": "music",
     "url": "https://do617.com/events/2026/11/16/yung-gravy-terror-reid-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "2660904ef9",
-    "title": "Andrew Janjigian with Dan Souza: Breaducation",
-    "city": "Brookline",
-    "venue": "Brookline Booksmith",
-    "date": "2026-11-16",
-    "startTime": "19:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/16/andrew-janjigian-with-dan-souza-breaducation-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
   },
@@ -16921,19 +14961,6 @@
     "startTime": "19:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/11/16/raise-the-red-lantern-tickets",
-    "source": "Do617 (days 11-16)",
-    "sourceId": "do617-6"
-  },
-  {
-    "id": "9943ef3a48",
-    "title": "Queer Board Game Night",
-    "city": "Boston",
-    "venue": "Club Cafe",
-    "date": "2026-11-16",
-    "startTime": "19:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/16/queer-board-game-night-tickets",
     "source": "Do617 (days 11-16)",
     "sourceId": "do617-6"
   },
@@ -17230,21 +15257,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "9ffff6cb1f",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-17",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/17/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "5a6299dad9",
     "title": "Holly Jolly Christmas Bar",
     "city": "Boston",
@@ -17257,21 +15269,6 @@
     "description": "Runs Nov 12 to Nov 27, listed here through Nov 22.",
     "source": "Do617 (days 17-22)",
     "sourceId": "do617-7"
-  },
-  {
-    "id": "b2a44b1c62",
-    "title": "Power Your Future: Careers in Building Trades and Green Energy (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Community Room, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-17",
-    "startTime": "18:00",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/17/poweryourfuturecareersinbuildingtradesandgreenenergymain",
-    "description": "Interactive career workshop with career coach Sara Reese on exploring careers in building trades and green energy.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "edec231c0d",
@@ -17324,20 +15321,6 @@
     "url": "https://www.ticketmaster.com/sir-woman-playtime-tour-18-boston-massachusetts-11-17-2026/event/01006515C60417B6",
     "source": "Brighton Music Hall",
     "sourceId": "brighton-music-hall"
-  },
-  {
-    "id": "24480c45b9",
-    "title": "Avatar Aang: The Last Airbender novelization",
-    "city": "Brookline",
-    "venue": "Hunneman Hall - Brookline Village",
-    "date": "2026-11-17",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17475153",
-    "description": "A celebration of the official Avatar Aang: The Last Airbender novelization with author Allison King, hosted with Brookline Booksmith.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
   },
   {
     "id": "17b373dd78",
@@ -17409,19 +15392,6 @@
     "startTime": "19:00",
     "category": "arts & theater",
     "url": "https://do617.com/events/2026/11/17/raise-the-red-lantern-tickets",
-    "source": "Do617 (days 17-22)",
-    "sourceId": "do617-7"
-  },
-  {
-    "id": "0dde6f8fc1",
-    "title": "Gay Bar Fun Run",
-    "city": "Boston",
-    "venue": "Club Cafe",
-    "date": "2026-11-17",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/17/gay-bar-fun-run-tickets",
     "source": "Do617 (days 17-22)",
     "sourceId": "do617-7"
   },
@@ -17687,21 +15657,6 @@
     "sourceId": "mfa"
   },
   {
-    "id": "a900458ce6",
-    "title": "Curator-Led Tour: Cooking Up Change",
-    "city": "Cambridge",
-    "venue": "Lia and William Poorvu Gallery, Schlesinger Library",
-    "address": "3 James St., Cambridge",
-    "date": "2026-11-18",
-    "startTime": "12:00",
-    "endTime": "13:00",
-    "category": "community",
-    "price": "Free",
-    "url": "https://www.radcliffe.harvard.edu/event/2026-cooking-up-change-curator-led-tour-8",
-    "source": "Harvard Gazette events",
-    "sourceId": "harvard"
-  },
-  {
     "id": "b49fc3f6d4",
     "title": "AI, Democracy & the Future of Prosperity",
     "city": "Boston",
@@ -17727,21 +15682,6 @@
     "category": "tech & talks",
     "source": "Tufts events",
     "sourceId": "tufts"
-  },
-  {
-    "id": "08db27dd70",
-    "title": "Lunch at the Library (O'Connell)",
-    "city": "Cambridge",
-    "venue": "O'Connell Branch, Cambridge Public Library",
-    "address": "48 Sixth St., Cambridge, MA 02141",
-    "date": "2026-11-18",
-    "startTime": "13:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/18/lunchatthelibraryoconnell",
-    "description": "Drop-in lunch for patrons aged 11 to 18, with free food while supplies last. No registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "99887fab3f",
@@ -17843,20 +15783,6 @@
     "sourceId": "northeastern"
   },
   {
-    "id": "b55d80b8cf",
-    "title": "DPW Energy Advocate Table",
-    "city": "Brookline",
-    "venue": "Meeting Room - Putterham",
-    "date": "2026-11-18",
-    "startTime": "14:30",
-    "endTime": "16:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17901644",
-    "description": "The Town's Energy Advocate, Caroline Staudt, offers free, personalized guidance to residents and small business owners on energy efficiency and electrification.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
-  },
-  {
     "id": "1f6bdb3633",
     "title": "Wednesdays of Wonder - W.O.W.! (O'Neill)",
     "city": "Cambridge",
@@ -17887,21 +15813,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "5a222a9892",
-    "title": "\"An Aprann Pale Kreyól\": Haitian-Creole Conversational Group (Central Square)",
-    "city": "Cambridge",
-    "venue": "Central Square Branch, Cambridge Public Library",
-    "address": "45 Pearl St., Cambridge, MA 02139",
-    "date": "2026-11-18",
-    "startTime": "16:00",
-    "endTime": "17:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/18/anaprannpalekreyolhaitiancreoleconversationalgroupcentralsquare",
-    "description": "Conversational group for learning to speak Haitian Creole.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "88342bef95",
     "title": "Chapter Book Craft Club (O'Connell)",
     "city": "Cambridge",
@@ -17928,21 +15839,6 @@
     "description": "Weekly Wednesday pop-up bar.",
     "source": "Do617 (days 17-22)",
     "sourceId": "do617-7"
-  },
-  {
-    "id": "aa0e405b84",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-18",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/18/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "3e3d793c9a",
@@ -18080,21 +15976,6 @@
     "description": "Weekly inclusive social dance event teaching circle, line and couple dances from Europe, Asia, Africa and the Americas.",
     "source": "Brookline.News Events",
     "sourceId": "brookline-news"
-  },
-  {
-    "id": "43e3681c6a",
-    "title": "Short Books for Busy People Book Club (Valente)",
-    "city": "Cambridge",
-    "venue": "Valente Branch, Cambridge Public Library",
-    "address": "826 Cambridge St., Cambridge, MA 02141",
-    "date": "2026-11-18",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/18/shortbooksforbusypeoplebookclubvalente",
-    "description": "Book club where every selection is under 250 pages, across a wide range of genres.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "b0117c8dae",
@@ -18378,20 +16259,6 @@
     "sourceId": "mfa"
   },
   {
-    "id": "e3d1d04a36",
-    "title": "Let's Talk Transportation with the Council on Aging",
-    "city": "Brookline",
-    "venue": "Meeting Room - Putterham",
-    "date": "2026-11-19",
-    "startTime": "11:30",
-    "endTime": "13:00",
-    "category": "community",
-    "url": "https://brooklinelibrary.libcal.com/event/17535329",
-    "description": "A talk on local transportation options with Sebastian Ware of the Brookline Senior Center's transportation program.",
-    "source": "Public Library of Brookline",
-    "sourceId": "brookline-library"
-  },
-  {
     "id": "87ed329a4b",
     "title": "Spring Showcase / Sustainability Lunch Series",
     "city": "Cambridge",
@@ -18477,21 +16344,6 @@
     "description": "Guided tour.",
     "source": "Museum of Fine Arts",
     "sourceId": "mfa"
-  },
-  {
-    "id": "5512e3a090",
-    "title": "SNAP and MassHealth Assistance at Margaret Fuller Neighborhood House Food Pantry",
-    "city": "Cambridge",
-    "venue": "Margaret Fuller Neighborhood House Food Pantry",
-    "address": "71 Cherry St., Cambridge, MA 02139",
-    "date": "2026-11-19",
-    "startTime": "14:00",
-    "endTime": "17:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/humanserviceprograms/Calendar/2026/11/19/snapmasshealthassistanceMargaretFuller",
-    "description": "In-person help understanding SNAP and MassHealth requirement changes, checking eligibility and next steps.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "8ad58b4f68",
@@ -18667,21 +16519,6 @@
     "sourceId": "mfa"
   },
   {
-    "id": "68894d92ed",
-    "title": "Spanish Conversation Group (O'Connell)",
-    "city": "Cambridge",
-    "venue": "O'Connell Branch, Cambridge Public Library",
-    "address": "48 Sixth St., Cambridge, MA 02141",
-    "date": "2026-11-19",
-    "startTime": "17:30",
-    "endTime": "18:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/19/spanishconversationgroupoconnell",
-    "description": "Friendly group for practicing Spanish, for learners and advanced speakers alike.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "8d67d93634",
     "title": "Open Science, AI, and Future of Scientific Publishing",
     "city": "Cambridge",
@@ -18726,21 +16563,6 @@
     "sourceId": "cambridge-city"
   },
   {
-    "id": "3a4e8cc708",
-    "title": "Best in Grass Massachusetts Awards Show 2026",
-    "city": "Boston",
-    "venue": "Royale",
-    "address": "279 Tremont Street, Boston, MA",
-    "date": "2026-11-19",
-    "startTime": "18:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/best-in-grass-massachusetts-awards-show-2026-tickets-1999387993310",
-    "description": "An awards show honoring the winners of the 2026 Best in Grass Massachusetts competition. Cocktail attire or black tie.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
-  },
-  {
     "id": "881e4bd588",
     "title": "Tim Hall Experience",
     "city": "Boston",
@@ -18768,35 +16590,6 @@
     "description": "A talk by Ruth Mandl and Bobby Johnston on designing for a hotter planet, part of the MIT Fall 2026 Architecture Lecture Series.",
     "source": "MIT Events",
     "sourceId": "mit"
-  },
-  {
-    "id": "0f1beb56b2",
-    "title": "Humanizing STEM: A Fireside Chat with Katie Torrence",
-    "city": "Cambridge",
-    "venue": "Building 50: Walker Memorial, Rainbow Lounge (room 250)",
-    "date": "2026-11-19",
-    "startTime": "18:00",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://calendar.mit.edu/event/humanizing-stem-a-fireside-chat-with-katie-torrence",
-    "description": "A fireside chat with Katie Torrence of the MIT Materials Research Laboratory, who reflects on her cancer journey and its connection to STEM.",
-    "source": "MIT Events",
-    "sourceId": "mit"
-  },
-  {
-    "id": "8812fc5622",
-    "title": "Fighting for Freedom: Black Cambridge from the Revolution to the Early 1800s (Central Square)",
-    "city": "Cambridge",
-    "venue": "Central Square Branch, Cambridge Public Library",
-    "address": "45 Pearl St., Cambridge, MA 02139",
-    "date": "2026-11-19",
-    "startTime": "18:30",
-    "endTime": "19:30",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/19/fightingforfreedomblackcambridgefromtherevolutiontotheearly1800scentralsquare",
-    "description": "Illustrated talk by Cambridge Black History Project on Black Patriots and Black Cantabrigians in Cambridge after the Revolutionary War.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "ca158b6109",
@@ -19199,21 +16992,6 @@
     "description": "Stories and songs in French for children ages 0-5, held in Hunneman Hall.",
     "source": "Public Library of Brookline",
     "sourceId": "brookline-library"
-  },
-  {
-    "id": "7171e19316",
-    "title": "Coffee and Games! (Boudreau)",
-    "city": "Cambridge",
-    "venue": "Boudreau Branch, Cambridge Public Library",
-    "address": "245 Concord Ave., Cambridge, MA 02138",
-    "date": "2026-11-20",
-    "startTime": "11:00",
-    "endTime": "12:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/20/coffeeandgamesboudreau",
-    "description": "Coffee, treats and games such as chess, cribbage and Rummikub at the library.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
   },
   {
     "id": "fda5efd112",
@@ -19687,21 +17465,6 @@
     "sourceId": "brookline-news"
   },
   {
-    "id": "9e33b08e16",
-    "title": "Drop-in Maker Studio (O'Neill)",
-    "city": "Cambridge",
-    "venue": "O'Neill Branch, Cambridge Public Library",
-    "address": "70 Rindge Ave., Cambridge, MA 02140",
-    "date": "2026-11-21",
-    "startTime": "13:00",
-    "endTime": "15:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/21/dropinmakerstudiooneill",
-    "description": "Drop-in making with your own supplies or the library's button makers, 3D pens and sewing machines.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "501a578488",
     "title": "Afternoon Tea",
     "city": "Boston",
@@ -19781,18 +17544,6 @@
     "url": "https://do617.com/events/2026/11/21/the-fantasy-tavern-tickets",
     "source": "Do617 (days 17-22)",
     "sourceId": "do617-7"
-  },
-  {
-    "id": "b92f7dd438",
-    "title": "Friendsgiving Dessert Party",
-    "city": "Malden",
-    "venue": "Community City Church",
-    "date": "2026-11-21",
-    "startTime": "14:00",
-    "category": "community",
-    "url": "https://www.maldenevents.com/11/21/2026/friendsgiving-dessert-party/",
-    "source": "Malden Events",
-    "sourceId": "malden-events"
   },
   {
     "id": "f84be1a43d",
@@ -20270,18 +18021,6 @@
     "sourceId": "brookline-news"
   },
   {
-    "id": "c4316ad50f",
-    "title": "Trans Requiem",
-    "city": "Boston",
-    "venue": "Church of the Covenant",
-    "date": "2026-11-22",
-    "startTime": "15:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/22/trans-requiem-tickets",
-    "source": "Do617 (days 17-22)",
-    "sourceId": "do617-7"
-  },
-  {
     "id": "1d06d2c873",
     "title": "Beyond Bubbie’s Kitchen",
     "city": "Boston",
@@ -20304,19 +18043,6 @@
     "url": "https://do617.com/events/2026/11/22/corey-staggers-tickets",
     "source": "Do617 (days 17-22)",
     "sourceId": "do617-7"
-  },
-  {
-    "id": "3b4cbcc992",
-    "title": "Brookline Interfaith Thanksgiving Service",
-    "city": "Brookline",
-    "venue": "Not listed",
-    "date": "2026-11-22",
-    "startTime": "16:00",
-    "category": "community",
-    "url": "https://www.tbzbrookline.org/events/brookline-interfaith-thanksgiving-service-in-person/",
-    "description": "Interfaith service with readings, music and prayer, with donations shared with the Brookline Food Pantry. All ages welcome.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
   },
   {
     "id": "af9a5af9bc",
@@ -20613,18 +18339,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "1bbdcbe94a",
-    "title": "Annual Holiday Trellis Lighting",
-    "city": "Boston",
-    "venue": "Christopher Columbus Waterfront Park",
-    "date": "2026-11-23",
-    "startTime": "17:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/23/annual-holiday-trellis-lighting-1793384466",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
     "id": "3f6095d380",
     "title": "Creative Patching with Jessamy",
     "city": "Cambridge",
@@ -20652,34 +18366,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "4316ff70fc",
-    "title": "Traitors: A Real Life Competition of Traitors and Faithfuls",
-    "city": "Boston",
-    "venue": "High Street Place",
-    "date": "2026-11-23",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/23/traitors-a-real-life-competition-of-traitors-and-faithfuls-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
-    "id": "e8295c1924",
-    "title": "November Boston Networking & Social Event w/ Mass Professional Networking",
-    "city": "Boston",
-    "venue": "Warehouse Kitchen + Sports Bar",
-    "address": "40 Broad Street, Boston, MA",
-    "date": "2026-11-23",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/november-boston-networking-social-event-w-mass-professional-networking-tickets-2001803883302",
-    "description": "A networking and social evening at Warehouse Kitchen + Sports Bar.",
-    "source": "Eventbrite Boston",
-    "sourceId": "eventbrite-boston"
-  },
-  {
     "id": "c56c415070",
     "title": "Sylvia Lavin, \"Architecture After Fire\"",
     "city": "Cambridge",
@@ -20693,19 +18379,6 @@
     "url": "https://www.gsd.harvard.edu/event/architecture-after-fire/",
     "source": "Harvard Gazette events",
     "sourceId": "harvard"
-  },
-  {
-    "id": "5354c1e09b",
-    "title": "Silent Book Club & Write Night",
-    "city": "Boston",
-    "venue": "Trident Booksellers & Cafe",
-    "date": "2026-11-23",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/23/silent-book-club-write-night-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
   },
   {
     "id": "179f439107",
@@ -20820,19 +18493,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "acaeee00c0",
-    "title": "TableTop Game Night",
-    "city": "Boston",
-    "venue": "The Square Root - Roslindale",
-    "date": "2026-11-23",
-    "startTime": "20:00",
-    "endTime": "23:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/23/tabletop-game-night-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
     "id": "02e9ffc5a9",
     "title": "Manos Mavridis: Sounds Grεεk to Me",
     "city": "Boston",
@@ -20923,33 +18583,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "2c511a4c86",
-    "title": "2026 Boston's Official Holiday Tree Arrival",
-    "city": "Boston",
-    "venue": "Boston Common",
-    "date": "2026-11-24",
-    "startTime": "11:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/24/2026-boston-s-official-holiday-tree-arrival-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
-    "id": "8bd5651419",
-    "title": "Free Drop-in Tutoring for Teens (Main)",
-    "city": "Cambridge",
-    "venue": "Main Library, Cambridge Public Library",
-    "address": "449 Broadway, Cambridge, MA 02138",
-    "date": "2026-11-24",
-    "startTime": "17:00",
-    "endTime": "18:00",
-    "category": "community",
-    "url": "https://www.cambridgema.gov/Departments/cambridgepubliclibrary/calendar/2026/11/24/freedropintutoringforteensmain",
-    "description": "Free drop-in tutoring for teens in the Teen Room, with no registration required.",
-    "source": "City of Cambridge calendar",
-    "sourceId": "cambridge-city"
-  },
-  {
     "id": "0395aca7a2",
     "title": "SOUL inSIDE: Presented by DJ Real P",
     "city": "Boston",
@@ -21031,19 +18664,6 @@
     "startTime": "19:00",
     "category": "music",
     "url": "https://do617.com/events/2026/11/24/electric-hora-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
-    "id": "a4348005ab",
-    "title": "Musical Bingo",
-    "city": "Boston",
-    "venue": "Mighty Squirrel Brewing Co.",
-    "date": "2026-11-24",
-    "startTime": "19:30",
-    "category": "community",
-    "description": "Weekly on Tuesdays.",
-    "url": "https://do617.com/events/weekly/tue/musical-bingo-tickets",
     "source": "Do617 (days 23-end)",
     "sourceId": "do617-8"
   },
@@ -21316,21 +18936,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "2010e9d372",
-    "title": "The Comeunity Project: Boston | 20's Mingle",
-    "city": "Boston",
-    "venue": "Restaurant of the Month",
-    "address": "Lovejoy Wharf, Boston, MA",
-    "date": "2026-11-25",
-    "startTime": "19:00",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/the-comeunity-project-boston-20s-mingle-tickets-1979689209718",
-    "description": "A networking mixer for people in their 20s, with a different bar or restaurant each month.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
-  },
-  {
     "id": "0701418b0b",
     "title": "Doughboys Podcast",
     "city": "Boston",
@@ -21458,20 +19063,6 @@
     "url": "https://do617.com/events/2026/11/26/cheryl-arena-blues-brunch-tickets",
     "source": "Do617 (days 23-end)",
     "sourceId": "do617-8"
-  },
-  {
-    "id": "037616c616",
-    "title": "Community Thanksgiving Dinner",
-    "city": "Brookline",
-    "venue": "United Parish",
-    "date": "2026-11-26",
-    "startTime": "13:00",
-    "category": "community",
-    "url": "https://www.unitedparishbrookline.org/news/rsvp-for-community-thanksgiving-dinner-2026/",
-    "price": "Free",
-    "description": "Free family-style Thanksgiving dinner open to the community, served since 1981. RSVP is requested on the event page.",
-    "source": "Brookline.News Events",
-    "sourceId": "brookline-news"
   },
   {
     "id": "c61c74dea0",
@@ -21945,18 +19536,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "d42f160433",
-    "title": "Lighting of the Ship",
-    "city": "Boston",
-    "venue": "Martin's Park",
-    "date": "2026-11-28",
-    "startTime": "17:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/28/lighting-of-the-ship-1793384089",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
     "id": "94adf7d55e",
     "title": "Demola Live!",
     "city": "Boston",
@@ -21980,21 +19559,6 @@
     "url": "https://do617.com/events/2026/11/28/boston-university-men-s-hockey-vs-university-of-denver-pioneer-hockey-tickets",
     "source": "Do617 (days 23-end)",
     "sourceId": "do617-8"
-  },
-  {
-    "id": "7875269ad5",
-    "title": "Let’s Give Thanks: A Night of Worship & Praise",
-    "city": "Malden",
-    "venue": "I Vow to Praise Ministries",
-    "address": "264 Salem Street, Malden, MA",
-    "date": "2026-11-28",
-    "startTime": "18:30",
-    "endTime": "22:00",
-    "category": "community",
-    "url": "https://www.eventbrite.com/e/lets-give-thanks-a-night-of-worship-praise-tickets-2003383957346",
-    "description": "A night of worship, praise and thanksgiving hosted by I Vow to Praise Ministries.",
-    "source": "Eventbrite Boston (days 11-end)",
-    "sourceId": "eventbrite-boston-5"
   },
   {
     "id": "33859c2d9d",
@@ -22157,20 +19721,6 @@
     "category": "sports & outdoors",
     "description": "Weekly on Sundays.",
     "url": "https://do617.com/events/weekly/sun/sunday-run-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
-    "id": "f8cba538a1",
-    "title": "Boozy Bingo",
-    "city": "Boston",
-    "venue": "Blondie's",
-    "date": "2026-11-29",
-    "startTime": "14:00",
-    "endTime": "20:00",
-    "category": "community",
-    "description": "Weekly on Sundays.",
-    "url": "https://do617.com/events/weekly/sun/boozy-bingo-sundays-blondie-s-tickets",
     "source": "Do617 (days 23-end)",
     "sourceId": "do617-8"
   },
@@ -22423,19 +19973,6 @@
     "sourceId": "do617-8"
   },
   {
-    "id": "014522bdb9",
-    "title": "M. T. Anderson: Stealing Saint Nick",
-    "city": "Brookline",
-    "venue": "Brookline Booksmith",
-    "date": "2026-11-30",
-    "startTime": "19:00",
-    "endTime": "20:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/30/m-t-anderson-stealing-saint-nick-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
     "id": "1d0db99943",
     "title": "TRAD & DENTATA",
     "city": "Somerville",
@@ -22468,18 +20005,6 @@
     "startTime": "19:00",
     "category": "music",
     "url": "https://do617.com/events/2026/11/30/the-ruth-ben-string-band-tickets",
-    "source": "Do617 (days 23-end)",
-    "sourceId": "do617-8"
-  },
-  {
-    "id": "8b7e6e1534",
-    "title": "Southie Book Club at Castle Island Brewing Co.",
-    "city": "Boston",
-    "venue": "Castle Island Brewing",
-    "date": "2026-11-30",
-    "startTime": "19:00",
-    "category": "community",
-    "url": "https://do617.com/events/2026/11/30/southie-book-club-at-castle-island-brewing-co-tickets",
     "source": "Do617 (days 23-end)",
     "sourceId": "do617-8"
   },
