@@ -1,6 +1,7 @@
 status: ok
-Read all 12 chunks (120 listings) from the per-day Eventbrite Boston pages for Oct 25 to Nov 23; kept 99 usable events.
-Skipped: online-only events, classes and courses (tango, tax prep, Building Romance workshop), job fairs, admissions open houses (Newtowne, Shaloh House), members-only or private events (HBS Energy Club dues, Semper Fidelis luncheon, Mario Umana reunion), promos (UltraSculpt pop-up, tattoo walk-in, energy-enrollment pitch), and a student-only recruiting conference (Smart Woman Securities), plus the Harvard BOLD conference.
-Judgment calls: kept student-run conferences and campus events listed publicly for ticket sales (Asia Business Conference, Energy and Climate Conference, Pre-Law Gala, Dancing With The Sigmas, Harvard Chan Diwali, herNetwork, BUSCSSA club night). Kept kids' civics and business camps as family events.
-Duplicate listing: the VIII Annual International Medical Congress appears twice with different ticket links; kept the one with the full Nov 20 to 22 run and dropped the other.
-Date conflict: the HCSSA 5k listing is dated Nov 7 but its text says Nov 8; kept the listing date.
+Read all 8 chunks (events-1 to events-8) and kept 36 public, in-person events in Boston, Cambridge, Somerville and Malden within the window.
+Skipped: Halloween and Thanksgiving bar crawls, cruises, club and nightlife parties, Argentine tango and other multi-week courses, a job fair, an UltraSculpt sales pop-up, a members-only meeting, an alumni reunion, and student-only or recruiting-focused conferences.
+Judgment calls: kept the Newtowne School open tours and the Shaloh House open house as public family events. Kept the 2026 Asia Business Conference, Energy and Climate Conference, Entrepreneurship Conference and medical congress as public conferences.
+Duplicates: the VIII Annual International Medical Congress appeared twice with different URLs; kept the first (with the endDate) and dropped the second.
+Source mismatches: the HCSSA 5k feed date is 2026-11-07 but its description says November 8th; used the feed date. The Skate It Forward description refers to May 1; used the title and feed date only.
+Venue for the Foodies + New Friends dinner is listed only as "Restaurant of the Week, Massachusetts Avenue"; kept as shown.

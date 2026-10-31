@@ -1,5 +1,5 @@
-status: ok
-Listing is the monthly grid at medfordma.org/about/events-calendar, Sept 27 to Oct 31 covered across 2 page chunks. Chunk 1 ran through Oct 21, all before the window start (Oct 23), so no events from it.
-Kept 8 public in-person events in Medford for Oct 23 to Nov 22: Early Voting (one run, Oct 23 to 30), Flu and Covid Clinic, Halloween Festival and Pumpkin Float, Community Care Van Clinics, Screenagers: Generation AI, Gede Fèt Festival, Invasive Plants Burning Bush removal, Sensory-Friendly Halloween Fun.
-Skipped: board, commission, council, school committee and hearing meetings (per source notes); Government & Public Sector Job Fair (Central Square Library, Cambridge, and Cambridge is not in this source's cities); Winter Clothing Drive (daily listing with no venue shown).
-Calls: Early Voting is treated as a public civic service, not an administrative meeting, and recorded as one run with hours varying by day, so no start or end time is given. Listing ends at Oct 31, so the calendar may not extend beyond it.
+status: thin
+Page fetched as markdown from https://www.medfordma.org/about/events-calendar, two chunks.
+Chunk 1 covered Sept 27 to Oct 21, all before the window start (2026-10-31), and was almost entirely board, commission and committee meetings, so it gave no usable events.
+Chunk 2 covered Oct 22 to Oct 31. Only Oct 31 falls in the window. Two events qualified: Aging Together Medford (public palliative care talk, detail page checked) and the Sensory-Friendly Halloween Fun event at City Hall.
+Skipped: all meetings and hearings, Early Voting, and the Winter Clothing Drive (all-day donation drive with no venue shown). Listing has no events after Oct 31, so Nov is not covered.

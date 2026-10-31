@@ -1,5 +1,6 @@
 status: ok
-The events page (https://arboretum.harvard.edu/events/) lists about 19 events from 2026-10-23 to 2026-11-22; 15 were usable.
-Skipped 4 as Members-Only: Member Preview for Living Connections (Oct 23), Identifying Oaks and Maples (Oct 25), Centre Street Beds Up Close (Oct 25), Sustainability Spotlight: Geothermal Heating at Weld Hill (Nov 17).
-All events are free per the page. No street addresses shown, so `address` is omitted; venues are the listed gate or building names.
-Kept "Rescheduled" Forest Bathing and Peters Hill Tour as normal records. Category left at the source default (sports & outdoors) except family (Wicked Plants), music (Iris Percussion Quartet), arts & theater (exhibit opening, ink printing) and tech & talks (lecture).
+Listing page https://arboretum.harvard.edu/events/ showed 13 events from Oct 31 to Nov 22, 2026, all in Boston. Saved 12 public events.
+Skipped "Sustainability Spotlight: Geothermal Heating at Weld Hill" (Nov 17) because it is members-only.
+All events are listed as free on the page, so price is "Free".
+Mapped "Regal Lily" lecture to "tech & talks" and the art/ink-printing program to "arts & theater"; other events use the default "sports & outdoors" (family for Halloween, music for the percussion concert).
+Listing shows times as 12-hour ranges; converted to 24h. Addresses are only the meeting points shown on the listing.

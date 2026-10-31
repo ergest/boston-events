@@ -1,6 +1,5 @@
 status: ok
-Fetched https://bostonpublicmarket.org/events/ (one page chunk). The page is a month grid that shows only October 2026, so nothing from Nov 1-22 is visible.
-Saved 10 events (Oct 23-27) that have their own event-page links in the list section at the bottom of the page.
-Skipped about 25 grid-only items in the window (Oct 27-31: Midday Munchies, Kids Activity Hour, Boston Public Market Tour, Ted Lasso Trivia, Pizza & Lambrusco Game Night, Live Music: Theo Linebaugh, Witches in the Vineyard, Love Letters LIVE, Amaro Making 101, Annual Harvest Party Fundraiser, Coloring Club, Haunted Cellar Halloween Party, Family Halloween Party & Pumpkin Stroll, and others). The grid gives no event-page URLs, and I did not use the listing URL in their place.
-Prices and addresses are not shown on the page, so they are omitted.
-Categories: class and tasting events are food & drink; kids' and face-painting events are family; Jeff Jam Sing-along is music; Cellar Comedy is arts & theater.
+Listing page is server-rendered markdown with a month grid and a list of events for Oct 31 to Nov 4 (window starts Oct 31).
+Kept 9 in-window public events: Oct 31 (4), Nov 1 (2), Nov 3 (1), Nov 4 (2). Skipped Nov 2 (MARKET CLOSED) and Oct 27-30 (before window).
+The page only rendered events through Nov 4; the November grid is not in the listing (only linked as a PDF), so Nov 5-30 is not covered. Not fetched the PDF or detail pages.
+Judgment calls: "Jeff Jam Sing-along" set to music; "Craft Club" set to arts & theater; "Family Halloween Party & Pumpkin Stroll" set to family; no addresses, prices or descriptions shown on the listing, so none were added.

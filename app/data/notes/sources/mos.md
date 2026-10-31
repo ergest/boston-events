@@ -1,7 +1,8 @@
 status: ok
-Museum of Science events listing (https://www.mos.org/events) was a single markdown page with 17 event entries, all in Boston. 16 kept as public in-window events.
-Skipped: "Mass STEM Week" (Oct 19–23), a challenge program with no clear public event or time, so not a concrete event.
-Multi-day runs: "Nature Sings" (Oct 29–30) and "Spooky Science Weekend" (Oct 31–Nov 1) are one record each, with the full run in the description. Nature Sings uses the 7:30 pm first-showing time; other showings are listed in the description.
-No prices, endTimes or addresses were shown on the listing, so they are omitted. "Trust in Science Community Day" is "All Day", so no start time.
-Categories were chosen by content: lectures and talks as "tech & talks", film/book/theater-type events as "arts & theater", Indigenous and wildfire-community programs as "community".
-SubSpace nightlife series was not listed as concrete events, so it was skipped.
+Fetched https://www.mos.org/events as one page chunk listing 16 items; 14 fall in the window 2026-10-31 to 2026-11-30 and are all at the Museum of Science, Boston.
+Skipped "Nature Sings: A Sonic Revival Live" (Oct 30, before the window).
+Spooky Science Weekend is one record on Oct 31 with endDate Nov 1.
+Trust in Science Community Day is listed as "All Day", so no start or end time is set.
+Access Off Hours (Nov 7) is kept as a public masked-access visit; it is a limited-capacity, reduced-noise public session.
+No prices or registration links are shown on the listing, so none are set. Street address is not shown, so none is set.
+Categories: default "family", with tech & talks for talks and panels, music for the SILK event, arts & theater for screenings and book talks, and community for cultural and access events.

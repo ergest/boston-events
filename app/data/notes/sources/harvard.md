@@ -1,7 +1,8 @@
 status: ok
-Trumba ICS feed (gazette.ics), 13 chunks, 89 records kept in events/harvard.json. Cambridge and Boston venues only.
-Skipped: online-only events (Zoom/webinar only); worship and church services (Sunday Service, Compline, All Saints, Commemoration, Choir concert on a YouTube-only link); the "seminar" exclude pattern (Governing Technology, K262); events with no usable url in the feed (Public Research Talks at CSWR, Ingersoll Lecture, Fear Less, Dharma Among Us, Día de los Muertos, Through the Transparent Darkness, Morris Loeb Lectures, Weatherhead Forum, Harvard Dramatic Club's Into the Woods); events whose only url is a generic listing or homepage (Askwith Education Forum, Adam Grant book talk, Global Arts Live Niladri Kumar, HBS "Domestic Violence" email-tracking link, Harvard Choir Fall Concert); Harvard Kennedy School "Blockchain Stablecoins" (classes/workshops, possibly student-only); IOP "Study Group with Ambassador Chris Lu" (study group, likely participants only); Marie Antoinette Nov 15 screening (same url as the Oct 29 record, not duplicated).
-Into the Woods: fetched the detail page (raw/harvard/detail-1.md), it has no venue or address, so no city could be assigned.
-Peabody "Tours Led by Harvard Students": one record on its first in-window date (Oct 23); the Oct 25 listing is the same run and was dropped.
-Runs use the feed's endDate (exhibitions, film and tour runs). Prices are copied from the feed's Cost field, shortened, and omitted where absent. No registerUrl except ArtsThursdays Halloween.
-Harvard Film Archive records use "$8–$10; Harvard students free" as a shortened price; the feed lists concessions and free tiers for Harvard ID holders.
+Trumba Gazette feed read in 10 chunks, 65 events kept (Cambridge and Boston, 2026-10-31 to 2026-11-29 window).
+Skipped: worship services (Sunday/Evensong/Compline/Advent/Commemoration/All Saints, Memorial Church), online-only Zoom events, the Concord CSWR talk (outside listed cities), and listings with no URL in the feed (CSWR talks, Weatherhead Forum, Morris Loeb lectures, Fear Less, Dharma Among Us, Through the Transparent Darkness, Christianity and National Politics, Keshab Chandra Sen lecture).
+Harvard-Radcliffe Dramatic Club "Into the Woods" skipped: feed gives no venue or city, and the detail page (raw/harvard/detail-1.md) has none either.
+Harvard University Choir Fall Concert (Memorial Church, 2026-11-15) skipped: its only link is the YouTube channel, not an event page.
+Exhibitions running past the window are recorded once on their first in-window date, with endDate set to the last feed date.
+Film screenings at Harvard Film Archive priced at the $10 regular admission shown in the feed.
+Category: most exhibitions and films mapped to "arts & theater", lectures and symposia to "tech & talks" (feed default), community and family where the feed clearly fits.

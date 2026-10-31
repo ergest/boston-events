@@ -1,5 +1,4 @@
 status: ok
-Assembly Row ICS feed (https://assemblyrow.com/events/?ical=1) returned 2 chunks, 13 events inside the window, all in Somerville; 13 kept.
-Calls made: Muse Paintbar and The Row Hotel events are public and kept, with the venue address from the feed. Brick or Treat Adult Night (adults-only LEGO night) and Dana Augustine Designer Showcase kept; the first is filed under community, the second under the default festivals & markets.
-Descriptions were shortened to one sentence from the feed text; no price or registration URL was shown, so none is written.
-Trick-or-Treat For A Cause and Somerville Monster Dash 5K have no full street address in the feed, so the address is omitted or partial.
+The iCal feed returned one chunk with 10 events in the window. Four are weekly Thursday/Wednesday live-music nights at The Row Hotel (Nov 5, 12, 19, 25), kept as separate records.
+Skipped two Kay Jewelers Outlet trunk shows (Dana Augustine Designer Showcase on Nov 10, Le Vian Trunk Show on Nov 30) as retail sales promotions, not general-interest events.
+Descriptions are my own short sentences, since the feed text was truncated. No prices shown, so none recorded.

@@ -1,4 +1,6 @@
 status: ok
-Read 11 event chunks (about 110 listings) from Eventbrite Boston's per-day search pages; kept 82 public, in-person events in the window across Boston, Cambridge, Somerville, Malden and Medford.
-Skipped: online-only events, job and career fairs, classes and courses, student-only or internal programs, union and members-only events, networking meetups, a retail promo, and a listing at a private home.
-Judgement calls: a listing whose description contradicts its location (Witches Bash, Quincy & Dorchester Fall Ball) was skipped. The medical congress listed twice under different ticket URLs was kept once as the multi-day record. Two listings with incomplete addresses (Marsh Post #442, Dumpling Fest) have no address field. Bar crawls and Halloween parties were kept as public events.
+Fetched 14 chunks of Eventbrite Boston search results; 116 usable events after triage across Boston, Cambridge, Somerville, Malden and Medford.
+Skipped: online events, job fairs, classes and courses (tango, watercolor, tax prep), members-only or private gatherings (E&C Club suite, alumni reunion, Semper Fidelis luncheon, Green Energy Consumers meeting), student-only or student-led events where openness was unclear (Jashn-e-Diwali, pre-law gala, herNetwork, Smart Woman Securities, Harvard Undergraduate Women in Business), administrative meetings (DarkSky annual meeting), sales promos (UltraSculpt, tattoo flash, CLINK take-home meal, vendor showcase), and events outside the listed cities (Plymouth Day of Mourning bus).
+Duplicate dropped: second "VIII Annual International Medical Congress" listing with the same title, venue and dates.
+Kept student-run conferences at HBS and MIT (Asia Business, Energy and Climate, Entrepreneurship) as public registrations.
+Listing text conflicts: HCSSA 5k is dated 2026-11-07 in the listing but its description says November 8; copied the listing date.

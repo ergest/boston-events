@@ -1,2 +1,3 @@
 status: thin
-The events page (https://somervilleartscouncil.org/events/) fetched fine and lists events, but only one falls inside the window: SomerWrites: Sarah C. Beckmann, Nov 3 2026, 7:00–8:30 pm at Portico Brewing. Kept it as Somerville (source notes say all Somerville unless the venue is elsewhere; no address shown, so I did not verify the venue's city beyond that default). Category set to arts & theater (the source default). No FETCH_ERROR. The rest of the page is calendar filter chrome with no other dated events.
+The events page listing (single chunk) showed only one event inside the window: SomerWrites: Sarah C. Beckmann, 2026-11-03, 7:00–8:30 pm at Portico Brewing. The listing had no other dated events in the window.
+Assumed Portico Brewing is in Somerville (the source's default city); the listing shows no street address, so I did not verify the venue location.

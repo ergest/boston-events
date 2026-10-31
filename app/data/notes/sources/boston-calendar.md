@@ -1,4 +1,2 @@
 status: ok
-Listing page parsed in 7 chunks, but it only covers Oct 23-24 plus ongoing/recurring runs (nothing later in the window); chunk 7 was truncated by the rig at 80k chars.
-Kept events with a clear venue in an allowed city; skipped ones outside the cities (Salem, Waltham, Newton, Woburn, etc.), online, and listicles. Venues with unclear city skipped.
-Start times are as shown in the listing (some museum entries show 9:00a, which may be an opening time). Runs use endDate from "goes until".
+Homepage listing only covers 2026-10-30/31 (today view; page truncated at ~80k chars). Times shown on the page looked unreliable (e.g. 8:00a for evening events) so they were omitted. Skipped events outside the allowed cities, online, and listicles. Few events fall in later window dates.

@@ -1,5 +1,7 @@
 status: ok
-Listing at https://www.bso.org/events (single page, 23–25 Oct 2026 shown) yielded 7 in-person public events in Boston/Cambridge.
-Skipped the TLI / Tanglewood events (Studio E and Lenox/Stockbridge, MA) per source notes.
-"Cabot-Cahners Room" listing shows no city; recorded as Boston since it is inside Symphony Hall.
-Venue addresses and prices are not shown in the listing, so they are omitted.
+Listing page at bso.org/events fetched as one markdown chunk, Oct 31 to Nov 7 2026 shown in the date view.
+Kept 6 Boston (Symphony Hall / Cabot-Cahners Room) events: Coco in Concert, The Cabinet of Dr. Caligari, Hazen & Wong pre-concert talk, two Haydn's The Creation performances, and the BPYO concert.
+Skipped Tanglewood/TLI and Berkshire Pulse events (Lenox/Stockbridge, MA) per source notes.
+Skipped William Basinski at Arrow Street Arts (Cambridge): this source is limited to Boston.
+Cabot-Cahners Room is listed without a city; it is a room inside Symphony Hall, so it was assigned Boston.
+No prices or end times are shown on the listing, so none were recorded.

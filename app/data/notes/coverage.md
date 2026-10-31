@@ -1,59 +1,61 @@
 # Coverage
 
-Window 2026-10-25 → 2026-11-24. Target: at least 3 events per city.
+Window 2026-10-31 → 2026-11-30. Target: at least 3 events per city.
 
 | City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors | community |
 |---|---|---|---|---|---|---|---|---|---|
-| Boston | 837 | 276 | 193 | 77 | 11 | 44 | 58 | 63 | 115 |
-| Cambridge | 410 | 110 | 96 | 16 | 2 | 35 | 81 | 7 | 63 |
-| Somerville | 117 | 58 | 30 | 3 | 3 | 4 | 3 | 4 | 12 |
-| Brookline | 172 | 12 | 54 | 2 | 0 | 64 | 8 | 5 | 27 |
-| Medford | 110 | 16 | 21 | 2 | 6 | 20 | 24 | 2 | 19 |
-| Malden | 33 | 3 | 9 | 0 | 4 | 5 | 1 | 3 | 8 |
+| Boston | 1004 | 330 | 264 | 104 | 32 | 64 | 50 | 73 | 87 |
+| Cambridge | 404 | 154 | 75 | 17 | 2 | 31 | 68 | 10 | 47 |
+| Somerville | 134 | 76 | 28 | 6 | 4 | 5 | 1 | 3 | 11 |
+| Brookline | 105 | 19 | 27 | 2 | 0 | 36 | 1 | 1 | 19 |
+| Medford | 32 | 3 | 6 | 3 | 0 | 1 | 12 | 6 | 1 |
+| Malden | 33 | 5 | 3 | 0 | 3 | 6 | 0 | 3 | 13 |
 
 ## Events per source (before merge)
 
-- do617: 125
-- do617-2: 114
-- do617-3: 160
-- do617-4: 161
-- do617-5: 133
-- do617-6: 64
-- boston-calendar: 59
-- allevents-boston: 48
-- eventbrite-boston: 82
-- eventbrite-boston-2: 96
-- eventbrite-boston-3: 99
-- eventbrite-boston-4: 62
-- eventbrite-boston-5: 76
-- bostoncentral: 42
-- luma-boston: 26
-- artsboston: 8
-- malden-events: 20
-- fever-boston: 64
-- boston-gov: 18
+- do617: 121
+- do617-2: 78
+- do617-3: 73
+- do617-4: 116
+- do617-5: 134
+- do617-6: 147
+- do617-7: 143
+- do617-8: 127
+- boston-calendar: 76
+- allevents-boston: 30
+- eventbrite-boston: 116
+- eventbrite-boston-2: 49
+- eventbrite-boston-3: 36
+- eventbrite-boston-4: 41
+- eventbrite-boston-5: 94
+- bostoncentral: 55
+- luma-boston: 15
+- artsboston: 9
+- malden-events: 15
+- fever-boston: 56
+- boston-gov: 12
 - open-newbury: 0
-- bpl: 18
-- cambridge-city: 67
-- somerville-city: 11
-- brookline-library: 128
-- medford-city: 8
-- mit: 61
-- northeastern: 31
-- harvard: 89
+- bpl: 19
+- cambridge-city: 91
+- somerville-city: 12
+- brookline-library: 41
+- medford-city: 2
+- mit: 49
+- northeastern: 26
+- harvard: 65
 - bu-spark: 0
-- tufts: 19
-- mfa: 27
-- ica: 29
-- mos: 16
-- arnold-arboretum: 15
-- bso: 7
-- boch-center: 12
-- brighton-music-hall: 29
-- assembly-row: 13
-- cache-medford: 76
-- patch-malden: 11
-- brookline-news: 26
+- tufts: 17
+- mfa: 94
+- ica: 18
+- mos: 14
+- arnold-arboretum: 12
+- bso: 6
+- boch-center: 9
+- brighton-music-hall: 22
+- assembly-row: 4
+- cache-medford: 0
+- patch-malden: 13
+- brookline-news: 37
 - somerville-arts-council: 1
 - cambridge-tourism: 7
-- boston-public-market: 10
+- boston-public-market: 9

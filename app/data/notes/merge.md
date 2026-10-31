@@ -1,493 +1,403 @@
 # Merge
 
-2168 raw → 1953 valid → 1679 after dedupe; 212 flagged.
+2111 raw → 1959 valid → 1712 after dedupe; 212 flagged.
 
-- Dropped invalid record from allevents-boston: Jim Gaffigan (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Nate Jackson: BIG DOG (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Boston Symphony Orchestra Boston Tickets (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Curated Cuisine: Chef Eric Ripert on finding joy & connection through food (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Spice School: Blending Bar (Boston) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: The Airborne Toxic Event (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: To K*ll A Mockingbird at Huntington Avenue Theatre - MA (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Boston University Men's Hockey vs. UConn Huskies Mens College Hockey (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Boston Celtics vs. New York Knicks (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: San Jose Sharks at Boston Bruins at TD Garden (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Wicked (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Trae Crowder at The Wilbur (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: Boston Faneuil Hall Halloween Bar Crawl (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from allevents-boston: K-POP AFTER DARK | StyleMe 7th Anniversary Showcase @Bootleg Special (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from arnold-arboretum: Forest Bathing (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from arnold-arboretum: Korean Trees of the Arboretum (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from arnold-arboretum: Exhibit Opening for Living Connections: The Arnold Arboretum and Korea (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from arnold-arboretum: Autumn in the Arboretum (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: Curated Cuisine: James Beard Award-winning chef Eric Ripert on finding joy & connection through food (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: "Joe Block Quintet: There Is Always Hope" Album Release Show (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: Channel Zero Proudly Presents: "True to the Navy" (1930) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: Sound Performance: Eric Wong (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: October Song Fest (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from artsboston: Jazz Sanctuary featuring Jason Palmer and Kevin Harris (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from assembly-row: Fright Night Fridays @ Muse (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from assembly-row: Howl-O-Ween Yappy Hour (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boch-center: Sanctuary Park Tour: Celebrating 40 Years of The Jayhawks (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Rubies (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Collecting Wonders: Tomorrow’s Discoveries (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Ruckus! (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: PhotoWalks Architecture + History + Photo Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Envisioning History – Specialty Guided Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Tiffany Windows Self-Guided Tours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Copley Square Farmers Market (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Free Fridays at Trinity Organ Recitals (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: PhotoWalks Beacon Hill Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Experience Boston's Revolutionary and Drunken Past with Small Group Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Peabody Museum Tours Led by Harvard Students (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: SMALL ⭐ MART Outdoor Market | Art, Makers & Vintage in Davis Square Plaza (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Sails and Sips Pop-up Bar (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: A Taste of Fall at Mandarin Oriental, Boston (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: The Cat In The Hat CAT-tastic Character Meet & Greet @ Franklin Park Zoo (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Free Rock Climbing- Central Rock Cambridge (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Art After Dark at Affordable Art Fair (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Pokemon Drag Show: The Spookeball (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: KiOSK Comedy (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Curated Cuisine: James Beard Award-winning chef Eric Ripert on finding joy & connection through food (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Trivia & Candle Making/Intention Setting! (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Coraline: The Drag Tribute (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Kings & Queens of the Court Volleyball Mixer (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: The Jar: Kendall Square Salon (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Boston Celtics vs. New York Knicks (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Nate Jackson: Big Dog (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: October Song Fest (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Sound Performance: Eric Wong (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Great British Bake Off Watch Party (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Jim Gaffigan - Boston, MA - Everything is Wonderful! Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Fourth Dimension Tap Company Presents Sound & Color (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Bruce Cockburn with Special Guest Livingston Taylor (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Jazz Sanctuary presents Jason Palmer and Kevin Harris (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: ROA - Boston, MA - USA Tour 2026 (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Channel Zero Presents: "True to the Navy" (1930) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Lamplighter's Haunted Haus: Halloween Drag & Dance Party (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Vivo Performing Arts presents Gravity & Other Myths: Ten Thousand Hours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: AAPC Playfest 9 (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Night in the Stacks (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Dirty Disney Returns to Laugh Boston (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Free Wine Tastings - VinoDiVino Brookline (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: Chinatown Farmers Market (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-calendar: "Painting the Profound" - Landscapes by Erik Koeppel (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Roxbury Liaison Office Hours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Jamaica Plain Liaison Office Hours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Support Group For Dementia Care Partners (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Walter St. Burying Ground Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: 2026 Fall Dog Licensing and Rabies Clinic (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Cummins Highway Community Walkthrough (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-gov: Horse-of-Course (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: Spice School: Blending Bar with Curio Spice Co. (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: Magician Peter O'Malley (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: Face Painting by FaceArt (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: Fall Tea Blending Experience with Curio Spice Co. (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: GF Pumpkin Cinnamon Roll Baking Class with Jennifer Lee's Bakery & Dear Gluten (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from boston-public-market: GF Pumpkin Cinnamon Roll Baking Class with Jennifer Lee's and Dear Gluten (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Brick-Or-Treat - Kid's Halloween Event (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Cityside Pumpkin Patch at Island Creek Oyster (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: See Boston's Official Pumpkin at Boston Public Library (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Affordable Art Fair Boston (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Art After Dark at Affordable Art Fair (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Exhibition Viewing: Cemetery of the Nameless (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: WICKED (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Fourth Dimension Tap Company Presents Sound (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: 90 Years: ICA Boston's 90th Anniversary Exhibition (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Collecting Wonders: Tomorrow's Discoveries (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Patriots of Color Exhibition (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Ruckus! at Old South Meeting House (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: The Pigeon Comes to Boston: A Mo Willems Exhibit (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: The Road to Revolution: Massachusetts and the American Revolution (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Memorias del Agua: Vieques Film & Human Rights (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Seaport x Black Owned Bos. Market (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Boston Public Market (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Copley Square Farmers Market (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Haymarket (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Frog Pond Carousel on Boston Common (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Dumpling Making Party In Massachusetts (Fridays) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Loyall Counting Room (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Loyall Haunting Room (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: North End Pizza Tour (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Two Chefs. Two Cities. One Table. (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Pop Quiz: 1776 (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: GBH Press Café Live Broadcasts & Events (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Hatch Shell Events (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Mark Guiliana: BEAT MUSIC (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Sound Performance: Eric Wong (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Street Stage at Moakley Park (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Gravity & Other Myths: Ten Thousand Hours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Boston Lights: A Lantern Experience at Franklin Park Zoo (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Harper Lee's To Kill a Mockingbird (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Operation Mincemeat: A New Musical (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: PMRP Presents 'Tomes of Terror: Sounds of...' (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Someone Will Remember Us - Original Play (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: 'Til Death Do Us Part: Late Nite Catechism (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Black Heritage Trail Walking Tours (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Ghosts and Gravestones Ghost Tour 2026 (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: SMALL MART Outdoor Market | Art, Makers & More (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bostoncentral: Storytime for 2 Year Olds: Somerville Library (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Halloween Costume Swap Drop Off (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Teens Love Tacos with Ms. Christine! (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Tai Chi for Adults & Seniors (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Horror of the 1900s: Friday the 13th (1980) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Friday Matinee: Beetlejuice (1988) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Side Quest: Teen Gaming Club (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Friday Films: Gigot (1962) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Music Production with Hamstank: Beats, Recording, Mixing, & Mastering (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Drop-in ESOL Conversation Group (Level 2 and higher) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Teen Crafternoon (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: Build A Better Ramen [#teencentral] (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bpl: LEGO Club (Ages 3-12) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brighton-music-hall: An Evening With Assembly of Dust (18+) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brighton-music-hall: An Evening With Assembly of Dust (18+) (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-library: Little Groove Family Concert (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-library: 90-Second Newbery Film Club (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-library: Sensory Storytime (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-library: Senior violin recital (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: Jazz Sanctuary featuring Jason Palmer and Kevin Harris (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: Girl Scout troop 84329 Fall Reuse Market and Snack Festival (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: Griggs Park Community Yard Sale and Craft Fair (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: 19th Anniversary Grand Wine Tasting (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: Party for the Pantry (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from brookline-news: Farewell, My Butterfly: An Evening of Korean Traditional Dance & Music, Old and New (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bso: Boston Conservatory Orchestra: The Great Swiftness (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bso: George Lewis and Tod Machover: Positive Vision (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from bso: already and not yet: A world premiere by Tod Machover (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: MakerSpace Drop-In (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Emo Night Boston Halloween Party (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Bruce Cockburn with Special Guest Livingston Taylor (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: MakerSpace Drop-In (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Family Story Time (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Boston VN Dev Hang Out! (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Tufts Halloween on the Hill (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Paint + Sip: Pumpkin Season (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cache-medford: Fib / Wiring / Main Era / Pew Pew (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-city: Coffee and Games! (Boudreau) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-city: Kids' Game Shows! (O'Neill) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-city: KiOSK Comedy (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-city: Celebrate 10 Years of 1,000 Books Before Kindergarten with a Concert and Craft! (Main) (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-city: Cambridge NITES: Steep'd Intergenerational Tea (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: Exhibition: Remembering the Future (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: Exhibition: AI: Mind the Gap (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: Charles River Farmers Market at the Charles Hotel (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: KiOSK Comedy (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: October Song Fest (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: Millennial Skip the Small Talk Night (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from cambridge-tourism: Cambridge Record Fair (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Meeting the China Challenge ft. former Prime Minister of Australia Kevin Rudd (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Battling The Firehose of Falsehood: Confronting Russian Disinformation in Central Asia (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Mandy (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Harvard Bands present Montage Concert 2026 (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: The Yellow Balloon (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Day of the Dead Celebration (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Je t’aime, je t’aime (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Pool of London (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: The Harvard Callbacks present Still On The Line: 40th Anniversary Jam (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: The Harvard Pops Orchestra presents Pops Meets Its Quadfather (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from harvard: Turn the Key Softly (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from ica: Waterfront Art Walks (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from ica: MIDDAY Movement Series and ICA/Boston present: Braiding Futures (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from ica: Perfect Memory (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from luma-boston: 5K Like A Girl - Boston (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from malden-events: Raising Resilient Youth (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from medford-city: Flu and Covid Clinic (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from medford-city: 6th Annual Halloween Festival and Pumpkin Float! (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mfa: Chronicles from the Siege (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mfa: Boston Stories (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mfa: Drop-In Art Making: Expressive Block Printing (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mfa: The Story of Art without Men: An Illustrated Guide to Amazing Women Artists (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: MIT FutureTech Annual Conference Predicting AI's Future (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: 2026 McGovern Institute Symposium - Decoding Addiction: Breaking new ground in research and clinical care (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: Hottel Lecture: Building a Sustainable, Circular, and Low-Carbon Chemical Industry (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: Sound Performance: Eric Wong (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: MIT’s Annual Family Weekend Concert - Virtuosic Legacies (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: What Are People For: Design Philosophy by Patrick Whitney (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: Rescheduled 2026 MIT Great Glass Pumpkin Patch (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mit: The Mind as Friend or Enemy (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from mos: Live with Mark Rober (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from northeastern: Swim & Dive vs. Rhode Island (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from northeastern: Men's Soccer vs. Hofstra (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from northeastern: Volleyball vs. Stony Brook (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from patch-malden: Raising Resilient Youth (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from patch-malden: Bead Affaire (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: Early Voting at Somerville City Hall (November 3rd Election) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: Eastern Flow in the Park (Council on Aging) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: Financial Literacy Workshop (Know Your Money: Budgeting & Financial Planning) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: New to Medicare / SHINE Workshop (Council on Aging) (2026-10-23): date 2026-10-23 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: National Prescription Drug Take Back Day (Teele Square Fire Station) (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Dropped invalid record from somerville-city: National Prescription Drug Take Back Day (220 Washington St.) (2026-10-24): date 2026-10-24 is outside 2026-10-25..2026-11-24
-- Merged duplicate "Coffee & Community with George Howell" (2026-10-27, Boston) from boston-public-market and do617-2
-- Merged duplicate "Doctor Gasp / Deluxe Fiasco" (2026-10-27, Medford) from cache-medford and do617-2
-- Merged duplicate "Boston Celtics vs. Brooklyn Nets" (2026-10-27, Boston) from allevents-boston and do617-2
-- Merged duplicate "After" (2026-10-28, Boston) from brighton-music-hall and do617-2
-- Merged duplicate "Small Pond / Otis Shanty / Bus Crush" (2026-10-28, Medford) from cache-medford and do617-2
-- Merged duplicate "Starting Over With John & Yoko - Book Release" (2026-10-28, Boston) from boch-center and do617-2
-- Merged duplicate "Sip & Paint: Día de los Muertos" (2026-10-29, Medford) from cache-medford and do617-3
-- Merged duplicate "Turtleboy Live: The Relapse" (2026-10-30, Boston) from boch-center and do617-3
-- Merged duplicate "Halloween Magic Show" (2026-10-29, Boston) from do617-3 and do617-4
-- Merged duplicate "Boston Fenway Halloween Bar Crawl 2026" (2026-10-31, Boston) from allevents-boston and do617-4
-- Merged duplicate "Fright Night in Fenway: Halloween Night All Access Bar Pass" (2026-10-31, Boston) from allevents-boston and do617-4
-- Merged duplicate "Patrick Droney" (2026-11-01, Boston) from boch-center and do617-4
-- Merged duplicate "Pretty Sick" (2026-11-04, Boston) from brighton-music-hall and do617-5
-- Merged duplicate "Boston Celtics vs. Milwaukee Bucks" (2026-11-04, Boston) from allevents-boston and do617-5
-- Merged duplicate "Fleurs de Villes" (2026-11-04, Boston) from do617-5 and do617-6
-- Merged duplicate "Kyle Hume" (2026-11-06, Boston) from brighton-music-hall and do617-6
-- Merged duplicate "Six60" (2026-11-09, Boston) from brighton-music-hall and do617-6
+- Dropped invalid record from artsboston: Ella Hunt performing Blindspot (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Frightfully Fabulous - A Halloween Costume Party hosted by Nick Panagiotou (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Michael Feinstein in My Celebration (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Cantata Singers Boston Choral Festival 2026 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Tufts Composers: New at Noon #1 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Cambridge Symphony Orchestra: Brahms, Bach, and Poulenc (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Use the Force Halloween Special (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from artsboston: Poetry Brothel: MONSTERS (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Pop Quiz: 1776 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Rubies (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Collecting Wonders: Tomorrow’s Discoveries (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Ruckus! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: PhotoWalks Architecture + History + Photo Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Dumplings to Dim Sum: Food and History Tour of Boston's Chinatown (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Envisioning History – Specialty Guided Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Copley Square Farmers Market (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Tiffany Windows Self-Guided Tours (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Tufts Composers: New at Noon #1 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Free Fridays at Trinity Organ Recitals (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: PhotoWalks Beacon Hill Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Experience Boston's Revolutionary and Drunken Past with Small Group Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Painted Burro Davis Square- Happy Hour Deals! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Ashmont Farmers Market (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Peabody Museum Tours Led by Harvard Students (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: SMALL ⭐ MART Outdoor Market | Art, Makers & Vintage in Davis Square Plaza (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Inmanween (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: A Taste of Fall at Mandarin Oriental, Boston (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Whispers from the Veil: A Victorian Séance Experience (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Free Rock Climbing- Central Rock Cambridge (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Costumes, Crafts and Candy at Kroc-o-Treat (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Posto South End- Happy Hour Deals! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Black People Know Things Halloween Trivia (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Halloween Bash with Community Boating Inc. (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Halloween Hoot - All Are Welcome! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Mini Fridge Magnets - Spooky Edition (Cambridge) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: A Halloween Special : The Fall of the House of Usher by Jean Epstein with live piano (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Christmas In Black (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Brewery Halloween Party (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Café Sauvage After Dark: 5th Anniversary Afrobeats Night (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Sinners and Saints Haunted Halloween Party Cruise (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Roslindale Film Society: Night of the Living Dead (1968) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Frightfully Fabulous - A Halloween Costume Pary hosted by Nick Panagiotou (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Friday Night Trivia (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Bi+ Night (Bisexual, Pansexual, Queer) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Comedy at Bill's Bar (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: MAGIC IS REAL! Live Album Recording with Photocomfort at First Parish Cambridge (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Rawayana - ¿Dónde es el after? World Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Skalloween 5 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Paige Fish (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: DJ Meredith Marks - Boston, MA - You. Can. Dance. Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: McCarthys Cambridge Irish Session (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: LEGO Discovery Center Boston Adult Night (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: 1st Annual Paws-itively Hilarious Stand-Up Comedy Show (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Boston Poetry Brothel MONSTERS (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Musical Mavericks in Malden (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: NBA Cup: Boston Celtics vs. Chicago Bulls (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Disney and Pixar’s Coco in Concert Live to Film (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: moe. (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Paul Anka (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Overtime Comedy @ Substation (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Michael Feinstein: The Magical Music of Johnny Mathis & Henry Mancini (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Michael Feinstein in My Celebration (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Cambridge Symphony Orchestra: Brahms, Bach, and Poulenc (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Fiori Musicali: Florid Treasures from Late Renaissance & Baroque Italy (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Friday Live Music With Scott Damgaard (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Davis Square Halloween Party 🎃 | 21+ (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Great British Bake Off Watch Party (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: The Halloween BOOzaar (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Nature Sings: A Sonic Revival Live (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: 50 CENT AT The Grand - Seaport Halloween (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Wicked Rippah w Costa (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from boston-calendar: Boot Scootin' BBQ Line Dancing Bash (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from bpl: City Scenes: Photographs by Robert Richmond (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from brookline-library: Bitty Boo Bash (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from cambridge-city: SNAP and MassHealth Assistance at CPHD Flu Clinic (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from cambridge-city: Kick Back & Watch a Movie (Central) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from cambridge-city: Halloween Party Ft. Prof Bugman (O'Connell) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: 20th Annual Project Management in Practice (PMiP) Conference (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Find the Good Scavenger Hunt (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Where's Boston? 50 Years Later (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: LEXICON Art Installation (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Color Flows (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Ruckus! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Para Normal Pop-up (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Ye Olde Candy Store Pop-up (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston Stories (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston Public Market Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Gallery Highlights (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Hands-On: Bucatini all'Amatriciana (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: America at 250 (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Small Mart Outdoor Market (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Trick or Drink: Halloween Bar Crawl (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Cocktail with a Cause (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Reunion BBQ (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Whispers from the Veil: A Victorian Séance (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston Lights: A Lantern Experience (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Nightmare at the Museum (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Fall Teen Night and Fashion Show (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Ghosts & Gravestones Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Nekrogoblikon, Aborted, Signs of the Swarm, Party Cannon (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Sip & Savor: Regione Alto Adige (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Hippie Hour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Hippie Hour w/ Promised Land! (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Roslindale Film Society: Night of the Living Dead (1968) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Jenna Davis, Ava Liv Mabry (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Haunted Cellar Halloween Party (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Comedy at Bill's Bar (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: A Spooky Night With The Music Of The Cure (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: DJ Meredith Marks (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Bill Baird / Jesse Gallagher / Lane Hartley (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: moe. (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston University Men's Hockey vs. University of Maine Black Bears Men's Hockey (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Skalloween V (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Death Becomes She/Her: The Drag Musical (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Paige Fish (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Santi Debriano (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: The World Spins To Bring Us Closer (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Creature Feature (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Halloween Magic Show (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: MAGIC IS REAL! Live Album Recording with Photocomfort (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Turtleboy Live: The Relapse (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Boston Celtics vs. Chicago Bulls (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Uncrowned: A Tribute to Ida Cox (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Disney and Pixar's Coco in Concert Live to Film (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Harper Lee's To Kill a Mockingbird (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Punchis Punchis (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Bikini Whale Halloween Show (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: The Hails (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Paul Anka (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Wicked (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: RAWAYANA - ¿Dónde es el after? World Tour (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Gash: Halloween Fright (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Michael Feinstein in My Celebration (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Rob Laurens and Guests (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Peter Mulvey presents the Lamplighter Sessions (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Irish Session (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: 50 Cent (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: camoufly (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Club Café Fridays (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Late Buzz (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Closing Time (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Harvard Halloween Party (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from do617: Fright Night (1985) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from eventbrite-boston: Wicked VHS: Halloween Eve Movie Night at The Hollows (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from malden-events: 22nd Annual Trick or Treat (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from malden-events: Urban Media Arts Annual Haunted Chroma Key (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from malden-events: Raising Resilient Youth (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from somerville-city: Early Voting at Somerville City Hall (November 3rd Election) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from somerville-city: Financial Literacy Workshop (Build Your Credit: Credit & Credit Score) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Dropped invalid record from somerville-city: Monster Munch Workshop (Council on Aging) (2026-10-30): date 2026-10-30 is outside 2026-10-31..2026-11-30
+- Merged duplicate "Jeff Jam Sing-along" (2026-11-01, Boston) from boston-public-market and do617-2
+- Merged duplicate "Patrick Droney" (2026-11-01, Boston) from boch-center and do617-2
+- Merged duplicate "Midday Munchies" (2026-11-04, Boston) from boston-public-market and do617-3
+- Merged duplicate "Pretty Sick" (2026-11-04, Boston) from brighton-music-hall and do617-3
+- Merged duplicate "Haydn's The Creation" (2026-11-05, Boston) from bso and do617-4
+- Merged duplicate "Haydn's The Creation" (2026-11-06, Boston) from bso and do617-4
+- Merged duplicate "Kyle Hume" (2026-11-06, Boston) from brighton-music-hall and do617-4
+- Merged duplicate "Dante Gebel - World Tour Despedida 2026" (2026-11-06, Boston) from boch-center and do617-4
+- Merged duplicate "BEAT: Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON" (2026-11-06, Boston) from boch-center and do617-4
+- Merged duplicate "Sunday Run!" (2026-11-08, Medford) from do617-5 and do617-5
+- Merged duplicate "Six60" (2026-11-09, Boston) from brighton-music-hall and do617-5
 - Merged duplicate "The Wldlfe" (2026-11-11, Boston) from brighton-music-hall and do617-6
-- Merged duplicate "Alyssa Grace" (2026-11-12, Boston) from brighton-music-hall and do617-6
+- Merged duplicate "Lucy Darling: The More the Merrier" (2026-11-13, Boston) from boch-center and do617-6
 - Merged duplicate "Punch Brothers" (2026-11-13, Boston) from boch-center and do617-6
-- Merged duplicate "Patrick Wolf" (2026-11-19, Boston) from brighton-music-hall and do617-6
-- Merged duplicate "Jeff Jam Sing-along" (2026-10-25, Boston) from boston-public-market and do617
-- Merged duplicate "Somerville Monster Dash 5K" (2026-10-25, Somerville) from assembly-row and do617
-- Merged duplicate "Trick-Or-Treat For A Cause" (2026-10-25, Somerville) from assembly-row and do617
-- Merged duplicate "Laura Benanti: Nobody Cares" (2026-10-25, Boston) from boston-calendar and do617
-- Merged duplicate "Maris" (2026-10-25, Boston) from brighton-music-hall and do617
-- Merged duplicate "Jim Gaffigan: Everything is Wonderful!" (2026-10-25, Boston) from boch-center and do617
-- Merged duplicate "Pizza & Pumpkin Carving" (2026-10-26, Boston) from do617-2 and do617
-- Merged duplicate "AI Training for Small Businesses" (2026-10-26, Boston) from boston-gov and do617
-- Merged duplicate "The Parables Tour with Father Mike Schmitz" (2026-10-26, Boston) from boch-center and do617
-- Merged duplicate "iLaCatrina® Día de los Muertos Live Experience at La Fábrica" (2026-10-28, Cambridge) from do617-2 and eventbrite-boston-2
-- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-30, Boston) from do617-3 and eventbrite-boston-2
-- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-30, Boston) from allevents-boston and eventbrite-boston-2
-- Merged duplicate "Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from do617-4 and eventbrite-boston-2
-- Merged duplicate "Cambridge Official Halloween Bar Crawl" (2026-10-31, Cambridge) from do617-4 and eventbrite-boston-2
-- Merged duplicate "Boston Fenway Halloween Bar Crawl 2026" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-2
-- Merged duplicate "HALLOWEEN 2026" (2026-10-31, Boston) from do617-4 and eventbrite-boston-2
-- Merged duplicate "Boston's Haunted Hop 2026: Halloween Bar Crawl (Saturday, Oct 31)" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-2
-- Merged duplicate "Fright Night in Fenway: Halloween Night All Access Bar Pass" (2026-10-31, Boston) from do617-4 and eventbrite-boston-2
-- Merged duplicate "Nightmare on Lansdowne Street @ Game On" (2026-10-31, Boston) from do617-4 and eventbrite-boston-2
-- Merged duplicate "The British Are Coming – Showcase" (2026-11-01, Somerville) from do617-4 and eventbrite-boston-2
-- Merged duplicate "ACOTAR Book #6 Midnight Release Party at Harvard Book Store" (2026-10-26, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Tarot and Flowers Night!" (2026-10-27, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "OPM 65 Diwali Party 2026" (2026-10-27, Boston) from do617-2 and eventbrite-boston-3
-- Merged duplicate "Prospect Hill Tower: History Unlocked Drop-In Chats" (2026-10-29, Somerville) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "The Fright Crawl | Boston Halloween Bar Crawl 2026 | Thursday, October 29" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "20th Annual Project Management in Practice (PMiP) Conference" (2026-10-30, Boston) from do617-3 and eventbrite-boston-3
-- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Haunted Hay Ride - Halloween 2026 @ Loretta's Last Call" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Cambridge Official Halloween Bar Crawl" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Fenway Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Faneuil Hall Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Fenway Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Faneuil Hall Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "HALLOWEEN  PARTY!   Day->NIGHT  Jungle Theme" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Boston Bruins vs. Minnesota Wild" (2026-11-14, Boston) from allevents-boston and do617-6
+- Merged duplicate "Boston Celtics vs. Dallas Mavericks" (2026-11-15, Boston) from allevents-boston and do617-6
+- Merged duplicate "The Sound of Music" (2026-11-17, Boston) from boch-center and do617-7
+- Merged duplicate "Patrick Wolf" (2026-11-19, Boston) from brighton-music-hall and do617-7
+- Merged duplicate "Jubin Nautiyal" (2026-11-20, Boston) from allevents-boston and do617-7
+- Merged duplicate "Ali Siddiq: The Custom Fit Tour" (2026-11-21, Boston) from boch-center and do617-7
+- Merged duplicate "Peter Wolf and the Midnight Travelers" (2026-11-28, Boston) from boch-center and do617-8
+- Merged duplicate "The Blair Project" (2026-10-31, Boston) from boston-gov and do617
+- Merged duplicate "Drop-In Kids' Craft" (2026-10-31, Boston) from boston-public-market and do617
+- Merged duplicate "Boston Bruins vs. Chicago Blackhawks" (2026-10-31, Boston) from allevents-boston and do617
+- Merged duplicate "BLAIR 2026" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-2
 - Merged duplicate "Pulso Halloween Tango Night" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston Rooftop Series at The Envoy Rooftop - Halloween Night" (2026-10-31, Boston) from do617-4 and eventbrite-boston-3
-- Merged duplicate "BLAIR 2026" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-3
-- Merged duplicate "Boston Halloween Party Cruise | Witches & Zombies w/ DJ Artie V" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-3
-- Merged duplicate "HALLOWEEN 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "The Fright Crawl | Boston's #1 Halloween Bar Crawl 2026 | Sat, Oct 31" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Boston's Haunted Hop 2026: Halloween Bar Crawl (Saturday, Oct 31)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Fright Night in Fenway: Halloween Night All Access Bar Pass" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from do617-4 and eventbrite-boston-3
-- Merged duplicate "Nightmare on Stuart St - Revere Hotel Boston" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "TheIsland Saturday Vibes in Malden" (2026-10-31, Malden) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "HALLOWEEN PARTY at West End Johnnies - TD Garden Boston" (2026-10-31, Boston) from do617-4 and eventbrite-boston-3
-- Merged duplicate "6th Annual Salsa & Bachata Halloween Party" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "BOLLYWEEN BOSTON: 2026 The Ultimate Bollywood Halloween Party!" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Nightmare on Lansdowne Street @ Game On" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "HALLOWEEN NIGHT AT BOOTLEG SPECIAL" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Dillon's - Dead At Night Halloween Party" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "NIGHTMARE ON SEAPORT BLVD @ THE GRAND" (2026-10-31, Boston) from allevents-boston and eventbrite-boston-3
-- Merged duplicate "VENU SATURDAYS - 2 Rooms featuring HipHop, Latin, & AfroBeats" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "BLAIR 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Energy Clinics and Savings" (2026-11-01, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "Artisans Asylum Speaker Series: Alison Croney Moses" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Harvard Chan South Asia Students Association for Jashn-e-Diwali" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "Skate It Forward - Series" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "2026 Asia Business Conference" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "2026 HCSSA 5k Charity Run Fall" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "BULLY DAY 2026" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Dumpling Fest Boston" (2026-11-10, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "32 Dan Deyo: Boston's Haitian Comedy Night" (2026-11-10, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Energy and Climate Conference 2026: Powering a Resilient Future" (2026-11-08, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Not Your Bubbe Book Club Discussion of Always Carry Salt by Samantha Ellis" (2026-11-09, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "The Friendsgiving Edit - Mahjong Social" (2026-11-11, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "2nd Ann  Embracing Black Healing & Self-Advocacy Conference for Black Women" (2026-11-13, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "AI Community Conference - Boston 2026" (2026-11-13, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "12th Thanksgiving Ping Pong Tournament 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "herNetwork Fall 2026 Women Mean Business Conference" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Merry Makers at Idle Hands -Holiday Market 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Kids Storytime: Amanda Davis" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "The Little Swirl Studio at Far Out Ice Cream" (2026-11-15, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "Best in Grass Massachusetts Awards Show 2026" (2026-11-19, Boston) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "MIT Neurotech 2026" (2026-11-20, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
-- Merged duplicate "American Legal Technology Awards Gala 2026" (2026-10-25, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Foodies + New Friends: Cambridge Entrepreneurs | 2026 Dinner Club" (2026-10-25, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "ACOTAR Book #6 Midnight Release Party at Harvard Book Store" (2026-10-26, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Newtowne School Tours" (2026-10-27, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Noche Latina Halloween Party & Costumes Contest!" (2026-10-27, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "OPM 65 Diwali Party 2026" (2026-10-27, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "The Fright Crawl | Boston Halloween Bar Crawl 2026 | Thursday, October 29" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "HLC Halloween 2026" (2026-10-29, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "BU Health & Life Science Conference 2026 Featuring Big Tree ACORN Summit" (2026-10-30, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Haunted Boston Halloween Party | Sinners & Saints Cruise" (2026-10-30, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Lou's Drag Brunch: Drag Me to the Table!" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "LA FÊTE DU BEAUJOLAIS" (2026-11-19, Somerville) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-2 and eventbrite-boston-3
+- Merged duplicate "Entrepreneurship Conference 2026 at Harvard Business School" (2026-11-22, Boston) from eventbrite-boston-2 and eventbrite-boston-3
 - Merged duplicate "BOSTON RETAIL SHOW 2026" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "Pulso Halloween Tango Night" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Boston Halloween Party Cruise | Witches & Zombies w/ DJ Artie V" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "BLAIR 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "HALLOWEEN 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "The Fright Crawl | Boston's #1 Halloween Bar Crawl 2026 | Sat, Oct 31" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Boston's Haunted Hop 2026: Halloween Bar Crawl (Saturday, Oct 31)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "11.1 | BUSCSSA X Overseas - After Dark HALLOWEEN NIGHT" (2026-11-01, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Seaport Smalls" (2026-11-01, Boston) from do617-2 and eventbrite-boston-4
+- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Energy Clinics and Savings" (2026-11-01, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "Newtowne School Tours" (2026-11-02, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
 - Merged duplicate "Artisans Asylum Speaker Series: Alison Croney Moses" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "Skate It Forward - Series" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "2026 Asia Business Conference" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "2026 HCSSA 5k Charity Run Fall" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "Rev. Burns Stanfield Retirement Celebration & Show 11/7/2026" (2026-11-07, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "EdVestors' 2026 School on the Move Prize Ceremony" (2026-11-10, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Energy and Climate Conference 2026: Powering a Resilient Future" (2026-11-08, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "TREMONT NIGHTS AFROBEAT" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Energy and Climate Conference 2026: Powering a Resilient Future" (2026-11-08, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "Rev. Burns Stanfield Retirement Worship and Blessing Service 11/8/2026" (2026-11-08, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Not Your Bubbe Book Club Discussion of Always Carry Salt by Samantha Ellis" (2026-11-09, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Open House at Shaloh House Jewish Day School" (2026-11-11, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "The Friendsgiving Edit - Mahjong Social" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "Not Your Bubbe Book Club Discussion of Always Carry Salt by Samantha Ellis" (2026-11-09, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "EdVestors' 2026 School on the Move Prize Ceremony" (2026-11-10, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "Open House at Shaloh House Jewish Day School" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "The Friendsgiving Edit - Mahjong Social" (2026-11-11, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "Dancing With The Sigmas" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "BSSC's Blizzard x Teton Gravity Research Film Tour" (2026-11-12, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "2nd Ann  Embracing Black Healing & Self-Advocacy Conference for Black Women" (2026-11-13, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "AI Community Conference - Boston 2026" (2026-11-13, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "2nd Ann  Embracing Black Healing & Self-Advocacy Conference for Black Women" (2026-11-13, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "AI Community Conference - Boston 2026" (2026-11-13, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "12th Thanksgiving Ping Pong Tournament 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Kids Storytime: Amanda Davis" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Kids Storytime: Amanda Davis" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-4
 - Merged duplicate "The Little Swirl Studio at Far Out Ice Cream" (2026-11-15, Boston) from eventbrite-boston-2 and eventbrite-boston-4
-- Merged duplicate "Boston Meets Goa - Journey To Moksha (FREE - Goa Psytrance Night)" (2026-11-15, Cambridge) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Entrepreneurship Conference 2026 at Harvard Business School" (2026-11-22, Boston) from eventbrite-boston-3 and eventbrite-boston-4
-- Merged duplicate "Rhythmic Rhapsodies" (2026-10-25, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Foodies + New Friends: Cambridge Entrepreneurs | 2026 Dinner Club" (2026-10-25, Cambridge) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "ACOTAR 6 Midnight Release Party" (2026-10-26, Cambridge) from eventbrite-boston-4 and eventbrite-boston-5
-- Merged duplicate "Newtowne School Tours" (2026-10-27, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "OPM 65 Diwali Party 2026" (2026-10-27, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Noche Latina Halloween Party & Costumes Contest!" (2026-10-27, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Drag Nights at AERONAUT" (2026-10-28, Somerville) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Sunrise Sing Series Fall '26 | Arnold Arboretum" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "The Fright Crawl | Boston Halloween Bar Crawl 2026 | Thursday, October 29" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "BRUNCH @ NIGHT" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Fashionably Late: Boston Fashion Nights" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "HALLOWINE 2026" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "20th Annual Project Management in Practice (PMiP) Conference" (2026-10-30, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Haunted Boston Halloween Party | Sinners & Saints Cruise" (2026-10-30, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "History of Boston Through Paintings | Art Tour" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Lou's Drag Brunch: Drag Me to the Table!" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Boston Meets Goa - Journey To Moksha (FREE - Goa Psytrance Night)" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "LA FÊTE DU BEAUJOLAIS" (2026-11-19, Somerville) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Entrepreneurship Conference 2026 at Harvard Business School" (2026-11-22, Boston) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "New England Makers Showcase" (2026-11-27, Boston) from eventbrite-boston-3 and eventbrite-boston-4
+- Merged duplicate "Thanksgiving Homecoming Party (black attire recommended) w/DJ Kid Capri!!!" (2026-11-28, Malden) from eventbrite-boston-2 and eventbrite-boston-4
+- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Haunted Boston Halloween Party | Sinners & Saints Cruise" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Boston Fenway Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Cambridge Official Halloween Bar Crawl" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Boston Faneuil Hall Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Boston Fenway Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Boston Faneuil Hall Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Pulso Halloween Tango Night" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Bottomless Dumplings!" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Boston Halloween Party Cruise | Witches & Zombies w/ DJ Artie V" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston-5
+- Merged duplicate "Boston Halloween Party Cruise | Witches & Zombies w/ DJ Artie V" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "HALLOWEEN 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Foodies + New Friends: Cambridge Entrepreneurs | 2026 Dinner Club" (2026-10-31, Cambridge) from eventbrite-boston-3 and eventbrite-boston-5
 - Merged duplicate "The Fright Crawl | Boston's #1 Halloween Bar Crawl 2026 | Sat, Oct 31" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Boston's Haunted Hop 2026: Halloween Bar Crawl (Saturday, Oct 31)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "TheIsland Saturday Vibes in Malden" (2026-10-31, Malden) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "The British Are Coming – Showcase" (2026-11-01, Somerville) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "11.1 | BUSCSSA X Overseas - After Dark HALLOWEEN NIGHT" (2026-11-01, Boston) from eventbrite-boston-3 and eventbrite-boston-5
+- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "BOSTON COSTUME CRAWL - An Epic Journey around Beantown - 9pm to 2am" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "TheIsland Saturday Vibes in Malden" (2026-10-31, Malden) from eventbrite-boston-4 and eventbrite-boston-5
+- Merged duplicate "HALLOWEEN PARTY at West End Johnnie's - COSTUME CRAWL CHECK IN" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "11.1 | BUSCSSA X Overseas - After Dark HALLOWEEN NIGHT" (2026-11-01, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "NECyto 2026 Fall Meeting" (2026-11-05, Cambridge) from do617-4 and eventbrite-boston-5
 - Merged duplicate "Artisans Asylum Speaker Series: Alison Croney Moses" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Harvard Chan South Asia Students Association for Jashn-e-Diwali" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Fashionably Late: Boston Fashion Nights" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Skate It Forward - Series" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "2026 Asia Business Conference" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "2026 HCSSA 5k Charity Run Fall" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Rev. Burns Stanfield Retirement Celebration & Show 11/7/2026" (2026-11-07, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Energy and Climate Conference 2026: Powering a Resilient Future" (2026-11-08, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "CARDIVÁLLE Trading Card Expo at Dorchester Brewing Company" (2026-11-08, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Rev. Burns Stanfield Retirement Worship and Blessing Service 11/8/2026" (2026-11-08, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Open House at Shaloh House Jewish Day School" (2026-11-11, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "The Friendsgiving Edit - Mahjong Social" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston-5
+- Merged duplicate "TREMONT NIGHTS AFROBEAT" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "Dancing With The Sigmas" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "3rd Annual Cabo Verdean 40 under 40 Gala Merito" (2026-11-12, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "BEOWULF" (2026-11-12, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
 - Merged duplicate "12th Thanksgiving Ping Pong Tournament 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "herNetwork Fall 2026 Women Mean Business Conference" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Boston Meets Goa - Journey To Moksha (FREE - Goa Psytrance Night)" (2026-11-15, Cambridge) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "Best in Grass Massachusetts Awards Show 2026" (2026-11-19, Boston) from eventbrite-boston-2 and eventbrite-boston-5
-- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-3 and eventbrite-boston-5
-- Merged duplicate "October 25th,  2026 - Drag Me To Bunch @ Carrie Nation" (2026-10-25, Boston) from eventbrite-boston-5 and eventbrite-boston
-- Merged duplicate "Rhythmic Rhapsodies" (2026-10-25, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Noble Ryderz Motorcycle Club Annual Chili Cook-Off" (2026-10-25, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "American Legal Technology Awards Gala 2026" (2026-10-25, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "ACOTAR Book #6 Midnight Release Party at Harvard Book Store" (2026-10-26, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Newtowne School Tours" (2026-10-27, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Toddler Create and Play" (2026-10-27, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Tarot and Flowers Night!" (2026-10-27, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Noche Latina Halloween Party & Costumes Contest!" (2026-10-27, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "Rabbi Isroel Berenbaum: Two-Day Seminar | October 28" (2026-10-28, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Prospect Hill Tower: History Unlocked Drop-In Chats" (2026-10-29, Somerville) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "The Fright Crawl | Boston Halloween Bar Crawl 2026 | Thursday, October 29" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Fashionably Late: Boston Fashion Nights" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "SENIOR SCARIES AT CLERYS" (2026-10-29, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "HLC Halloween 2026" (2026-10-29, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "ABCD Community Heroes Celebration 2026" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Haunted Boston Halloween Party | Sinners & Saints Cruise" (2026-10-30, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Haunted Hay Ride - Halloween 2026 @ Loretta's Last Call" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "002: TRICK OR TEASE" (2026-10-30, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "History of Boston Through Paintings | Art Tour" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "herNetwork Fall 2026 Women Mean Business Conference" (2026-11-14, Boston) from eventbrite-boston-4 and eventbrite-boston-5
+- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Lou's Drag Brunch: Drag Me to the Table!" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Boston Meets Goa - Journey To Moksha (FREE - Goa Psytrance Night)" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Entrepreneurship Conference 2026 at Harvard Business School" (2026-11-22, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Boston Official Thanksgiving Eve Bar Crawl 2026" (2026-11-25, Boston) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Cambridge Official Thanksgiving Eve Bar Crawl 2026" (2026-11-25, Cambridge) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "New England Makers Showcase" (2026-11-27, Boston) from eventbrite-boston-3 and eventbrite-boston-5
+- Merged duplicate "Thanksgiving Homecoming Party (black attire recommended) w/DJ Kid Capri!!!" (2026-11-28, Malden) from eventbrite-boston-2 and eventbrite-boston-5
+- Merged duplicate "Trick or Drink: Boston Halloween Bar Crawl (3 Days)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Boston Official Halloween Pub Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Haunted Boston Halloween Party | Sinners & Saints Cruise" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "The Fright Crawl | Boston's Hottest Halloween Bar Crawl 2026 | Fri, Oct 30" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Friday Night BLOCK PARTY - Hava, Venu, Icon & Crown!" (2026-10-31, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "BOSTON RETAIL SHOW 2026" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "History of Boston Through Paintings | Art Tour" (2026-10-31, Boston) from eventbrite-boston-5 and eventbrite-boston
 - Merged duplicate "Boston Official Halloween Bar Crawl 2026 By Bar Crawl LIVE!" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Cambridge Official Halloween Bar Crawl" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Boston Fenway Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "Boston Faneuil Hall Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "HALLOWEEN PARTY! Day->NIGHT Jungle Theme" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Boston Fenway Official Halloween Bar Crawl" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Boston Fenway Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Boston Faneuil Hall Halloween Bar Crawl 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "Pulso Halloween Tango Night" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Bottomless Dumplings!" (2026-10-31, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "BLAIR 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Boston Halloween Party Cruise | Witches & Zombies w/ DJ Artie V" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "HALLOWEEN 2026" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Foodies + New Friends: Cambridge Entrepreneurs | 2026 Dinner Club" (2026-10-31, Cambridge) from eventbrite-boston-3 and eventbrite-boston
 - Merged duplicate "The Fright Crawl | Boston's #1 Halloween Bar Crawl 2026 | Sat, Oct 31" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "Boston's Haunted Hop 2026: Halloween Bar Crawl (Saturday, Oct 31)" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "TheIsland Saturday Vibes in Malden" (2026-10-31, Malden) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "6th Annual Salsa & Bachata Halloween Party" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Nightmare on Stuart St - Revere Hotel Boston" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "AUBREY O'DAY hosts Halloween Night @ Off the Rails Boston" (2026-10-31, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "Nightmare on Lansdowne Street @ Game On" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Dillon's - Dead At Night Halloween Party" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "BOLLYWEEN BOSTON: 2026 The Ultimate Bollywood Halloween Party!" (2026-10-31, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "HALLOWEEN NIGHT AT BOOTLEG SPECIAL" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "HALL-O-WEEN at the HALL" (2026-10-31, Medford) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "6th Annual Salsa & Bachata Halloween Party" (2026-10-31, Cambridge) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "Nightmare on Stuart St - Revere Hotel Boston" (2026-10-31, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "HALLOWEEN PARTY at West End Johnnie's - COSTUME CRAWL CHECK IN" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "BOSTON COSTUME CRAWL - An Epic Journey around Beantown - 9pm to 2am" (2026-10-31, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "TheIsland Saturday Vibes in Malden" (2026-10-31, Malden) from eventbrite-boston-4 and eventbrite-boston
+- Merged duplicate "Seaport Smalls" (2026-11-01, Boston) from eventbrite-boston-4 and eventbrite-boston
+- Merged duplicate "Processing Community Day 2026 @Boston / Cambridge" (2026-11-01, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Energy Clinics and Savings" (2026-11-01, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "11.1 | BUSCSSA X Overseas - After Dark HALLOWEEN NIGHT" (2026-11-01, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Newtowne School Tours" (2026-11-02, Cambridge) from eventbrite-boston-3 and eventbrite-boston
 - Merged duplicate "Artisans Asylum Speaker Series: Alison Croney Moses" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "48th ABAA Boston International Antiquarian Book Fair" (2026-11-06, Boston) from eventbrite-boston-5 and eventbrite-boston
-- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "Fashionably Late: Boston Fashion Nights" (2026-11-05, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Skate It Forward - Series" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "WISE Boston Women of Inspiration 2026" (2026-11-06, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "2026 Asia Business Conference" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "E&C Club Field Suite: Harvard Football vs. Columbia" (2026-11-07, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "BULLY DAY 2026" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Bach Society Orchestra - Fall 2026 Concerto Competition Concert" (2026-11-07, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Lizard Lounge Poetry Jam-Michaelis" (2026-11-08, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Dumpling Fest Boston" (2026-11-10, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "32 Dan Deyo: Boston's Haitian Comedy Night" (2026-11-10, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "2nd Ann Embracing Black Healing & Self-Advocacy Conference for Black Women" (2026-11-13, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "2026 HCSSA 5k Charity Run Fall" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "BULLY DAY 2026" (2026-11-07, Boston) from do617-5 and eventbrite-boston
+- Merged duplicate "Rev. Burns Stanfield Retirement Celebration & Show 11/7/2026" (2026-11-07, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "TREMONT NIGHTS AFROBEAT" (2026-11-07, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Energy and Climate Conference 2026: Powering a Resilient Future" (2026-11-08, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "CARDIVÁLLE Trading Card Expo at Dorchester Brewing Company" (2026-11-08, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "Rev. Burns Stanfield Retirement Worship and Blessing Service 11/8/2026" (2026-11-08, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "Not Your Bubbe Book Club Discussion of Always Carry Salt by Samantha Ellis" (2026-11-09, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "32 Dan Deyo: Boston's Haitian Comedy Night" (2026-11-10, Boston) from allevents-boston and eventbrite-boston
+- Merged duplicate "Open House at Shaloh House Jewish Day School" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "The Friendsgiving Edit - Mahjong Social" (2026-11-11, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Dancing With The Sigmas" (2026-11-11, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "The 22nd Annual National Black Pre-Law Conference and Law Fair 2026" (2026-11-12, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "3rd Annual Cabo Verdean 40 under 40 Gala Merito" (2026-11-12, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "2nd Ann  Embracing Black Healing & Self-Advocacy Conference for Black Women" (2026-11-13, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "AI Community Conference - Boston 2026" (2026-11-13, Cambridge) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "12th Thanksgiving Ping Pong Tournament 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "Merry Makers at Idle Hands - Holiday Market 2026" (2026-11-14, Malden) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "Camp Congress for Girls Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Kids Storytime: Amanda Davis" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Veterans Cruise" (2026-11-14, Boston) from allevents-boston and eventbrite-boston
+- Merged duplicate "Girls in Business Camp Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Camp Congress for Youth Boston 2026" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "2026 Honoree Night" (2026-11-14, Boston) from eventbrite-boston-2 and eventbrite-boston
 - Merged duplicate "The Little Swirl Studio at Far Out Ice Cream" (2026-11-15, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "Best in Grass Massachusetts Awards Show 2026" (2026-11-19, Boston) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-3 and eventbrite-boston
-- Merged duplicate "MIT Neurotech 2026" (2026-11-20, Cambridge) from eventbrite-boston-2 and eventbrite-boston
-- Merged duplicate "ICA Free Thursday Night" (2026-10-29, Boston) from do617-3 and ica
-- Merged duplicate "ICA Halloween: It’s Magic!" (2026-10-31, Boston) from do617-4 and ica
-- Merged duplicate "Boston Family Days" (2026-11-01, Boston) from do617-4 and ica
-- Merged duplicate "After the Landslide: New Sculptural Forms from a Sea of Mud" (2026-10-25, Boston) from do617 and mfa
-- Merged duplicate "Clues in the Cloth: Dress and Alterations in the 18th Century" (2026-10-28, Boston) from do617-2 and mfa
-- Merged duplicate "Uzo Aduba: Owning Your Identity" (2026-10-29, Boston) from do617-3 and mfa
-- Merged duplicate "Diwali" (2026-11-01, Boston) from do617-4 and mfa
-- Merged duplicate "Revere and Rodallega: Silversmiths of the Americas" (2026-11-04, Boston) from do617-5 and mfa
-- Merged duplicate "MIT Neurotech 2026" (2026-11-20, Cambridge) from eventbrite-boston-2 and mit
-- Merged duplicate "Book Launch: INNER ZONE" (2026-10-29, Boston) from eventbrite-boston-2 and northeastern
-- Merged duplicate "Speculative Worlds: A Conversation with R.F. Kuang" (2026-10-29, Boston) from allevents-boston and northeastern
-- Merged duplicate "Raising Resilient Youth" (2026-10-30, Malden) from malden-events and patch-malden
+- Merged duplicate "Lou's Drag Brunch: Drag Me to the Table!" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "BOINGA Game Festival at Harpoon Brewing in Boston!" (2026-11-15, Boston) from eventbrite-boston-3 and eventbrite-boston
+- Merged duplicate "Boston Meets Goa - Journey To Moksha (FREE - Goa Psytrance Night)" (2026-11-15, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "LA FÊTE DU BEAUJOLAIS" (2026-11-19, Somerville) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "VIII Annual International Medical Congress – Boston 2026" (2026-11-20, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Entrepreneurship Conference 2026 at Harvard Business School" (2026-11-22, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "November Boston Networking & Social Event w/ Mass Professional Networking" (2026-11-23, Boston) from do617-8 and eventbrite-boston
+- Merged duplicate "Boston Official Thanksgiving Eve Bar Crawl 2026" (2026-11-25, Boston) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Cambridge Official Thanksgiving Eve Bar Crawl 2026" (2026-11-25, Cambridge) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "⚓️ HERLAND BROTHERS YACHT ROCK — THE RETURN & DEBUT" (2026-11-27, Malden) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "BLACK FRIDAY " FRIENDS GIVING HOMECOMING AFFAIR"" (2026-11-27, Boston) from eventbrite-boston-5 and eventbrite-boston
+- Merged duplicate "Thanksgiving Homecoming Party (black attire recommended) w/DJ Kid Capri!!!" (2026-11-28, Malden) from eventbrite-boston-2 and eventbrite-boston
+- Merged duplicate "Candlelight: Tribute to Bad Bunny" (2026-11-07, Boston) from allevents-boston and fever-boston
+- Merged duplicate "Collecting Wonders: Tomorrow’s Discoveries" (2026-10-31, Cambridge) from bostoncentral and harvard
+- Merged duplicate "Pop Quiz: 1776" (2026-10-31, Cambridge) from bostoncentral and harvard
+- Merged duplicate "ICA Halloween: It's Magic!" (2026-10-31, Boston) from do617 and ica
+- Merged duplicate "Boston Family Days" (2026-11-01, Boston) from do617-2 and ica
+- Merged duplicate "ICA Free Thursday Night" (2026-11-05, Boston) from do617-4 and ica
+- Merged duplicate "Entre Mundos: a Día de los Muertos Celebration" (2026-10-31, Cambridge) from cambridge-tourism and luma-boston
+- Merged duplicate "Drop-In Art Making" (2026-10-31, Boston) from do617 and mfa
+- Merged duplicate "Diwali" (2026-11-01, Boston) from do617-2 and mfa
+- Merged duplicate "Boston Stories" (2026-11-01, Boston) from do617-2 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-01, Boston) from do617-2 and mfa
+- Merged duplicate "America at 250" (2026-11-01, Boston) from do617-2 and mfa
+- Merged duplicate "Boston Stories" (2026-11-04, Boston) from do617-3 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-04, Boston) from do617-3 and mfa
+- Merged duplicate "America at 250" (2026-11-04, Boston) from do617-3 and mfa
+- Merged duplicate "Revere and Rodallega: Silversmiths of the Americas" (2026-11-04, Boston) from do617-3 and mfa
+- Merged duplicate "Modern and Contemporary Art" (2026-11-04, Boston) from do617-3 and mfa
+- Merged duplicate "Boston Stories" (2026-11-05, Boston) from do617-4 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-05, Boston) from do617-4 and mfa
+- Merged duplicate "America at 250" (2026-11-05, Boston) from do617-4 and mfa
+- Merged duplicate "Modern and Contemporary Art" (2026-11-05, Boston) from do617-4 and mfa
+- Merged duplicate "Ask a Conservator" (2026-11-05, Boston) from do617-4 and mfa
+- Merged duplicate "Late Nites" (2026-11-06, Boston) from do617-4 and mfa
+- Merged duplicate "Boston Stories" (2026-11-07, Boston) from do617-5 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-07, Boston) from do617-5 and mfa
+- Merged duplicate "America at 250" (2026-11-07, Boston) from do617-5 and mfa
+- Merged duplicate "Modern and Contemporary Art" (2026-11-07, Boston) from do617-5 and mfa
+- Merged duplicate "Boston Stories" (2026-11-09, Boston) from do617-5 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-09, Boston) from do617-5 and mfa
+- Merged duplicate "Boston Stories" (2026-11-16, Boston) from do617-6 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-16, Boston) from do617-6 and mfa
+- Merged duplicate "America at 250" (2026-11-16, Boston) from do617-6 and mfa
+- Merged duplicate "Art Play!" (2026-11-18, Boston) from do617-7 and mfa
+- Merged duplicate "Boston Stories" (2026-11-18, Boston) from do617-7 and mfa
+- Merged duplicate "Gallery Highlights" (2026-11-18, Boston) from do617-7 and mfa
+- Merged duplicate "The United States and Haiti: When History (and Revolutions) Binds Us" (2026-11-18, Boston) from do617-7 and mfa
+- Merged duplicate "America at 250" (2026-11-18, Boston) from do617-7 and mfa
+- Merged duplicate "Modern and Contemporary Art" (2026-11-18, Boston) from do617-7 and mfa
 - Merged duplicate "Wellness Class for People with Dementia and Loved Ones" (2026-11-05, Malden) from malden-events and patch-malden
 - Merged duplicate "12th Thanksgiving Ping Pong Tournament 2026" (2026-11-14, Malden) from eventbrite-boston-2 and patch-malden

@@ -1,6 +1,5 @@
 status: ok
-Read all 7 chunks (62 records kept) from the Eventbrite Boston per-day search pages for days 9-10.
-Skipped: Energy Climate Club annual dues (members-only registration), Boston In Person career fair, Boston Job Fair (job fairs per source notes), UltraSculpt pop-up (promo), Harbor School alumni reunion (private), and a duplicate second listing of the VIII Annual International Medical Congress (same title, venue and dates as the kept one).
-Kept school open houses/tours (Newtowne, Shaloh House) and student-run or campus conferences (HBS, Harvard, BU) as they're publicly ticketed.
-Date mismatches in listings: "Skate It Forward" description says May 1 and the HCSSA 5k description says November 8; kept the listing dates (Nov 6 and Nov 7) as given.
-Eventbrite descriptions for many events were short or truncated; I wrote one-sentence summaries from the title and listed details. Prices only set where the listing said so.
+Read all 8 chunks and kept 41 events in 8 parts from the Eventbrite Boston per-day search pages for days 9-10.
+Dropped: bar crawls and party cruises (multi-venue nightlife promos), job fairs, classes and courses, online or student-only events, private reunions and members-only meetings, a commercial treatment pop-up, a meal kit promo, and both listings of the International Medical Congress (professional CME).
+Judgment calls: public student-run conferences at Harvard and BU were kept. Club nights (TheIsland, Tremont Nights, Zuzu, MIXX 360) were kept as music events. Where the listing gave a venue but no street address, the address line from the listing was used.
+Listing inconsistency: the HCSSA 5K description says Nov 8 but the listing date is Nov 7; the listing date was used.

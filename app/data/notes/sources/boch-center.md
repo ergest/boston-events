@@ -1,6 +1,6 @@
 status: ok
-Read the Boch Center listing page (https://www.bochcenter.org/events) in 3 chunks. The listing runs well past the window.
-Kept 12 events dated Oct 23 – Nov 22, 2026, all at Wang Theatre or Shubert Theatre (Boston). Runs (Jim Gaffigan, The Sound of Music) are single records with endDate.
-Skipped: Gregg Allman: The Music of My Soul (Nov 4, Arrow Street Arts Center, Cambridge, outside the source's Boston-only cities). Show: An Acoustic Evening With Prateek Kuhad (Nov 14) is marked CANCELLED. Peter Wolf (Nov 28) and everything after is outside the window.
-Venue "Folk Americana Roots Hall of Fame" (Starting Over With John & Yoko; co-presenter on Jayhawks and Punch Brothers) is listed without an address. I assigned city Boston, since the listing gives no other location. The listing shows no start or end times, so none are recorded.
-Category: comedy and theatricals mapped to "arts & theater", concerts to "music", talks and book events to "community".
+Listing page at bochcenter.org/events rendered fully as markdown across 3 chunks; 9 Boston events fall in the window (Oct 31 to Nov 30, 2026).
+Skipped: Gregg Allman: The Music of My Soul (Nov 4, Arrow Street Arts Center, Cambridge; source is limited to Boston); Prateek Kuhad (Nov 14, listed as CANCELLED); everything from Dec 4, 2026 onward (outside window).
+Listing shows no start or end times, so none were recorded; no detail pages were fetched.
+Categories: default "arts & theater", except music for BEAT, Punch Brothers, Peter Wolf and the Midnight Travelers.
+The Sound of Music is one record (Nov 17 to Nov 22).

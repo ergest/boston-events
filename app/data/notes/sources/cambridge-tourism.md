@@ -1,6 +1,4 @@
 status: ok
-The ICS feed returned one chunk of 10 entries, all in the window, all Cambridge venues.
-Kept 7 records: 2 MIT Museum exhibitions (one record each, dated 2026-10-23), Charles River Farmers Market (Fridays), KiOSK Comedy, October Song Fest, Millennial Skip the Small Talk Night, Cambridge Record Fair.
-Dropped the 2026-10-24 duplicates of the two MIT Museum exhibitions, which the feed lists per day.
-The feed gives no run end date for the exhibitions, so their records have no endDate and say so in the description. Their descriptions are truncated in the feed.
-Possible overlap with the MIT feed (MIT Museum exhibitions) was not checked, because other sources' files are out of scope for this step.
+ICS feed https://cambridgeusa.org/events/?ical=1 returned 9 in-window entries in one chunk; kept 7 records.
+The two MIT Museum exhibitions (Remembering the Future, AI: Mind the Gap) each appeared on 31 Oct and 1 Nov; merged into one record per exhibition on 31 Oct. The feed gave no run end date, so no endDate is set.
+Feed had no duplicate-check against the harvard or mit sources (not read, per scope); the MIT Museum exhibitions may duplicate the mit source, so dedupe downstream if needed.
