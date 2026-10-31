@@ -6745,6 +6745,20 @@
           }
         },
         {
+          "type": "copy",
+          "copy": {
+            "from": "scripts/gate.mjs",
+            "to": "gate.mjs"
+          }
+        },
+        {
+          "type": "copy",
+          "copy": {
+            "from": "app/data/notes/coverage.md",
+            "to": "previous-coverage.md"
+          }
+        },
+        {
           "type": "command",
           "command": {
             "run": "rm -rf spot && node merge.mjs && node check.mjs"
@@ -6935,7 +6949,7 @@
             {
               "type": "command",
               "command": {
-                "run": "node check.mjs && node export.mjs && test -s proposed-sources.md"
+                "run": "node check.mjs && node export.mjs && node gate.mjs && test -s proposed-sources.md"
               }
             }
           ],

@@ -158,6 +158,9 @@ const tail = [
     promptFile: './prompts/spot-check.md',
     rigSetup: [
       { type: 'copy', copy: { from: 'scripts/flag.mjs', to: 'flag.mjs' } },
+      { type: 'copy', copy: { from: 'scripts/gate.mjs', to: 'gate.mjs' } },
+      // The published run's coverage notes, so gate.mjs can compare per-source counts with the last run.
+      ...(existsSync('app/data/notes/coverage.md') ? [{ type: 'copy', copy: { from: 'app/data/notes/coverage.md', to: 'previous-coverage.md' } }] : []),
       { type: 'command', command: { run: 'rm -rf spot && node merge.mjs && node check.mjs' } },
     ],
     checkpointedFiles: ['events.json', 'flagged.json', 'spot/*.json', 'notes/*.md'],
@@ -184,7 +187,7 @@ const tail = [
     budget: { maxDollars: 1, maxTimeSeconds: 900, onExceeded: 'complete' },
     outputFiles: [
       {
-        beforeCopy: [{ type: 'command', command: { run: 'node check.mjs && node export.mjs && test -s proposed-sources.md' } }],
+        beforeCopy: [{ type: 'command', command: { run: 'node check.mjs && node export.mjs && node gate.mjs && test -s proposed-sources.md' } }],
         copy: ['events.js', 'events.json', 'flagged.json', 'window.json', 'proposed-sources.md', 'notes/**/*.md'],
       },
     ],
