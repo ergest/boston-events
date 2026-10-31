@@ -39,6 +39,21 @@ if (prevCoverage) {
 }
 const total = JSON.parse(readFileSync('events.json', 'utf8')).length;
 
+// merge.mjs wrote notes/coverage.md before spot-check removed and fixed events, so its city table
+// is stale by now. Rebuild the table from the final events; the per-source section stays as written.
+const finalEvents = JSON.parse(readFileSync('events.json', 'utf8'));
+const window = JSON.parse(readFileSync('window.json', 'utf8'));
+const coverage = read('notes/coverage.md');
+if (coverage) {
+  const grid = window.cities.map((c) => [c, ...window.categories.map((k) => finalEvents.filter((e) => e.city === c && e.category === k).length)]);
+  const table = [
+    `| City | Total | ${window.categories.join(' | ')} |`,
+    `|---|---|${window.categories.map(() => '---').join('|')}|`,
+    ...grid.map(([c, ...n]) => `| ${c} | ${n.reduce((a, b) => a + b, 0)} | ${n.join(' | ')} |`),
+  ].join('\n');
+  writeFileSync('notes/coverage.md', coverage.replace(/^\| City \|[\s\S]*?(?=\n\n)/m, table));
+}
+
 const failures = [];
 const warnings = [];
 

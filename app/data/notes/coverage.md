@@ -4,12 +4,12 @@ Window 2026-10-31 → 2026-11-30. Target: at least 3 events per city.
 
 | City | Total | music | arts & theater | food & drink | festivals & markets | family | tech & talks | sports & outdoors |
 |---|---|---|---|---|---|---|---|---|
-| Boston | 917 | 330 | 264 | 104 | 32 | 64 | 50 | 73 |
-| Cambridge | 357 | 154 | 75 | 17 | 2 | 31 | 68 | 10 |
-| Somerville | 123 | 76 | 28 | 6 | 4 | 5 | 1 | 3 |
+| Boston | 906 | 320 | 263 | 104 | 32 | 64 | 50 | 73 |
+| Cambridge | 355 | 153 | 75 | 16 | 2 | 31 | 68 | 10 |
+| Somerville | 121 | 76 | 28 | 5 | 4 | 4 | 1 | 3 |
 | Brookline | 86 | 19 | 27 | 2 | 0 | 36 | 1 | 1 |
-| Medford | 31 | 3 | 6 | 3 | 0 | 1 | 12 | 6 |
-| Malden | 20 | 5 | 3 | 0 | 3 | 6 | 0 | 3 |
+| Medford | 30 | 3 | 6 | 3 | 0 | 1 | 11 | 6 |
+| Malden | 19 | 5 | 3 | 0 | 2 | 6 | 0 | 3 |
 
 ## Events per source (before merge)
 
