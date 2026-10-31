@@ -95,7 +95,14 @@ if (source.fetch === 'ics') {
         }
       }
       if (!html) break;
-      const cards = parse(html, base).filter((e) => !seen.has(e.url + e.date));
+      const parsed = parse(html, base);
+      // null = the page loaded but its listing data is missing or unreadable: the site's markup changed.
+      // Past the last page that is normal, so only the first page of a day is an error.
+      if (parsed === null) {
+        if (page === 1) errors.push(`${url}: page loaded but its listing data could not be parsed (the site's markup may have changed; update ${eb ? 'parseEventbrite' : 'parseDoStuff'} in scripts/fetch-source.mjs)`);
+        break;
+      }
+      const cards = parsed.filter((e) => !seen.has(e.url + e.date));
       if (!cards.length) break;
       for (const e of cards) seen.add(e.url + e.date);
       found.push(...cards);
@@ -230,10 +237,10 @@ function jsLiteralToJson(src) {
   return out;
 }
 
-// Keeps Massachusetts cards only (the listing mixes in NH, RI and online events).
+// Returns null when the page has no readable listing data, [] when it has one with no events.
 function parseDoStuff(html, base) {
   const start = html.search(/\bdata:\s*\[\{type:"data"/);
-  if (start < 0) return [];
+  if (start < 0) return null;
   const open = html.indexOf('[', start);
   let depth = 0, i = open, inString = false;
   for (; i < html.length; i++) {
@@ -249,10 +256,12 @@ function parseDoStuff(html, base) {
   try {
     nodes = JSON.parse(jsLiteralToJson(html.slice(open, i + 1)));
   } catch {
-    return [];
+    return null;
   }
+  const days = nodes.flatMap((n) => n?.data?.browse?.data ?? []);
+  if (!nodes.some((n) => n?.data?.browse)) return null;
   const out = [];
-  for (const day of nodes.flatMap((n) => n?.data?.browse?.data ?? [])) {
+  for (const day of days) {
     for (const ev of day.events ?? []) {
       const begin = ev.tz_adjusted_begin_time ?? '';
       const date = ev.occurrence_date ?? day.date ?? begin.slice(0, 10);
@@ -274,15 +283,17 @@ function parseDoStuff(html, base) {
 }
 
 // Eventbrite search pages embed their results as JSON. Keeps Massachusetts, in-person, not cancelled.
+// Returns null when the page has no readable results data, [] when it has some with no events.
 function parseEventbrite(html) {
   const raw = html.match(/window\.__SERVER_DATA__\s*=\s*(\{.*?\});\s*\n/s)?.[1];
-  if (!raw) return [];
+  if (!raw) return null;
   let results;
   try {
-    results = JSON.parse(raw).search_data?.events?.results ?? [];
+    results = JSON.parse(raw).search_data?.events?.results;
   } catch {
-    return [];
+    return null;
   }
+  if (!Array.isArray(results)) return null;
   const out = [];
   for (const r of results) {
     const a = r.primary_venue?.address ?? {};
