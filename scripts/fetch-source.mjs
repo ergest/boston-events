@@ -115,8 +115,10 @@ if (source.fetch === 'ics') {
   const nearEnd = new Date(`${window.start}T12:00:00Z`);
   nearEnd.setUTCDate(nearEnd.getUTCDate() + (source.nearDays ?? 9999));
   const nearLimit = nearEnd.toISOString().slice(0, 10);
+  // Without attendee counts on the cards (Do617's redesign dropped them), far days are limited by farMaxPages instead.
+  const hasCounts = found.some((e) => e.attendees !== undefined);
   const kept = pre.filter((e) => {
-    const far = e.date > nearLimit && source.farMinAttendees && (e.attendees ?? 0) < source.farMinAttendees;
+    const far = e.date > nearLimit && source.farMinAttendees && hasCounts && (e.attendees ?? 0) < source.farMinAttendees;
     if (far) excluded.push({ reason: 'far and unpopular', title: e.title, date: e.date });
     return !far;
   });
@@ -199,35 +201,74 @@ function applyExclude(events, rules) {
 
 // --- DoStuff listing parsing ---------------------------------------------------------------
 
+// Do617 is a SvelteKit app: each day page embeds its listing as a JS object literal (not JSON) in
+// kit.start(..., { data: [...] }), under browse.data[].events. Cards carry title, permalink, local start
+// time, category and venue name/area, but no street, city, price or attendee count.
+// Turns that literal into JSON by quoting bare keys and mapping `void 0` to null, never evaluating it.
+function jsLiteralToJson(src) {
+  let out = '';
+  for (let i = 0; i < src.length; ) {
+    const c = src[i];
+    if (c === '"') {
+      let j = i + 1;
+      while (src[j] !== '"') j += src[j] === '\\' ? 2 : 1;
+      out += src.slice(i, j + 1);
+      i = j + 1;
+    } else if (/[A-Za-z_$]/.test(c)) {
+      const word = src.slice(i).match(/^[A-Za-z_$][\w$]*/)[0];
+      i += word.length;
+      if (src[i] === ':') out += `"${word}"`;
+      else if (word === 'void' && src.startsWith(' 0', i)) (out += 'null'), (i += 2);
+      else if (['true', 'false', 'null'].includes(word)) out += word;
+      else if (word === 'undefined' || word === 'NaN') out += 'null';
+      else throw new Error(`unexpected token ${word}`);
+    } else {
+      out += c;
+      i++;
+    }
+  }
+  return out;
+}
+
 // Keeps Massachusetts cards only (the listing mixes in NH, RI and online events).
 function parseDoStuff(html, base) {
+  const start = html.search(/\bdata:\s*\[\{type:"data"/);
+  if (start < 0) return [];
+  const open = html.indexOf('[', start);
+  let depth = 0, i = open, inString = false;
+  for (; i < html.length; i++) {
+    const c = html[i];
+    if (inString) {
+      if (c === '\\') i++;
+      else if (c === '"') inString = false;
+    } else if (c === '"') inString = true;
+    else if (c === '[' || c === '{') depth++;
+    else if (c === ']' || c === '}') if (--depth === 0) break;
+  }
+  let nodes;
+  try {
+    nodes = JSON.parse(jsLiteralToJson(html.slice(open, i + 1)));
+  } catch {
+    return [];
+  }
   const out = [];
-  for (const card of html.split('<div class="ds-listing event-card').slice(1)) {
-    const get = (re) => unescape(card.match(re)?.[1] ?? '');
-    const start = card.match(/itemprop="startDate"[^>]*content="([^"]+)"/)?.[1];
-    const end = card.match(/itemprop="endDate"[^>]*content="([^"]+)"/)?.[1];
-    const permalink = card.match(/data-permalink="([^"]+)"/)?.[1];
-    const region = get(/itemprop="addressRegion" content="([^"]*)"/);
-    const title = get(/itemprop="name">([^<]+)<\/span>\s*<\/a>/);
-    if (!start || !permalink || !title || (region && region !== 'MA')) continue;
-    const venue = get(/<a href="\/venues\/[^"]*" itemprop="url"><span itemprop="name">([^<]*)</);
-    const street = get(/itemprop="streetAddress" content="([^"]*)"/);
-    const city = get(/itemprop="addressLocality" content="([^"]*)"/);
-    const date = start.slice(0, 10);
-    const startTime = /T\d{2}:\d{2}/.test(start) ? start.slice(11, 16) : undefined;
-    const rec = {
-      title,
-      date,
-      endDate: end && end.slice(0, 10) > date ? end.slice(0, 10) : undefined,
-      startTime,
-      endTime: end && end.slice(0, 10) === date ? end.slice(11, 16) : undefined,
-      location: [venue, street, city, region].filter(Boolean).join(', ') || undefined,
-      url: base + permalink,
-      description: /ds-listing-soldout[\s\S]{0,200}>\s*Free\s*</.test(card) ? 'Free' : undefined,
-      feedCategories: card.match(/ds-event-category-([a-z-]+)/)?.[1],
-      attendees: Number(card.match(/ds-listing-attendee-count"><span[^>]*><\/span>\s*(\d+)/)?.[1]) || undefined,
-    };
-    out.push(JSON.parse(JSON.stringify(rec)));
+  for (const day of nodes.flatMap((n) => n?.data?.browse?.data ?? [])) {
+    for (const ev of day.events ?? []) {
+      const begin = ev.tz_adjusted_begin_time ?? '';
+      const date = ev.occurrence_date ?? day.date ?? begin.slice(0, 10);
+      if (!ev.title || !ev.permalink || !date) continue;
+      const rec = {
+        title: unescape(ev.title),
+        date,
+        startTime: /T\d{2}:\d{2}/.test(begin) && !/T00:00:00/.test(begin) ? begin.slice(11, 16) : undefined,
+        endTime: ev.tz_adjusted_end_time ? ev.tz_adjusted_end_time.slice(11, 16) : undefined,
+        location: [ev.venue?.title, ev.venue?.area_name].filter(Boolean).join(', ') || undefined,
+        url: base + ev.permalink,
+        description: ev.event_type === 'multi_day' && ev.date_label ? `Runs ${ev.date_label.split('|')[0].trim()}` : ev.event_type === 'weekly_repeating' ? 'Weekly' : undefined,
+        feedCategories: ev.category ? ev.category.toLowerCase().replace(/[^a-z]+/g, '-') : undefined,
+      };
+      out.push(JSON.parse(JSON.stringify(rec)));
+    }
   }
   return out;
 }
