@@ -1,5 +1,5 @@
 window.EVENTS_DATA = {
-  "generatedAt": "2026-11-07T14:29:10.129Z",
+  "generatedAt": "2026-11-07T15:06:10.640Z",
   "window": {
     "start": "2026-11-07",
     "end": "2026-12-07",
@@ -23,34 +23,6 @@ window.EVENTS_DATA = {
     "minEventsPerCity": 3
   },
   "events": [
-    {
-      "id": "5fe6c4694c",
-      "title": "Le Vent du Nord",
-      "city": "Somerville",
-      "venue": "Somerville Theatre",
-      "date": "2026-11-07",
-      "category": "music",
-      "url": "https://bostix.org/event/le-vent-du-nord-2/",
-      "registerUrl": "https://www.globalartslive.org/content/event_page/10425?utm_source=selfentry&utm_medium=paid_social&utm_campaign=lvdn&utm_id=fall26&utm_term=mktg&utm_content=bostix",
-      "source": "ArtsBoston Calendar",
-      "sourceId": "artsboston",
-      "startTime": "20:00",
-      "price": "From $44",
-      "address": "55 Davis Square, Somerville, MA 02145"
-    },
-    {
-      "id": "4f853b013b",
-      "title": "Donal Fox: Bearing Witness to Humanity",
-      "city": "Cambridge",
-      "venue": "Regattabar",
-      "date": "2026-11-07",
-      "category": "arts & theater",
-      "url": "https://bostix.org/event/donal-fox-bearing-witness-to-humanity/",
-      "source": "ArtsBoston Calendar",
-      "sourceId": "artsboston",
-      "startTime": "19:00",
-      "address": "One Bennett Street, Cambridge, MA 02138"
-    },
     {
       "id": "979f468e3f",
       "title": "A Far Cry presents: Mighty Fortress",
@@ -887,21 +859,6 @@ window.EVENTS_DATA = {
       "sourceId": "fever-boston"
     },
     {
-      "id": "f7e256dded",
-      "title": "Boston Public Market & North End Foodie Tour with Local Guide",
-      "city": "Boston",
-      "venue": "Boston Public Market",
-      "date": "2026-11-07",
-      "endDate": "2027-05-05",
-      "category": "food & drink",
-      "price": "From $124.95",
-      "url": "https://feverup.com/m/118753",
-      "description": "Foodie tour, 7 Nov to 5 May.",
-      "source": "Fever Boston",
-      "sourceId": "fever-boston",
-      "startTime": "12:00"
-    },
-    {
       "id": "9b07d2c9d0",
       "title": "Boston Exploration Game - Mystery Walk with Pub & Cafe Stops",
       "city": "Boston",
@@ -1202,6 +1159,21 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "631463d20a",
+      "title": "48th ABAA Boston International Antiquarian Book Fair",
+      "city": "Boston",
+      "venue": "Hynes Convention Center",
+      "address": "900 Boylston Street, Boston, MA",
+      "date": "2026-11-07",
+      "endDate": "2026-11-08",
+      "startTime": "07:30",
+      "category": "festivals & markets",
+      "url": "https://www.eventbrite.com/e/48th-abaa-boston-international-antiquarian-book-fair-tickets-2004514862915",
+      "description": "Browse and buy from 100+ top booksellers and literary experts from around the world, Nov 7–8.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "14d1551394",
       "title": "Family Wellness Walk",
       "city": "Boston",
@@ -1434,7 +1406,7 @@ window.EVENTS_DATA = {
       "endTime": "12:00",
       "category": "sports & outdoors",
       "url": "https://www.eventbrite.com/e/2026-hcssa-5k-charity-run-fall-tickets-2003628640199",
-      "description": "A 5k charity run for a cause, on November 7.",
+      "description": "A 5k charity run for a cause, starting at 9:30 AM.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
     },
@@ -1995,20 +1967,19 @@ window.EVENTS_DATA = {
       "sourceId": "assembly-row"
     },
     {
-      "id": "911d8cf693",
-      "title": "Boston Halal Food Fest",
+      "id": "f7e256dded",
+      "title": "Boston Public Market & North End Foodie Tour with Local Guide",
       "city": "Boston",
-      "venue": "Islamic Society of Boston Cultural Center (ISBCC Roxbury)",
-      "address": "100 Malcolm X Boulevard, Boston, MA",
+      "venue": "Boston Public Market",
       "date": "2026-11-07",
-      "startTime": "12:00",
-      "endTime": "16:00",
-      "category": "festivals & markets",
-      "price": "Free",
-      "url": "https://www.eventbrite.com/e/boston-halal-food-fest-tickets-2003993986961",
-      "description": "The second Boston Halal Food Fest, with food, family fun and diverse cultures. Registration is free.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "endDate": "2027-05-05",
+      "category": "food & drink",
+      "price": "From $124.95",
+      "url": "https://feverup.com/m/118753",
+      "description": "Foodie tour, 7 Nov to 5 May.",
+      "source": "Fever Boston",
+      "sourceId": "fever-boston",
+      "startTime": "12:00"
     },
     {
       "id": "73e1c402a7",
@@ -2189,6 +2160,22 @@ window.EVENTS_DATA = {
       "sourceId": "northeastern"
     },
     {
+      "id": "911d8cf693",
+      "title": "Boston Halal Food Fest",
+      "city": "Boston",
+      "venue": "Islamic Society of Boston Cultural Center (ISBCC Roxbury)",
+      "address": "100 Malcolm X Boulevard, Boston, MA",
+      "date": "2026-11-07",
+      "startTime": "12:00",
+      "endTime": "16:00",
+      "category": "food & drink",
+      "price": "Free",
+      "url": "https://www.eventbrite.com/e/boston-halal-food-fest-tickets-2003993986961",
+      "description": "The 2nd Boston Halal Food Fest, with food, family fun and diverse cultures. Registration is free.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "7af409d247",
       "title": "History of Boston Through Paintings | Art Tour",
       "city": "Boston",
@@ -2216,6 +2203,21 @@ window.EVENTS_DATA = {
       "url": "https://harvardartmuseums.org/calendar/whose-landscape-the-alps-between-nation-and-planet-off-site?utm_source=gazette&utm_medium=listing&utm_campaign=Swissnex_On+Location_Nov7&utm_id=Whose+Landscape%3A+The+Alps+Between+Nation+and+Planet+%28Off-Site%29",
       "source": "Harvard Gazette events",
       "sourceId": "harvard"
+    },
+    {
+      "id": "092a712939",
+      "title": "Whose Landscape: The Alps Between Nation and Planet",
+      "city": "Cambridge",
+      "venue": "Swissnex",
+      "address": "420 Broadway, Cambridge, MA 02138",
+      "date": "2026-11-07",
+      "startTime": "12:30",
+      "endTime": "16:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/48t4n4em",
+      "description": "A conversation at Swissnex on the Alps as a landscape shaped by nations and by planetary change.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "4ef86b60f5",
@@ -2508,6 +2510,21 @@ window.EVENTS_DATA = {
       "sourceId": "do617-2"
     },
     {
+      "id": "1b3e4ff380",
+      "title": "Sea Wave Resin Serving Tray (Cambridge)",
+      "city": "Cambridge",
+      "venue": "Craft Loft (Cambridge Store)",
+      "address": "100 Cambridgeside Place, Cambridge, MA",
+      "date": "2026-11-07",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/sea-wave-resin-serving-tray-cambridge-tickets-2003019113087",
+      "description": "A resin art session where you create your own sea wave serving tray.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "465ae52ef4",
       "title": "Boston Mahjong Painting: Mind Your Mahjong!",
       "city": "Boston",
@@ -2546,19 +2563,19 @@ window.EVENTS_DATA = {
       "sourceId": "do617-2"
     },
     {
-      "id": "3acf89acd2",
-      "title": "Magic & Mischief: A Weekend of Wizardry at Broken Records",
+      "id": "bc6f5727cb",
+      "title": "\"Holiday Small Works\" Opening Reception",
       "city": "Boston",
-      "venue": "Broken Records",
-      "address": "85 Guest Street, Boston, MA",
+      "venue": "Copley Society of Art",
+      "address": "158 Newbury Street, Boston, MA",
       "date": "2026-11-07",
-      "endDate": "2026-11-08",
       "startTime": "16:00",
+      "endTime": "18:30",
       "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/magic-mischief-a-weekend-of-wizardry-at-broken-records-tickets-2003610921201",
-      "description": "A weekend of magic and mischief at Broken Records, Friday through Sunday.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "url": "https://www.eventbrite.com/e/holiday-small-works-opening-reception-tickets-2003419451510",
+      "description": "Opening reception celebrating the artists of the Holiday Small Works show.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "f61b379cb1",
@@ -2678,6 +2695,19 @@ window.EVENTS_DATA = {
       "description": "Pre-concert reading.",
       "source": "Boston Symphony Orchestra",
       "sourceId": "bso"
+    },
+    {
+      "id": "4f853b013b",
+      "title": "Donal Fox: Bearing Witness to Humanity",
+      "city": "Cambridge",
+      "venue": "Regattabar",
+      "date": "2026-11-07",
+      "category": "arts & theater",
+      "url": "https://bostix.org/event/donal-fox-bearing-witness-to-humanity/",
+      "source": "ArtsBoston Calendar",
+      "sourceId": "artsboston",
+      "startTime": "19:00",
+      "address": "One Bennett Street, Cambridge, MA 02138"
     },
     {
       "id": "51f0cd1d31",
@@ -2830,6 +2860,21 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "0901068672",
+      "title": "Foodies + New Friends: Cambridge Entrepreneurs | 2026 Dinner Club",
+      "city": "Cambridge",
+      "venue": "Restaurant of the Week",
+      "address": "Massachusetts Avenue, Cambridge, MA",
+      "date": "2026-11-07",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "food & drink",
+      "url": "https://www.eventbrite.com/e/foodies-new-friends-cambridge-entrepreneurs-2026-dinner-club-tickets-1979934354954",
+      "description": "A dinner club for entrepreneurs and new friends; each week's dinner is at a different restaurant.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "4130770577",
       "title": "Jimmy Webb",
       "city": "Boston",
@@ -2916,6 +2961,21 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/7/layne-staley-tribute-east-2026-tickets",
       "source": "Do617 (days 2-3)",
       "sourceId": "do617-2"
+    },
+    {
+      "id": "5fe6c4694c",
+      "title": "Le Vent du Nord",
+      "city": "Somerville",
+      "venue": "Somerville Theatre",
+      "date": "2026-11-07",
+      "category": "music",
+      "url": "https://bostix.org/event/le-vent-du-nord-2/",
+      "registerUrl": "https://www.globalartslive.org/content/event_page/10425?utm_source=selfentry&utm_medium=paid_social&utm_campaign=lvdn&utm_id=fall26&utm_term=mktg&utm_content=bostix",
+      "source": "ArtsBoston Calendar",
+      "sourceId": "artsboston",
+      "startTime": "20:00",
+      "price": "From $44",
+      "address": "55 Davis Square, Somerville, MA 02145"
     },
     {
       "id": "b05be7e74f",
@@ -3323,6 +3383,21 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "213745c60c",
+      "title": "FERAL XCX FEST | DOOR TIX AVAILABLE! Adv tix sales closed",
+      "city": "Boston",
+      "venue": "Legacy",
+      "address": "79 Warrenton ST, Boston, MA",
+      "date": "2026-11-07",
+      "endDate": "2026-11-08",
+      "startTime": "22:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/feral-xcx-fest-door-tix-available-adv-tix-sales-closed-tickets-2004035236339",
+      "description": "Club night playing pop hits; door tickets available.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "e49c8c5d24",
       "title": "Friday Night BLOCK PARTY - Hava, Venu, Icon & Crown!",
       "city": "Boston",
@@ -3343,12 +3418,13 @@ window.EVENTS_DATA = {
       "venue": "Off The Rails",
       "address": "25 School Street, Boston, MA",
       "date": "2026-11-07",
+      "endDate": "2026-11-08",
       "startTime": "22:30",
       "category": "music",
-      "url": "https://www.eventbrite.com/e/off-the-rails-at-night-every-fri-sat-tickets-2003117707987",
-      "description": "Nightly Friday and Saturday DJ sets with rotating DJs, starting at 11 PM.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "url": "https://www.eventbrite.com/e/off-the-rails-at-night-every-fri-sat-tickets-2003117708990",
+      "description": "Friday and Saturday nights with live rotating DJs.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "6723d8e1bc",
@@ -3672,22 +3748,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-2"
     },
     {
-      "id": "b1f04d346c",
-      "title": "Seaport Smalls",
-      "city": "Boston",
-      "venue": "Seaport Smalls",
-      "address": "111 Harbor Way, Boston, MA",
-      "date": "2026-11-08",
-      "startTime": "10:00",
-      "endTime": "11:00",
-      "category": "family",
-      "price": "Free",
-      "url": "https://www.eventbrite.com/e/seaport-smalls-tickets-2003610287305",
-      "description": "Free fun for little ones.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "6c0b6086bc",
       "title": "Drop-In Art Making",
       "city": "Boston",
@@ -3701,6 +3761,22 @@ window.EVENTS_DATA = {
       "description": "Miniature Baskets: create a small basket and learn about traditional New England basket making.",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "b1f04d346c",
+      "title": "Seaport Smalls",
+      "city": "Boston",
+      "venue": "111 Harbor Way",
+      "address": "111 Harbor Way, Boston, MA",
+      "date": "2026-11-08",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "price": "Free",
+      "category": "family",
+      "url": "https://www.eventbrite.com/e/seaport-smalls-tickets-2003610287305",
+      "description": "Free fun for little ones.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "7ba5e2c20a",
@@ -3939,21 +4015,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-2"
     },
     {
-      "id": "6a2645edb5",
-      "title": "November 8th,  2026 - Drag Me To Bunch @ Carrie Nation",
-      "city": "Boston",
-      "venue": "Carrie Nation Cocktail Club",
-      "address": "11 Beacon Street, Boston, MA",
-      "date": "2026-11-08",
-      "startTime": "12:00",
-      "endTime": "14:00",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/november-8th-2026-drag-me-to-bunch-carrie-nation-tickets-2003085000157",
-      "description": "A weekly drag brunch show at Carrie Nation Cocktail Club.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "9bdc766c79",
       "title": "Gallery Highlights",
       "city": "Boston",
@@ -3966,6 +4027,21 @@ window.EVENTS_DATA = {
       "url": "https://www.mfa.org/event/guided-tour/gallery-highlights?event=179661",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "6a2645edb5",
+      "title": "November 8th,  2026 - Drag Me To Bunch @ Carrie Nation",
+      "city": "Boston",
+      "venue": "Carrie Nation Cocktail Club",
+      "address": "11 Beacon Street, Boston, MA",
+      "date": "2026-11-08",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/november-8th-2026-drag-me-to-bunch-carrie-nation-tickets-2003085000157",
+      "description": "Weekly drag brunch show at Carrie Nation Cocktail Club.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "d0c9f0abf1",
@@ -4729,21 +4805,6 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/8/comedy-bakery-tickets",
       "source": "Do617 (days 2-3)",
       "sourceId": "do617-2"
-    },
-    {
-      "id": "72fb65ee5e",
-      "title": "The Cure (Elite Affairs)",
-      "city": "Boston",
-      "venue": "Icon Nightclub",
-      "address": "100 Warrenton Street, Boston, MA",
-      "date": "2026-11-08",
-      "endDate": "2026-11-09",
-      "startTime": "22:00",
-      "category": "music",
-      "url": "https://www.eventbrite.com/e/the-cure-elite-affairs-tickets-2002980461479",
-      "description": "A party held every Sunday night at Icon Nightclub.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "db1262aa14",
@@ -6090,6 +6151,21 @@ window.EVENTS_DATA = {
       "sourceId": "somerville-city"
     },
     {
+      "id": "0d55ed3dff",
+      "title": "Tell Your Story in 90 Seconds: A Storytelling Workshop",
+      "city": "Boston",
+      "venue": "Artists For Humanity",
+      "address": "100 W 2nd St, Boston, MA 02127",
+      "date": "2026-11-10",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/89mxmgtx",
+      "description": "A workshop on telling a personal story in 90 seconds, for networking and introductions.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "fca09b3699",
       "title": "Hands-On: Tagliatelle alla Bolognese",
       "city": "Boston",
@@ -6100,6 +6176,21 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/10/hands-on-tagliatelle-alla-bolognese-tickets",
       "source": "Do617 (days 4-5)",
       "sourceId": "do617-3"
+    },
+    {
+      "id": "f2b5af5e91",
+      "title": "Lovable: Hackathon x Startup Trek",
+      "city": "Boston",
+      "venue": "Lovable HQ",
+      "address": "1 Lincoln St, Boston, MA 02111",
+      "date": "2026-11-10",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/ov7zl4rd",
+      "description": "A tour of Lovable's office with a hackathon; the listing mentions free credits.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "ee37735d27",
@@ -6227,6 +6318,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "e65132f327",
+      "title": "Happy Human Hour!",
+      "city": "Boston",
+      "venue": "Artists For Humanity",
+      "address": "100 W 2nd St, Boston, MA 02127",
+      "date": "2026-11-10",
+      "startTime": "17:00",
+      "endTime": "18:30",
+      "category": "food & drink",
+      "url": "https://luma.com/pucg0lds",
+      "description": "An informal happy hour billed as an anti-pitch networking event.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "c03078e1ef",
       "title": "Urban Wilds Strategic Plan Open House",
       "city": "Boston",
@@ -6338,6 +6444,21 @@ window.EVENTS_DATA = {
       "description": "Guided Yoga Nidra combined with aromatherapy; participants also create their own essential-oil blend to take home. No movement or prior experience required.",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "5273f431c8",
+      "title": "Authentic personal branding on LinkedIn with soul",
+      "city": "Somerville",
+      "venue": "Upstairs at Bow",
+      "address": "1 Bow Mkt Wy, Somerville, MA 02143",
+      "date": "2026-11-10",
+      "startTime": "18:00",
+      "endTime": "19:30",
+      "category": "tech & talks",
+      "url": "https://luma.com/8zk0u7pm",
+      "description": "A session on building a personal LinkedIn presence that feels authentic.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "c20d599b94",
@@ -7117,6 +7238,36 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "5c27fd5d6f",
+      "title": "WHOOP: Startup Trek",
+      "city": "Boston",
+      "venue": "WHOOP HQ",
+      "address": "One Kenmore Sq, Boston, MA 02215",
+      "date": "2026-11-11",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/fnm32hm4",
+      "description": "A tour of WHOOP's Kenmore Square headquarters and a meetup with the team.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
+      "id": "ace58af370",
+      "title": "WWW: Using the Early Web, AI & HTML as Activism",
+      "city": "Boston",
+      "venue": "Artists For Humanity",
+      "address": "100 W 2nd St, Boston, MA 02127",
+      "date": "2026-11-11",
+      "startTime": "16:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/th4kkqgr",
+      "description": "A talk on using the early web, AI and HTML as tools for activism.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "85f8a7a7ff",
       "title": "Vajra Wine Dinner",
       "city": "Boston",
@@ -7415,9 +7566,9 @@ window.EVENTS_DATA = {
       "endTime": "23:00",
       "category": "music",
       "url": "https://www.eventbrite.com/e/1111-party-not-our-first-rodeo-tickets-2003826104821",
-      "description": "An 11/11 party at ELEVEN; the listing invites guests to dust off their boots.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "description": "A party at ELEVEN with a country theme.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "053c03a108",
@@ -8143,6 +8294,21 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "76c9204650",
+      "title": "State of Deep Tech VC",
+      "city": "Boston",
+      "venue": "Aldrich Hall",
+      "address": "Soldiers Field Rd, Boston, MA 02163",
+      "date": "2026-11-12",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/dijktifg",
+      "description": "A discussion of venture capital for deep tech startups building in the physical world.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "07e8ec8eab",
       "title": "AI Reality Check",
       "city": "Brookline",
@@ -8434,6 +8600,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "6405a849a3",
+      "title": "CODE @ MIT Spotify pre-drinks",
+      "city": "Boston",
+      "venue": "Spotify",
+      "address": "3 Center Plz, Boston, MA 02108",
+      "date": "2026-11-12",
+      "startTime": "18:30",
+      "endTime": "21:30",
+      "category": "tech & talks",
+      "url": "https://luma.com/j7gr8yr3",
+      "description": "Pre-conference drinks hosted by Spotify's Confidence team ahead of the CODE at MIT conference.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "7e83b051c0",
       "title": "An Evening With Alyssa Grace",
       "city": "Boston",
@@ -8716,6 +8897,21 @@ window.EVENTS_DATA = {
       "description": "Free artist talk with Leilah Babirye, moderated by Ruth Erickson, at the ICA.",
       "source": "Institute of Contemporary Art",
       "sourceId": "ica"
+    },
+    {
+      "id": "572523b6e1",
+      "title": "Jazz Night @ Long Live Roxbury",
+      "city": "Boston",
+      "venue": "Long Live Roxbury",
+      "address": "152 Hampden Street, Boston, MA",
+      "date": "2026-11-12",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/jazz-night-long-live-roxbury-tickets-1975993612086",
+      "description": "Thursday jazz nights at Long Live Roxbury.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "2741ca0840",
@@ -9080,17 +9276,32 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "dd82e9919c",
+      "title": "2026 Northeast Region Burn Conference",
+      "city": "Boston",
+      "venue": "Hilton Boston Logan Airport",
+      "address": "One Hotel Drive, Boston, MA",
+      "date": "2026-11-13",
+      "endDate": "2026-11-14",
+      "startTime": "08:00",
+      "category": "tech & talks",
+      "url": "https://www.eventbrite.com/e/2026-northeast-region-burn-conference-tickets-1987145147629",
+      "description": "An educational conference for burn care providers, first responders, students and survivors.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "20bbae6048",
       "title": "AI Community Conference - Boston 2026",
       "city": "Cambridge",
-      "venue": "AI Community Conference",
+      "venue": "1 Memorial Drive",
       "address": "1 Memorial Drive, Cambridge, MA",
       "date": "2026-11-13",
       "startTime": "08:30",
       "endTime": "17:00",
       "category": "tech & talks",
       "url": "https://www.eventbrite.com/e/ai-community-conference-boston-2026-tickets-1998456852242",
-      "description": "A day of networking, learning and talks about artificial intelligence.",
+      "description": "A day of networking, learning and discussion about artificial intelligence.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
     },
@@ -9136,6 +9347,21 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "35bb301545",
+      "title": "Sound Economies: Cultivating Boston’s Creative and Cultural Music Ecosystem",
+      "city": "Boston",
+      "venue": "Ryder Hall",
+      "address": "11 Leon Street, Boston, MA",
+      "date": "2026-11-13",
+      "startTime": "09:30",
+      "endTime": "13:30",
+      "category": "tech & talks",
+      "url": "https://www.eventbrite.com/e/sound-economies-cultivating-bostons-creative-and-cultural-music-ecosystem-tickets-2002633058387",
+      "description": "A half-day research symposium about Boston's creative and cultural music ecosystem.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "a004cec9e6",
       "title": "Morning at the Museum",
       "city": "Boston",
@@ -9147,21 +9373,6 @@ window.EVENTS_DATA = {
       "description": "Weekly.",
       "source": "Do617 (days 8-10)",
       "sourceId": "do617-5"
-    },
-    {
-      "id": "022d1cedd7",
-      "title": "Chinatown August moon festival",
-      "city": "Boston",
-      "venue": "Public Garden Garage (Pilgrim Parking)",
-      "address": "115 Providence Street, Boston, MA",
-      "date": "2026-11-13",
-      "endDate": "2026-11-15",
-      "startTime": "10:00",
-      "category": "festivals & markets",
-      "url": "https://www.eventbrite.com/e/chinatown-august-moon-festival-tickets-2002887854489",
-      "description": "An August Moon Festival with tasty treats, cool vibes and fun, running November 13 to 15.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "1cd7b8baa7",
@@ -9329,6 +9540,21 @@ window.EVENTS_DATA = {
       "sourceId": "do617-5"
     },
     {
+      "id": "d9a4a85344",
+      "title": "✨Make Your Own Advent Calendar at La Maison du Chocolat Boston✨",
+      "city": "Boston",
+      "venue": "La Maison du Chocolat Boston",
+      "address": "776c Boylston Street, Boston, MA",
+      "date": "2026-11-13",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "category": "food & drink",
+      "url": "https://www.eventbrite.com/e/make-your-own-advent-calendar-at-la-maison-du-chocolat-boston-tickets-2003781454270",
+      "description": "Fill a 26-day advent calendar with your favorite chocolates.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "547a144c37",
       "title": "America at 250",
       "city": "Boston",
@@ -9369,21 +9595,6 @@ window.EVENTS_DATA = {
       "sourceId": "bso"
     },
     {
-      "id": "95a8eb8fae",
-      "title": "Healing, Holding, and Honoring: Expressions & Explorations on Brain Health",
-      "city": "Boston",
-      "venue": "Massachusetts General Hospital, O'Keefe Auditorium",
-      "address": "Blake 160, 55 Fruit Street, Boston, MA",
-      "date": "2026-11-13",
-      "startTime": "14:00",
-      "endTime": "16:30",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/healing-holding-and-honoring-expressions-explorations-on-brain-health-tickets-2004132226439",
-      "description": "Season 4 of The Healing Arts Film & Conversation Series, hosted by The Wellness Collaborative and the Roxbury International Film Festival.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "660949aa00",
       "title": "Gallery Highlights (2:00 pm)",
       "city": "Boston",
@@ -9396,6 +9607,21 @@ window.EVENTS_DATA = {
       "url": "https://www.mfa.org/event/guided-tour/gallery-highlights?event=180066",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "95a8eb8fae",
+      "title": "Healing, Holding, and Honoring: Expressions & Explorations on Brain Health",
+      "city": "Boston",
+      "venue": "Massachusetts General Hospital, O'Keefe Auditorium",
+      "address": "55 Fruit Street, Boston, MA",
+      "date": "2026-11-13",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/healing-holding-and-honoring-expressions-explorations-on-brain-health-tickets-2004132226439",
+      "description": "Season 4 of The Healing Arts Film & Conversation Series, by The Wellness Collaborative Inc. and the Roxbury International Film Festival. Listing shows Day 1 at MGH.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "01efd9eae9",
@@ -9468,21 +9694,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-5"
     },
     {
-      "id": "2a15604289",
-      "title": "New England for All",
-      "city": "Boston",
-      "venue": "Artist for Humanity",
-      "address": "100 W 2nd St, Boston, MA",
-      "date": "2026-11-13",
-      "startTime": "17:00",
-      "endTime": "20:30",
-      "category": "festivals & markets",
-      "url": "https://www.eventbrite.com/e/new-england-for-all-tickets-2000163211007",
-      "description": "An evening bringing entrepreneurs, businesses and community leaders together to showcase and support local businesses.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "7964f3b6f2",
       "title": "Bonetown Burgers",
       "city": "Medford",
@@ -9496,6 +9707,21 @@ window.EVENTS_DATA = {
       "sourceId": "do617-5"
     },
     {
+      "id": "2a15604289",
+      "title": "New England for All",
+      "city": "Boston",
+      "venue": "Artist for Humanity",
+      "address": "100 W 2nd St, Boston, MA",
+      "date": "2026-11-13",
+      "startTime": "17:00",
+      "endTime": "20:30",
+      "category": "festivals & markets",
+      "url": "https://www.eventbrite.com/e/new-england-for-all-tickets-2000163211007",
+      "description": "Entrepreneurs, businesses and community leaders showcase and support local businesses.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "e6ffa53908",
       "title": "ÉLEVÉE X NoelStyled - Sip, Shop & Style",
       "city": "Boston",
@@ -9506,7 +9732,7 @@ window.EVENTS_DATA = {
       "endTime": "19:00",
       "category": "festivals & markets",
       "url": "https://www.eventbrite.com/e/elevee-x-noelstyled-sip-shop-style-tickets-2003750615029",
-      "description": "An evening of fashion, shopping and styling with drinks at ÉLEVÉE.",
+      "description": "An evening of fashion, shopping and styling, with drinks.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
     },
@@ -9891,21 +10117,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-5"
     },
     {
-      "id": "c431c8f9e0",
-      "title": "Kicking Off the Holiday Season at La CASA with Victoria Sanabria",
-      "city": "Boston",
-      "venue": "La CASA",
-      "address": "85 West Newton Street, Boston, MA",
-      "date": "2026-11-13",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "music",
-      "url": "https://www.eventbrite.com/e/kicking-off-the-holiday-season-at-la-casa-with-victoria-sanabria-tickets-2003457440135",
-      "description": "A festive evening of live music with Puerto Rican singer and décima poet Victoria Sanabria.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "8b110f1c54",
       "title": "Temptation Harbour",
       "city": "Cambridge",
@@ -9959,6 +10170,21 @@ window.EVENTS_DATA = {
       "description": "Come cheer on the men's basketball team at the Cabot Center!",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "c431c8f9e0",
+      "title": "Kicking Off the Holiday Season at La CASA with Victoria Sanabria",
+      "city": "Boston",
+      "venue": "La CASA",
+      "address": "85 W Newton St, Boston, MA",
+      "date": "2026-11-13",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/kicking-off-the-holiday-season-at-la-casa-with-victoria-sanabria-tickets-2003457440135",
+      "description": "A festive evening of live music with Puerto Rican singer and décima poet Victoria Sanabria.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "0c9c024f78",
@@ -10235,21 +10461,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-5"
     },
     {
-      "id": "49463e076c",
-      "title": "Havana Good Time Improv Show (11/13)",
-      "city": "Somerville",
-      "venue": "The Green Room",
-      "address": "62 Bow Street, Somerville, MA",
-      "date": "2026-11-13",
-      "startTime": "20:00",
-      "endTime": "21:30",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/havana-good-time-improv-show-1113-tickets-2002385871043",
-      "description": "An improv show from Havana Good Time.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "bf7e0beae7",
       "title": "MIT Festival Jazz Ensemble's 19th Annual Herb Pomeroy Memorial Concert—Giant Steps in Jazz",
       "city": "Cambridge",
@@ -10262,6 +10473,36 @@ window.EVENTS_DATA = {
       "description": "The MIT Festival Jazz Ensemble's 19th annual Herb Pomeroy Memorial Concert, with special guest trombonist Elliot Mason.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "49463e076c",
+      "title": "Havana Good Time Improv Show (11/13)",
+      "city": "Somerville",
+      "venue": "The Green Room",
+      "address": "62 Bow Street, Somerville, MA",
+      "date": "2026-11-13",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/havana-good-time-improv-show-1113-tickets-2002385871043",
+      "description": "An improv comedy show from Havana Good Time.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
+      "id": "c4ea54de38",
+      "title": "GODBODY: a ritual opera",
+      "city": "Cambridge",
+      "venue": "Multicultural Arts Center",
+      "address": "41 Second Street, Cambridge, MA",
+      "date": "2026-11-13",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/godbody-a-ritual-opera-registration-2003610975363",
+      "description": "A ritual opera performed November 13 and 14 at the Multicultural Arts Center.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "ca9b85aa87",
@@ -10453,9 +10694,24 @@ window.EVENTS_DATA = {
       "startTime": "22:00",
       "category": "music",
       "url": "https://www.eventbrite.com/e/masquerade-tickets-2003822649486",
-      "description": "A party with Boston DJs and nonstop beats.",
+      "description": "A night of party music with Boston DJs.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
+    },
+    {
+      "id": "a861deab12",
+      "title": "Friday Night BLOCK PARTY - Hava, Venu, Icon & Crown!",
+      "city": "Boston",
+      "venue": "Icon Nightclub",
+      "address": "100 Warrenton Street, Boston, MA",
+      "date": "2026-11-13",
+      "endDate": "2026-11-14",
+      "startTime": "22:30",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/friday-night-block-party-hava-venu-icon-crown-tickets-1985140994152",
+      "description": "One ticket gives access to four nightlife venues around Downtown Boston and beyond.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "1e6fc8775e",
@@ -10643,6 +10899,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "eb5b82b558",
+      "title": "Fells Trail Crew Workday",
+      "city": "Medford",
+      "venue": "The Fells",
+      "address": "255 South Border Road, Medford, MA",
+      "date": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "12:00",
+      "category": "sports & outdoors",
+      "url": "https://www.eventbrite.com/e/fells-trail-crew-workday-tickets-2002912361791",
+      "description": "Monthly volunteer workday improving trails and drainage in the Fells.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "1a88e704d9",
       "title": "Somerville Winter Farmers Market",
       "city": "Somerville",
@@ -10780,21 +11051,6 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
-      "id": "306c1b40bf",
-      "title": "Kids Storytime: Amanda Davis",
-      "city": "Boston",
-      "venue": "Roslindale Branch of the Boston Public Library",
-      "address": "4246 Washington Street, Boston, MA",
-      "date": "2026-11-14",
-      "startTime": "10:00",
-      "endTime": "11:00",
-      "category": "family",
-      "url": "https://www.eventbrite.com/e/kids-storytime-amanda-davis-tickets-2003617282227",
-      "description": "Artist and writer Amanda Davis reads from her new book, Chasing the Light.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "aeb2665af6",
       "title": "Native American Heritage Month Celebration 2026",
       "city": "Boston",
@@ -10820,6 +11076,21 @@ window.EVENTS_DATA = {
       "url": "https://patch.com/massachusetts/malden/calendar/event/20261114/454e0a77-5d50-4a98-9caf-8287f7f8582c/winter-wonderland-crafts-fair",
       "source": "Patch Malden Calendar",
       "sourceId": "patch-malden"
+    },
+    {
+      "id": "306c1b40bf",
+      "title": "Kids Storytime: Amanda Davis",
+      "city": "Boston",
+      "venue": "Roslindale Branch of the Boston Public Library",
+      "address": "4246 Washington Street, Boston, MA",
+      "date": "2026-11-14",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "category": "family",
+      "url": "https://www.eventbrite.com/e/kids-storytime-amanda-davis-tickets-2003617282227",
+      "description": "Artist and writer Amanda Davis reads from her new book, Chasing the Light.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "47f990de3b",
@@ -11132,36 +11403,6 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
-      "id": "6f4a022115",
-      "title": "Community Give Back Day-Boston,MA",
-      "city": "Boston",
-      "venue": "The Bruce Bolling Municipal Building",
-      "address": "2300 Washington Street, Boston, MA",
-      "date": "2026-11-14",
-      "startTime": "12:00",
-      "endTime": "16:00",
-      "category": "festivals & markets",
-      "price": "Free",
-      "url": "https://www.eventbrite.com/e/community-give-back-day-bostonma-tickets-2003423534723",
-      "description": "A free community event with exhibitors, resources, giveaways and gift bags.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
-      "id": "15df8e84bc",
-      "title": "Chairlift Charcuterie Championship",
-      "city": "Somerville",
-      "venue": "Secret indoor venue, Union Square (address sent to registered attendees)",
-      "date": "2026-11-14",
-      "startTime": "12:00",
-      "endTime": "14:00",
-      "category": "food & drink",
-      "url": "https://www.eventbrite.com/e/chairlift-charcuterie-championship-tickets-2003251826138",
-      "description": "A charcuterie cooking competition for solo skiers and snowboarders to meet each other.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "01522f7989",
       "title": "Somerville Cat Tour",
       "city": "Somerville",
@@ -11175,6 +11416,37 @@ window.EVENTS_DATA = {
       "description": "Second annual tour of Somerville's cats, meeting cats around town.",
       "source": "Eventbrite Boston (days 9-10)",
       "sourceId": "eventbrite-boston-4"
+    },
+    {
+      "id": "15df8e84bc",
+      "title": "Chairlift Charcuterie Championship",
+      "city": "Somerville",
+      "venue": "Secret Indoor Venue, Union Square",
+      "address": "Union Square, Somerville, MA",
+      "date": "2026-11-14",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "category": "food & drink",
+      "url": "https://www.eventbrite.com/e/chairlift-charcuterie-championship-tickets-2003251826138",
+      "description": "A charcuterie cooking competition for solo skiers and snowboarders. Exact address is given to registered attendees.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
+      "id": "6f4a022115",
+      "title": "Community Give Back Day-Boston,MA",
+      "city": "Boston",
+      "venue": "The Bruce Bolling Municipal Building",
+      "address": "2300 Washington Street, Boston, MA",
+      "date": "2026-11-14",
+      "startTime": "12:00",
+      "endTime": "16:00",
+      "price": "Free",
+      "category": "festivals & markets",
+      "url": "https://www.eventbrite.com/e/community-give-back-day-bostonma-tickets-2003423534723",
+      "description": "A free community day with exhibitors, resources, giveaways and gift bags.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "3a701d6b86",
@@ -12055,6 +12327,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "1e71041042",
+      "title": "Majesty Presents: NO CURFEW",
+      "city": "Malden",
+      "venue": "118 Ferry Street",
+      "address": "118 Ferry Street, Malden, MA",
+      "date": "2026-11-14",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/majesty-presents-no-curfew-tickets-2003427127469",
+      "description": "An evening event presented by Majesty; the listing gives few other details.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "6a85466bb3",
       "title": "Never Let Go",
       "city": "Cambridge",
@@ -12296,6 +12583,21 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "c04162b642",
+      "title": "CBAI Boston Biosecurity Hackathon",
+      "city": "Cambridge",
+      "venue": "20 Brattle St",
+      "address": "20 Brattle St, Floor 3, Cambridge, MA 02138",
+      "date": "2026-11-15",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/0iufmn6q",
+      "description": "A hands-on AI hackathon focused on biosecurity challenges. Registration closes November 11.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "cb3a2889fd",
       "title": "Impulse Ecstatic Dance – FIND YOUR POWER",
       "city": "Somerville",
@@ -12378,6 +12680,21 @@ window.EVENTS_DATA = {
       "url": "https://www.mfa.org/event/guided-tour/boston-stories?event=180466",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "b807a2528e",
+      "title": "Alewife Brook Reservation Trash Cleanup",
+      "city": "Cambridge",
+      "venue": "Alewife Brook Reservation",
+      "address": "2 Acorn Park Drive, Cambridge, MA",
+      "date": "2026-11-15",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "category": "sports & outdoors",
+      "url": "https://www.eventbrite.com/e/alewife-brook-reservation-trash-cleanup-tickets-2003971638115",
+      "description": "A volunteer trash cleanup at Alewife Brook Reservation.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "bccd8f1d28",
@@ -13431,6 +13748,21 @@ window.EVENTS_DATA = {
       "sourceId": "harvard"
     },
     {
+      "id": "79c66ca4e9",
+      "title": "Bouquets of Meaning: Mir Anis and the Devotion of Metaphors",
+      "city": "Cambridge",
+      "venue": "Harvard University, Massachusetts Hall",
+      "address": "Massachusetts Hall, Cambridge, MA 02138",
+      "date": "2026-11-16",
+      "startTime": "18:30",
+      "endTime": "21:30",
+      "category": "arts & theater",
+      "url": "https://luma.com/l3mk5jrl",
+      "description": "An evening on the poet Mir Anis and the use of metaphor in devotional writing. The exact room is shared with registered guests.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "622e580f02",
       "title": "Yung Gravy, Terror Reid",
       "city": "Boston",
@@ -13655,21 +13987,6 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/16/chamber-goth-industrial-night-tickets",
       "source": "Do617 (days 11-16)",
       "sourceId": "do617-6"
-    },
-    {
-      "id": "c9a5468261",
-      "title": "11/16 Dani's Queer Bar",
-      "city": "Boston",
-      "venue": "Dani's Queer Bar",
-      "address": "909 Boylston Street, Boston, MA",
-      "date": "2026-11-16",
-      "startTime": "20:00",
-      "endTime": "21:00",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/1116-danis-queer-bar-tickets-2004454114214",
-      "description": "LGBTQ+ stand-up comedy at Dani's Queer Bar.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "0ff932bfc8",
@@ -13947,6 +14264,21 @@ window.EVENTS_DATA = {
       "description": "A Thought Leader Lecture with Gunnar Branson, CEO of AFIRE, who brings nearly three decades of experience across commercial real estate and professional services.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "3aa2db67f3",
+      "title": "College Night: Underscore VC x Rho",
+      "city": "Boston",
+      "venue": "Underscore VC",
+      "address": "131 Oliver Street, 125 High St 3rd Floor, Boston, MA 02108",
+      "date": "2026-11-17",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/unders-h0zx",
+      "description": "A networking evening hosted by Underscore VC and Rho. Bring a photo ID for security check-in.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "fcad15d7da",
@@ -14702,6 +15034,21 @@ window.EVENTS_DATA = {
       "sourceId": "mit"
     },
     {
+      "id": "3d6eb5facb",
+      "title": "Built in Boston: A Student Founder Pitch Showcase",
+      "city": "Boston",
+      "venue": "Boston City Hall",
+      "address": "1 City Hall Square, Boston, MA 02201",
+      "date": "2026-11-18",
+      "startTime": "17:30",
+      "endTime": "19:30",
+      "category": "tech & talks",
+      "url": "https://luma.com/u44giwsf",
+      "description": "A pitch showcase spotlighting student founders, organized by Startup Boston and the City of Boston.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "63a8ddf25b",
       "title": "Pups @ Putterham: Read to a Dog!",
       "city": "Brookline",
@@ -14918,7 +15265,7 @@ window.EVENTS_DATA = {
       "endTime": "23:00",
       "category": "music",
       "url": "https://www.eventbrite.com/e/tango-night-lous-in-harvard-square-tickets-2003520347292",
-      "description": "An evening of Argentine tango music, dancing and socializing at Lou's in Harvard Square.",
+      "description": "An evening of Argentine tango music, dancing and socializing.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
     },
@@ -14933,9 +15280,24 @@ window.EVENTS_DATA = {
       "endTime": "20:00",
       "category": "arts & theater",
       "url": "https://www.eventbrite.com/e/solstice-mfa-2026-whw-fundraiser-reading-silent-auction-tickets-2004374606404",
-      "description": "Readings and a silent auction supporting the Writers Helping Writers scholarship fund.",
+      "description": "An evening of readings and a silent auction supporting the Writers Helping Writers scholarship fund.",
       "source": "Eventbrite Boston (days 6-8)",
       "sourceId": "eventbrite-boston-3"
+    },
+    {
+      "id": "683521b058",
+      "title": "Tango Night @ Lou’s in Harvard Square",
+      "city": "Cambridge",
+      "venue": "Lou's",
+      "address": "13 Brattle Street, Cambridge, MA",
+      "date": "2026-11-18",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/tango-night-lous-in-harvard-square-tickets-2003520347292",
+      "description": "An evening of Argentine tango music, dancing and socializing.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "abec46b540",
@@ -15169,6 +15531,21 @@ window.EVENTS_DATA = {
       "sourceId": "cambridge-city"
     },
     {
+      "id": "e35689a143",
+      "title": "9th Annual Stepping Strong Trauma Research and Innovation Symposium",
+      "city": "Boston",
+      "venue": "70 Francis Street",
+      "address": "70 Francis Street, Boston, MA",
+      "date": "2026-11-19",
+      "startTime": "15:00",
+      "endTime": "18:30",
+      "category": "tech & talks",
+      "url": "https://www.eventbrite.com/e/9th-annual-stepping-strong-trauma-research-and-innovation-symposium-tickets-1999528003083",
+      "description": "A trauma research and innovation symposium.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "fc8dea1632",
       "title": "Kids Crafternoon",
       "city": "Brookline",
@@ -15327,6 +15704,21 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
+      "id": "8d67d93634",
+      "title": "Open Science, AI, and Future of Scientific Publishing",
+      "city": "Cambridge",
+      "venue": "Swissnex",
+      "address": "420 Broadway, Cambridge, MA 02138",
+      "date": "2026-11-19",
+      "startTime": "17:30",
+      "endTime": "20:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/0sua28zn",
+      "description": "A discussion at Swissnex on how open data and AI tools are changing scientific publishing.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
+    },
+    {
       "id": "7700ae18c8",
       "title": "Live Music @ The Row Hotel",
       "city": "Somerville",
@@ -15383,6 +15775,36 @@ window.EVENTS_DATA = {
       "description": "A talk by Ruth Mandl and Bobby Johnston on adapting to a hotter planet, part of the MIT Fall 2026 Architecture Lecture Series.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "415088b2fd",
+      "title": "Building Product Connections: Speed Networking Night",
+      "city": "Boston",
+      "venue": "Workbar Downtown Boston",
+      "address": "24 School Street, Boston, MA",
+      "date": "2026-11-19",
+      "startTime": "18:00",
+      "endTime": "20:30",
+      "category": "tech & talks",
+      "url": "https://www.eventbrite.com/e/building-product-connections-speed-networking-night-tickets-2004493641441",
+      "description": "A speed networking night for building product professionals.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
+      "id": "c72f62605b",
+      "title": "Friendsgiving: A Latino Professional Networking Mixer",
+      "city": "Boston",
+      "venue": "West End Johnnie's",
+      "address": "138 Portland Street, Boston, MA",
+      "date": "2026-11-19",
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "category": "food & drink",
+      "url": "https://www.eventbrite.com/e/friendsgiving-a-latino-professional-networking-mixer-tickets-2003630450614",
+      "description": "A Friendsgiving networking mixer for Boston's Latino professionals.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "8812fc5622",
@@ -15612,36 +16034,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-6"
     },
     {
-      "id": "781a497657",
-      "title": "Roll'n Punches Comedy Show 11.19.26",
-      "city": "Boston",
-      "venue": "North 26 Bar & Restaurant",
-      "address": "26 North Street, Boston, MA",
-      "date": "2026-11-19",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/rolln-punches-comedy-show-111926-tickets-2003799796131",
-      "description": "A monthly comedy show at North 26, across the street from Faneuil Hall.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
-      "id": "e1a7a2c746",
-      "title": "Saborcito @ El Barco - Salsa/Bachata Night",
-      "city": "Boston",
-      "venue": "El Barco | Tacos x Tequilas",
-      "address": "50 Dalton Street, Boston, MA",
-      "date": "2026-11-19",
-      "startTime": "20:00",
-      "endTime": "23:00",
-      "category": "music",
-      "url": "https://www.eventbrite.com/e/saborcito-el-barco-salsabachata-night-tickets-2003987041186",
-      "description": "A salsa and bachata pop-up night with a beginner lesson and social dancing included.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "79bf26a2b3",
       "title": "FaMLE Fall Concert",
       "city": "Cambridge",
@@ -15654,6 +16046,36 @@ window.EVENTS_DATA = {
       "description": "The Laptop Ensemble's fall concert in Killian Hall.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "e1a7a2c746",
+      "title": "Saborcito @ El Barco - Salsa/Bachata Night",
+      "city": "Boston",
+      "venue": "El Barco | Tacos x Tequilas",
+      "address": "50 Dalton Street, Boston, MA",
+      "date": "2026-11-19",
+      "startTime": "20:00",
+      "endTime": "23:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/saborcito-el-barco-salsabachata-night-tickets-2003987041186",
+      "description": "Salsa and bachata night with a beginner lesson and social dancing.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
+      "id": "781a497657",
+      "title": "Roll'n Punches Comedy Show 11.19.26",
+      "city": "Boston",
+      "venue": "North 26 Bar & Restaurant",
+      "address": "26 North Street, Boston, MA",
+      "date": "2026-11-19",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/rolln-punches-comedy-show-111926-tickets-2003799796131",
+      "description": "A monthly comedy show across the street from Faneuil Hall.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "663868550c",
@@ -15693,6 +16115,21 @@ window.EVENTS_DATA = {
       "description": "Hands-on truffle-making workshop, 20 Nov to 15 Jan.",
       "source": "Fever Boston",
       "sourceId": "fever-boston"
+    },
+    {
+      "id": "68c77bb1b2",
+      "title": "Weather Balloon Launch @ MIT",
+      "city": "Cambridge",
+      "venue": "Briggs Field",
+      "address": "250 Vassar St, Cambridge, MA 02139",
+      "date": "2026-11-20",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/fdlorche",
+      "description": "A public weather balloon launch at Briggs Field with a talk about weather and atmospheric data.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "6d11c3e02d",
@@ -16286,16 +16723,16 @@ window.EVENTS_DATA = {
       "id": "28cbb3fdb6",
       "title": "HGF Skeletal Dysplasia Family Day - Boston, MA, USA",
       "city": "Boston",
-      "venue": "Boston Children's Hospital",
-      "address": "300 Longwood Avenue, Boston, MA",
+      "venue": "Boston Children's Hospital (Karp 1)",
+      "address": "300 Longwood Ave, Boston, MA",
       "date": "2026-11-21",
       "startTime": "09:00",
       "endTime": "12:00",
       "category": "family",
       "url": "https://www.eventbrite.com/e/hgf-skeletal-dysplasia-family-day-boston-ma-usa-tickets-2003218009993",
-      "description": "A family day of education, connection and empowerment for families affected by skeletal dysplasia, in Karp 1 on the first floor.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "description": "A family day with education, connection and empowerment for families affected by skeletal dysplasia.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "230e3af09c",
@@ -16393,6 +16830,21 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "dd366f867f",
+      "title": "Castle Island Track Club Turkey Trot",
+      "city": "Boston",
+      "venue": "Castle Island Brewing - South Boston",
+      "address": "10 Old Colony Avenue, Boston, MA",
+      "date": "2026-11-21",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "category": "sports & outdoors",
+      "url": "https://www.eventbrite.com/e/castle-island-track-club-turkey-trot-tickets-2004325361110",
+      "description": "An unsanctioned 5k race to kick off Turkey Trot season.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "a11b46b42e",
       "title": "Music Bingo",
       "city": "Boston",
@@ -16415,21 +16867,6 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/21/boston-youth-symphony-orchestras-boston-ballet-school-present-peter-and-the-wolf-tickets",
       "source": "Do617 (days 11-16)",
       "sourceId": "do617-6"
-    },
-    {
-      "id": "a047dafec0",
-      "title": "Grizzly Beard Collective Presents: 2026 Battle of the Beards",
-      "city": "Boston",
-      "venue": "Marvelous Barber Lounge",
-      "address": "82 Broad Street, Boston, MA",
-      "date": "2026-11-21",
-      "startTime": "12:00",
-      "endTime": "17:00",
-      "category": "festivals & markets",
-      "url": "https://www.eventbrite.com/e/grizzly-beard-collective-presents-2026-battle-of-the-beards-tickets-2004439724173",
-      "description": "The 2026 Battle of the Beards, a Saturday social.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "4020379f86",
@@ -16512,6 +16949,21 @@ window.EVENTS_DATA = {
       "description": "Come cheer on the women's basketball team at the Cabot Center!",
       "source": "Northeastern University Calendar",
       "sourceId": "northeastern"
+    },
+    {
+      "id": "76cecc7b6f",
+      "title": "TEDxBoston -- Planet Action",
+      "city": "Cambridge",
+      "venue": "MIT Kresge Auditorium",
+      "address": "48 Massachusetts Ave, Cambridge, MA 02139",
+      "date": "2026-11-21",
+      "startTime": "13:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://luma.com/stfcpuoh",
+      "description": "A TEDxBoston event on building durable human and planetary prosperity.",
+      "source": "Luma Boston",
+      "sourceId": "luma-boston"
     },
     {
       "id": "a0c3be9726",
@@ -16854,6 +17306,21 @@ window.EVENTS_DATA = {
       "sourceId": "do617-6"
     },
     {
+      "id": "39af1d4ff8",
+      "title": "BPJF PRESENTS: A Jazz Speakeasy",
+      "city": "Somerville",
+      "venue": "Warehouse XI",
+      "address": "11 Sanborn Court, Somerville, MA",
+      "date": "2026-11-21",
+      "startTime": "20:00",
+      "endTime": "23:30",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/bpjf-presents-a-jazz-speakeasy-tickets-2003983500596",
+      "description": "A one-night jazz speakeasy featuring local jazz acts.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "37318eeac8",
       "title": "TABÚ REUNION PT. 5  Mixx 360 Nightlife",
       "city": "Malden",
@@ -17023,21 +17490,6 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
-      "id": "7cd79ba4c3",
-      "title": "THE HITT LIST: ROOFTOP SWEAT PARTY | Powered by RAM",
-      "city": "Boston",
-      "venue": "Moxy Boston Downtown",
-      "address": "240 Tremont Street, Boston, MA",
-      "date": "2026-11-22",
-      "startTime": "11:00",
-      "endTime": "14:00",
-      "category": "sports & outdoors",
-      "url": "https://www.eventbrite.com/e/the-hitt-list-rooftop-sweat-party-powered-by-ram-tickets-2004295800694",
-      "description": "A rooftop workout with mocktails, bites, music and a social hour, led by Tayla.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "85cf8d648a",
       "title": "Medford Farmers Market Holiday Harvest Market",
       "city": "Medford",
@@ -17066,6 +17518,36 @@ window.EVENTS_DATA = {
       "sourceId": "mfa"
     },
     {
+      "id": "7cd79ba4c3",
+      "title": "THE HITT LIST: ROOFTOP SWEAT PARTY | Powered by RAM",
+      "city": "Boston",
+      "venue": "Moxy Boston Downtown",
+      "address": "240 Tremont Street, Boston, MA",
+      "date": "2026-11-22",
+      "startTime": "11:00",
+      "endTime": "14:00",
+      "category": "sports & outdoors",
+      "url": "https://www.eventbrite.com/e/the-hitt-list-rooftop-sweat-party-powered-by-ram-tickets-2004295800694",
+      "description": "A rooftop workout party with mocktails, bites, music and a social.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
+      "id": "88c8f670ad",
+      "title": "Medford Farmers Market Holiday Harvest 2026!",
+      "city": "Medford",
+      "venue": "Medford City Hall",
+      "address": "85 George P Hassett Drive, Medford, MA",
+      "date": "2026-11-22",
+      "startTime": "11:00",
+      "endTime": "15:00",
+      "category": "festivals & markets",
+      "url": "https://www.eventbrite.com/e/medford-farmers-market-holiday-harvest-2026-tickets-2003206004083",
+      "description": "The annual Holiday Harvest farmers market at Medford City Hall.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "fc18a859b3",
       "title": "Drag Me To Brunch",
       "city": "Boston",
@@ -17091,21 +17573,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-7"
     },
     {
-      "id": "f79cc42634",
-      "title": "November 22nd,  2026 - Drag Me To Bunch @ Carrie Nation",
-      "city": "Boston",
-      "venue": "Carrie Nation Cocktail Club",
-      "address": "11 Beacon Street, Boston, MA",
-      "date": "2026-11-22",
-      "startTime": "12:00",
-      "endTime": "14:00",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/november-22nd-2026-drag-me-to-bunch-carrie-nation-tickets-2003085797542",
-      "description": "A weekly drag brunch show at Carrie Nation Cocktail Club.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "f17f4c3dfc",
       "title": "Gallery Highlights",
       "city": "Boston",
@@ -17118,6 +17585,21 @@ window.EVENTS_DATA = {
       "url": "https://www.mfa.org/event/guided-tour/gallery-highlights?event=179721",
       "source": "Museum of Fine Arts",
       "sourceId": "mfa"
+    },
+    {
+      "id": "f79cc42634",
+      "title": "November 22nd,  2026 - Drag Me To Bunch @ Carrie Nation",
+      "city": "Boston",
+      "venue": "Carrie Nation Cocktail Club",
+      "address": "11 Beacon Street, Boston, MA",
+      "date": "2026-11-22",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/november-22nd-2026-drag-me-to-bunch-carrie-nation-tickets-2003085797542",
+      "description": "Weekly drag brunch show at Carrie Nation Cocktail Club.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "070154eaba",
@@ -18426,6 +18908,21 @@ window.EVENTS_DATA = {
       "sourceId": "do617-7"
     },
     {
+      "id": "2010e9d372",
+      "title": "The Comeunity Project: Boston | 20's Mingle",
+      "city": "Boston",
+      "venue": "Restaurant of the Month",
+      "address": "Lovejoy Wharf, Boston, MA",
+      "date": "2026-11-25",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "category": "food & drink",
+      "url": "https://www.eventbrite.com/e/the-comeunity-project-boston-20s-mingle-tickets-1979689209718",
+      "description": "A social mingle for people in their 20s, held at a different bar or restaurant each month, with a give-back component.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "0701418b0b",
       "title": "Doughboys Podcast",
       "city": "Boston",
@@ -18518,6 +19015,36 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "59b8fd7159",
+      "title": "BLACK OUT 2026",
+      "city": "Boston",
+      "venue": "Sorrel & Lime",
+      "address": "986 Blue Hill Avenue, Boston, MA",
+      "date": "2026-11-25",
+      "endDate": "2026-11-26",
+      "startTime": "22:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/black-out-2026-tickets-2003669383062",
+      "description": "The annual Scorpio and Sagittarius party.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
+      "id": "b1480141c8",
+      "title": "THE HOLIDAY LINKUP: Boston's Thanksgiving Eve Party",
+      "city": "Boston",
+      "venue": "Hava Nightclub",
+      "address": "246 Tremont Street, Boston, MA",
+      "date": "2026-11-25",
+      "endDate": "2026-11-26",
+      "startTime": "22:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/the-holiday-linkup-bostons-thanksgiving-eve-party-tickets-2003513690381",
+      "description": "A Thanksgiving Eve homecoming party at HAVA Boston, hosted by Riddim House and H.I.M Entertainment.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "4edc5675a2",
       "title": "A GRAND THANKSGIVING EVE",
       "city": "Boston",
@@ -18557,8 +19084,8 @@ window.EVENTS_DATA = {
       "category": "food & drink",
       "url": "https://www.eventbrite.com/e/thanksgiving-at-reunion-bbq-holiday-buffet-community-table-tickets-2003488561219",
       "description": "A Thanksgiving holiday buffet with smoked BBQ favorites, traditional sides and a community table.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "037616c616",
@@ -18691,6 +19218,21 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "8bab56316f",
+      "title": "Vinyl Index presents RSD Black Friday 2026 @ Bow Market",
+      "city": "Somerville",
+      "venue": "Vinyl Index",
+      "address": "1 Bow Market Way, Somerville, MA",
+      "date": "2026-11-27",
+      "startTime": "09:00",
+      "endTime": "23:00",
+      "category": "festivals & markets",
+      "url": "https://www.eventbrite.com/e/vinyl-index-presents-rsd-black-friday-2026-bow-market-tickets-2004444921719",
+      "description": "Record Store Day's alternative Black Friday edition at Vinyl Index in Bow Market.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "e58b1938da",
       "title": "Morning at the Museum",
       "city": "Boston",
@@ -18730,21 +19272,6 @@ window.EVENTS_DATA = {
       "description": "The classic story of a young woman whose good heart transports her from rags to royalty, with a few twists. Recommended for ages 4 to 8.",
       "source": "Brookline.News Events",
       "sourceId": "brookline-news"
-    },
-    {
-      "id": "cf22716604",
-      "title": "Celebrate! with Wampanoag Nation Singers and Dancers",
-      "city": "Boston",
-      "venue": "John F. Kennedy Presidential Library and Museum",
-      "address": "Columbia Point, Boston, MA",
-      "date": "2026-11-27",
-      "startTime": "10:30",
-      "endTime": "14:00",
-      "category": "arts & theater",
-      "url": "https://www.eventbrite.com/e/celebrate-with-wampanoag-nation-singers-and-dancers-tickets-1993711694347",
-      "description": "A performance by Wampanoag Nation singers and dancers, in honor of Native American Heritage Day.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
     },
     {
       "id": "5b697dee0e",
@@ -18962,6 +19489,21 @@ window.EVENTS_DATA = {
       "sourceId": "eventbrite-boston-2"
     },
     {
+      "id": "9b12847313",
+      "title": "ALL BLACK AFFAIR - HOSTED BY PUNGA",
+      "city": "Cambridge",
+      "venue": "Middle East Restaurant and Club",
+      "address": "472-480 Massachusetts Avenue, Cambridge, MA",
+      "date": "2026-11-27",
+      "endDate": "2026-11-28",
+      "startTime": "20:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/all-black-affair-hosted-by-punga-tickets-2003741612101",
+      "description": "An all-black party hosted by Punga, celebrating DJ Gilly's birthday on Black Friday.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "2bc713ba01",
       "title": "Shake It with Dj Panda",
       "city": "Cambridge",
@@ -18972,6 +19514,21 @@ window.EVENTS_DATA = {
       "url": "https://do617.com/events/2026/11/27/shake-it-with-dj-panda-tickets",
       "source": "Do617 (days 17-22)",
       "sourceId": "do617-7"
+    },
+    {
+      "id": "426e59c0b6",
+      "title": "BLACK FRIDAY \" FRIENDS GIVING HOMECOMING AFFAIR\"",
+      "city": "Boston",
+      "venue": "Hava Nightclub",
+      "address": "246 Tremont Street, Boston, MA",
+      "date": "2026-11-27",
+      "endDate": "2026-11-28",
+      "startTime": "21:30",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/black-friday-friends-giving-homecoming-affair-tickets-2003028723833",
+      "description": "The annual Friendsgiving homecoming party at HAVA Boston.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "2d685182b4",
@@ -19374,6 +19931,20 @@ window.EVENTS_DATA = {
       "description": "A holiday party with DJ Kid Capri at MIXX 360. Black attire recommended.",
       "source": "Eventbrite Boston (days 3-5)",
       "sourceId": "eventbrite-boston-2"
+    },
+    {
+      "id": "0a406bf056",
+      "title": "NWA (Nina w/Angelena) Giving Thanks Party",
+      "city": "Boston",
+      "venue": "Slades Bar & Grill",
+      "date": "2026-11-28",
+      "endDate": "2026-11-29",
+      "startTime": "21:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/nwa-nina-wangelena-giving-thanks-party-tickets-2004023381882",
+      "description": "A Thanksgiving weekend party with a performance by Angelena & The Unit and music by DJ Plush.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "7b8d875a31",
@@ -20438,21 +21009,6 @@ window.EVENTS_DATA = {
       "sourceId": "brookline-library"
     },
     {
-      "id": "d5bcab1d84",
-      "title": "Underground Games Survivor 51 Episode 11: Drawdown Brew Co",
-      "city": "Boston",
-      "venue": "Drawdown Brewing",
-      "address": "3204 Washington Street, Boston, MA",
-      "date": "2026-12-02",
-      "startTime": "18:00",
-      "endTime": "22:00",
-      "category": "food & drink",
-      "url": "https://www.eventbrite.com/e/underground-games-survivor-51-episode-11-drawdown-brew-co-tickets-1998272063534",
-      "description": "A Survivor 51 watch party with challenges, trivia and prizes at the brewery.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "0ea37f7b52",
       "title": "Genevieve Artadi ft. Louis Cole & Chiquita Magic",
       "city": "Boston",
@@ -21410,6 +21966,21 @@ window.EVENTS_DATA = {
       "sourceId": "ica"
     },
     {
+      "id": "6e93320632",
+      "title": "Skate It Forward - Series",
+      "city": "Boston",
+      "venue": "Chez Vous Roller Skating Rink",
+      "address": "11 Rhoades Street, Boston, MA",
+      "date": "2026-12-04",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "category": "sports & outdoors",
+      "url": "https://www.eventbrite.com/e/skate-it-forward-series-tickets-1987940062240",
+      "description": "A roller-skating social night hosted by MaceyOMaze, to skate and connect.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "8d68a380a8",
       "title": "Caspian, Pile, The Infinity Ring",
       "city": "Boston",
@@ -21593,21 +22164,6 @@ window.EVENTS_DATA = {
       "sourceId": "do617-8"
     },
     {
-      "id": "ac26e98ee8",
-      "title": "12th Annual PRISM 2026 Concert Spectacular! - MIT Wind Ensemble",
-      "city": "Cambridge",
-      "venue": "Kresge Auditorium",
-      "address": "48 Massachusetts Avenue, Cambridge, MA",
-      "date": "2026-12-04",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "category": "music",
-      "url": "https://www.eventbrite.com/e/12th-annual-prism-2026-concert-spectacular-mit-wind-ensemble-tickets-1993622692139",
-      "description": "A concert by the MIT Wind Ensemble pairing full wind ensemble and chamber brass, percussion, woodwinds and soloists with special lighting.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
-    },
-    {
       "id": "33992b96f5",
       "title": "12th Annual PRISM Concert Spectacular! - MIT Wind Ensemble",
       "city": "Cambridge",
@@ -21634,6 +22190,21 @@ window.EVENTS_DATA = {
       "description": "The fall concert by Rambax in Thomas Tull Concert Hall.",
       "source": "MIT Events",
       "sourceId": "mit"
+    },
+    {
+      "id": "ac26e98ee8",
+      "title": "12th Annual PRISM 2026 Concert Spectacular! - MIT Wind Ensemble",
+      "city": "Cambridge",
+      "venue": "Kresge Auditorium",
+      "address": "48 Massachusetts Avenue, Cambridge, MA",
+      "date": "2026-12-04",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "category": "music",
+      "url": "https://www.eventbrite.com/e/12th-annual-prism-2026-concert-spectacular-mit-wind-ensemble-tickets-1993622692139",
+      "description": "An MIT Wind Ensemble concert combining wind ensemble, chamber brass, percussion, woodwinds and soloists with special lighting.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "4302a6a233",
@@ -21728,6 +22299,21 @@ window.EVENTS_DATA = {
       "sourceId": "arnold-arboretum"
     },
     {
+      "id": "d0a1a468ae",
+      "title": "Muslims in Business Conference at Harvard Business School",
+      "city": "Boston",
+      "venue": "Klarman Hall, Harvard Business School",
+      "address": "Soldiers Field Road, Boston, MA",
+      "date": "2026-12-05",
+      "startTime": "08:00",
+      "endTime": "18:00",
+      "category": "tech & talks",
+      "url": "https://www.eventbrite.com/e/muslims-in-business-conference-at-harvard-business-school-tickets-2002978488578",
+      "description": "A student-run Muslims in Business conference at Harvard Business School.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
+    },
+    {
       "id": "ff6b98db69",
       "title": "Craft Swap, Part 2",
       "city": "Brookline",
@@ -21818,13 +22404,13 @@ window.EVENTS_DATA = {
       "date": "2026-12-05",
       "startTime": "11:00",
       "endTime": "13:00",
-      "category": "food & drink",
-      "price": "$25 early-bird rate",
+      "category": "tech & talks",
+      "price": "$25 early-bird",
       "url": "https://www.eventbrite.com/e/un-ano-de-impacto-eoy-brunch-tickets-2004274964372",
       "registerUrl": "https://latinasintech.org/events/lit-bostons-eoy-brunch",
-      "description": "A year-end brunch by Latinas in Tech Boston. The listing says to register directly on the LiT website to skip fees.",
-      "source": "Eventbrite Boston (days 6-8)",
-      "sourceId": "eventbrite-boston-3"
+      "description": "Latinas in Tech Boston's year-end brunch. Early-bird rate $25; register on the LiT website.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "f79df86045",
@@ -22169,6 +22755,21 @@ window.EVENTS_DATA = {
       "sourceId": "open-newbury"
     },
     {
+      "id": "f946e2445d",
+      "title": "Catan Tournament",
+      "city": "Boston",
+      "venue": "Artisan's Asylum",
+      "address": "96 Holton Street, Boston, MA",
+      "date": "2026-12-06",
+      "startTime": "09:00",
+      "endTime": "16:00",
+      "category": "family",
+      "url": "https://www.eventbrite.com/e/catan-tournament-tickets-2003928747829",
+      "description": "A regional qualifier Catan tournament.",
+      "source": "Eventbrite Boston (days 6-8)",
+      "sourceId": "eventbrite-boston-3"
+    },
+    {
       "id": "e576c9bcb4",
       "title": "Play Date: Free Family Art Day",
       "city": "Boston",
@@ -22194,6 +22795,21 @@ window.EVENTS_DATA = {
       "url": "https://www.maldenevents.com/12/06/2026/bread-of-life-craft-fair/",
       "source": "Malden Events",
       "sourceId": "malden-events"
+    },
+    {
+      "id": "984e4be08c",
+      "title": "December 6th,  2026 - Drag Me To Bunch @ Carrie Nation",
+      "city": "Boston",
+      "venue": "Carrie Nation Cocktail Club",
+      "address": "11 Beacon Street, Boston, MA",
+      "date": "2026-12-06",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "category": "arts & theater",
+      "url": "https://www.eventbrite.com/e/december-6th-2026-drag-me-to-bunch-carrie-nation-tickets-2003086805557",
+      "description": "Weekly drag brunch show at Carrie Nation Cocktail Club.",
+      "source": "Eventbrite Boston (days 11-end)",
+      "sourceId": "eventbrite-boston-5"
     },
     {
       "id": "75ab25dbe8",

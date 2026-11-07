@@ -1,3 +1,4 @@
-status: broken
-The rig's fetch of the Luma ICS feed (https://api.lu.ma/ics/get?entity=discover&id=discplace-VWeZ1zUvnawYHMj) timed out (raw/luma-boston/FETCH_ERROR.txt), so chunk.mjs had no chunks to serve.
-A direct retry from this session returned HTTP 200 with 19 VEVENTs, so the feed is live and a re-run of the fetch should yield events. No events were extracted here because the chunk pipeline was not given the data.
+status: ok
+Read the Luma Boston ICS feed in 3 chunks (25 entries, all inside the window). Kept 16 in-person public events in allowed cities (Boston, Cambridge, Somerville).
+Skipped 9: 5 with location hidden until registration (Infra Demo Night, Boston Influencers Mixer, LangChain Boston Meetup, MIT Energy & Climate Night, A Human Conversation about the Future of Work); Irish Stories (Chestnut Hill), With Dad (Lexington) and Reading Rhythms (Quincy) are outside the allowed cities; Autumn LGBTQ+ Job Fair is a career fair that fits none of the categories.
+Judgment calls: "College Night: Underscore VC x Rho" kept as public networking (not clearly student-only). Lovable and WHOOP startup tours kept as public. Venue names for Lovable ("Lovable HQ") and WHOOP ("WHOOP HQ") come from the event titles.

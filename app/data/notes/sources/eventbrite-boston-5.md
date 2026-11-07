@@ -1,9 +1,5 @@
 status: ok
-Read all 11 chunks (94 events kept) from the Eventbrite Boston per-day search pages, days 11 onward, covering 2026-10-30 to 2026-11-29.
-Dropped as online: Restorative Justice spotlight (Oct 27 and Nov 10), Time-Out Spaces (Nov 12-19), Tier 1 Restorative Justice (Nov 19-20).
-Dropped as non-events or promos: Herbwell Halloweekend (cannabis shop promo), CLINK. Thanksgiving Take & Bake (meal pickup).
-Dropped as courses or class series: Back Sacadas tango course (Nov 1), 8-week Argentine tango beginner course (Nov 5).
-Dropped as admissions or private: Newtowne School tours, Shaloh House open house, Smart Woman Securities finance recruiting conference, Mario Umana Harbor alumni reunion, Friendsgiving for Local 453 union members, Cuddle Party (private home venue), Playground XXL (unclear adult event).
-Dropped as duplicate: second VIII Annual International Medical Congress listing (kept the multi-day one).
-Judgement calls: bar crawls and nightclub nights filed under food & drink or music; "Dinner with Christians", the Emmanuel Baptist banquet and the Let's Give Thanks worship night were kept as community; student-run conferences (ASIA business conference, Entrepreneurship Conference, herNetwork) were kept as public.
-Venue-only listings with no street address (Downtown Boston, Downtown Cambridge, Slades Bar & Grill, Restaurant of the Month) have no address field.
+Read all 14 chunks: about 137 listed events from the per-day Eventbrite Boston search pages, 2026-11-07 to 2026-12-06. Kept 92 records in the events file; one further listing was dropped as a duplicate.
+Skipped: online-only events (Center for Restorative Justice series); members-only, alumni, union, church and association events; job fair (HackerX employer ticket); classes/courses (tango, pilates, tax training); bar crawls (Cambridge Thanksgiving Eve, Fenway and Faneuil Hall SantaCon); galas, awards and honoree nights with no category fit; promos (Ren Faire turkey leg pre-order, UltraSculpt pop-up, CLINK take & bake); events whose content was unclear ("Majesty Presents: NO CURFEW", "party time events group", "Playground XXL", "Cuddle Party").
+Judgment calls: nightclub and dance parties filed under music; networking mixers under tech & talks or food & drink; the Girls in Business Camp listed twice (08:00 and 13:00 sessions) was kept once with the 08:00 URL and the afternoon session noted in the description; the MIT Playwrights Lab and Holiday Small Works listings were kept as public events; the Skate It Forward description mentions "May 1" against a December 4 listing date, so the listing date was kept as shown.
+Registration links from the description were used only for the LiT EOY brunch (registerUrl), which points to the organizer's site.
