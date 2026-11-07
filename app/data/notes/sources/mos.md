@@ -1,8 +1,5 @@
 status: ok
-Fetched https://www.mos.org/events as one page chunk listing 16 items; 14 fall in the window 2026-10-31 to 2026-11-30 and are all at the Museum of Science, Boston.
-Skipped "Nature Sings: A Sonic Revival Live" (Oct 30, before the window).
-Spooky Science Weekend is one record on Oct 31 with endDate Nov 1.
-Trust in Science Community Day is listed as "All Day", so no start or end time is set.
-Access Off Hours (Nov 7) is kept as a public masked-access visit; it is a limited-capacity, reduced-noise public session.
-No prices or registration links are shown on the listing, so none are set. Street address is not shown, so none is set.
-Categories: default "family", with tech & talks for talks and panels, music for the SILK event, arts & theater for screenings and book talks, and community for cultural and access events.
+Listing page https://www.mos.org/events rendered as markdown with 13 event entries; 12 fall inside the window 2026-11-07 to 2026-12-07 and are saved in events/mos.json.
+Skipped: Huang Yi & KUKA (Feb 25–27, 2027, outside the window).
+Judgment calls: "Masked Access Hours" (Nov 7) is included as a public event under the listing's Public Event filter; no price or membership restriction is shown. Event types are not shown on the listing, so no member-only filtering was possible. Category "tech & talks" was used for talks and symposia, "music" for SILK, "arts & theater" for the TJ Klune book talk, and "family" for the NOVA and Native American Heritage events and the access hours.
+Times left out where the listing shows none (Trust in Science Community Day is all-day; Science of Wellness lists two sessions, so no start time is given). No addresses or prices are shown, so none are recorded. No detail pages were fetched.

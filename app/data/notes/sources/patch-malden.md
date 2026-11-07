@@ -1,5 +1,5 @@
 status: ok
-Patch Malden calendar page listed 17 distinct events, 13 of them in the window (2026-10-31 to 2026-11-30) and in Malden or Medford.
-Skipped: Reading (Reading), Commonwealth School Virtual Open House (virtual and school open house), Blizzard of Blues III and Holiday Shopping Pop Up (December, outside the window).
-Category calls: Halloween festival, library movie night, Breakfast With Santa and the kids' playgroups marked family; craft fairs and the holiday market marked festivals & markets; ping pong marked sports & outdoors; LIMELight marked arts & theater; the rest use the default community.
-No endTime shown on the listing, so none is set. The listing gives no venue name for some events, so the address is used as the venue.
+Fetched https://patch.com/massachusetts/malden/calendar as a markdown page with 8 in-window events in Malden (none in Medford).
+Kept: Busy Bookworms, Engineering & Tinkering Playgroup, LIMELight: Facing Grief, 12th Thanksgiving Ping Pong Tournament, Winter Wonderland Crafts Fair, Merry Makers Holiday Market, Movie Night at the Malden Public Library, Breakfast With Santa.
+Skipped: Melrose events (Heat Pump Pizza Party, Melrose Landlord workshop), Reading Society of Craftsmen (Reading), Commonwealth School virtual open house (online), Holiday Shopping Pop Up (Dec 9) and Blizzard of Blues III (Dec 12, Medford), both after the window end of 2026-12-07. Medford's Blizzard of Blues is out of window so no Medford records.
+Listing gave no end times or prices, so none were written. No detail pages were opened.

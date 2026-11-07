@@ -1,6 +1,5 @@
 status: ok
-Listing at boston.gov/events rendered as markdown across 2 chunks, with entries from Oct 31 to Nov 5, 2026.
-Kept 12 in-person public events in Boston (City Hall Plaza, Olmsted Park, Jamaica Pond, Fenway, Roxbury, Roslindale, East Boston, Blackstone, 26 Court St, Civic Pavilion).
-Skipped virtual meetings and webinars, zoning abutters meetings, neighborhood association meetings, the phone-only immigration consultations, the virtual ADU workshops, and the canceled Digital Literacy Workshop.
-LGBTQ+ Youth Vision Board url is its Google Form, since the listing gives no boston.gov page for it.
-Dates and times come straight from the listing; no detail pages were opened.
+Read the boston.gov/events listing (2 page chunks, window Nov 7 – Dec 7, 2026). Kept 8 in-person public events, all in Boston: Fixit Clinics (Hyde Park, Artisans Asylum), Pumpkin Smash, Boston Veterans Parade, NOW OR NEVER: POWERHOUSE, CPA Networking Night, Fall Foliage Walk (Franklin Park), Urban Wilds Strategic Plan Open House.
+Skipped: abutters/zoning meetings and neighborhood association meetings (administrative), virtual-only items (Business Certification office hours, credit workshop on Zoom), canceled Digital Literacy Workshop (Nov 9 and Nov 11), government service clinics that fit no category (Medicare Open Enrollment, MassHealth enrollment), Age Strong Memory Café (support group, no fitting category), and the in-person "Build Your Credit" workshop (Nov 12, 30 Dimock St) because its only link is the Zoom registration for a virtual occurrence.
+Judgment calls: CPA Networking Night filed as "tech & talks"; Urban Wilds open house filed as "sports & outdoors" and linked to its Eventbrite page; Fixit Clinics filed as "tech & talks".
+Only 8 usable events, all in Boston, so no events for the other allowed cities from this source.

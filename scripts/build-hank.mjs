@@ -205,7 +205,7 @@ const hank = {
   },
   globalSystemPromptFile: './prompts/system.md',
   overrides: {
-    budget: { maxDollars: args['max-dollars'] ? Number(args['max-dollars']) : Math.max(1, Math.ceil(sourceDollars + tailDollars)), maxTimeSeconds: 4 * 3600, onExceeded: 'fail' },
+    budget: { maxDollars: args['max-dollars'] ? Number(args['max-dollars']) : Math.max(1, Math.ceil(sourceDollars + tailDollars)), maxTimeSeconds: 8 * 3600, onExceeded: 'fail' },
   },
   hank: [...preflight, ...sourceCodons, ...(args['no-tail'] ? [] : tail)],
 };

@@ -9,7 +9,7 @@
   "overrides": {
     "budget": {
       "maxDollars": 40,
-      "maxTimeSeconds": 14400,
+      "maxTimeSeconds": 28800,
       "onExceeded": "fail"
     }
   },

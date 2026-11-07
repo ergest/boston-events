@@ -1,6 +1,5 @@
 status: ok
-Listing page at calendar.artsboston.org showed 15 dated events for 2026-10-30; 9 are in the listed cities (Boston, Cambridge, Medford) and were kept. Others were in Plymouth, Norwood, Rockport, Concord, Wenham, Methuen and North Reading, so skipped.
-The listing shows no times or prices, so those fields are omitted. Venue street addresses are not shown either, so they are omitted too.
-Continuum (Lam Dance Works) comes from a featured banner: "November 14 and 15", with no year shown. Recorded as 2026-11-14 to 2026-11-15, inferred from the window.
-Tufts Composers: New at Noon #1 is treated as public, since it is a listed concert with no member or student-only restriction shown.
-Chunk 2 was only an Instagram feed with no dated events, so it was marked empty.
+Listing page (calendar.artsboston.org, BosTix) returned 15 upcoming events, all dated Nov 7 2026 on the page, plus 2 featured events (Continuum, book fair). 9 kept: in Boston, Cambridge or Somerville, public, and fitting a window category. Dropped 8 outside the allowed cities: The Fools (Plymouth), CSEM Trio Langostino (Weston), Yellow Brick Road (Norwood), Everybody Wants Some (Beverly), Reggie Harris (Lexington), Where Wonder Takes Us (Salem), Walter Parks (Norwood), Rivers Symphony (Needham).
+Multi-day runs: Continuum (Nov 14–15, Emerson Paramount) and the 48th Boston International Antiquarian Book Fair (Nov 6–8, Hynes; record starts Nov 7). Detail pages fetched for both to get dates, prices and venues.
+Skipped the Instagram feed links in chunk 2 (no events).
+Judgment calls: Donal Fox (Regattabar) kept as the source default "arts & theater" because the listing does not say the genre. Book fair categorized as "festivals & markets". Listing times omitted for all events because none were shown on the listing; Continuum's times differ by day, so none are recorded.

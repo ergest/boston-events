@@ -1,7 +1,6 @@
 status: ok
-Fetched https://brookline.news/events/ as markdown in 2 chunks; 37 events kept, all Brookline, all in the 2026-10-31 to 2026-11-30 window.
-Skipped: Brookline library event (Nov 9, covered by brookline-library), Holiday Auction (online), Early Education Developmental Screening (individual appointment service, not a public event), and all events dated after Nov 30 (Dec and Jan listings).
-Duplicates: Puppet/poetry "Poetry Reading – Tanya Paris" listed twice on Nov 21 (2:30 am and 2:30 pm); kept the 2:30 pm entry. World Rhythms repeats weekly on different dates; each date kept as its own record.
-Venues: the listing gives no venue or address for many events, so venue is "Not listed" where the listing names none. City is set to Brookline for all, following the listing's scope.
-Categories mapped from tags: Families & Children to family, Music & Dance to music, Food & Wine to food & drink, Recreation & Outdoors / Sports to sports & outdoors; Art, Stage & Screen, Readings to arts & theater; community defaults for civic and fundraising events.
-The Chamber Orchestra event (Nov 15) started in chunk 1 and its details continued in chunk 2; combined into one record.
+Listing page (page-1/page-2 markdown) covers Nov 6 2026 to Jan 1 2027. Kept 21 in-window Brookline events (Nov 7 to Dec 7), mapped from tags per current-source notes.
+Skipped: Nov 6 events (before window); library events (Wampanoag talk, Construction Paper Magnet Workshop, Turkish Coffee Tasting); Early Education Developmental Screening (appointment-only screening, not a public event); Tales From The Classroom (fits no category); FUNraiser and Holiday auctions (online bidding); Interfaith Thanksgiving Service (no fitting category); Wiffle Ball tournament and CISV info session (no venue shown); World Rhythms dance series (no venue shown); BJFF Rosenthal screening and Saving Walden's World screening (no venue shown); Winsor "Finding Home" (no venue shown); Route 9 forum, Hanukkah puppet show and Dec 9+ events (after window). Shen Yun (Dec 26) and New Year's puppet shows are after Dec 7.
+Duplicates: Poetry Reading with Tanya Paris appears twice (2:30 am and 2:30 pm, same URL); kept one with 14:30, the page-2 listing time.
+Venue assumptions: bmsmusic.org events (Brookline Music School) and Turtle Books / Puppet Showplace / POSTunderground taken from the sponsor's domain since the listing shows no venue name.
+Times and prices copied from listing; no price shown except Thanksgiving dinner ("free" in description).

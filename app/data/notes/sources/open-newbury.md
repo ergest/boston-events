@@ -1,5 +1,2 @@
 status: thin
-Fetched boston.gov Open Newbury Street page; it lists events, but none fall inside 2026-10-30 to 2026-11-29.
-Summer Sundays (July–October) end with October 11, which is before the window.
-Holiday Stroll is December 6, 2026 (makeup December 13), both after the window end of 2026-11-29.
-Skipped general program description and business participation info (not public events).
+The program page lists 10 summer/fall Sundays (July–October), which are outside the window (2026-11-07 to 2026-12-07). Only the Holiday Stroll on December 6, 2026 falls in the window, with a December 13 rain makeup date noted in the description. Only one usable event. No start/end times or price are stated for the Holiday Stroll, so they are omitted. The 10 a.m.–6 p.m. hours on the page apply to July–October only.

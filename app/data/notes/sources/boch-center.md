@@ -1,6 +1,6 @@
 status: ok
-Listing page at bochcenter.org/events rendered fully as markdown across 3 chunks; 9 Boston events fall in the window (Oct 31 to Nov 30, 2026).
-Skipped: Gregg Allman: The Music of My Soul (Nov 4, Arrow Street Arts Center, Cambridge; source is limited to Boston); Prateek Kuhad (Nov 14, listed as CANCELLED); everything from Dec 4, 2026 onward (outside window).
-Listing shows no start or end times, so none were recorded; no detail pages were fetched.
-Categories: default "arts & theater", except music for BEAT, Punch Brothers, Peter Wolf and the Midnight Travelers.
-The Sound of Music is one record (Nov 17 to Nov 22).
+Listing page https://www.bochcenter.org/events fetched as markdown in 2 chunks; all venues (Wang Theatre, Shubert Theatre, Emerson Cutler Majestic Theatre) are in Boston.
+Kept 9 in-window public events (2026-11-13 to 2026-12-06); mapped comedy and holiday shows to "arts & theater", concerts to "music".
+Skipped Prateek Kuhad (Nov 14), marked CANCELLED. Skipped A Christmas Carol and Nutcracker (from Dec 11) and everything from Jan 2027 on, as outside the window.
+Lucy Darling appeared twice in the listing; kept one record. The Sound of Music, Cirque Dreams Holidaze and Brett Eldredge are multi-day runs, recorded once with endDate.
+No start times or prices are shown on the listing, so none were recorded. No event detail pages were fetched.

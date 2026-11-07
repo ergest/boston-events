@@ -1,2 +1,5 @@
 status: ok
-Listing page (crossroadspresents.com/pages/brighton-music-hall) shows upcoming Ticketmaster events through May 2027. 22 events fall between Oct 31 and Nov 28, 2026 and are included, all in Boston, all category music. Events from Jan 2027 onward are outside the window and skipped. Listing gives date and start time; no end times or prices shown, so those are omitted. Event URLs are the Ticketmaster event pages. Some events are 18+ and some are all ages; age limits are kept in titles as shown.
+Venue listing page (crossroadspresents.com) lists upcoming Brighton Music Hall shows, all in Boston at 158 Brighton Avenue, all music.
+Kept the 20 shows dated 2026-11-07 to 2026-12-05 (inside the window). Start time 19:00 or 20:00 as listed. Times are from the listing; no prices shown, so price is omitted.
+Ticketmaster event pages used as url. Shows dated after 2026-12-07 (Dec 8 onward, through 2028) are outside the window and were skipped.
+Note: the first chunk held 20 in-window shows; the first part file held 10 and a second part file holds the other 10.

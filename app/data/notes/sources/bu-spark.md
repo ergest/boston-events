@@ -1,4 +1,7 @@
 status: thin
-Listing at https://www.bu.edu/spark/events/ was fetched and parsed; no events fall inside the window (2026-10-31 to 2026-11-30).
-Dated items on the page: Code & Tell (October 7), STEM Splash (September 13), Demo Day (December 11), all outside the window.
-Recurring Wednesday sessions (Cookie O'Clock, Tech Innovation Hours, Tech Talk) have no specific dates and no event pages of their own; the only link is the Eventbrite org page, so no records were created for them.
+Fetched https://www.bu.edu/spark/events/ (one page chunk, no FETCH_ERROR). The page lists no usable events for 2026-11-07 to 2026-12-07 in Boston.
+- Code & Tell: October 7 (past, outside window).
+- STEM Splash: Sunday, September 13 (past, outside window).
+- Demo Day: Friday, December 11 (after the window ends 2026-12-07).
+- Wednesday recurring events (Cookie O'Clock, Tech Innovation Hours, Tech Talk) show only "Every Wednesday" with no concrete dates; not turned into dated records to avoid inventing dates. Spark! Space Hours are for Spark! students and staff only, so skipped.
+No detail pages were fetched. Result: events/bu-spark.json is an empty array.
